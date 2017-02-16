@@ -1,0 +1,68 @@
+- alias: 'If fan speed changes, update slider'
+#  trigger:
+#   platform: state
+#   entity_id: sensor.moc_wentylatora
+#  condition:
+#   condition: template
+#   value_template: '{{ states.sensor.moc_wentylatora.state != states.input_slider.ventilation.state }}'
+#  action:
+#   - service: input_slider.select_value
+#     entity_id: input_slider.ventilation
+#     data_template:
+#       value: '{{ trigger.to_state.state }}'
+  trigger: 
+    platform: time
+    seconds: /15
+  condition:
+    condition: template
+    value_template: '{{ states.sensor.moc_wentylatora.state != states.input_slider.ventilation.state }}'
+  action: 
+    - service: input_slider.select_value
+      entity_id: input_slider.ventilation
+      data_template:
+        value: '{{ states.sensor.moc_wentylatora.state }}'
+    
+
+- alias: "If slider moves, update fan speed"
+  trigger:
+    platform: event
+    event_type: state_changed
+    event_data: { 'entity_id': input_slider.ventilation }
+  condition:
+    condition: template
+    value_template: '{{ states.input_slider.ventilation.state != states.sensor.moc_wentylatora.state }}'
+  action:
+    - service: shell_command.post_fan_speed
+
+
+- alias: "Get pics every minute"
+  trigger:
+    platform: time
+    minutes: /1
+    seconds: 00
+  action:
+    service: shell_command.get_pics
+- alias: "Switch on evening scene if anyone is home"
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:20:00"
+  condition:
+    condition: state
+    entity_id: group.all_devices
+    state: home
+  action:
+    service: scene.turn_on
+    entity_id: scene.evening
+- alias: "Switch on morning scene 20min after sunrise"
+  trigger:
+    platform: sun
+    event: sunrise
+    offset: "00:20:00"
+  condition:
+    condition: state
+    entity_id: group.all_devices
+    state: home
+  action:
+    service: scene.turn_on
+    entity_id: scene.morning

@@ -1,0 +1,14 @@
+- platform: nmap_tracker
+  home_interval: 3
+  hosts: 192.168.88.1/24
+  exclude:
+    - 192.168.88.1 # mikrotik
+    - 192.168.88.15 # printer
+    - 192.168.88.11 # Raspberry
+  track_new_devices: yes
+- platform: owntracks
+  max_gps_accuracy: 200
+  waypoints: True
+- platform: trackr
+  username: !secret trackr_username
+  password: !secret trackr_password

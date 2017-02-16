@@ -1,0 +1,335 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Złoty Potok
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret home_latitude
+  longitude: !secret home_longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: !secret home_elevation
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Europe/Warsaw
+  customize: !include customize.yaml
+
+# Show links to resources in log and frontend
+# introduction:
+
+zone: !include zones.yaml
+
+# Enables the frontend
+frontend:
+
+http:
+  # Uncomment this to add a password (recommended!)
+  api_password: !secret http_password
+  # Uncomment this if you are using SSL or running in Docker etc
+  # base_url: example.duckdns.org:8123
+  trusted_networks:
+    - 127.0.0.1
+    - 192.168.88.0/24
+  ip_ban_enabled: True
+  login_attempts_threshold: 5
+
+# Checks for available updates
+updater:
+
+# Discover some devices automatically
+# discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+# conversation:
+
+# Enables support for tracking state changes over time.
+history:
+#  exclude:
+#    domains:
+#      - camera
+#      - sensor
+#      - automation
+#      - weblink
+#      - updater
+#    entities:
+#      - sensor.temperatura_garderoba_zadana
+#      - sensor.temperatura_korytarz_gora_zadana
+#      - sensor.temperatura_kuchnia_zadana
+#      - sensor.temperatura_lazienka_dol_zadana
+#      - sensor.temperatura_lazienka_gora_zadana
+#      - sensor.temperatura_pralnia_zadana
+#      - sensor.temperatura_salon_przejscie_zadana
+#      - sensor.temperatura_salon_schody_zadana
+#      - sensor.temperatura_sypialnia_ady_zadana
+#      - sensor.temperatura_sypialnia_ewy_zadana
+#      - sensor.temperatura_sypialnia_rodzicow_zadana
+#      - sensor.temperatura_techniczne_zadana
+#      - sensor.temperatura_wiatrolap_zadana
+#      - sensor.temperatura_techniczne_zadana
+#      - sensor.temperatura_wiatrolap_zadana
+#      - sensor.temperatura_zewnetrzna_polnoc
+#      - sensor.temperatura_zewnetrzna_poludnie
+#      - sensor.wilgotnosc_salon_schody
+#      - sensor.wilgotnosc_zewnetrzna
+
+panel_iframe:
+  forecast_potok:
+    title: 'Złoty Potok'
+#    url: 'http://forecast.io/embed/#lat=50.7180&lon=19.4290&units=ca&name=Złoty Potok'
+    url: 'http://www.meteo.pl/php/meteorogram_id_coamps.php?ntype=2n&id=751'
+    icon: 'mdi:weather-partlycloudy'
+  forecast_bedzin:
+    title: 'Będzin'
+    url: 'http://www.meteo.pl/php/meteorogram_id_coamps.php?ntype=2n&id=705'
+    icon: 'mdi:weather-partlycloudy'
+
+recorder:
+  purge_days: 4
+  exclude:
+    domains:
+      - automation
+      - camera
+      - device_tracker
+      - group
+      - homeassistant
+      - input_slider
+      - logbook
+      - modbus
+      - persistent_modification
+      - sensor
+      - shell_command
+      - switch
+      - weblink
+      - updater
+  include:
+    entities: { binary_sensor.grzanie_kuchnia, sensor.temperatura_kuchnia, sensor.temperatura_kuchnia_podloga, binary_sensor.grzanie_lazienka_dol, sensor.temperatura_lazienka_dol, sensor.temperatura_lazienka_dol_podloga, binary_sensor.grzanie_salon_przejscie, sensor.temperatura_salon_przejscie, sensor.temperatura_salon_przejscie_podloga, binary_sensor.grzanie_salon, sensor.temperatura_salon_schody, sensor.temperatura_salon_schody_podloga, binary_sensor.grzanie_techniczne, sensor.temperatura_techniczne, sensor.temperatura_techniczne_podloga, binary_sensor.grzanie_wiatrolap, sensor.temperatura_wiatrolap, sensor.temperatura_wiatrolap_podloga, sensor.wilgotnosc_salon_schody }
+
+# View all events in a logbook
+logbook:
+
+logger: 
+  default: warn
+#  default: info
+# Track the sun
+sun:
+
+weblink:
+  entities:
+    - name: Router
+      url: http://192.168.88.1
+    - name: Drukarka
+      url: http://192.168.88.15
+  
+notify:
+  - name: Gmail
+    platform: smtp
+    server: smtp.gmail.com
+    port: 587
+    sender: !secret gmail_sender
+    starttls: true
+    username: !secret gmail_username
+    password: !secret gmail_password
+    recipient: !secret gmail_recipient
+
+# Text to speech
+# tts:
+#   platform: google
+
+#media_player samsung:
+#  - platform: samsungtv
+#    host: 192.168.88.19
+
+mqtt:
+  broker: !secret mqtt_broker 
+  port: !secret mqtt_port
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+
+modbus: { type: serial, method: rtu, port: /dev/ttyAMA0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
+
+switch Lampy:
+  platform: modbus
+  slave: 1
+  coils: 
+    - { name: Lampa Salon sufit,          slave: 1, coil: 32 }
+    - { name: Lampa Salon kinkiety,       slave: 1, coil: 33 }
+    - { name: Lampa Jadalnia sufit,       slave: 1, coil: 34 }
+    - { name: Lampa Salon kanapa,         slave: 1, coil: 35 }
+    - { name: Lampa Taras,                slave: 1, coil: 36 }
+    - { name: Lampa Kuchnia sufit,        slave: 1, coil: 37 }
+    - { name: Lampa Lazienka dol,         slave: 1, coil: 38 }
+    - { name: Lampa Lazienka dol lustro,  slave: 1, coil: 39 }
+    - { name: Lampa Korytarz dol,         slave: 1, coil: 40 }
+    - { name: Lampa Techniczne,           slave: 1, coil: 41 }
+    - { name: Lampa Wiatrolap,            slave: 1, coil: 42 }
+    - { name: Lampa Osw2,                 slave: 1, coil: 43 }
+    - { name: Lampa Schody,               slave: 1, coil: 44 }
+    - { name: Lampa Drzwi,                slave: 1, coil: 45 }
+    - { name: Lampa Pralnia 1,            slave: 1, coil: 46 }
+    - { name: Lampa Pralnia 1A,           slave: 1, coil: 47 }
+    - { name: Lampa Lazienka gora,        slave: 1, coil: 48 }
+    - { name: Lampa Lazienka gora lustro, slave: 1, coil: 49 }
+    - { name: Lampa Garderoba,            slave: 1, coil: 50 }
+    - { name: Lampa Sypialnia rodzicow,   slave: 1, coil: 51 }
+    - { name: Lampa Sypialnia Ady,        slave: 1, coil: 52 }
+    - { name: Lampa Sypialnia Ewy,        slave: 1, coil: 53 }
+    - { name: Lampa Korytarz pralnia,     slave: 1, coil: 54 }
+    - { name: Lampa Schody gora,          slave: 1, coil: 55 }
+    - { name: Lampa Kuchnia zlew,         slave: 1, coil: 24 }
+    - { name: Lampa Kuchnia okap,         slave: 1, coil: 25 }
+    - { name: Stycznik strych,            slave: 1, coil: 26 }
+    - { name: Stycznik gniazda parter,    slave: 1, coil: 0  }
+    - { name: Stycznik gniazda gora,      slave: 1, coil: 1  }
+    - { name: Stycznik podgrzewacze lazienki,  slave: 1, coil: 2 }
+    - { name: Stycznik kuchnia,           slave: 1, coil: 3  }
+
+switch update_pics:
+  platform: command_line
+  switches:
+    update_pics:
+      command_on: "/home/homeassistant/.homeassistant/scripts/get_pics.sh"
+      command_off: "echo"
+
+input_slider: 
+  ventilation:
+    name: Ventilation
+    initial: 3
+    min: 0
+    max: 5
+    step: 1
+    icon: mdi:fan
+
+sensor: !include sensors.yaml
+
+switch grzanie:
+    platform: modbus
+    slave: 1
+    coils:
+      - { name: Grzanie salon przejscie, slave: 1, coil: 8, control: hidden }
+      - { name: Grzanie techniczne, slave: 1, coil: 9  }
+      - { name: Grzanie wiatrolap, slave: 1, coil: 10 }
+      - { name: Grzanie kuchnia, slave: 1, coil: 11 }
+      - { name: Grzanie salon, slave: 1, coil: 10 }
+      - { name: Grzanie lazienka dol, slave: 1, coil: 12 }
+      - { name: Grzanie pralnia, slave: 1, coil: 13 }
+      - { name: Grzanie korytarz gora, slave: 1, coil: 14 }
+      - { name: Grzanie garderoba, slave: 1, coil: 15 }
+      - { name: Grzanie sypialnia rodzicow, slave: 1, coil: 16 }
+      - { name: Grzanie sypialnia Ady, slave: 1, coil: 17 }
+      - { name: Grzanie sypialnia Ewy, slave: 1, coil: 18 }
+      - { name: Grzanie lazienka gora, slave: 1, coil: 19 }
+
+binary_sensor Grzanie:
+  - platform: template
+    sensors:
+      grzanie_salon_przejscie:
+        value_template: "{{ states.switch.grzanie_salon_przejscie.state == 'on' }}"
+        entity_id: switch.grzanie_salon_przejscie
+      grzanie_techniczne:
+        value_template: "{{ states.switch.grzanie_techniczne.state == 'on' }}"
+        entity_id: switch.grzanie_techniczne
+      grzanie_wiatrolap:
+        value_template: "{{ states.switch.grzanie_wiatrolap.state == 'on' }}"
+        entity_id: switch.grzanie_wiatrolap
+      grzanie_kuchnia:
+        value_template: "{{ states.switch.grzanie_kuchnia.state == 'on' }}"
+        entity_id: switch.grzanie_kuchnia
+      grzanie_salon:
+        value_template: "{{ states.switch.grzanie_salon.state == 'on' }}"
+        entity_id: switch.grzanie_salon
+      grzanie_lazienka_dol:
+        value_template: "{{ states.switch.grzanie_lazienka_dol.state == 'on' }}"
+        entity_id: switch.grzanie_lazienka_dol
+      grzanie_pralnia:
+        value_template: "{{ states.switch.grzanie_pralnia.state == 'on' }}"
+        entity_id: switch.grzanie_pralnia
+      grzanie_korytarz_gora:
+        value_template: "{{ states.switch.grzanie_korytarz_gora.state == 'on' }}"
+        entity_id: switch.grzanie_korytarz_gora
+      grzanie_garderoba:
+        value_template: "{{ states.switch.grzanie_garderoba.state == 'on' }}"
+        entity_id: switch.grzanie_garderoba
+      grzanie_sypialnia_rodzicow:
+        value_template: "{{ states.switch.grzanie_sypialnia_rodzicow.state == 'on' }}"
+        entity_id: switch.grzanie_sypialnia_rodzicow
+      grzanie_sypialnia_ady:
+        value_template: "{{ states.switch.grzanie_sypialnia_ady.state == 'on' }}"
+        entity_id: switch.grzanie_sypialnia_ady
+      grzanie_sypialnia_ewy:
+        value_template: "{{ states.switch.grzanie_sypialnia_ewy.state == 'on' }}"
+        entity_id: switch.grzanie_sypialnia_ewy
+      grzanie_lazienka_gora:
+        value_template: "{{ states.switch.grzanie_lazienka_gora.state == 'on' }}"
+        entity_id: switch.grzanie_lazienka_gora
+
+#ffmpeg: 
+#  ffmpeg_bin: /usr/bin/avconv
+
+camera: 
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/drzwi.jpg
+    name: Kamera drzwi
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/salon.jpg
+    name: Kamera salon
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/brama.jpg
+    name: Kamera brama
+#  - platform: ffmpeg
+#    name: Kamera drzwi
+#    input: rtsp://user:pass@192.168.88.101:554/Streaming/Channels/2
+#    extra_arguments: '--q:v 2'
+#  - platform: ffmpeg
+#    input: rtsp://user:pass@192.168.88.101:554/Streaming/Channels/1
+#    name: Kamera drzwi hi-res
+#  - platform: generic
+#    name: Kamera drzwi
+#    still_image_url: http://192.168.88.101/Streaming/channels/1/picture
+#    username: !secret kamera_drzwi_username
+#    password: !secret kamera_drzwi_password
+#  - platform: generic
+#    name: Kamera TPLink
+#    still_image_url: http://192.168.88.102:8080/stream/snapshot.jpg
+#    username: !secret kamera_tplink_username
+#    password: !secret kamera_tplink_password
+#    scan_interval: 20
+
+device_tracker: !include device_tracker.yaml
+
+shell_command:
+  post_fan_speed: /home/homeassistant/.homeassistant/scripts/post_fan_speed
+  get_pics: /home/homeassistant/.homeassistant/scripts/get_pics.sh
+
+binary_sensor kamera_salon:
+  platform: hikvision
+  host: 192.168.88.100
+  port: 80
+  ssl: False
+  username: !secret kamera_salon_pir_username
+  password: !secret kamera_salon_pir_password
+#  customize:
+#    sensor_name_1:
+#      delay: 30
+#    sensor_name_2:
+#      ignored: True
+
+binary_sensor kamera_drzwi:
+  platform: hikvision
+  host: 192.168.88.101
+  port: 80
+  ssl: False
+  username: !secret kamera_drzwi_pir_username
+  password: !secret kamera_drzwi_pir_password
+
+binary_sensor kamera_brama:
+  platform: hikvision
+  host: 192.168.88.103
+  port: 80
+  ssl: False
+  username: !secret kamera_brama_pir_username
+  password: !secret kamera_brama_pir_password
+
+
+automation: !include automations.yaml
+
+group: !include groups.yaml
+
+scene: !include scenes.yaml

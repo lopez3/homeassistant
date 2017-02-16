@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# debug
+#/usr/bin/touch /home/homeassistant/.homeassistant/scripts/fan_speed.touch
+
+# get ventilation slider state from GUI
+NICTO=$(/usr/bin/curl 192.168.88.11:8123/api/states/input_slider.ventilation)
+VALFILE=/home/homeassistant/.homeassistant/scripts/fan_speed
+
+# extract value from curl ouput, 1 character at position 259, and store to file which will be processed by cron. 
+# Do strict sanity checking. Zero if unrecognized value.
+VAL=$(echo ${NICTO:259:1})
+
+case $VAL in
+0)
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x00\x01' > /dev/ttyUSB0
+  ;;
+1) 
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x01\x00' > /dev/ttyUSB0
+  ;;
+2) 
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x02\x00' > /dev/ttyUSB0
+  ;;
+3) 
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x03\x00' > /dev/ttyUSB0
+  ;;
+4) 
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x04\x00' > /dev/ttyUSB0
+  ;;
+5) 
+  echo $VAL  > $VALFILE
+  echo -e '\x64\x05\x00' > /dev/ttyUSB0
+  ;;
+*) 
+  echo 0 > $VALFILE
+esac
+
+

@@ -1,0 +1,195 @@
+### customize.yaml ###
+switch.grzanie_salon_przejscie: { hidden: true }
+switch.grzanie_techniczne: { hidden: true }
+switch.grzanie_wiatrolap: { hidden: true }
+switch.grzanie_kuchnia: { hidden: true }
+switch.grzanie_salon: { hidden: true }
+switch.grzanie_lazienka_dol: { hidden: true }
+switch.grzanie_pralnia: { hidden: true }
+switch.grzanie_korytarz_gora: { hidden: true }
+switch.grzanie_garderoba: { hidden: true }
+switch.grzanie_sypialnia_rodzicow: { hidden: true }
+switch.grzanie_sypialnia_ady: { hidden: true }
+switch.grzanie_sypialnia_ewy: { hidden: true }
+switch.grzanie_lazienka_gora: { hidden: true }
+
+binary_sensor.grzanie_salon_przejscie: { friendly_name: 'Przedpokój', sensor_class: heat }
+binary_sensor.grzanie_techniczne: { friendly_name: 'Techniczne', sensor_class: heat }
+binary_sensor.grzanie_wiatrolap: { friendly_name: 'Wiatrołap', sensor_class: heat }
+binary_sensor.grzanie_kuchnia: { friendly_name: 'Kuchnia', sensor_class: heat }
+binary_sensor.grzanie_salon: { friendly_name: 'Salon', sensor_class: heat }
+binary_sensor.grzanie_lazienka_dol: { friendly_name: 'Łazienka dół', sensor_class: heat }
+binary_sensor.grzanie_pralnia: { friendly_name: 'Pralnia', sensor_class: heat }
+binary_sensor.grzanie_korytarz_gora: { friendly_name: 'Korytarz góra', sensor_class: heat }
+binary_sensor.grzanie_garderoba: { friendly_name: 'Garderoba', sensor_class: heat }
+binary_sensor.grzanie_sypialnia_rodzicow: { friendly_name: 'Sypialnia', sensor_class: heat }
+binary_sensor.grzanie_sypialnia_ady: { friendly_name: 'Pokój Ady', sensor_class: heat }
+binary_sensor.grzanie_sypialnia_ewy: { friendly_name: 'Pokój Ewy', sensor_class: heat }
+binary_sensor.grzanie_lazienka_gora: { friendly_name: 'Łazienka góra', sensor_class: heat }
+
+
+switch.lampa_drzwi: { friendly_name: Drzwi, icon: 'mdi:lightbulb', hidden: true }
+switch.lampa_garderoba: { friendly_name: Garderoba, icon: 'mdi:lightbulb' }
+switch.lampa_jadalnia_sufit: { friendly_name: Jadalnia sufit, icon: 'mdi:lightbulb' }
+switch.lampa_korytarz_dol: { friendly_name: Korytarz dół, icon: 'mdi:lightbulb' }
+switch.lampa_korytarz_pralnia: { friendly_name: Korytarz pralnia, icon: 'mdi:lightbulb' }
+switch.lampa_kuchnia_okap: { friendly_name: Kuchnia okap, icon: 'mdi:lightbulb', hidden: true }
+switch.lampa_kuchnia_sufit: { friendly_name: Kuchnia sufit, icon: 'mdi:lightbulb' }
+switch.lampa_kuchnia_zlew: { friendly_name: Kuchnia zlew, icon: 'mdi:lightbulb', hidden: true }
+switch.lampa_lazienka_dol: { friendly_name: Łazienka dół, icon: 'mdi:lightbulb' }
+switch.lampa_lazienka_dol_lustro: { friendly_name: Łazienka dół lustro, icon: 'mdi:lightbulb' }
+switch.lampa_lazienka_gora: { friendly_name: Łazienka góra, icon: 'mdi:lightbulb' }
+switch.lampa_lazienka_gora_lustro: { friendly_name: Lazienka góra lustro, icon: 'mdi:lightbulb' }
+switch.lampa_osw2: { friendly_name: Osw2, icon: 'mdi:lightbulb' }
+switch.lampa_pralnia_1: { friendly_name: Pralnia 1, icon: 'mdi:lightbulb' }
+switch.lampa_pralnia_1a: { friendly_name: Pralnia 1A, icon: 'mdi:lightbulb' }
+switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, icon: 'mdi:lightbulb' }
+switch.lampa_salon_kinkiety: { friendly_name: Salon kinkiety, icon: 'mdi:lightbulb' }
+switch.lampa_salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:lightbulb' }
+switch.lampa_schody: { friendly_name: Schody, icon: 'mdi:lightbulb' }
+switch.lampa_schody_gora: { friendly_name: Schody góra, icon: 'mdi:lightbulb' }
+switch.lampa_sypialnia_ady: { friendly_name: Pokój Ady, icon: 'mdi:lightbulb' }
+switch.lampa_sypialnia_ewy: { friendly_name: Pokój Ewy, icon: 'mdi:lightbulb' }
+switch.lampa_sypialnia_rodzicow: { friendly_name: Sypialnia, icon: 'mdi:lightbulb' }
+switch.lampa_taras: { friendly_name: Taras, icon: 'mdi:lightbulb' }
+switch.lampa_techniczne: { friendly_name: Techniczne, icon: 'mdi:lightbulb' }
+switch.lampa_wiatrolap: { friendly_name: Wiatrołap, icon: 'mdi:lightbulb' }
+
+switch.stycznik_gniazda_gora: { friendly_name: Gniazda góra, icon: 'mdi:flash'  }
+switch.stycznik_gniazda_parter: { friendly_name: Gniazda parter, icon: 'mdi:flash'  }
+switch.stycznik_kuchnia: { friendly_name: Kuchnia, icon: 'mdi:flash'  }
+switch.stycznik_podgrzewacze_lazienki: { friendly_name: Podgrzewacze łazienki, icon: 'mdi:flash' }
+switch.stycznik_strych: { friendly_name: Strych, icon: 'mdi:flash' }
+
+
+sensor.temperatura_garderoba: { friendly_name: Garderoba }
+sensor.temperatura_garderoba_podloga: { friendly_name: Garderoba podłoga }
+sensor.temperatura_garderoba_zadana: { friendly_name: Garderoba zadana }
+sensor.temperatura_korytarz_gora: { friendly_name: Korytarz góra }
+sensor.temperatura_korytarz_gora_podloga: { friendly_name: Korytarz góra podłoga }
+sensor.temperatura_korytarz_gora_zadana: { friendly_name: Korytarz góra zadana }
+sensor.temperatura_kuchnia: { friendly_name: Kuchnia }
+sensor.temperatura_kuchnia_podloga: { friendly_name: Kuchnia podłoga }
+sensor.temperatura_kuchnia_zadana: { friendly_name: Kuchnia zadana }
+sensor.temperatura_lazienka_dol: { friendly_name: Łazienka dół }
+sensor.temperatura_lazienka_dol_podloga: { friendly_name: Łazienka dół podłoga }
+sensor.temperatura_lazienka_dol_zadana: { friendly_name: Łazienka dół zadana }
+sensor.temperatura_lazienka_gora: { friendly_name: Łazienka góra }
+sensor.temperatura_lazienka_gora_podloga: { friendly_name: Łazienka góra podłoga }
+sensor.temperatura_lazienka_gora_zadana: { friendly_name: Łazienka góra zadana }
+sensor.temperatura_pralnia: { friendly_name: Pralnia }
+sensor.temperatura_pralnia_podloga: { friendly_name: Pralnia podłoga }
+sensor.temperatura_pralnia_zadana: { friendly_name: Pralnia zadana }
+sensor.temperatura_salon_przejscie: { friendly_name: Przedpokój }
+sensor.temperatura_salon_przejscie_podloga: { friendly_name: Przedpokój podłoga }
+sensor.temperatura_salon_przejscie_zadana: { friendly_name: Przedpokój zadana }
+sensor.temperatura_salon_schody: { friendly_name: Salon }
+sensor.temperatura_salon_schody_podloga: { friendly_name: Salon podłoga }
+sensor.temperatura_salon_schody_zadana: { friendly_name: Salon zadana }
+sensor.temperatura_sypialnia_ady: { friendly_name: Pokój Ady }
+sensor.temperatura_sypialnia_ady_podloga: { friendly_name: Pokój Ady podłoga }
+sensor.temperatura_sypialnia_ady_zadana: { friendly_name: Pokój Ady zadana }
+sensor.temperatura_sypialnia_ewy: { friendly_name: Pokój Ewy }
+sensor.temperatura_sypialnia_ewy_podloga: { friendly_name: Pokój Ewy podłoga }
+sensor.temperatura_sypialnia_ewy_zadana: { friendly_name: Pokój Ewy zadana }
+sensor.temperatura_sypialnia_rodzicow: { friendly_name: Sypialnia }
+sensor.temperatura_sypialnia_rodzicow_podloga: { friendly_name: Sypialnia podłoga }
+sensor.temperatura_sypialnia_rodzicow_zadana: { friendly_name: Sypialnia zadana }
+sensor.temperatura_techniczne: { friendly_name: Techniczne }
+sensor.temperatura_techniczne_podloga: { friendly_name: Techniczne podłoga }
+sensor.temperatura_techniczne_zadana: { friendly_name: Techniczne zadana }
+sensor.temperatura_wiatrolap: { friendly_name: Wiatrołap }
+sensor.temperatura_wiatrolap_podloga: { friendly_name: Wiatrołap podłoga }
+sensor.temperatura_wiatrolap_zadana: { friendly_name: Wiatrołap zadana }
+sensor.temperatura_zewnetrzna_polnoc: { friendly_name: Zewnętrzna północ surowa, hidden: true }
+sensor.temperatura_zewnetrzna_polnoc_przeliczona: { friendly_name: Elewacja północ }
+sensor.temperatura_zewnetrzna_poludnie: { friendly_name: Zewnętrzna południe surowa, hidden: true }
+sensor.temperatura_zewnetrzna_poludnie_przeliczona: { friendly_name: Elewacja południe }
+sensor.wilgotnosc_salon_schody: { friendly_name:  Wilgotność, icon: 'mdi:water-percent'  }
+sensor.wilgotnosc_zewnetrzna: { friendly_name:  Wilgotność, icon: 'mdi:water-percent'  }
+sensor.temperatura_dol: { friendly_name: Parter }
+sensor.temperatura_sypialnie: { friendly_name: Sypialnie }
+
+sun.sun: { hidden: true }
+
+sensor.dark_sky_apparent_temperature: { friendly_name: Temperatura odczuwalna }
+sensor.dark_sky_cloud_coverage: { friendly_name: Zachmurzenie }
+#sensor.dark_sky_daily_high_apparent_temperature: { friendly_name:  }
+#sensor.dark_sky_daily_high_temperature: { friendly_name:  }
+#sensor.dark_sky_daily_low_apparent_temperature: { friendly_name:  }
+#sensor.dark_sky_daily_low_temperature: { friendly_name:  }
+#sensor.dark_sky_daily_max_precip_intensity: { friendly_name:  }
+#sensor.dark_sky_daily_summary: { friendly_name:  }
+#sensor.dark_sky_dew_point: { friendly_name:  }
+#sensor.dark_sky_hourly_summary: { friendly_name:  }
+#sensor.dark_sky_humidity: { friendly_name:  }
+#sensor.dark_sky_: { friendly_name:  }
+#sensor.dark_sky_minutely_summary: { friendly_name:  }
+#sensor.dark_sky_nearest_storm_bearing: { friendly_name:  }
+#sensor.dark_sky_nearest_storm_distance: { friendly_name:  }
+#sensor.dark_sky_ozone: { friendly_name:  }
+#sensor.dark_sky_precip: { friendly_name:  }
+#sensor.dark_sky_precip_intensity: { friendly_name:  }
+sensor.dark_sky_precip_probability: { friendly_name: Prawdopodobieństwo opadów }
+sensor.dark_sky_pressure: { friendly_name: Ciśnienie }
+#sensor.dark_sky_summary: { friendly_name:  }
+sensor.dark_sky_temperature: { friendly_name: Temperatura DarkSky }
+#sensor.dark_sky_visibility: { friendly_name:  }
+sensor.dark_sky_wind_bearing: { friendly_name: Kierunek wiatru }
+sensor.dark_sky_wind_speed: { friendly_name: Prędkość wiatru }
+
+sensor.moc_wentylatora: { hidden: true }
+input_slider.ventilation: { friendly_name: Wentylacja }
+
+camera.kamera_salon: { friendly_name: Kamera salon }
+camera.kamera_drzwi: { friendly_name: Kamera drzwi }
+camera.kamera_brama: { friendly_name: Kamera brama }
+binary_sensor.living_room_motion: { friendly_name: Ruch salon }
+binary_sensor.living_room_pir_alarm: { friendly_name: PIR salon }
+binary_sensor.camera_door_motion: { friendly_name: Ruch drzwi }
+binary_sensor.camera_door_pir_alarm: { friendly_name: PIR drzwi }
+binary_sensor.camera_gate_disk_full: { friendly_name: Dysk brama, hidden: true}
+binary_sensor.camera_gate_motion: { friendly_name: Ruch brama }
+binary_sensor.camera_gate_pir_alarm: { friendly_name: PIR brama }
+
+group.default_column1: { friendly_name: Komfort }
+group.default_column2: { friendly_name: Oświetlenie }
+group.styczniki: { friendly_name: Zasilanie, control: hidden }
+group.ogrzewanie_dol: { friendly_name: Parter }
+group.ogrzewanie_gora: { friendly_name: Poddasze }
+group.lampy_gora: { friendly_name: Lampy poddasze }
+group.lampy_dol: { friendly_name: Lampy parter }
+group.lampy_zewn: { friendly_name: Lampy ogród }
+group.kamera_brama: { friendly_name: Kamera brama, hidden: true }
+group.kamera_drzwi: { friendly_name: Kamera drzwi, hidden: true }
+group.kamera_salon: { friendly_name: Kamera salon, hidden: true }
+group.kamery_sensory: { friendly_name: Czujki ruchu }
+group.kamery_obraz: { friendly_name: Kamery  }
+
+group.ogrzewanie_kuchnia: { friendly_name: Kuchnia }
+group.ogrzewanie_lazienka_dol: { friendly_name: Łazienka dół}
+group.ogrzewanie_salon_przejscie: { friendly_name: Przedpokój }
+group.ogrzewanie_salon_schody: { friendly_name: Salon}
+group.ogrzewanie_lazienka_gora: { friendly_name: Łazienka góra}
+group.ogrzewanie_sypialnia_ady: { friendly_name: Pokój Ady }
+group.ogrzewanie_sypialnia_ewy: { friendly_name: Pokój Ewy }
+group.ogrzewanie_sypialnia_rodzicow: { friendly_name: Sypialnia }
+group.ogrzewanie_pralnia: { friendly_name: Pralnia }
+group.ogrzewanie_garderoba: { friendly_name: Garderoba }
+group.ogrzewanie_korytarz_gora: { friendly_name: Korytarz góra }
+group.ogrzewanie_techniczne: { friendly_name: Techniczne }
+group.ogrzewanie_wiatrolap: { friendly_name: Wiatrołap }
+group.ogrzewanie_inne: { friendly_name: Inne }
+
+group.tracker: { friendly_name: Telefony }
+group.klimat: { friendly_name: Pogoda }
+group.wnetrze: { friendly_name: Komfort }
+group.wentylacja: { friendly_name: Wentylacja }
+
+switch.update_pics: { hidden: true }
+
+group.sceny: { friendly_name: Sceny }
+scene.morning: { friendly_name: Poranek, icon: 'mdi:white-balance-sunny' }
+scene.evening: { friendly_name: Wieczór, icon: 'mdi:movie' } 
+scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
+scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
