@@ -1,1 +1,1 @@
-/home/pi/makefile
+/home/homeassistant/makefile

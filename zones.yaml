@@ -1,5 +1,11 @@
-- name: Home
-  latitude: 50.7180
-  longitude: 19.4290
+- name: Potok
+  latitude: 50.7179
+  longitude: 19.4286
   radius: 100
-  icon: mdi:home-map-marker
+  icon: mdi:home-outline
+- name: Warpie
+  latitude: 50.31858
+  longitude: 19.15465
+  radius: 50
+  icon: mdi:home-modern
+  
