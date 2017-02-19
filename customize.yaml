@@ -153,13 +153,16 @@ binary_sensor.camera_gate_motion: { friendly_name: Ruch brama }
 binary_sensor.camera_gate_pir_alarm: { friendly_name: PIR brama }
 
 group.default_column1: { friendly_name: Komfort }
-group.default_column2: { friendly_name: Oświetlenie }
+group.default_column2: { friendly_name: Sceny }
+group.default_column3: { friendly_name: Oświetlenie }
 group.styczniki: { friendly_name: Zasilanie, control: hidden }
 group.ogrzewanie_dol: { friendly_name: Parter }
 group.ogrzewanie_gora: { friendly_name: Poddasze }
-group.lampy_gora: { friendly_name: Lampy poddasze }
-group.lampy_dol: { friendly_name: Lampy parter }
-group.lampy_zewn: { friendly_name: Lampy ogród }
+
+group.lampy_grupy: { friendly_name: Lampy,    icon: 'mdi:ceiling-light' }
+group.lampy_gora:  { friendly_name: Poddasze, icon: 'mdi:ceiling-light' }
+group.lampy_dol:   { friendly_name: Parter,   icon: 'mdi:ceiling-light' }
+group.lampy_zewn:  { friendly_name: Ogród,    icon: 'mdi:spotlight-beam' }
 group.kamera_brama: { friendly_name: Kamera brama, hidden: true }
 group.kamera_drzwi: { friendly_name: Kamera drzwi, hidden: true }
 group.kamera_salon: { friendly_name: Kamera salon, hidden: true }

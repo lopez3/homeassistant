@@ -3,15 +3,9 @@
     view: yes
     icon: mdi:home
     entities:
-# tracker
       - group.default_column1
       - group.default_column2
-#      - group.sceny
-#      - group.tracker
-#      - camera.kamera_salon
-#      - group.lampy
-#      - group.ogrzewanie_maty
-#      - group.lampy_grupy
+      - group.default_column3
 
   default_column1:
     view: no
@@ -30,8 +24,15 @@
       - scene.night
       - scene.party
       - camera.kamera_drzwi
-      
-    
+
+  default_column3:
+    view: no
+    entities: 
+      - group.lampy_dol  
+      - group.lampy_gora
+      - group.lampy_zewn 
+      - camera.kamera_brama
+
   klimat_view:
     view: yes
     icon: mdi:weather-partlycloudy
@@ -149,6 +150,7 @@
       - binary_sensor.living_room_pir_alarm
       - binary_sensor.camera_gate_motion
       - binary_sensor.camera_gate_pir_alarm
+      - binary_sensor.camera_gate_tamper_detection
 #      - binary_sensor.camera_gate_disk_full
 
     
@@ -518,6 +520,7 @@
       - sensor.yr_temperature
       - sensor.yr_wind_direction
       - sensor.yr_wind_speed
+      - sensor.moon
 
       - sensor.dark_sky_icon
       - sensor.dark_sky_apparent_temperature
@@ -583,11 +586,11 @@
       - switch.stycznik_gniazda_gora
       - switch.stycznik_strych
 
-      
   tracker:
      name: tracker
      view: no
      entities:
+       - device_tracker.klucze_volvo
        - device_tracker.klucze_pat
        - device_tracker.mctnwipr_krzysiek
        - device_tracker.klucze_krzysiek
