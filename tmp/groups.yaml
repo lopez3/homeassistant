@@ -31,7 +31,7 @@
       - group.lampy_dol  
       - group.lampy_gora
       - group.lampy_zewn 
-      - camera.kamera_salon
+      - camera.kamera_brama
 
   klimat_view:
     view: yes
