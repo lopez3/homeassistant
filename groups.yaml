@@ -151,119 +151,89 @@
       - binary_sensor.camera_gate_motion
       - binary_sensor.camera_gate_pir_alarm
       - binary_sensor.camera_gate_tamper_detection
-#      - binary_sensor.camera_gate_disk_full
+      - binary_sensor.camera_gate_disk_error
 
     
-  ogrzewanie_maty:
-    name: Ogrzewanie maty
-#    view: yes
-    entities:
-      - binary_sensor.grzanie_salon_przejscie
-      - binary_sensor.grzanie_techniczne
-      - binary_sensor.grzanie_wiatrolap
-      - binary_sensor.grzanie_kuchnia
-      - binary_sensor.grzanie_salon
-      - binary_sensor.grzanie_lazienka_dol
-      - binary_sensor.grzanie_pralnia
-      - binary_sensor.grzanie_korytarz_gora
-      - binary_sensor.grzanie_garderoba
-      - binary_sensor.grzanie_sypialnia_rodzicow
-      - binary_sensor.grzanie_sypialnia_ady
-      - binary_sensor.grzanie_sypialnia_ewy
-      - binary_sensor.grzanie_lazienka_gora
+#  ogrzewanie_maty:
+#    name: Ogrzewanie maty
+##    view: yes
+#    entities:
+#      - binary_sensor.grzanie_salon_przejscie
+#      - binary_sensor.grzanie_techniczne
+#      - binary_sensor.grzanie_wiatrolap
+#      - binary_sensor.grzanie_kuchnia
+#      - binary_sensor.grzanie_salon
+#      - binary_sensor.grzanie_lazienka_dol
+#      - binary_sensor.grzanie_pralnia
+#      - binary_sensor.grzanie_korytarz_gora
+#      - binary_sensor.grzanie_garderoba
+#      - binary_sensor.grzanie_sypialnia_rodzicow
+#      - binary_sensor.grzanie_sypialnia_ady
+#      - binary_sensor.grzanie_sypialnia_ewy
+#      - binary_sensor.grzanie_lazienka_gora
 
-  ogrzewanie_wszystko:
-    name: Ogrzewanie
-#    view: yes
-    entities: 
-      - binary_sensor.grzanie_kuchnia
-      - sensor.temperatura_kuchnia
-      - sensor.temperatura_kuchnia_podloga
-      - sensor.temperatura_kuchnia_zadana
-      - binary_sensor.grzanie_lazienka_dol
-      - sensor.temperatura_lazienka_dol
-      - sensor.temperatura_lazienka_dol_podloga
-      - sensor.temperatura_lazienka_dol_zadana
-      - binary_sensor.grzanie_salon_przejscie
-      - sensor.temperatura_salon_przejscie
-      - sensor.temperatura_salon_przejscie_podloga
-      - sensor.temperatura_salon_przejscie_zadana
-      - binary_sensor.grzanie_salon
-      - sensor.temperatura_salon_schody
-      - sensor.temperatura_salon_schody_podloga
-      - sensor.temperatura_salon_schody_zadana
-      - binary_sensor.grzanie_lazienka_gora
-      - sensor.temperatura_lazienka_gora
-      - sensor.temperatura_lazienka_gora_podloga
-      - sensor.temperatura_lazienka_gora_zadana
-      - binary_sensor.grzanie_sypialnia_ady
-      - sensor.temperatura_sypialnia_ady
-      - sensor.temperatura_sypialnia_ady_podloga
-      - sensor.temperatura_sypialnia_ady_zadana
-      - binary_sensor.grzanie_sypialnia_ewy
-      - sensor.temperatura_sypialnia_ewy
-      - sensor.temperatura_sypialnia_ewy_podloga
-      - sensor.temperatura_sypialnia_ewy_zadana
-      - binary_sensor.grzanie_sypialnia_rodzicow
-      - sensor.temperatura_sypialnia_rodzicow
-      - sensor.temperatura_sypialnia_rodzicow_podloga
-      - sensor.temperatura_sypialnia_rodzicow_zadana
-      - binary_sensor.grzanie_pralnia
-      - sensor.temperatura_pralnia
-      - sensor.temperatura_pralnia_podloga
-      - sensor.temperatura_pralnia_zadana
-      - binary_sensor.grzanie_garderoba
-      - sensor.temperatura_garderoba
-      - sensor.temperatura_garderoba_podloga
-      - sensor.temperatura_garderoba_zadana
-      - binary_sensor.grzanie_korytarz_gora
-      - sensor.temperatura_korytarz_gora
-      - sensor.temperatura_korytarz_gora_podloga
-      - sensor.temperatura_korytarz_gora_zadana
-      - binary_sensor.grzanie_techniczne
-      - sensor.temperatura_techniczne
-      - sensor.temperatura_techniczne_podloga
-      - sensor.temperatura_techniczne_zadana
-      - binary_sensor.grzanie_wiatrolap
-      - sensor.temperatura_wiatrolap
-      - sensor.temperatura_wiatrolap_podloga
-      - sensor.temperatura_wiatrolap_zadana
-      - sensor.temperatura_zewnetrzna_polnoc
-      - sensor.temperatura_zewnetrzna_polnoc_przeliczona
-      - sensor.temperatura_zewnetrzna_poludnie
-      - sensor.temperatura_zewnetrzna_poludnie_przeliczona
-      - sensor.wilgotnosc_salon_schody
-      - sensor.wilgotnosc_zewnetrzna
-
-  ogrzewanie_dol:
-    name: Ogrzewanie dol
-#    view: yes
-    entities: 
-      - binary_sensor.grzanie_kuchnia
-      - sensor.temperatura_kuchnia
-      - sensor.temperatura_kuchnia_podloga
-      - sensor.temperatura_kuchnia_zadana
-      - binary_sensor.grzanie_lazienka_dol
-      - sensor.temperatura_lazienka_dol
-      - sensor.temperatura_lazienka_dol_podloga
-      - sensor.temperatura_lazienka_dol_zadana
-      - binary_sensor.grzanie_salon_przejscie
-      - sensor.temperatura_salon_przejscie
-      - sensor.temperatura_salon_przejscie_podloga
-      - sensor.temperatura_salon_przejscie_zadana
-      - binary_sensor.grzanie_salon
-      - sensor.temperatura_salon_schody
-      - sensor.temperatura_salon_schody_podloga
-      - sensor.temperatura_salon_schody_zadana
-      - binary_sensor.grzanie_techniczne
-      - sensor.temperatura_techniczne
-      - sensor.temperatura_techniczne_podloga
-      - sensor.temperatura_techniczne_zadana
-      - binary_sensor.grzanie_wiatrolap
-      - sensor.temperatura_wiatrolap
-      - sensor.temperatura_wiatrolap_podloga
-      - sensor.temperatura_wiatrolap_zadana
-      - sensor.wilgotnosc_salon_schody
+#  ogrzewanie_wszystko:
+#    name: Ogrzewanie
+##    view: yes
+#    entities: 
+#      - binary_sensor.grzanie_kuchnia
+#      - sensor.temperatura_kuchnia
+#      - sensor.temperatura_kuchnia_podloga
+#      - sensor.temperatura_kuchnia_zadana
+#      - binary_sensor.grzanie_lazienka_dol
+#      - sensor.temperatura_lazienka_dol
+#      - sensor.temperatura_lazienka_dol_podloga
+#      - sensor.temperatura_lazienka_dol_zadana
+#      - binary_sensor.grzanie_salon_przejscie
+#      - sensor.temperatura_salon_przejscie
+#      - sensor.temperatura_salon_przejscie_podloga
+#      - sensor.temperatura_salon_przejscie_zadana
+#      - binary_sensor.grzanie_salon
+#      - sensor.temperatura_salon_schody
+#      - sensor.temperatura_salon_schody_podloga
+#      - sensor.temperatura_salon_schody_zadana
+#      - binary_sensor.grzanie_lazienka_gora
+#      - sensor.temperatura_lazienka_gora
+#      - sensor.temperatura_lazienka_gora_podloga
+#      - sensor.temperatura_lazienka_gora_zadana
+#      - binary_sensor.grzanie_sypialnia_ady
+#      - sensor.temperatura_sypialnia_ady
+#      - sensor.temperatura_sypialnia_ady_podloga
+#      - sensor.temperatura_sypialnia_ady_zadana
+#      - binary_sensor.grzanie_sypialnia_ewy
+#      - sensor.temperatura_sypialnia_ewy
+#      - sensor.temperatura_sypialnia_ewy_podloga
+#      - sensor.temperatura_sypialnia_ewy_zadana
+#      - binary_sensor.grzanie_sypialnia_rodzicow
+#      - sensor.temperatura_sypialnia_rodzicow
+#      - sensor.temperatura_sypialnia_rodzicow_podloga
+#      - sensor.temperatura_sypialnia_rodzicow_zadana
+#      - binary_sensor.grzanie_pralnia
+#      - sensor.temperatura_pralnia
+#      - sensor.temperatura_pralnia_podloga
+#      - sensor.temperatura_pralnia_zadana
+#      - binary_sensor.grzanie_garderoba
+#      - sensor.temperatura_garderoba
+#      - sensor.temperatura_garderoba_podloga
+#      - sensor.temperatura_garderoba_zadana
+#      - binary_sensor.grzanie_korytarz_gora
+#      - sensor.temperatura_korytarz_gora
+#      - sensor.temperatura_korytarz_gora_podloga
+#      - sensor.temperatura_korytarz_gora_zadana
+#      - binary_sensor.grzanie_techniczne
+#      - sensor.temperatura_techniczne
+#      - sensor.temperatura_techniczne_podloga
+#      - sensor.temperatura_techniczne_zadana
+#      - binary_sensor.grzanie_wiatrolap
+#      - sensor.temperatura_wiatrolap
+#      - sensor.temperatura_wiatrolap_podloga
+#      - sensor.temperatura_wiatrolap_zadana
+#      - sensor.temperatura_zewnetrzna_polnoc
+#      - sensor.temperatura_zewnetrzna_polnoc_przeliczona
+#      - sensor.temperatura_zewnetrzna_poludnie
+#      - sensor.temperatura_zewnetrzna_poludnie_przeliczona
+#      - sensor.wilgotnosc_salon_schody
+#      - sensor.wilgotnosc_zewnetrzna
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia
@@ -377,39 +347,6 @@
       - sensor.wilgotnosc_salon_schody
       - sensor.wilgotnosc_zewnetrzna
   
-  ogrzewanie_gora:
-    name: Ogrzewanie gora
-#    view: yes
-    entities: 
-      - binary_sensor.grzanie_lazienka_gora
-      - sensor.temperatura_lazienka_gora
-      - sensor.temperatura_lazienka_gora_podloga
-      - sensor.temperatura_lazienka_gora_zadana
-      - binary_sensor.grzanie_sypialnia_ady
-      - sensor.temperatura_sypialnia_ady
-      - sensor.temperatura_sypialnia_ady_podloga
-      - sensor.temperatura_sypialnia_ady_zadana
-      - binary_sensor.grzanie_sypialnia_ewy
-      - sensor.temperatura_sypialnia_ewy
-      - sensor.temperatura_sypialnia_ewy_podloga
-      - sensor.temperatura_sypialnia_ewy_zadana
-      - binary_sensor.grzanie_sypialnia_rodzicow
-      - sensor.temperatura_sypialnia_rodzicow
-      - sensor.temperatura_sypialnia_rodzicow_podloga
-      - sensor.temperatura_sypialnia_rodzicow_zadana
-      - binary_sensor.grzanie_pralnia
-      - sensor.temperatura_pralnia
-      - sensor.temperatura_pralnia_podloga
-      - sensor.temperatura_pralnia_zadana
-      - binary_sensor.grzanie_garderoba
-      - sensor.temperatura_garderoba
-      - sensor.temperatura_garderoba_podloga
-      - sensor.temperatura_garderoba_zadana
-      - binary_sensor.grzanie_korytarz_gora
-      - sensor.temperatura_korytarz_gora
-      - sensor.temperatura_korytarz_gora_podloga
-      - sensor.temperatura_korytarz_gora_zadana
-
   lampy_dol:
     name: Lampy_dol
     entities:
@@ -454,8 +391,8 @@
       - group.lampy_gora
       - group.lampy_zewn
 
-  lampy:
-    name: Lampy
+  lampy_wszystkie:
+    name: Lampy wszystkie
 #    view: yes
     entities:
       - switch.lampa_drzwi
