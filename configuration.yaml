@@ -31,6 +31,9 @@ http:
   ip_ban_enabled: True
   login_attempts_threshold: 5
 
+media_player:
+  - platform: yamaha
+
 # Checks for available updates
 updater:
 
