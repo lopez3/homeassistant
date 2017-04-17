@@ -120,7 +120,7 @@ weblink:
       url: http://192.168.88.1
     - name: Drukarka
       url: http://192.168.88.15
-  
+
 notify:
   - name: Gmail
     platform: smtp
@@ -147,6 +147,7 @@ mqtt:
   password: !secret mqtt_password
 
 modbus: { type: serial, method: rtu, port: /dev/ttyAMA0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
+#modbus: { type: tcp, host: 192.168.88.10, port: 502 }
 
 switch Lampy:
   platform: modbus
@@ -263,8 +264,8 @@ binary_sensor Grzanie:
         value_template: "{{ states.switch.grzanie_lazienka_gora.state == 'on' }}"
         entity_id: switch.grzanie_lazienka_gora
 
-#ffmpeg: 
-#  ffmpeg_bin: /usr/bin/avconv
+ffmpeg: 
+  ffmpeg_bin: /usr/bin/avconv
 
 camera: 
   - platform: local_file
@@ -277,7 +278,7 @@ camera:
     file_path: /home/homeassistant/.homeassistant/www/local/brama.jpg
     name: Kamera brama
 #  - platform: ffmpeg
-#    name: Kamera drzwi
+#    name: Kamera drzwi ffmpeg
 #    input: rtsp://user:pass@192.168.88.101:554/Streaming/Channels/2
 #    extra_arguments: '--q:v 2'
 #  - platform: ffmpeg

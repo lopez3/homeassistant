@@ -13,6 +13,7 @@ switch.grzanie_sypialnia_ady: { hidden: true }
 switch.grzanie_sypialnia_ewy: { hidden: true }
 switch.grzanie_lazienka_gora: { hidden: true }
 
+
 binary_sensor.grzanie_salon_przejscie: { friendly_name: 'Przedpokój', sensor_class: heat }
 binary_sensor.grzanie_techniczne: { friendly_name: 'Techniczne', sensor_class: heat }
 binary_sensor.grzanie_wiatrolap: { friendly_name: 'Wiatrołap', sensor_class: heat }
@@ -40,7 +41,7 @@ switch.lampa_lazienka_dol: { friendly_name: Łazienka dół, icon: 'mdi:lightbul
 switch.lampa_lazienka_dol_lustro: { friendly_name: Łazienka dół lustro, icon: 'mdi:lightbulb' }
 switch.lampa_lazienka_gora: { friendly_name: Łazienka góra, icon: 'mdi:lightbulb' }
 switch.lampa_lazienka_gora_lustro: { friendly_name: Lazienka góra lustro, icon: 'mdi:lightbulb' }
-switch.lampa_osw2: { friendly_name: Osw2, icon: 'mdi:lightbulb' }
+switch.lampa_osw2: { hidden: true, friendly_name: Osw2, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1: { friendly_name: Pralnia 1, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1a: { friendly_name: Pralnia 1A, icon: 'mdi:lightbulb' }
 switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, icon: 'mdi:lightbulb' }
@@ -198,3 +199,5 @@ scene.morning: { friendly_name: Poranek, icon: 'mdi:white-balance-sunny' }
 scene.evening: { friendly_name: Wieczór, icon: 'mdi:movie' } 
 scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
 scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
+
+media_player.yamaha_receiver_zone_2: { hidden: true }

@@ -40,7 +40,6 @@
       - sensor.yr_symbol
       - group.klimat
       - group.wnetrze
-#      - group.wentylacja
 
   lampy_view:
     view: yes
@@ -68,23 +67,14 @@
       - group.ogrzewanie_techniczne
       - group.ogrzewanie_wiatrolap
       - group.ogrzewanie_inne
-#      - group.ogrzewanie_dol
-#      - group.ogrzewanie_gora
 
   kamery_view:
     name: Kamery
     icon: mdi:camera-iris
     view: yes
     entities: 
-#      - camera.kamera_drzwi
-#      - camera.kamera_brama
-#      - camera.kamera_salon
       - group.kamery_sensory
       - group.kamery_obraz
-#      - group.kamera_drzwi
-#      - group.kamera_salon
-#      - group.kamera_brama
-#      - group.kamery_hires
 
   styczniki_view:
     name: Styczniki
@@ -92,11 +82,6 @@
     view: yes
     entities:
       - group.styczniki
-#      - switch.stycznik_gniazda_parter
-#      - switch.stycznik_kuchnia
-#      - switch.stycznik_podgrzewacze_lazienki
-#      - switch.stycznik_gniazda_gora
-#      - switch.stycznik_strych
 
   system_view:
     name: System
@@ -105,33 +90,6 @@
     entities:
       - group.system_hw
   
-  
-      
-  kamera_drzwi:
-    name: Kamera drzwi
-    view: no
-    entities: 
-      - camera.kamera_drzwi
-      - binary_sensor.camera_door_motion
-      - binary_sensor.camera_door_pir_alarm
-
-  kamera_salon:
-    name: Kamera salon
-    view: no
-    entities: 
-      - camera.kamera_salon
-      - binary_sensor.living_room_motion
-      - binary_sensor.living_room_pir_alarm
-
-  kamera_brama:
-    name: Kamera brama
-    view: no
-    entities:
-      - camera.kamera_brama
-      - binary_sensor.camera_gate_motion
-      - binary_sensor.camera_gate_pir_alarm
-      - binary_sensor.camera_gate_disk_full
-
   kamery_obraz:
     name: Kamery obraz
     view: no
@@ -152,88 +110,6 @@
       - binary_sensor.camera_gate_pir_alarm
       - binary_sensor.camera_gate_tamper_detection
       - binary_sensor.camera_gate_disk_error
-
-    
-#  ogrzewanie_maty:
-#    name: Ogrzewanie maty
-##    view: yes
-#    entities:
-#      - binary_sensor.grzanie_salon_przejscie
-#      - binary_sensor.grzanie_techniczne
-#      - binary_sensor.grzanie_wiatrolap
-#      - binary_sensor.grzanie_kuchnia
-#      - binary_sensor.grzanie_salon
-#      - binary_sensor.grzanie_lazienka_dol
-#      - binary_sensor.grzanie_pralnia
-#      - binary_sensor.grzanie_korytarz_gora
-#      - binary_sensor.grzanie_garderoba
-#      - binary_sensor.grzanie_sypialnia_rodzicow
-#      - binary_sensor.grzanie_sypialnia_ady
-#      - binary_sensor.grzanie_sypialnia_ewy
-#      - binary_sensor.grzanie_lazienka_gora
-
-#  ogrzewanie_wszystko:
-#    name: Ogrzewanie
-##    view: yes
-#    entities: 
-#      - binary_sensor.grzanie_kuchnia
-#      - sensor.temperatura_kuchnia
-#      - sensor.temperatura_kuchnia_podloga
-#      - sensor.temperatura_kuchnia_zadana
-#      - binary_sensor.grzanie_lazienka_dol
-#      - sensor.temperatura_lazienka_dol
-#      - sensor.temperatura_lazienka_dol_podloga
-#      - sensor.temperatura_lazienka_dol_zadana
-#      - binary_sensor.grzanie_salon_przejscie
-#      - sensor.temperatura_salon_przejscie
-#      - sensor.temperatura_salon_przejscie_podloga
-#      - sensor.temperatura_salon_przejscie_zadana
-#      - binary_sensor.grzanie_salon
-#      - sensor.temperatura_salon_schody
-#      - sensor.temperatura_salon_schody_podloga
-#      - sensor.temperatura_salon_schody_zadana
-#      - binary_sensor.grzanie_lazienka_gora
-#      - sensor.temperatura_lazienka_gora
-#      - sensor.temperatura_lazienka_gora_podloga
-#      - sensor.temperatura_lazienka_gora_zadana
-#      - binary_sensor.grzanie_sypialnia_ady
-#      - sensor.temperatura_sypialnia_ady
-#      - sensor.temperatura_sypialnia_ady_podloga
-#      - sensor.temperatura_sypialnia_ady_zadana
-#      - binary_sensor.grzanie_sypialnia_ewy
-#      - sensor.temperatura_sypialnia_ewy
-#      - sensor.temperatura_sypialnia_ewy_podloga
-#      - sensor.temperatura_sypialnia_ewy_zadana
-#      - binary_sensor.grzanie_sypialnia_rodzicow
-#      - sensor.temperatura_sypialnia_rodzicow
-#      - sensor.temperatura_sypialnia_rodzicow_podloga
-#      - sensor.temperatura_sypialnia_rodzicow_zadana
-#      - binary_sensor.grzanie_pralnia
-#      - sensor.temperatura_pralnia
-#      - sensor.temperatura_pralnia_podloga
-#      - sensor.temperatura_pralnia_zadana
-#      - binary_sensor.grzanie_garderoba
-#      - sensor.temperatura_garderoba
-#      - sensor.temperatura_garderoba_podloga
-#      - sensor.temperatura_garderoba_zadana
-#      - binary_sensor.grzanie_korytarz_gora
-#      - sensor.temperatura_korytarz_gora
-#      - sensor.temperatura_korytarz_gora_podloga
-#      - sensor.temperatura_korytarz_gora_zadana
-#      - binary_sensor.grzanie_techniczne
-#      - sensor.temperatura_techniczne
-#      - sensor.temperatura_techniczne_podloga
-#      - sensor.temperatura_techniczne_zadana
-#      - binary_sensor.grzanie_wiatrolap
-#      - sensor.temperatura_wiatrolap
-#      - sensor.temperatura_wiatrolap_podloga
-#      - sensor.temperatura_wiatrolap_zadana
-#      - sensor.temperatura_zewnetrzna_polnoc
-#      - sensor.temperatura_zewnetrzna_polnoc_przeliczona
-#      - sensor.temperatura_zewnetrzna_poludnie
-#      - sensor.temperatura_zewnetrzna_poludnie_przeliczona
-#      - sensor.wilgotnosc_salon_schody
-#      - sensor.wilgotnosc_zewnetrzna
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia
@@ -391,38 +267,6 @@
       - group.lampy_gora
       - group.lampy_zewn
 
-  lampy_wszystkie:
-    name: Lampy wszystkie
-#    view: yes
-    entities:
-      - switch.lampa_drzwi
-      - switch.lampa_taras
-      - switch.lampa_techniczne
-      - switch.lampa_wiatrolap
-      - switch.lampa_salon_kanapa
-      - switch.lampa_salon_kinkiety
-      - switch.lampa_salon_sufit
-      - switch.lampa_kuchnia_okap
-      - switch.lampa_kuchnia_sufit
-      - switch.lampa_kuchnia_zlew
-      - switch.lampa_jadalnia_sufit 
-      - switch.lampa_lazienka_dol
-      - switch.lampa_lazienka_dol_lustro
-      - switch.lampa_korytarz_dol
-      - switch.lampa_schody
-      - switch.lampa_schody_gora
-      - switch.lampa_korytarz_pralnia
-      - switch.lampa_lazienka_gora
-      - switch.lampa_lazienka_gora_lustro
-      - switch.lampa_pralnia_1
-      - switch.lampa_pralnia_1a
-      - switch.lampa_sypialnia_ady
-      - switch.lampa_sypialnia_ewy
-      - switch.lampa_sypialnia_rodzicow
-      - switch.lampa_garderoba 
-      - switch.lampa_osw2
-
-
   system_hw:
     name: System
     view: no
@@ -495,22 +339,6 @@
       - sensor.temperatura_dol
       - sensor.temperatura_sypialnie
       - input_slider.ventilation
-
-  wentylacja: 
-    name: wentylacja
-    view: no
-    entities:
-      - sensor.moc_wentylatora
-      - input_slider.ventilation
-      
-  sceny:
-    name: sceny
-    view: no
-    entities:
-      - scene.morning
-      - scene.evening
-      - scene.night
-      - sensor.temperatura_dol
 
   styczniki:
     name: Styczniki
