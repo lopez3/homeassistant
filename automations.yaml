@@ -34,7 +34,13 @@
   action:
     - service: shell_command.post_fan_speed
 
-
+#- alias: "HomeAssistant starts"
+#  trigger: 
+#    platform: event
+#    event_type: homeassistant_start
+#  action:
+    
+  
 - alias: "Get pics every minute"
   trigger:
     platform: time

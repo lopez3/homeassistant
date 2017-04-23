@@ -33,6 +33,9 @@ http:
 
 media_player:
   - platform: yamaha
+  - platform: spotify
+    client_id: !secret spotify_client_id
+    client_secret: !secret spotify_client_secret
 
 # Checks for available updates
 updater:
