@@ -287,6 +287,7 @@
       - sensor.since_last_boot
       - sensor.ram_free
       - sensor.ram_use
+      - sensor.log_db_file_size
 #      - sensor.swap_free
 #      - sensor.swap_use
 

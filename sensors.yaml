@@ -84,6 +84,11 @@
   name: Moc wentylatora
   command: "cat /home/homeassistant/.homeassistant/scripts/fan_speed"
   scan_interval: 5
+- platform: command_line
+  name: log_db_file_size
+  command: "du -m /home/homeassistant/.homeassistant/home-assistant_v2.db | cut -f1"
+  unit_of_measurement: 'MB'
+  value_template: '{{ value | int - 1 }}'
 
 - platform: time_date
   display_options: 'date_time'
