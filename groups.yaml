@@ -76,6 +76,15 @@
       - group.kamery_sensory
       - group.kamery_obraz
 
+  media_view:
+    name: Multimedia
+    icon: mdi:music
+    view: yes
+    entities:
+      - media_player.spotify
+      - group.media_1potok
+      - group.media_2bedzin
+
   styczniki_view:
     name: Styczniki
     icon: mdi:flash
@@ -364,3 +373,13 @@
        - device_tracker.ada_s3
        - device_tracker.c4438fdccfff 
        - device_tracker.c0bdd1d8346e
+
+  media_1potok:
+    entities: 
+      - media_player.yamaha_potok
+      - media_player.samsung_tv_potok
+
+  media_2bedzin:
+    entities:
+      - media_player.yamaha_bedzin
+      - media_player.samsung_tv_bedzin

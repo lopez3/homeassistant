@@ -33,9 +33,23 @@ http:
 
 media_player:
   - platform: yamaha
+    name: Yamaha Potok
+    host: 192.168.88.37
+  - platform: yamaha
+    name: Yamaha Bedzin
+    host: 192.168.10.245
   - platform: spotify
     client_id: !secret spotify_client_id
     client_secret: !secret spotify_client_secret
+  - platform: samsungtv
+    name: Samsung TV Potok
+    host: 192.168.88.21
+    mac: 84:A4:66:60:7F:9D
+  - platform: samsungtv
+    name: Samsung TV Bedzin
+#    host: 192.168.88.251
+    host: 192.168.0.20
+    mac: 84:A4:66:60:7F:9D
 
 # Checks for available updates
 updater:
@@ -45,36 +59,6 @@ updater:
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 # conversation:
-
-# Enables support for tracking state changes over time.
-history:
-#  exclude:
-#    domains:
-#      - camera
-#      - sensor
-#      - automation
-#      - weblink
-#      - updater
-#    entities:
-#      - sensor.temperatura_garderoba_zadana
-#      - sensor.temperatura_korytarz_gora_zadana
-#      - sensor.temperatura_kuchnia_zadana
-#      - sensor.temperatura_lazienka_dol_zadana
-#      - sensor.temperatura_lazienka_gora_zadana
-#      - sensor.temperatura_pralnia_zadana
-#      - sensor.temperatura_salon_przejscie_zadana
-#      - sensor.temperatura_salon_schody_zadana
-#      - sensor.temperatura_sypialnia_ady_zadana
-#      - sensor.temperatura_sypialnia_ewy_zadana
-#      - sensor.temperatura_sypialnia_rodzicow_zadana
-#      - sensor.temperatura_techniczne_zadana
-#      - sensor.temperatura_wiatrolap_zadana
-#      - sensor.temperatura_techniczne_zadana
-#      - sensor.temperatura_wiatrolap_zadana
-#      - sensor.temperatura_zewnetrzna_polnoc
-#      - sensor.temperatura_zewnetrzna_poludnie
-#      - sensor.wilgotnosc_salon_schody
-#      - sensor.wilgotnosc_zewnetrzna
 
 panel_iframe:
   forecast_potok:
@@ -87,26 +71,43 @@ panel_iframe:
     url: 'http://www.meteo.pl/php/meteorogram_id_coamps.php?ntype=2n&id=705'
     icon: 'mdi:weather-partlycloudy'
 
-recorder:
-  purge_days: 4
-  exclude:
-    domains:
-      - automation
-      - camera
-      - device_tracker
-      - group
-      - homeassistant
-      - input_slider
-      - logbook
-      - modbus
-      - persistent_modification
-      - sensor
-      - shell_command
-      - switch
-      - weblink
-      - updater
+# Enables support for tracking state changes over time.
+history:
   include:
-    entities: { binary_sensor.grzanie_kuchnia, sensor.temperatura_kuchnia, sensor.temperatura_kuchnia_podloga, binary_sensor.grzanie_lazienka_dol, sensor.temperatura_lazienka_dol, sensor.temperatura_lazienka_dol_podloga, binary_sensor.grzanie_salon_przejscie, sensor.temperatura_salon_przejscie, sensor.temperatura_salon_przejscie_podloga, binary_sensor.grzanie_salon, sensor.temperatura_salon_schody, sensor.temperatura_salon_schody_podloga, binary_sensor.grzanie_techniczne, sensor.temperatura_techniczne, sensor.temperatura_techniczne_podloga, binary_sensor.grzanie_wiatrolap, sensor.temperatura_wiatrolap, sensor.temperatura_wiatrolap_podloga, sensor.wilgotnosc_salon_schody }
+    domains:
+      - binary_sensor
+      - sensor
+  exclude:
+    entities:
+      - sensor.cpu
+      - sensor.cpu_use
+      - sensor.date__time
+      - sensor.disk_use_home
+      - sensor.moc_wentylatora
+      - sensor.moon
+      - sensor.ram_free
+      - sensor.ram_use
+      - sensor.since_last_boot
+
+recorder:
+  purge_days: 7
+# Use the include list to define the domains/entities to record, and exclude some of them with in the exclude list. 
+# This makes sense if you for instance include the sensor domain, but want to exclude some specific sensors.
+  include:
+    domains:
+      - binary_sensor
+      - sensor
+  exclude:
+    entities:
+      - sensor.cpu
+      - sensor.cpu_use
+      - sensor.date__time
+      - sensor.disk_use_home
+      - sensor.moc_wentylatora
+      - sensor.moon
+      - sensor.ram_free
+      - sensor.ram_use
+      - sensor.since_last_boot
 
 # View all events in a logbook
 logbook:
@@ -114,6 +115,7 @@ logbook:
 logger: 
   default: warn
 #  default: info
+
 # Track the sun
 sun:
 
@@ -139,9 +141,6 @@ notify:
 # tts:
 #   platform: google
 
-#media_player samsung:
-#  - platform: samsungtv
-#    host: 192.168.88.19
 
 mqtt:
   broker: !secret mqtt_broker 

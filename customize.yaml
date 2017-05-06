@@ -200,4 +200,5 @@ scene.evening: { friendly_name: Wieczór, icon: 'mdi:movie' }
 scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
 scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
 
-media_player.yamaha_receiver_zone_2: { hidden: true }
+media_player.yamaha_potok_zone_2: { hidden: true }
+media_player.yamaha_bedzin_zone_2: { hidden: true }
