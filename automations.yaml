@@ -1,69 +1,71 @@
 - id: a_if_fan_speed_changes_update_slider
   alias: 'If fan speed changes, update slider'
   trigger: 
-    platform: time
+  - platform: time
     seconds: /15
   condition:
-    condition: template
+  - condition: template
     value_template: '{{ states.sensor.moc_wentylatora.state != states.input_slider.ventilation.state }}'
   action: 
-    - service: input_slider.select_value
-      entity_id: input_slider.ventilation
-      data_template:
-        value: '{{ states.sensor.moc_wentylatora.state }}'    
+  - service: input_slider.select_value
+    entity_id: input_slider.ventilation
+    data_template:
+      value: '{{ states.sensor.moc_wentylatora.state }}'    
 
 - id: a_if_slider_moves_update_fan_speed
   alias: "If slider moves, update fan speed"
   trigger:
-    platform: event
+  - platform: event
     event_type: state_changed
     event_data: { 'entity_id': input_slider.ventilation }
   condition:
-    condition: template
+  - condition: template
     value_template: '{{ states.input_slider.ventilation.state != states.sensor.moc_wentylatora.state }}'
   action:
-    - service: shell_command.post_fan_speed
+  - service: shell_command.post_fan_speed
 
 - id: a_fired_when_homeassistant_starts
   alias: "HomeAssistant starts"
   trigger: 
-    platform: event
+  - platform: event
     event_type: homeassistant_start
   action:
+  - service: shell_command.get_pics
+
   
 - id: a_get_pics_every_minute
   alias: "Get pics every minute"
   trigger:
-    platform: time
+  - platform: time
     minutes: /1
     seconds: 00
   action:
-    service: shell_command.get_pics
+  - service: shell_command.get_pics
     
 - id: a_switch_on_evening_scene_if_anyone_is_home
   alias: "Switch on evening scene if anyone is home"
   trigger:
-    platform: sun
+  - platform: sun
     event: sunset
     offset: "-00:20:00"
   condition:
-    condition: state
+  - condition: state
     entity_id: group.all_devices
     state: home
   action:
-    service: scene.turn_on
+  - service: scene.turn_on
     entity_id: scene.evening
     
 - id: a_switch_on_morning_scene_20min_after_sunrise
   alias: "Switch on morning scene 20min after sunrise"
   trigger:
-    platform: sun
+  - platform: sun
     event: sunrise
     offset: "00:20:00"
   condition:
-    condition: state
+  - condition: state
     entity_id: group.all_devices
     state: home
   action:
-    service: scene.turn_on
+  - service: scene.turn_on
     entity_id: scene.morning
