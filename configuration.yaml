@@ -41,15 +41,15 @@ media_player:
   - platform: spotify
     client_id: !secret spotify_client_id
     client_secret: !secret spotify_client_secret
-  - platform: samsungtv
-    name: Samsung TV Potok
-    host: 192.168.88.21
-    mac: 84:A4:66:60:7F:9D
-  - platform: samsungtv
-    name: Samsung TV Bedzin
+#  - platform: samsungtv
+#    name: Samsung TV Potok
+#    host: 192.168.88.21
+#    mac: 84:A4:66:60:7F:9D
+#  - platform: samsungtv
+#    name: Samsung TV Bedzin
 #    host: 192.168.88.251
-    host: 192.168.0.20
-    mac: 84:A4:66:60:7F:9D
+#    host: 192.168.0.20
+#    mac: 84:A4:66:60:7F:9D
 
 # Checks for available updates
 updater:

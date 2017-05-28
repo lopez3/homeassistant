@@ -378,9 +378,9 @@
   media_1potok:
     entities: 
       - media_player.yamaha_potok
-      - media_player.samsung_tv_potok
+#      - media_player.samsung_tv_potok
 
   media_2bedzin:
     entities:
       - media_player.yamaha_bedzin
-      - media_player.samsung_tv_bedzin
+#      - media_player.samsung_tv_bedzin
