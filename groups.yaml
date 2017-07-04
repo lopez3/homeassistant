@@ -288,6 +288,7 @@
       - sensor.ram_free
       - sensor.ram_use
       - sensor.log_db_file_size
+      - input_select.log_level
 #      - sensor.swap_free
 #      - sensor.swap_use
 

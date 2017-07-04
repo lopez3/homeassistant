@@ -1,3 +1,13 @@
+- id: change_log_level
+  alias: Change log level
+  trigger:
+    platform: state
+    entity_id: input_select.log_level
+  action:
+    service: logger.set_level
+    data_template:
+      homeassistant.components: "{{ trigger.to_state.state }}"
+
 - id: a_if_fan_speed_changes_update_slider
   alias: 'If fan speed changes, update slider'
   trigger: 

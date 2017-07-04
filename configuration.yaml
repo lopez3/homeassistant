@@ -203,6 +203,20 @@ input_slider:
     step: 1
     icon: mdi:fan
 
+input_select:
+  log_level:
+    name: Log Level
+    options:
+      - critical
+      - fatal
+      - error
+      - warning
+      - warn
+      - info
+      - debug
+      - notset
+    initial: warn
+
 sensor: !include sensors.yaml
 
 switch grzanie:
