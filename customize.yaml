@@ -29,7 +29,7 @@ binary_sensor.grzanie_sypialnia_ewy: { friendly_name: 'Pokój Ewy', sensor_class
 binary_sensor.grzanie_lazienka_gora: { friendly_name: 'Łazienka góra', sensor_class: heat }
 
 
-switch.lampa_drzwi: { friendly_name: Drzwi, icon: 'mdi:lightbulb', hidden: true }
+switch.lampa_drzwi: { friendly_name: Wejście, icon: 'mdi:lightbulb' }
 switch.lampa_garderoba: { friendly_name: Garderoba, icon: 'mdi:lightbulb' }
 switch.lampa_jadalnia_sufit: { friendly_name: Jadalnia sufit, icon: 'mdi:lightbulb' }
 switch.lampa_korytarz_dol: { friendly_name: Korytarz dół, icon: 'mdi:lightbulb' }
