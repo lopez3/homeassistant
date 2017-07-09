@@ -236,6 +236,7 @@
     name: Lampy_dol
     entities:
       - switch.lampa_salon_kanapa
+      - light.salon_lampka
       - switch.lampa_salon_kinkiety
       - switch.lampa_salon_sufit
       - switch.lampa_kuchnia_sufit

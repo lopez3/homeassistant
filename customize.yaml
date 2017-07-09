@@ -28,33 +28,33 @@ binary_sensor.grzanie_sypialnia_ady: { friendly_name: 'Pokój Ady', sensor_class
 binary_sensor.grzanie_sypialnia_ewy: { friendly_name: 'Pokój Ewy', sensor_class: heat }
 binary_sensor.grzanie_lazienka_gora: { friendly_name: 'Łazienka góra', sensor_class: heat }
 
-
 switch.lampa_drzwi: { friendly_name: Wejście, icon: 'mdi:lightbulb' }
-switch.lampa_garderoba: { friendly_name: Garderoba, icon: 'mdi:lightbulb' }
-switch.lampa_jadalnia_sufit: { friendly_name: Jadalnia sufit, icon: 'mdi:lightbulb' }
-switch.lampa_korytarz_dol: { friendly_name: Korytarz dół, icon: 'mdi:lightbulb' }
-switch.lampa_korytarz_pralnia: { friendly_name: Korytarz pralnia, icon: 'mdi:lightbulb' }
+switch.lampa_garderoba: { friendly_name: Garderoba, icon: 'mdi:ceiling-light' }
+switch.lampa_jadalnia_sufit: { friendly_name: Jadalnia sufit, icon: 'mdi:ceiling-light' }
+switch.lampa_korytarz_dol: { friendly_name: Korytarz dół, icon: 'mdi:ceiling-light' }
+switch.lampa_korytarz_pralnia: { friendly_name: Korytarz pralnia, icon: 'mdi:ceiling-light' }
 switch.lampa_kuchnia_okap: { friendly_name: Kuchnia okap, icon: 'mdi:lightbulb', hidden: true }
-switch.lampa_kuchnia_sufit: { friendly_name: Kuchnia sufit, icon: 'mdi:lightbulb' }
+switch.lampa_kuchnia_sufit: { friendly_name: Kuchnia sufit, icon: 'mdi:ceiling-light' }
 switch.lampa_kuchnia_zlew: { friendly_name: Kuchnia zlew, icon: 'mdi:lightbulb', hidden: true }
-switch.lampa_lazienka_dol: { friendly_name: Łazienka dół, icon: 'mdi:lightbulb' }
+switch.lampa_lazienka_dol: { friendly_name: Łazienka dół, icon: 'mdi:ceiling-light' }
 switch.lampa_lazienka_dol_lustro: { friendly_name: Łazienka dół lustro, icon: 'mdi:lightbulb' }
-switch.lampa_lazienka_gora: { friendly_name: Łazienka góra, icon: 'mdi:lightbulb' }
+switch.lampa_lazienka_gora: { friendly_name: Łazienka góra, icon: 'mdi:ceiling-light' }
 switch.lampa_lazienka_gora_lustro: { friendly_name: Lazienka góra lustro, icon: 'mdi:lightbulb' }
 switch.lampa_osw2: { hidden: true, friendly_name: Osw2, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1: { friendly_name: Pralnia 1, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1a: { friendly_name: Pralnia 1A, icon: 'mdi:lightbulb' }
-switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, icon: 'mdi:lightbulb' }
+switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, entity_picture: /local/brama.jpg }
 switch.lampa_salon_kinkiety: { friendly_name: Salon kinkiety, icon: 'mdi:lightbulb' }
-switch.lampa_salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:lightbulb' }
+switch.lampa_salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
 switch.lampa_schody: { friendly_name: Schody, icon: 'mdi:lightbulb' }
-switch.lampa_schody_gora: { friendly_name: Schody góra, icon: 'mdi:lightbulb' }
-switch.lampa_sypialnia_ady: { friendly_name: Pokój Ady, icon: 'mdi:lightbulb' }
-switch.lampa_sypialnia_ewy: { friendly_name: Pokój Ewy, icon: 'mdi:lightbulb' }
-switch.lampa_sypialnia_rodzicow: { friendly_name: Sypialnia, icon: 'mdi:lightbulb' }
+switch.lampa_schody_gora: { friendly_name: Schody góra, icon: 'mdi:ceiling-light' }
+switch.lampa_sypialnia_ady: { friendly_name: Pokój Ady, icon: 'mdi:ceiling-light' }
+switch.lampa_sypialnia_ewy: { friendly_name: Pokój Ewy, icon: 'mdi:ceiling-light' }
+switch.lampa_sypialnia_rodzicow: { friendly_name: Sypialnia, icon: 'mdi:ceiling-light' }
 switch.lampa_taras: { friendly_name: Taras, icon: 'mdi:lightbulb' }
 switch.lampa_techniczne: { friendly_name: Techniczne, icon: 'mdi:lightbulb' }
-switch.lampa_wiatrolap: { friendly_name: Wiatrołap, icon: 'mdi:lightbulb' }
+switch.lampa_wiatrolap: { friendly_name: Wiatrołap, icon: 'mdi:ceiling-light' }
+light.salon_lampka : { friendly_name: Lampka salon, icon: 'mdi:lamp' }
 
 switch.stycznik_gniazda_gora: { friendly_name: Gniazda góra, icon: 'mdi:flash'  }
 switch.stycznik_gniazda_parter: { friendly_name: Gniazda parter, icon: 'mdi:flash'  }

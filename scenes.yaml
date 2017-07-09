@@ -26,6 +26,7 @@
 #      switch.lampa_garderoba: off
       switch.lampa_drzwi: on
       switch.lampa_taras: on
+      light.salon_lampka: on
   - name: Night
     entities: 
       switch.lampa_techniczne: off
@@ -53,6 +54,7 @@
       switch.lampa_garderoba: off
       switch.lampa_drzwi: off
       switch.lampa_taras: off  
+      light.salon_lampka: on
   - name: Morning
     entities: 
       switch.lampa_techniczne: off
@@ -78,8 +80,9 @@
       switch.lampa_sypialnia_ewy: off
       switch.lampa_sypialnia_rodzicow: off
 #      switch.lampa_garderoba: off
-      switch.lampa_drzwi: on
+      switch.lampa_drzwi: off
       switch.lampa_taras: off
+      light.salon_lampka: off
   - name: Party
     entities: 
       switch.lampa_techniczne: off
@@ -107,3 +110,4 @@
 #      switch.lampa_garderoba: off
       switch.lampa_drzwi: on
       switch.lampa_taras: on
+#      light.salon_lampka: on

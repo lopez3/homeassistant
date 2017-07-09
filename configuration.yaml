@@ -115,6 +115,8 @@ logbook:
 logger: 
   default: warn
 #  default: info
+  logs: 
+    homeassistant.components.switch: debug
 
 # Track the sun
 sun:
@@ -216,6 +218,11 @@ input_select:
       - debug
       - notset
     initial: warn
+
+tradfri:
+  host: 192.168.88.36
+  api_key: !secret ikea_tradfri_security_code
+  allow_tradfri_groups: false
 
 sensor: !include sensors.yaml
 
@@ -353,3 +360,5 @@ automation: !include automations.yaml
 group: !include groups.yaml
 
 scene: !include scenes.yaml
+
+light: !include light.yaml
