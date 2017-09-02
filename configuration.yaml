@@ -114,7 +114,7 @@ logbook:
 
 logger: 
   default: warn
-#  default: info
+#  default: debug
   logs: 
     homeassistant.components.switch: debug
 
@@ -150,7 +150,7 @@ mqtt:
   username: !secret mqtt_username
   password: !secret mqtt_password
 
-modbus: { type: serial, method: rtu, port: /dev/ttyAMA0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
+modbus: { type: serial, method: rtu, port: /dev/serial0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
 #modbus: { type: tcp, host: 192.168.88.10, port: 502 }
 
 switch Lampy:
@@ -354,6 +354,7 @@ binary_sensor kamera_brama:
   username: !secret kamera_brama_pir_username
   password: !secret kamera_brama_pir_password
 
+light: !include light.yaml
 
 automation: !include automations.yaml
 
@@ -361,4 +362,4 @@ group: !include groups.yaml
 
 scene: !include scenes.yaml
 
-light: !include light.yaml
+script: !include scripts.yaml

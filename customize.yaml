@@ -54,7 +54,9 @@ switch.lampa_sypialnia_rodzicow: { friendly_name: Sypialnia, icon: 'mdi:ceiling-
 switch.lampa_taras: { friendly_name: Taras, icon: 'mdi:lightbulb' }
 switch.lampa_techniczne: { friendly_name: Techniczne, icon: 'mdi:lightbulb' }
 switch.lampa_wiatrolap: { friendly_name: Wiatrołap, icon: 'mdi:ceiling-light' }
-light.salon_lampka : { friendly_name: Lampka salon, icon: 'mdi:lamp' }
+light.salon_lampka : { friendly_name: Salon lampka, icon: 'mdi:lamp' }
+light.salon_sufit : { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
+
 
 switch.stycznik_gniazda_gora: { friendly_name: Gniazda góra, icon: 'mdi:flash'  }
 switch.stycznik_gniazda_parter: { friendly_name: Gniazda parter, icon: 'mdi:flash'  }
@@ -198,9 +200,10 @@ switch.update_pics: { hidden: true }
 
 group.sceny: { friendly_name: Sceny }
 scene.morning: { friendly_name: Poranek, icon: 'mdi:white-balance-sunny' }
-scene.evening: { friendly_name: Wieczór, icon: 'mdi:movie' } 
+scene.evening: { friendly_name: Wieczór, icon: 'mdi:weather-sunset' } 
 scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
 scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
+scene.movies: { friendly_name: Film, icon: 'mdi:movie' } 
 
 media_player.yamaha_potok_zone_2: { hidden: true }
 media_player.yamaha_bedzin_zone_2: { hidden: true }

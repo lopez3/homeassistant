@@ -1,0 +1,26 @@
+#  light
+
+# todo: template for salon sufit, on: switch on power in PLC, switch off Ikea, switch on ikea; off: switch on power PLC, switch off ikea
+
+#- platform: template
+#  lights:
+#    prrrrrr:
+#      value_template: "{{ 'on' }}"
+#      turn_on:
+#        service: switch.turn_on
+#        data:
+#          entity_id: switch.lampa_salon_sufit
+#      turn_off:
+#        service: switch.turn_off
+#        data:
+#          entity_id: switch.lampa_salon_sufit
+#    pppppr:
+#      value_template: "{{ 'off' }}"
+#      turn_on:
+#        service: switch.turn_on
+#        data:
+#          entity_id: switch.lampa_salon_sufit
+#      turn_off:
+#        service: switch.turn_off
+#        data:
+#          entity_id: switch.lampa_salon_sufit

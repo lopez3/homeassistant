@@ -13,6 +13,7 @@
       - sensor.wilgotnosc_salon_schody
       - sensor.temperatura_dol
       - sensor.temperatura_sypialnie
+      - sensor.dark_sky_apparent_temperature
       - input_slider.ventilation
       - camera.kamera_brama
 
@@ -21,6 +22,7 @@
     entities: 
       - scene.morning
       - scene.evening
+      - scene.movies
       - scene.night
       - scene.party
       - camera.kamera_drzwi
