@@ -12,6 +12,7 @@ homeassistant:
   time_zone: Europe/Warsaw
   customize: !include customize.yaml
 
+#
 # Show links to resources in log and frontend
 # introduction:
 
