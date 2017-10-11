@@ -43,7 +43,7 @@ switch.lampa_lazienka_gora_lustro: { friendly_name: Lazienka góra lustro, icon:
 switch.lampa_osw2: { hidden: true, friendly_name: Osw2, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1: { friendly_name: Pralnia 1, icon: 'mdi:lightbulb' }
 switch.lampa_pralnia_1a: { friendly_name: Pralnia 1A, icon: 'mdi:lightbulb' }
-switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, entity_picture: /local/brama.jpg }
+switch.lampa_salon_kanapa: { friendly_name: Salon kanapa, entity_picture: "/local/icons/wall_lamp.png" }
 switch.lampa_salon_kinkiety: { friendly_name: Salon kinkiety, icon: 'mdi:lightbulb' }
 switch.lampa_salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
 switch.lampa_schody: { friendly_name: Schody, icon: 'mdi:lightbulb' }
@@ -201,6 +201,7 @@ switch.update_pics: { hidden: true }
 group.sceny: { friendly_name: Sceny }
 scene.morning: { friendly_name: Poranek, icon: 'mdi:white-balance-sunny' }
 scene.evening: { friendly_name: Wieczór, icon: 'mdi:weather-sunset' } 
+#scene.evening: { friendly_name: Wieczór, entity_picture: "/local/icons/face.jpg" } 
 scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
 scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
 scene.movies: { friendly_name: Film, icon: 'mdi:movie' } 

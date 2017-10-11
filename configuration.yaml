@@ -39,6 +39,9 @@ media_player:
   - platform: yamaha
     name: Yamaha Potok
     host: 192.168.88.37
+#  - platform: yamaha_musiccast
+#    name: Yamaha Potok
+#    host: 192.168.88.37
   - platform: yamaha
     name: Yamaha Bedzin
     host: 192.168.10.245
@@ -120,7 +123,9 @@ logger:
   default: warn
 #  default: debug
   logs: 
-    homeassistant.components.switch: debug
+#    homeassistant.components.switch: debug
+    homeassistant.components.media_player: critical
+    homeassistant.components.camera: critical
 
 # Track the sun
 sun:
