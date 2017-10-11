@@ -142,7 +142,7 @@ sensor.dark_sky_wind_bearing: { friendly_name: Kierunek wiatru }
 sensor.dark_sky_wind_speed: { friendly_name: Prędkość wiatru }
 
 sensor.moc_wentylatora: { hidden: true }
-input_slider.ventilation: { friendly_name: Wentylacja }
+input_number.ventilation: { friendly_name: Wentylacja }
 
 sensor.log_db_file_size: { friendly_name: 'Home Assistant Log Db', icon: 'mdi:database' }
 

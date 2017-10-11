@@ -15,10 +15,10 @@
     seconds: /15
   condition:
   - condition: template
-    value_template: '{{ states.sensor.moc_wentylatora.state != states.input_slider.ventilation.state }}'
+    value_template: '{{ states.sensor.moc_wentylatora.state != states.input_number.ventilation.state }}'
   action: 
-  - service: input_slider.select_value
-    entity_id: input_slider.ventilation
+  - service: input_number.set_value
+    entity_id: input_number.ventilation
     data_template:
       value: '{{ states.sensor.moc_wentylatora.state }}'    
 
@@ -27,10 +27,10 @@
   trigger:
   - platform: event
     event_type: state_changed
-    event_data: { 'entity_id': input_slider.ventilation }
+    event_data: { 'entity_id': input_number.ventilation }
   condition:
   - condition: template
-    value_template: '{{ states.input_slider.ventilation.state != states.sensor.moc_wentylatora.state }}'
+    value_template: '{{ states.input_number.ventilation.state != states.sensor.moc_wentylatora.state }}'
   action:
   - service: shell_command.post_fan_speed
 

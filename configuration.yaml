@@ -97,7 +97,8 @@ history:
       - sensor.since_last_boot
 
 recorder:
-  purge_days: 7
+  purge_interval: 1
+  purge_keep_days: 14
 # Use the include list to define the domains/entities to record, and exclude some of them with in the exclude list. 
 # This makes sense if you for instance include the sensor domain, but want to exclude some specific sensors.
   include:
@@ -205,7 +206,16 @@ switch update_pics:
       command_on: "/home/homeassistant/.homeassistant/scripts/get_pics.sh"
       command_off: "echo"
 
-input_slider: 
+#input_slider: 
+#  ventilation:
+#    name: Ventilation
+#    initial: 3
+#    min: 0
+#    max: 5
+#    step: 1
+#    icon: mdi:fan
+
+input_number: 
   ventilation:
     name: Ventilation
     initial: 3
