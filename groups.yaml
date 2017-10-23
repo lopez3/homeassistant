@@ -283,13 +283,13 @@
     name: System
     view: no
     entities:
-      - sensor.cpu_use
+      - sensor.cpu_used
       - sensor.cpu
       - sensor.date__time
-      - sensor.disk_use_home
+      - sensor.disk_used_home
       - sensor.since_last_boot
-      - sensor.ram_free
-      - sensor.ram_use
+      - sensor.ram_available
+      - sensor.ram_used
       - sensor.log_db_file_size
       - input_select.log_level
 #      - sensor.swap_free

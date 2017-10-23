@@ -87,13 +87,13 @@ history:
   exclude:
     entities:
       - sensor.cpu
-      - sensor.cpu_use
+      - sensor.cpu_used
       - sensor.date__time
-      - sensor.disk_use_home
+      - sensor.disk_used_home
       - sensor.moc_wentylatora
       - sensor.moon
-      - sensor.ram_free
-      - sensor.ram_use
+      - sensor.ram_available
+      - sensor.ram_used
       - sensor.since_last_boot
 
 recorder:
@@ -108,13 +108,13 @@ recorder:
   exclude:
     entities:
       - sensor.cpu
-      - sensor.cpu_use
+      - sensor.cpu_used
       - sensor.date__time
-      - sensor.disk_use_home
+      - sensor.disk_used_home
       - sensor.moc_wentylatora
       - sensor.moon
-      - sensor.ram_free
-      - sensor.ram_use
+      - sensor.ram_avaiable
+      - sensor.ram_used
       - sensor.since_last_boot
 
 # View all events in a logbook
@@ -153,6 +153,7 @@ notify:
 # tts:
 #   platform: google
 
+map:
 
 mqtt:
   broker: !secret mqtt_broker 
