@@ -5,11 +5,12 @@
       switch.lampa_wiatrolap: off
       switch.lampa_salon_kanapa: on
       switch.lampa_salon_kinkiety: on
-      switch.lampa_salon_sufit: off
+      switch.lampa_salon_sufit: on
+      light.salon_sufit: on
       switch.lampa_kuchnia_okap: on
       switch.lampa_kuchnia_sufit: off
       switch.lampa_kuchnia_zlew: on
-      switch.lampa_jadalnia_sufit: off
+#      switch.lampa_jadalnia_sufit: off
 #      switch.lampa_lazienka_dol: off
 #      switch.lampa_lazienka_dol_lustro: off
       switch.lampa_korytarz_dol: off
@@ -33,7 +34,8 @@
       switch.lampa_wiatrolap: off
       switch.lampa_salon_kanapa: on
       switch.lampa_salon_kinkiety: off
-      switch.lampa_salon_sufit: off
+      switch.lampa_salon_sufit: on
+      light.salon_sufit: off
       switch.lampa_kuchnia_okap: on
       switch.lampa_kuchnia_sufit: off
       switch.lampa_kuchnia_zlew: on
@@ -61,7 +63,8 @@
       switch.lampa_wiatrolap: off
       switch.lampa_salon_kanapa: off
       switch.lampa_salon_kinkiety: off
-      switch.lampa_salon_sufit: off
+      switch.lampa_salon_sufit: on
+      light.salon_sufit: off
       switch.lampa_kuchnia_okap: on
       switch.lampa_kuchnia_sufit: off
       switch.lampa_kuchnia_zlew: on
@@ -90,6 +93,7 @@
       switch.lampa_salon_kanapa: on
       switch.lampa_salon_kinkiety: on
       switch.lampa_salon_sufit: on
+      light.salon_sufit: on
       switch.lampa_kuchnia_okap: on
       switch.lampa_kuchnia_sufit: on
       switch.lampa_kuchnia_zlew: on
