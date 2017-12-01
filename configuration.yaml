@@ -241,7 +241,7 @@ input_select:
 
 tradfri:
   host: 192.168.88.36
-  api_key: !secret ikea_tradfri_security_code
+#  api_key: !secret ikea_tradfri_security_code
   allow_tradfri_groups: false
 
 sensor: !include sensors.yaml
@@ -250,7 +250,9 @@ switch grzanie:
     platform: modbus
     slave: 1
     coils:
-      - { name: Grzanie salon przejscie, slave: 1, coil: 8, control: hidden }
+#      - { name: Grzanie salon przejscie, slave: 1, coil: 8, control: hidden } # syntax change 0.58
+      - { name: Grzanie salon przejscie, slave: 1, coil: 8 }
+
       - { name: Grzanie techniczne, slave: 1, coil: 9  }
       - { name: Grzanie wiatrolap, slave: 1, coil: 10 }
       - { name: Grzanie kuchnia, slave: 1, coil: 11 }
