@@ -322,6 +322,10 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/brama.jpg
     name: Kamera brama
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
+    name: Kamera ptaki
+
 #  - platform: ffmpeg
 #    name: Kamera drzwi ffmpeg
 #    input: rtsp://user:pass@192.168.88.101:554/Streaming/Channels/2
@@ -375,6 +379,14 @@ binary_sensor kamera_brama:
   ssl: False
   username: !secret kamera_brama_pir_username
   password: !secret kamera_brama_pir_password
+
+binary_sensor kamera_ptaki:
+  platform: hikvision
+  host: 192.168.88.105
+  port: 80
+  ssl: False
+  username: !secret kamera_ptaki_pir_username
+  password: !secret kamera_ptaki_pir_password
 
 light: !include light.yaml
 

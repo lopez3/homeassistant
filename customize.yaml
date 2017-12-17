@@ -149,6 +149,8 @@ sensor.log_db_file_size: { friendly_name: 'Home Assistant Log Db', icon: 'mdi:da
 camera.kamera_salon: { friendly_name: Kamera salon }
 camera.kamera_drzwi: { friendly_name: Kamera drzwi }
 camera.kamera_brama: { friendly_name: Kamera brama }
+camera.kamera_ptaki: { friendly_name: Kamera ptaki }
+
 binary_sensor.living_room_motion: { friendly_name: Salon ruch }
 binary_sensor.living_room_pir_alarm: { friendly_name: Salon PIR }
 binary_sensor.camera_door_motion: { friendly_name: Drzwi ruch }
