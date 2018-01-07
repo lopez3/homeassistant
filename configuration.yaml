@@ -322,9 +322,9 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/brama.jpg
     name: Kamera brama
-  - platform: local_file
-    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
-    name: Kamera ptaki
+#  - platform: local_file
+#    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
+#    name: Kamera ptaki
 
 #  - platform: ffmpeg
 #    name: Kamera drzwi ffmpeg
