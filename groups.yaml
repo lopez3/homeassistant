@@ -43,6 +43,7 @@
       - sensor.yr_symbol
       - group.klimat
       - group.wnetrze
+      - group.netatmo
 
   lampy_view:
     view: yes
@@ -449,3 +450,15 @@
     entities:
       - media_player.yamaha_bedzin
 #      - media_player.samsung_tv_bedzin
+  netatmo:
+    entities:
+      - sensor.netatmo_indoor_co2
+      - sensor.netatmo_indoor_humidity
+      - sensor.netatmo_indoor_noise
+      - sensor.netatmo_indoor_pressure
+      - sensor.netatmo_indoor_temperature
+      - sensor.netatmo_indoor_wifi
+      - sensor.netatmo_outdoor_battery
+      - sensor.netatmo_outdoor_humidity
+      - sensor.netatmo_outdoor_radio
+      - sensor.netatmo_outdoor_temperature
