@@ -49,7 +49,7 @@
   sensors:
     temperatura_zewnetrzna_polnoc_przeliczona:
       unit_of_measurement: °C
-      entity_id: sensor.temperatura_zewnetrzna_polnoc
+#      entity_id: sensor.temperatura_zewnetrzna_polnoc
       value_template: >
         {{ states('sensor.temperatura_zewnetrzna_polnoc') }}
 # clean up - old code
@@ -64,7 +64,7 @@
 
     temperatura_zewnetrzna_poludnie_przeliczona:
       unit_of_measurement: °C
-      entity_id: sensor.temperatura_zewnetrzna_poludnie
+#      entity_id: sensor.temperatura_zewnetrzna_poludnie
       value_template: >
         {{ states('sensor.temperatura_zewnetrzna_poludnie') }}
 #      value_template: >
@@ -77,12 +77,12 @@
 #        {% endif %}
     temperatura_dol:
       unit_of_measurement: °C
-      entity_id: sensor.temperatura_salon_schody, sensor.temperatura_salon_przejscie
+#      entity_id: sensor.temperatura_salon_schody, sensor.temperatura_salon_przejscie
       value_template: >
         {{ "%.2f" | format (( states('sensor.temperatura_salon_schody') | float +  states('sensor.temperatura_salon_przejscie') | float ) / 2 ) }}
     temperatura_sypialnie:
       unit_of_measurement: °C
-      entity_id: sensor.temperatura_sypialnia_ady, sensor.temperatura_sypialnia_ewy, sensor.temperatura_sypialnia_rodzicow
+#      entity_id: sensor.temperatura_sypialnia_ady, sensor.temperatura_sypialnia_ewy, sensor.temperatura_sypialnia_rodzicow
       value_template: >
         {{ "%.2f" | format ( (  states('sensor.temperatura_sypialnia_ady') | float +  states('sensor.temperatura_sypialnia_rodzicow') | float +  states('sensor.temperatura_sypialnia_ewy') | float ) / 3 )  }}
 

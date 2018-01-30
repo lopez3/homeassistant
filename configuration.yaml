@@ -280,43 +280,43 @@ binary_sensor Grzanie:
     sensors:
       grzanie_salon_przejscie:
         value_template: "{{ states.switch.grzanie_salon_przejscie.state == 'on' }}"
-        entity_id: switch.grzanie_salon_przejscie
+#        entity_id: switch.grzanie_salon_przejscie
       grzanie_techniczne:
         value_template: "{{ states.switch.grzanie_techniczne.state == 'on' }}"
-        entity_id: switch.grzanie_techniczne
+#        entity_id: switch.grzanie_techniczne
       grzanie_wiatrolap:
         value_template: "{{ states.switch.grzanie_wiatrolap.state == 'on' }}"
-        entity_id: switch.grzanie_wiatrolap
+#        entity_id: switch.grzanie_wiatrolap
       grzanie_kuchnia:
         value_template: "{{ states.switch.grzanie_kuchnia.state == 'on' }}"
-        entity_id: switch.grzanie_kuchnia
+#        entity_id: switch.grzanie_kuchnia
       grzanie_salon:
         value_template: "{{ states.switch.grzanie_salon.state == 'on' }}"
-        entity_id: switch.grzanie_salon
+#        entity_id: switch.grzanie_salon
       grzanie_lazienka_dol:
         value_template: "{{ states.switch.grzanie_lazienka_dol.state == 'on' }}"
-        entity_id: switch.grzanie_lazienka_dol
+#        entity_id: switch.grzanie_lazienka_dol
       grzanie_pralnia:
         value_template: "{{ states.switch.grzanie_pralnia.state == 'on' }}"
-        entity_id: switch.grzanie_pralnia
+#        entity_id: switch.grzanie_pralnia
       grzanie_korytarz_gora:
         value_template: "{{ states.switch.grzanie_korytarz_gora.state == 'on' }}"
-        entity_id: switch.grzanie_korytarz_gora
+#        entity_id: switch.grzanie_korytarz_gora
       grzanie_garderoba:
         value_template: "{{ states.switch.grzanie_garderoba.state == 'on' }}"
-        entity_id: switch.grzanie_garderoba
+#        entity_id: switch.grzanie_garderoba
       grzanie_sypialnia_rodzicow:
         value_template: "{{ states.switch.grzanie_sypialnia_rodzicow.state == 'on' }}"
-        entity_id: switch.grzanie_sypialnia_rodzicow
+#        entity_id: switch.grzanie_sypialnia_rodzicow
       grzanie_sypialnia_ady:
         value_template: "{{ states.switch.grzanie_sypialnia_ady.state == 'on' }}"
-        entity_id: switch.grzanie_sypialnia_ady
+#        entity_id: switch.grzanie_sypialnia_ady
       grzanie_sypialnia_ewy:
         value_template: "{{ states.switch.grzanie_sypialnia_ewy.state == 'on' }}"
-        entity_id: switch.grzanie_sypialnia_ewy
+#        entity_id: switch.grzanie_sypialnia_ewy
       grzanie_lazienka_gora:
         value_template: "{{ states.switch.grzanie_lazienka_gora.state == 'on' }}"
-        entity_id: switch.grzanie_lazienka_gora
+#        entity_id: switch.grzanie_lazienka_gora
 
 ffmpeg: 
   ffmpeg_bin: /usr/bin/avconv
