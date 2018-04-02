@@ -223,3 +223,82 @@
 #    - wind_1d_kph [1d] # Forecasted wind speed in kph
 #    - wind_1d_mph [1d] # Forecasted wind speed in mph
 #    - wind_string # Text summary of current wind conditions
+
+#- platform: rest
+#  name: Mobile Alerts
+#  resource: https://www.data199.com/api/pv1/device/lastmeasurement/
+#  method: POST
+#  headers: 
+#    Content-Type: application/x-www-form-urlencoded
+##  payload: "deviceids=085EB94699C2&phoneid=847890155556"
+##  payload: "deviceids=0B03232527AB&phoneid=847890155556"
+#  payload: "deviceids=085EB94699C2,0B03232527AB&phoneid=847890155556"
+#  json_attributes: 
+#    - devices
+#  value_template: '{{ value_json.success }}'
+#  force_update: true
+
+
+#- platform: template
+#  sensors:
+#    mobile_alerts_wind_speed:
+#      unit_of_measurement: m/s
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[1].measurement.ws }}
+#    mobile_alerts_wind_gust:
+#      unit_of_measurement: m/s
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[1].measurement.wg }}
+#    mobile_alerts_wind_dir:
+##      unit_of_measurement: m/s
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[1].measurement.wd }}
+# The wind direction. 
+# 0: North, 1: North-northeast, 2: Northeast, 3: Eastnortheast, 
+# 4: East, 5: East-southeast, 6: Southeast, 7: South-Southeast, 
+# 8: South, 9: South-southwest, 10: Southwest, 11: West-southwest, 
+# 12: West, 13: West-northwest, 14: Northwest, 15: North-northwest
+#    mobile_alerts_rain_temp:
+#      unit_of_measurement: °C
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[0].measurement.t1 }}
+#    mobile_alerts_rain_val:
+#      unit_of_measurement: mm
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[0].measurement.r }}
+#    mobile_alerts_rain_flip:
+##      unit_of_measurement: m/s
+##      entity_id: sensor.mobile_alerts
+#      value_template: >
+#        {{ states.sensor.mobile_alerts.attributes.devices[0].measurement.rf }}
+## t1 : The measured temperature in celsius.
+## r: The rain value in mm. 0.258 mm of rain are equal to one flip.
+## rf : The flip count of the rain sensor. A flip equals 0.258 mm of rain.
+
+
+- platform: rest
+  name: Mobile Alerts 2
+#  resource: https://www.data199.com/api/pv1/device/lastmeasurement/
+  resource: http://www.data199.com:8080/api/v1/dashboard
+  method: POST
+  headers: 
+#    Content-Type: application/x-www-form-urlencoded
+    User-Agent: remotemonitor/248 CFNetwork/758.2.8 Darwin/15.0.0
+    Accept-Language: en-us
+    Content-Type: application/x-www-form-urlencoded; charset=utf-8
+    Host: www.data199.com:8080
+
+#  payload: "deviceids=085EB94699C2&phoneid=847890155556"
+#  payload: "deviceids=0B03232527AB&phoneid=847890155556"
+#  payload: "deviceids=085EB94699C2,0B03232527AB&phoneid=847890155556"
+#  payload: "devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522665356&requesttoken=446737cb9160b6568f85a2f7d4131408&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB"
+  payload: devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522668714&requesttoken=939815597c63d6e05edfd66e40618207&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB
+  json_attributes: 
+    - result
+  value_template: '{{ value_json.success }}'
+  force_update: true
