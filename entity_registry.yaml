@@ -1,57 +1,104 @@
 binary_sensor.camera_door_pir_alarm:
+  name:
   platform: hikvision
   unique_id: 0d97dab7-98c0-11b4-8328-4419b65d3fb0.PIR Alarm.1
 binary_sensor.camera_door_motion:
+  name:
   platform: hikvision
   unique_id: 0d97dab7-98c0-11b4-8328-4419b65d3fb0.Motion.1
 binary_sensor.camera_gate_tamper_detection:
+  name:
   platform: hikvision
   unique_id: 3d4cb511-a7ae-11b4-833b-28f366f2829e.Tamper Detection.1
 binary_sensor.camera_gate_pir_alarm:
+  name:
   platform: hikvision
   unique_id: 3d4cb511-a7ae-11b4-833b-28f366f2829e.PIR Alarm.1
 binary_sensor.camera_gate_motion:
+  name:
   platform: hikvision
   unique_id: 3d4cb511-a7ae-11b4-833b-28f366f2829e.Motion.1
 binary_sensor.camera_gate_disk_full:
+  name:
   platform: hikvision
   unique_id: 3d4cb511-a7ae-11b4-833b-28f366f2829e.Disk Full.1
 binary_sensor.camera_gate_disk_error:
+  name:
   platform: hikvision
   unique_id: 3d4cb511-a7ae-11b4-833b-28f366f2829e.Disk Error.1
 binary_sensor.living_room_motion:
+  name:
   platform: hikvision
   unique_id: 6bb661fb-02a9-11b4-8269-c42f904b164f.Motion.1
 binary_sensor.living_room_pir_alarm:
+  name:
   platform: hikvision
   unique_id: 6bb661fb-02a9-11b4-8269-c42f904b164f.PIR Alarm.1
 sensor.netatmo_indoor_temperature:
+  name:
   platform: netatmo
   unique_id: 0-temperature
 sensor.netatmo_outdoor_temperature:
+  name:
   platform: netatmo
   unique_id: 2-temperature
 sensor.netatmo_indoor_noise:
+  name:
   platform: netatmo
   unique_id: 0-noise
 sensor.netatmo_outdoor_battery:
+  name:
   platform: netatmo
   unique_id: 2-battery_vp
 sensor.netatmo_indoor_wifi:
+  name:
   platform: netatmo
   unique_id: 0-wifi_status
 sensor.netatmo_outdoor_radio:
+  name:
   platform: netatmo
   unique_id: 2-rf_status
 sensor.netatmo_indoor_pressure:
+  name:
   platform: netatmo
   unique_id: 0-pressure
 sensor.netatmo_indoor_humidity:
+  name:
   platform: netatmo
   unique_id: 0-humidity
 sensor.netatmo_indoor_co2:
+  name:
   platform: netatmo
   unique_id: 0-co2
 sensor.netatmo_outdoor_humidity:
+  name:
   platform: netatmo
   unique_id: 2-humidity
+binary_sensor.camera_gate_tamper_detection_2:
+  name:
+  platform: hikvision
+  unique_id: 3d4cb511-a7ae-11b4-833b-a4143724298f.Tamper Detection.1
+binary_sensor.camera_gate_disk_full_2:
+  name:
+  platform: hikvision
+  unique_id: 3d4cb511-a7ae-11b4-833b-a4143724298f.Disk Full.1
+binary_sensor.camera_gate_pir_alarm_2:
+  name:
+  platform: hikvision
+  unique_id: 3d4cb511-a7ae-11b4-833b-a4143724298f.PIR Alarm.1
+binary_sensor.camera_gate_disk_error_2:
+  name:
+  platform: hikvision
+  unique_id: 3d4cb511-a7ae-11b4-833b-a4143724298f.Disk Error.1
+binary_sensor.camera_gate_motion_2:
+  name:
+  platform: hikvision
+  unique_id: 3d4cb511-a7ae-11b4-833b-a4143724298f.Motion.1
+light.salon_lampka:
+  name:
+  platform: tradfri
+  unique_id: light-7e1461520440001a-65537
+light.salon_sufit:
+  name:
+  platform: tradfri
+  unique_id: light-7e1461520440001a-65538

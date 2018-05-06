@@ -120,10 +120,10 @@
       - binary_sensor.camera_door_pir_alarm
       - binary_sensor.living_room_motion
       - binary_sensor.living_room_pir_alarm
-      - binary_sensor.camera_gate_motion
-      - binary_sensor.camera_gate_pir_alarm
-      - binary_sensor.camera_gate_tamper_detection
-      - binary_sensor.camera_gate_disk_error
+      - binary_sensor.camera_gate_motion_2
+      - binary_sensor.camera_gate_pir_alarm_2
+      - binary_sensor.camera_gate_tamper_detection_2
+      - binary_sensor.camera_gate_disk_error_2
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia

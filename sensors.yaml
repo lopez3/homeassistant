@@ -281,24 +281,24 @@
 ## rf : The flip count of the rain sensor. A flip equals 0.258 mm of rain.
 
 
-- platform: rest
-  name: Mobile Alerts 2
-#  resource: https://www.data199.com/api/pv1/device/lastmeasurement/
-  resource: http://www.data199.com:8080/api/v1/dashboard
-  method: POST
-  headers: 
-#    Content-Type: application/x-www-form-urlencoded
-    User-Agent: remotemonitor/248 CFNetwork/758.2.8 Darwin/15.0.0
-    Accept-Language: en-us
-    Content-Type: application/x-www-form-urlencoded; charset=utf-8
-    Host: www.data199.com:8080
-
-#  payload: "deviceids=085EB94699C2&phoneid=847890155556"
-#  payload: "deviceids=0B03232527AB&phoneid=847890155556"
-#  payload: "deviceids=085EB94699C2,0B03232527AB&phoneid=847890155556"
-#  payload: "devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522665356&requesttoken=446737cb9160b6568f85a2f7d4131408&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB"
-  payload: devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522668714&requesttoken=939815597c63d6e05edfd66e40618207&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB
-  json_attributes: 
-    - result
-  value_template: '{{ value_json.success }}'
-  force_update: true
+#- platform: rest
+#  name: Mobile Alerts 2
+##  resource: https://www.data199.com/api/pv1/device/lastmeasurement/
+#  resource: http://www.data199.com:8080/api/v1/dashboard
+#  method: POST
+#  headers: 
+##    Content-Type: application/x-www-form-urlencoded
+#    User-Agent: remotemonitor/248 CFNetwork/758.2.8 Darwin/15.0.0
+#    Accept-Language: en-us
+#    Content-Type: application/x-www-form-urlencoded; charset=utf-8
+#    Host: www.data199.com:8080
+#
+##  payload: "deviceids=085EB94699C2&phoneid=847890155556"
+##  payload: "deviceids=0B03232527AB&phoneid=847890155556"
+##  payload: "deviceids=085EB94699C2,0B03232527AB&phoneid=847890155556"
+##  payload: "devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522665356&requesttoken=446737cb9160b6568f85a2f7d4131408&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB"
+#  payload: devicetoken=empty&vendorid=3b7984e0-10c4-4b24-a7c8-fe5c63848292&phoneid=Unknown&version=1.21&build=248&executable=Mobile Alerts&bundle=de.synertronixx.remotemonitor&lang=en&timezoneoffset=60&timeampm=true&usecelsius=true&usemm=true&speedunit=0&timestamp=1522668714&requesttoken=939815597c63d6e05edfd66e40618207&deviceids=0311A7526348,085EB94699C2,070CAAC50AAC,0B03232527AB
+#  json_attributes: 
+#    - result
+#  value_template: '{{ value_json.success }}'
+#  force_update: true

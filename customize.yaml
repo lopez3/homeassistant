@@ -155,11 +155,11 @@ binary_sensor.living_room_motion: { friendly_name: Salon ruch }
 binary_sensor.living_room_pir_alarm: { friendly_name: Salon PIR }
 binary_sensor.camera_door_motion: { friendly_name: Drzwi ruch }
 binary_sensor.camera_door_pir_alarm: { friendly_name: Drzwi PIR }
-binary_sensor.camera_gate_disk_full: { friendly_name: Brama dysk pełny, hidden: true}
-binary_sensor.camera_gate_motion: { friendly_name: Brama ruch }
-binary_sensor.camera_gate_pir_alarm: { friendly_name: Brama PIR }
-binary_sensor.camera_gate_tamper_detection: { friendly_name: Brama sabotaż }
-binary_sensor.camera_gate_disk_error: { friendly_name: Brama błąd dysku }
+binary_sensor.camera_gate_disk_full_2: { friendly_name: Brama dysk pełny, hidden: true}
+binary_sensor.camera_gate_motion_2: { friendly_name: Brama ruch }
+binary_sensor.camera_gate_pir_alarm_2: { friendly_name: Brama PIR }
+binary_sensor.camera_gate_tamper_detection_2: { friendly_name: Brama sabotaż }
+binary_sensor.camera_gate_disk_error_2: { friendly_name: Brama błąd dysku }
 
 group.default_column1: { friendly_name: Komfort }
 group.default_column2: { friendly_name: Sceny }
