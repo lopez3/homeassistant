@@ -117,6 +117,8 @@ sensor.wilgotnosc_zewnetrzna: { friendly_name:  Wilgotność, icon: 'mdi:water-p
 sensor.temperatura_dol: { friendly_name: Parter }
 sensor.temperatura_sypialnie: { friendly_name: Sypialnie }
 
+sensor.time: { hidden: true }
+
 sun.sun: { hidden: true }
 
 sensor.dark_sky_apparent_temperature: { friendly_name: Temperatura odczuwalna }
@@ -147,6 +149,8 @@ sensor.dark_sky_wind_speed: { friendly_name: Prędkość wiatru }
 
 sensor.moc_wentylatora: { hidden: true }
 input_number.ventilation: { friendly_name: Wentylacja }
+input_number.random_hour: { hidden: true }
+input_number.random_minute: { hidden: true }
 
 sensor.log_db_file_size: { friendly_name: 'Home Assistant Log Db', icon: 'mdi:database' }
 

@@ -435,8 +435,8 @@
      entities:
        - device_tracker.klucze_volvo
        - device_tracker.klucze_pat
-       - device_tracker.mctnwipr_krzysiek
-       - device_tracker.klucze_krzysiek
+#       - device_tracker.mctnwipr_krzysiek
+#       - device_tracker.klucze_krzysiek
        - device_tracker.b0e23522bdc7
        - device_tracker.102ab386e685
        - device_tracker.ada_s3

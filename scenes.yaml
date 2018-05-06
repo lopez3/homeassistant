@@ -27,6 +27,8 @@
 #      switch.lampa_garderoba: off
       switch.lampa_drzwi: on
       switch.lampa_taras: on
+      switch.lampa_ogrod_wiata: on
+      switch.lampa_ogrod_wjazd: on
       light.salon_lampka: on
   - name: Night
     entities: 
@@ -56,6 +58,8 @@
       switch.lampa_garderoba: off
       switch.lampa_drzwi: off
       switch.lampa_taras: off  
+      switch.lampa_ogrod_wiata: off
+      switch.lampa_ogrod_wjazd: off
       light.salon_lampka: on
   - name: Morning
     entities: 
@@ -85,6 +89,8 @@
 #      switch.lampa_garderoba: off
       switch.lampa_drzwi: off
       switch.lampa_taras: off
+      switch.lampa_ogrod_wiata: off
+      switch.lampa_ogrod_wjazd: off
       light.salon_lampka: off
   - name: Party
     entities: 
@@ -114,4 +120,6 @@
 #      switch.lampa_garderoba: off
       switch.lampa_drzwi: on
       switch.lampa_taras: on
+      switch.lampa_ogrod_wiata: on
+      switch.lampa_ogrod_wjazd: on
 #      light.salon_lampka: on

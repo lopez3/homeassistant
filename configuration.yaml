@@ -164,11 +164,11 @@ notify:
 
 map:
 
-mqtt:
-  broker: !secret mqtt_broker 
-  port: !secret mqtt_port
-  username: !secret mqtt_username
-  password: !secret mqtt_password
+#mqtt:
+#  broker: !secret mqtt_broker 
+#  port: !secret mqtt_port
+#  username: !secret mqtt_username
+#  password: !secret mqtt_password
 
 modbus: { type: serial, method: rtu, port: /dev/serial0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
 #modbus: { type: tcp, host: 192.168.88.10, port: 502 }
@@ -233,6 +233,12 @@ input_number:
     max: 5
     step: 1
     icon: mdi:fan
+  random_hour:
+    min: 0
+    max: 23
+  random_minute:
+    min: 0
+    max: 59
 
 input_select:
   log_level:
