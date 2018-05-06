@@ -360,6 +360,18 @@ shell_command:
   post_fan_speed: /home/homeassistant/.homeassistant/scripts/post_fan_speed
   get_pics: /home/homeassistant/.homeassistant/scripts/get_pics.sh
 
+switch:
+  platform: command_line
+  switches:
+    lampa_ogrod_wjazd:
+      command_on: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wjazd_on.sh"
+      command_off: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wjazd_off.sh"
+      command_state: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wjazd_state.sh"
+    lampa_ogrod_wiata:
+      command_on: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wiata_on.sh"
+      command_off: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wiata_off.sh"
+      command_state: "/home/homeassistant/.homeassistant/scripts/lampa_ogrod_wiata_state.sh"
+
 binary_sensor kamera_salon:
   platform: hikvision
   host: 192.168.88.100

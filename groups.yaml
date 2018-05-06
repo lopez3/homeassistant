@@ -274,6 +274,8 @@
     entities:
       - switch.lampa_drzwi
       - switch.lampa_taras
+      - switch.lampa_ogrod_wjazd
+      - switch.lampa_ogrod_wiata
 
   lampy_grupy:
     name: Lampy_grupy

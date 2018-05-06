@@ -54,6 +54,10 @@ switch.lampa_sypialnia_rodzicow: { friendly_name: Sypialnia, icon: 'mdi:ceiling-
 switch.lampa_taras: { friendly_name: Taras, icon: 'mdi:lightbulb' }
 switch.lampa_techniczne: { friendly_name: Techniczne, icon: 'mdi:lightbulb' }
 switch.lampa_wiatrolap: { friendly_name: Wiatrołap, icon: 'mdi:ceiling-light' }
+
+switch.lampa_ogrod_wjazd: { friendly_name: Ogród wjazd, icon: 'mdi:lightbulb' }
+switch.lampa_ogrod_wiata: { friendly_name: Ogród wiata, icon: 'mdi:lightbulb' }
+
 light.salon_lampka: { friendly_name: Salon lampka, icon: 'mdi:lamp' }
 light.salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
 
