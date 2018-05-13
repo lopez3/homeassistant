@@ -102,3 +102,19 @@ light.salon_sufit:
   name:
   platform: tradfri
   unique_id: light-7e1461520440001a-65538
+binary_sensor.tool_house_motion:
+  name:
+  platform: hikvision
+  unique_id: 4a14f632-9047-11b5-8463-a41437fd7cd5.Motion.1
+binary_sensor.tool_house_tamper_detection:
+  name:
+  platform: hikvision
+  unique_id: 4a14f632-9047-11b5-8463-a41437fd7cd5.Tamper Detection.1
+binary_sensor.tool_house_disk_error:
+  name:
+  platform: hikvision
+  unique_id: 4a14f632-9047-11b5-8463-a41437fd7cd5.Disk Error.1
+binary_sensor.tool_house_disk_full:
+  name:
+  platform: hikvision
+  unique_id: 4a14f632-9047-11b5-8463-a41437fd7cd5.Disk Full.1

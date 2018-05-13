@@ -34,7 +34,7 @@
       - group.lampy_gora
       - group.lampy_zewn 
       - camera.kamera_salon
-      - camera.kamera_ptaki
+      - camera.kamera_narzedziowy
 
   klimat_view:
     view: yes
@@ -102,7 +102,7 @@
     icon: mdi:information-outline
     entities:
       - group.system_hw
-  
+
   kamery_obraz:
     name: Kamery obraz
     view: no
@@ -110,7 +110,7 @@
       - camera.kamera_drzwi
       - camera.kamera_brama
       - camera.kamera_salon
-      - camera.kamera_ptaki
+      - camera.kamera_narzedziowy
 
   kamery_sensory:
     name: Kamery sensory
@@ -124,6 +124,11 @@
       - binary_sensor.camera_gate_pir_alarm_2
       - binary_sensor.camera_gate_tamper_detection_2
       - binary_sensor.camera_gate_disk_error_2
+      - binary_sensor.tool_house_motion
+      - binary_sensor.tool_house_disk_error
+      - binary_sensor.tool_house_disk_full
+      - binary_sensor.tool_house_tamper_detection
+
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia

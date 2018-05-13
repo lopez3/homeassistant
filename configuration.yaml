@@ -337,6 +337,10 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/brama.jpg
     name: Kamera brama
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/narzedziowy.jpg
+    name: Kamera narzedziowy
+
 #  - platform: local_file
 #    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
 #    name: Kamera ptaki
@@ -407,13 +411,13 @@ binary_sensor kamera_brama:
   username: !secret kamera_brama_pir_username
   password: !secret kamera_brama_pir_password
 
-#binary_sensor kamera_ptaki:
-#  platform: hikvision
-#  host: 192.168.88.105
-#  port: 80
-#  ssl: False
-#  username: !secret kamera_ptaki_pir_username
-#  password: !secret kamera_ptaki_pir_password
+binary_sensor kamera_narzedziowy:
+  platform: hikvision
+  host: 192.168.88.104
+  port: 80
+  ssl: False
+  username: !secret kamera_ptaki_pir_username
+  password: !secret kamera_ptaki_pir_password
 
 netatmo: 
   api_key: !secret netatmo_client_id

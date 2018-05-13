@@ -168,6 +168,10 @@ binary_sensor.camera_gate_motion_2: { friendly_name: Brama ruch }
 binary_sensor.camera_gate_pir_alarm_2: { friendly_name: Brama PIR }
 binary_sensor.camera_gate_tamper_detection_2: { friendly_name: Brama sabotaż }
 binary_sensor.camera_gate_disk_error_2: { friendly_name: Brama błąd dysku }
+binary_sensor.tool_house_motion: { friendly_name: Narzędziowy ruch }
+binary_sensor.tool_house_disk_error: { friendly_name: Narzędziowy błąd dysku }
+binary_sensor.tool_house_disk_full: { friendly_name: Narzędziowy dysk pełny }
+binary_sensor.tool_house_tamper_detection: { friendly_name: Narzędziowy sabotaż }
 
 group.default_column1: { friendly_name: Komfort }
 group.default_column2: { friendly_name: Sceny }
@@ -183,8 +187,8 @@ group.lampy_zewn:  { friendly_name: Ogród,    icon: 'mdi:spotlight-beam' }
 group.kamera_brama: { friendly_name: Kamera brama, hidden: true }
 group.kamera_drzwi: { friendly_name: Kamera drzwi, hidden: true }
 group.kamera_salon: { friendly_name: Kamera salon, hidden: true }
-group.kamery_sensory: { friendly_name: Czujki ruchu }
-group.kamery_obraz: { friendly_name: Kamery  }
+group.kamery_sensory: { friendly_name: Czujki ruchu, order: 2 }
+group.kamery_obraz: { friendly_name: Kamery, order: 1 }
 
 group.ogrzewanie_kuchnia: { friendly_name: Kuchnia }
 group.ogrzewanie_lazienka_dol: { friendly_name: Łazienka dół}
