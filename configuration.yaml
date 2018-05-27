@@ -340,6 +340,9 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/narzedziowy.jpg
     name: Kamera narzedziowy
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/furtka.jpg
+    name: Kamera furtka
 
 #  - platform: local_file
 #    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
@@ -416,8 +419,16 @@ binary_sensor kamera_narzedziowy:
   host: 192.168.88.104
   port: 80
   ssl: False
-  username: !secret kamera_ptaki_pir_username
-  password: !secret kamera_ptaki_pir_password
+  username: !secret kamera_narzedziowy_pir_username
+  password: !secret kamera_narzedziowy_pir_password
+
+binary_sensor kamera_furtka:
+  platform: hikvision
+  host: 192.168.88.108
+  port: 80
+  ssl: False
+  username: !secret kamera_furtka_pir_username
+  password: !secret kamera_furtka_pir_password
 
 netatmo: 
   api_key: !secret netatmo_client_id

@@ -109,9 +109,9 @@
     entities:
       - camera.kamera_drzwi
       - camera.kamera_brama
+      - camera.kamera_furtka
       - camera.kamera_salon
       - camera.kamera_narzedziowy
-
   kamery_sensory:
     name: Kamery sensory
     view: no
