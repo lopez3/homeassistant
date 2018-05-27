@@ -16,6 +16,7 @@
       - sensor.dark_sky_apparent_temperature
       - input_number.ventilation
       - camera.kamera_brama
+      - camera.kamera_narzedziowy
 
   default_column2:
     view: no
@@ -25,6 +26,7 @@
       - scene.movies
       - scene.night
       - scene.party
+      - camera.kamera_furtka
       - camera.kamera_drzwi
 
   default_column3:
@@ -34,7 +36,6 @@
       - group.lampy_gora
       - group.lampy_zewn 
       - camera.kamera_salon
-      - camera.kamera_narzedziowy
 
   klimat_view:
     view: yes
@@ -128,7 +129,10 @@
       - binary_sensor.tool_house_disk_error
       - binary_sensor.tool_house_disk_full
       - binary_sensor.tool_house_tamper_detection
-
+      - binary_sensor.camera_fence_2_motion
+      - binary_sensor.camera_fence_2_disk_error
+      - binary_sensor.camera_fence_2_disk_full
+      - binary_sensor.camera_fence_2_tamper_detection
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia

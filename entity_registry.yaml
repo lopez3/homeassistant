@@ -118,3 +118,15 @@ binary_sensor.tool_house_disk_full:
   name:
   platform: hikvision
   unique_id: 4a14f632-9047-11b5-8463-a41437fd7cd5.Disk Full.1
+binary_sensor.camera_fence_2_disk_error:
+  name:
+  platform: hikvision
+  unique_id: 1936c000-1490-11b3-813a-94e1ac2c5e11.Disk Error.1
+binary_sensor.camera_fence_2_disk_full:
+  name:
+  platform: hikvision
+  unique_id: 1936c000-1490-11b3-813a-94e1ac2c5e11.Disk Full.1
+binary_sensor.camera_fence_2_motion:
+  name:
+  platform: hikvision
+  unique_id: 1936c000-1490-11b3-813a-94e1ac2c5e11.Motion.1
