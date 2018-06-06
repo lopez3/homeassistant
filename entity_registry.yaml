@@ -130,3 +130,31 @@ binary_sensor.camera_fence_2_motion:
   name:
   platform: hikvision
   unique_id: 1936c000-1490-11b3-813a-94e1ac2c5e11.Motion.1
+sensor.pws_feelslike_c:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,feelslike_c'
+sensor.pws_weather:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,weather'
+sensor.pws_temp_c:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,temp_c'
+sensor.pws_wind_gust_kph:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,wind_gust_kph'
+sensor.pws_precip_today_metric:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,precip_today_metric'
+sensor.pws_pressure_trend:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,pressure_trend'
+sensor.pws_pressure_mb:
+  name:
+  platform: wunderground
+  unique_id: '@19.429000,50.718000,pressure_mb'
