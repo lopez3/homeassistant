@@ -369,6 +369,9 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/furtka.jpg
     name: Kamera furtka
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/podjazd.jpg
+    name: Kamera podjazd
 
 #  - platform: local_file
 #    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
@@ -455,6 +458,14 @@ binary_sensor kamera_furtka:
   ssl: False
   username: !secret kamera_furtka_pir_username
   password: !secret kamera_furtka_pir_password
+
+binary_sensor kamera_podjazd:
+  platform: hikvision
+  host: 192.168.88.107
+  port: 80
+  ssl: False
+  username: !secret kamera_podjazd_pir_username
+  password: !secret kamera_podjazd_pir_password
 
 netatmo: 
   api_key: !secret netatmo_client_id

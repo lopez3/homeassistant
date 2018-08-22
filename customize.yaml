@@ -172,6 +172,10 @@ binary_sensor.tool_house_motion: { friendly_name: Narzędziowy ruch }
 binary_sensor.tool_house_disk_error: { friendly_name: Narzędziowy błąd dysku }
 binary_sensor.tool_house_disk_full: { friendly_name: Narzędziowy dysk pełny }
 binary_sensor.tool_house_tamper_detection: { friendly_name: Narzędziowy sabotaż }
+binary_sensor.camera_fence_1_motion: { friendly_name: Podjazd ruch }
+binary_sensor.camera_fence_1_disk_error: { friendly_name: Podjazd błąd dysku }
+binary_sensor.camera_fence_1_disk_full: { friendly_name: Podjazd dysk pełny }
+binary_sensor.camera_fence_1_tamper_detection: { friendly_name: Podjazd sabotaż }
 binary_sensor.camera_fence_2_motion: { friendly_name: Furtka ruch }
 binary_sensor.camera_fence_2_disk_error: { friendly_name: Furtka błąd dysku }
 binary_sensor.camera_fence_2_disk_full: { friendly_name: Furtka dysk pełny }

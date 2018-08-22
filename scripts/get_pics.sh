@@ -15,6 +15,7 @@ WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O salon_tmp.j
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O drzwi_tmp.jpg http://192.168.88.101/Streaming/Channels/1/picture &
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O brama_tmp.jpg http://192.168.88.103/Streaming/Channels/1/picture &
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O narzedziowy_tmp.jpg http://192.168.88.104/Streaming/Channels/1/picture &
+WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O podjazd_tmp.jpg http://192.168.88.107/Streaming/Channels/1/picture &
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O furtka_tmp.jpg http://192.168.88.108/Streaming/Channels/1/picture &
 
 #WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrcptaki wget -q -O ptaki_tmp.jpg http://192.168.88.105/Streaming/Channels/1/picture &
@@ -26,6 +27,7 @@ mv -f drzwi_tmp.jpg /home/homeassistant/.homeassistant/www/local/drzwi.jpg
 mv -f brama_tmp.jpg /home/homeassistant/.homeassistant/www/local/brama.jpg
 mv -f narzedziowy_tmp.jpg /home/homeassistant/.homeassistant/www/local/narzedziowy.jpg
 mv -f furtka_tmp.jpg /home/homeassistant/.homeassistant/www/local/furtka.jpg
+mv -f podjazd_tmp.jpg /home/homeassistant/.homeassistant/www/local/podjazd.jpg
 
 #mv -f ptaki_tmp.jpg /home/homeassistant/.homeassistant/www/local/ptaki.jpg
 
