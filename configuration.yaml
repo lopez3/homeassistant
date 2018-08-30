@@ -234,6 +234,18 @@ switch Lampy:
     - { name: Stycznik gniazda gora,      slave: 1, coil: 1  }
     - { name: Stycznik podgrzewacze lazienki,  slave: 1, coil: 2 }
     - { name: Stycznik kuchnia,           slave: 1, coil: 3  }
+  registers:
+    - { name: L1_state,     slave: 1, register: 100, command_on: 1, command_off: 0 }
+    - { name: L1_updatereq, slave: 1, register: 101, command_on: 1, command_off: 0  }
+    - { name: L2_state,     slave: 1, register: 102, command_on: 1, command_off: 0  }
+    - { name: L2_updatereq, slave: 1, register: 103, command_on: 1, command_off: 0  }
+    - { name: L3_state,     slave: 1, register: 104, command_on: 1, command_off: 0  }
+    - { name: L3_updatereq, slave: 1, register: 105, command_on: 1, command_off: 0  }
+    - { name: L4_state,     slave: 1, register: 106, command_on: 1, command_off: 0  }
+    - { name: L4_updatereq, slave: 1, register: 107, command_on: 1, command_off: 0  }
+    - { name: L5_state,     slave: 1, register: 108, command_on: 1, command_off: 0  }
+    - { name: L5_updatereq, slave: 1, register: 109, command_on: 1, command_off: 0  }
+
 
 switch update_pics:
   platform: command_line

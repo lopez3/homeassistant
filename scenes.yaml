@@ -6,7 +6,7 @@
       switch.lampa_salon_kanapa: on
       switch.lampa_salon_kinkiety: on
       switch.lampa_salon_sufit: on
-      light.salon_sufit: on
+#      light.salon_sufit: on
       switch.lampa_kuchnia_okap: on
       switch.lampa_kuchnia_sufit: off
       switch.lampa_kuchnia_zlew: on
@@ -15,7 +15,7 @@
 #      switch.lampa_lazienka_dol_lustro: off
       switch.lampa_korytarz_dol: off
       switch.lampa_schody: off
-      switch.lampa_schody_gora: on
+#      switch.lampa_schody_gora: on
       switch.lampa_korytarz_pralnia: off
 #      switch.lampa_lazienka_gora: off
 #      switch.lampa_lazienka_gora_lustro: off
