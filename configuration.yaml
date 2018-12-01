@@ -263,6 +263,8 @@ mqtt:
 #    allow-anonymous: true / false
 #    password-file: /some/passwd_file
 
+owntracks:
+
 modbus: { type: serial, method: rtu, port: /dev/serial0, baudrate: 115200, stopbits: 1, bytesize: 8, parity: N }
 #modbus: { type: tcp, host: 192.168.88.10, port: 502 }
 
