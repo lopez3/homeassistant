@@ -103,7 +103,7 @@ history:
 #      - sensor.moon
 #      - sensor.memory_free
 #      - sensor.memory_use
-#      - sensor.since_last_boot
+#      - sensor.last_boot
 
 recorder:
   purge_interval: 1
@@ -124,7 +124,7 @@ recorder:
 #      - sensor.moon
 #      - sensor.memory_free
 #      - sensor.memory_use
-#      - sensor.since_last_boot
+#      - sensor.last_boot
   include:
     entities:
       - binary_sensor.camera_door_motion

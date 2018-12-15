@@ -110,7 +110,7 @@
     - type: processor_use
 #    - type: swap_free
 #    - type: swap_use
-    - type: since_last_boot
+    - type: last_boot
 
 - platform: cpuspeed
   name: CPU

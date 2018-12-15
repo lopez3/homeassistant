@@ -307,7 +307,7 @@
       - sensor.cpu
       - sensor.date__time
       - sensor.disk_use_percent_home
-      - sensor.since_last_boot
+      - sensor.last_boot
       - sensor.memory_free
       - sensor.memory_use
       - sensor.log_db_file_size
