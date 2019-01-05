@@ -13,7 +13,7 @@
       - sensor.wilgotnosc_salon_schody
       - sensor.temperatura_dol
       - sensor.temperatura_sypialnie
-      - sensor.dark_sky_apparent_temperature
+#      - sensor.dark_sky_apparent_temperature
       - input_number.ventilation
       - camera.kamera_brama
       - camera.kamera_narzedziowy
@@ -23,7 +23,7 @@
     entities: 
       - scene.morning
       - scene.evening
-      - scene.movies
+#      - scene.movies
       - scene.night
       - scene.party
       - camera.kamera_furtka
@@ -449,14 +449,14 @@
      view: no
      entities:
        - device_tracker.klucze_volvo
-       - device_tracker.klucze_pat
+#       - device_tracker.klucze_pat
 #       - device_tracker.mctnwipr_krzysiek
 #       - device_tracker.klucze_krzysiek
-       - device_tracker.b0e23522bdc7
-       - device_tracker.102ab386e685
-       - device_tracker.ada_s3
-       - device_tracker.c4438fdccfff 
-       - device_tracker.c0bdd1d8346e
+#       - device_tracker.b0e23522bdc7
+#       - device_tracker.102ab386e685
+#       - device_tracker.ada_s3
+#       - device_tracker.c4438fdccfff 
+#       - device_tracker.c0bdd1d8346e
 
   media_1potok:
     entities: 
@@ -479,6 +479,6 @@
       - sensor.netatmo_outdoor_humidity_2
       - sensor.netatmo_outdoor_radio_2
       - sensor.netatmo_outdoor_temperature_2
-      - sensor.netatmo_rain_zloty_potok_battery
-      - sensor.netatmo_rain_zloty_potok_radio
-      - sensor.netatmo_rain_zloty_potok_rain
+#      - sensor.netatmo_rain_zloty_potok_battery
+#      - sensor.netatmo_rain_zloty_potok_radio
+#      - sensor.netatmo_rain_zloty_potok_rain

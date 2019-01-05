@@ -227,7 +227,7 @@ scene.evening: { friendly_name: Wieczór, icon: 'mdi:weather-sunset' }
 #scene.evening: { friendly_name: Wieczór, entity_picture: "/local/icons/face.jpg" } 
 scene.night: { friendly_name: Noc, icon: 'mdi:hotel' }
 scene.party: { friendly_name: Impreza, icon: 'mdi:cake-variant' }
-scene.movies: { friendly_name: Film, icon: 'mdi:movie' } 
+#scene.movies: { friendly_name: Film, icon: 'mdi:movie' } 
 
 media_player.yamaha_potok_zone_2: { hidden: true }
 media_player.yamaha_bedzin_zone_2: { hidden: true }
