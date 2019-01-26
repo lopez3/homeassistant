@@ -85,8 +85,8 @@
 #      entity_id: sensor.temperatura_sypialnia_ady, sensor.temperatura_sypialnia_ewy, sensor.temperatura_sypialnia_rodzicow
       value_template: >
         {{ "%.2f" | format ( (  states('sensor.temperatura_sypialnia_ady') | float +  states('sensor.temperatura_sypialnia_rodzicow') | float +  states('sensor.temperatura_sypialnia_ewy') | float ) / 3 )  }}
-    time:
-      value_template: '{{now().strftime("%-H:%-M")}}'
+#    time:
+#      value_template: '{{now().strftime("%-H:%-M")}}'
 
 - platform: command_line
   name: Moc wentylatora
@@ -99,7 +99,13 @@
   value_template: '{{ value | int - 1 }}'
 
 - platform: time_date
-  display_options: 'date_time'
+  display_options: 
+    - 'time'
+    - 'date'
+    - 'date_time'
+    - 'time_date'
+    - 'time_utc'
+    - 'beat'
 
 - platform: systemmonitor
   resources:

@@ -118,6 +118,7 @@ sensor.temperatura_dol: { friendly_name: Parter }
 sensor.temperatura_sypialnie: { friendly_name: Sypialnie }
 
 sensor.time: { hidden: true }
+sensor.date_time: { hidden: true }
 
 sun.sun: { hidden: true }
 

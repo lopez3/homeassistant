@@ -305,7 +305,7 @@
     entities:
       - sensor.processor_use
       - sensor.cpu
-#      - sensor.date__time
+      - sensor.date_time
       - sensor.disk_use_percent_home
       - sensor.last_boot
       - sensor.memory_free
