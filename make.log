@@ -1,0 +1,4 @@
+sudo -u homeassistant -H /srv/homeassistant/homeassistant_venv/bin/hass --script check_config
+INFO:homeassistant.util.package:Attempting install of colorlog==4.0.2
+[01mTesting configuration at /home/homeassistant/.homeassistant[0m
+tar czf /home/homeassistant/.homeassistant/conf_backup/backup.20190126_145553.tar.gz -h --exclude='*.jpg' /home/homeassistant/.homeassistant/*.yaml /home/homeassistant/.homeassistant/scripts /home/homeassistant/makefile

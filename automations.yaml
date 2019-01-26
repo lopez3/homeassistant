@@ -1,5 +1,5 @@
-- id: change_log_level
-  alias: Change log level
+- alias: Change log level
+  id: change_log_level
   trigger:
   - platform: state
     entity_id: input_select.log_level
@@ -8,16 +8,16 @@
     data_template:
       homeassistant.components: "{{ trigger.to_state.state }}"
 
-- id: a_if_fan_speed_changes_update_slider
-  alias: 'If fan speed changes, update slider'
+- alias: 'If fan speed changes, update slider'
+  id: a_if_fan_speed_changes_update_slider
   trigger: 
-  - platform: time
-    seconds: /15
+  - platform: time_pattern
+    seconds: '/15'
   condition:
-  - condition: template
+    condition: template
     value_template: '{{ states.sensor.moc_wentylatora.state != states.input_number.ventilation.state }}'
   action: 
-  - service: input_number.set_value
+    service: input_number.set_value
     entity_id: input_number.ventilation
     data_template:
       value: '{{ states.sensor.moc_wentylatora.state }}'    
@@ -46,7 +46,7 @@
 - id: a_get_pics_every_minute
   alias: "Get pics every minute"
   trigger:
-  - platform: time
+  - platform: time_pattern
     minutes: /1
     seconds: 00
   action:

@@ -83,7 +83,9 @@ panel_iframe:
     icon: 'mdi:weather-partlycloudy'
   forecast_bedzin2:
     title: 'Będzin2'
-    url: 'https://nowe.meteo.pl/mgram.php?model=2&mgram_url=%2Fcoamps%2Fmgram%2Fmgram_pict.php%3Fntype%3D2n%26row%3D149%26col%3D86%26lang%3Dpl'
+#    url: 'https://nowe.meteo.pl/mgram.php?model=2&mgram_url=%2Fcoamps%2Fmgram%2Fmgram_pict.php%3Fntype%3D2n%26row%3D149%26col%3D86%26lang%3Dpl'
+#    url: 'http://www.meteo.pl/um/metco/mgram_pict.php?ntype=0u&fdate=2019011506&row=459&col=217&lang=pl'
+    url: 'http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=705'
     icon: 'mdi:weather-partlycloudy'
 
 
