@@ -273,7 +273,7 @@ modbus: { type: serial, method: rtu, port: /dev/serial0, baudrate: 115200, stopb
 
 switch Lampy:
   platform: modbus
-  slave: 1
+#  slave: 1
   coils: 
     - { name: Lampa Salon sufit,          slave: 1, coil: 32 }
     - { name: Lampa Salon kinkiety,       slave: 1, coil: 33 }
@@ -373,7 +373,7 @@ sensor: !include sensors.yaml
 
 switch grzanie:
     platform: modbus
-    slave: 1
+#    slave: 1
     coils:
 #      - { name: Grzanie salon przejscie, slave: 1, coil: 8, control: hidden } # syntax change 0.58
       - { name: Grzanie salon przejscie, slave: 1, coil: 8 }
