@@ -123,25 +123,25 @@
 
 - platform: moon
 
-#- platform: darksky
-#  api_key: !secret darksky_api_key
-#  update_interval: '00:10'
-#  monitored_conditions:
-##      - summary
-##      - icon
-##      - nearest_storm_distance
-##      - nearest_storm_bearing
-##      - precip_type
-##      - precip_intensity
-#    - precip_probability
-#    - temperature
-#    - apparent_temperature
+- platform: darksky
+  api_key: !secret darksky_api_key
+  scan_interval: '00:10'
+  monitored_conditions:
+#      - summary
+#      - icon
+#      - nearest_storm_distance
+#      - nearest_storm_bearing
+#      - precip_type
+#      - precip_intensity
+    - precip_probability
+    - temperature
+    - apparent_temperature
 ##     - dew_point
-#    - wind_speed
-#    - wind_bearing
-#    - cloud_cover
+    - wind_speed
+    - wind_bearing
+    - cloud_cover
 ##      - humidity
-#    - pressure
+    - pressure
 ##      - visibility
 ##      - ozone
 ##      - minutely_summary
@@ -170,15 +170,15 @@
 #      - highClouds
 #      - dewpointTemperature
 
-- platform: wunderground
-  api_key: !secret wunderground_api_key
-  monitored_conditions:
+#- platform: wunderground
+#  api_key: !secret wunderground_api_key
+#  monitored_conditions:
 #    - alerts # Current severe weather advisories
 #    - dewpoint_c # Temperature in Celsius below which water droplets begin to condense and dew can form
 #    - dewpoint_f # Temperature in Fahrenheit below which water droplets begin to condense and dew can form
 #    - dewpoint_string # Text summary of dew point#
-    - temp_c # Current temperature in Celsius#
-    - feelslike_c # Feels like (or apparent) temperature in Celsius
+#    - temp_c # Current temperature in Celsius#
+#    - feelslike_c # Feels like (or apparent) temperature in Celsius
 ##    - feelslike_f # Feels like (or apparent) temperature in Fahrenheit
 ##    - feelslike_string # Text summary of how the current temperature feels like
 ##    - heat_index_c # Heat index (combined effects of the temperature and humidity of the air) in Celsius
@@ -188,14 +188,14 @@
 ##    - location # City and State
 ##    - observation_time # Text summary of observation time
 ##    - precip_today_in # Total precipitation in inches
-    - precip_today_metric # Total precipitation in metric units
+#    - precip_today_metric # Total precipitation in metric units
 ##    - precip_today_string # Text summary of precipitation today
 ##    - precip_1d_mm [1d] # Forecasted precipitation intensity in millimeters
 ##    - precip_1d_in [1d] # Forecasted precipitation intensity in inches
 ##    - precip_1d [1d] # Forecasted precipitation probability in %
 ##    - pressure_in # Atmospheric air pressure in inches
-    - pressure_mb # Atmospheric air pressure in millibars
-    - pressure_trend # Atmospheric air pressure trend signal (+/-)
+#    - pressure_mb # Atmospheric air pressure in millibars
+#    - pressure_trend # Atmospheric air pressure trend signal (+/-)
 ##    - relative_humidity # Relative humidity
 ##    - station_id # Your personal weather station (PWS) ID
 ##    - solarradiation # Current levels of solar radiation
@@ -216,13 +216,13 @@
 ##    - UV # Current levels of UV radiation. See here for explanation.
 ##    - visibility_km # Average visibility in km
 ##    - visibility_mi # Average visibility in miles
-    - weather # A human-readable text summary with picture from Wunderground.
+#    - weather # A human-readable text summary with picture from Wunderground.
 ##    - weather_1d [12h] # A human-readable weather forecast using imperial units.
 ##    - weather_1d_metric [12h] # A human-readable weather forecast using metric units.
 ##    - weather_1h [1h] # Weather conditions in 1 hour. (e.g. “Thunderstorm” etc.)
 ##    - wind_degrees # Wind degrees
 ##    - wind_dir # Wind direction#
-    - wind_gust_kph # Wind gusts speed in kph
+#    - wind_gust_kph # Wind gusts speed in kph
 ##    - wind_gust_mph # Wind gusts speed in mph
 ##    - wind_gust_1d_kph [1d] # Max. forecasted Wind in kph
 ##    - wind_gust_1d_mph [1d] # Max. forecasted Wind in mph
