@@ -4,6 +4,7 @@
 #/usr/bin/touch /home/homeassistant/.homeassistant/scripts/fan_speed.touch
 
 # get ventilation slider state from GUI
+#NICTO=$(/usr/bin/curl -X get 192.168.88.11:8123/api/states/input_number.ventilation -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4NzA4MDQyNTcsImlzcyI6IjAzYjQzOThjZjdhMjRiZTFiZjk4NDcxZDdiMDYwYmJiIiwiaWF0IjoxNTU1NDQ0MjU3fQ.ogyViLkYH5XQXIXnE63udiNBX14rDvSDAKqf-hsx1qk')
 NICTO=$(/usr/bin/curl 192.168.88.11:8123/api/states/input_number.ventilation)
 VALFILE=/home/homeassistant/.homeassistant/scripts/fan_speed
 
