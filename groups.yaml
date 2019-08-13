@@ -17,6 +17,8 @@
       - input_number.ventilation
       - camera.kamera_brama
       - camera.kamera_narzedziowy
+      - camera.kamera_wiata
+      - camera.kamera_aleja
 
   default_column2:
     view: no
@@ -28,6 +30,7 @@
       - scene.party
       - camera.kamera_furtka
       - camera.kamera_drzwi
+      - camera.kamera_sciezka
 
   default_column3:
     view: no
@@ -37,6 +40,7 @@
       - group.lampy_zewn 
       - camera.kamera_salon
       - camera.kamera_podjazd
+      - camera.kamera_hamak
 
   klimat_view:
     view: yes
@@ -115,6 +119,10 @@
       - camera.kamera_podjazd
       - camera.kamera_salon
       - camera.kamera_narzedziowy
+      - camera.kamera_sciezka
+      - camera.kamera_wiata
+      - camera.kamera_hamak
+      - camera.kamera_aleja
   kamery_sensory:
     name: Kamery sensory
     view: no
@@ -471,14 +479,25 @@
     entities:
       - sensor.netatmo_indoor_co2_2
       - sensor.netatmo_indoor_humidity_2
+      - sensor.netatmo_indoor_max_temp
+      - sensor.netatmo_indoor_min_temp
       - sensor.netatmo_indoor_noise_2
       - sensor.netatmo_indoor_pressure_2
       - sensor.netatmo_indoor_temperature_2
       - sensor.netatmo_indoor_wifi_2
       - sensor.netatmo_outdoor_battery_2
+      - sensor.netatmo_outdoor_battery_percent
       - sensor.netatmo_outdoor_humidity_2
+      - sensor.netatmo_outdoor_max_temp
+      - sensor.netatmo_outdoor_min_temp
       - sensor.netatmo_outdoor_radio_2
       - sensor.netatmo_outdoor_temperature_2
+      - sensor.netatmo_rain_zloty_potok_battery
+      - sensor.netatmo_rain_zloty_potok_battery_percent
+      - sensor.netatmo_rain_zloty_potok_radio
+      - sensor.netatmo_rain_zloty_potok_rain
+      - sensor.netatmo_rain_zloty_potok_sum_rain_1
+      - sensor.netatmo_rain_zloty_potok_sum_rain_24
 #      - sensor.netatmo_rain_zloty_potok_battery
 #      - sensor.netatmo_rain_zloty_potok_radio
 #      - sensor.netatmo_rain_zloty_potok_rain

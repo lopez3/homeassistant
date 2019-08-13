@@ -18,6 +18,11 @@ WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O narzedziowy
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O podjazd_tmp.jpg http://192.168.88.107/Streaming/Channels/1/picture &
 WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O furtka_tmp.jpg http://192.168.88.108/Streaming/Channels/1/picture &
 
+WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O sciezka_tmp.jpg http://192.168.88.109/Streaming/Channels/1/picture &
+WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O wiata_tmp.jpg http://192.168.88.110/Streaming/Channels/1/picture &
+WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O hamak_tmp.jpg http://192.168.88.111/Streaming/Channels/1/picture &
+WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrc wget -q -O aleja_tmp.jpg http://192.168.88.112/Streaming/Channels/1/picture &
+
 #WGETRC=/home/homeassistant/.homeassistant/scripts/.wgetrcptaki wget -q -O ptaki_tmp.jpg http://192.168.88.105/Streaming/Channels/1/picture &
 
 wait
@@ -28,6 +33,10 @@ mv -f brama_tmp.jpg /home/homeassistant/.homeassistant/www/local/brama.jpg
 mv -f narzedziowy_tmp.jpg /home/homeassistant/.homeassistant/www/local/narzedziowy.jpg
 mv -f furtka_tmp.jpg /home/homeassistant/.homeassistant/www/local/furtka.jpg
 mv -f podjazd_tmp.jpg /home/homeassistant/.homeassistant/www/local/podjazd.jpg
+mv -f sciezka_tmp.jpg /home/homeassistant/.homeassistant/www/local/sciezka.jpg
+mv -f wiata_tmp.jpg /home/homeassistant/.homeassistant/www/local/wiata.jpg
+mv -f hamak_tmp.jpg /home/homeassistant/.homeassistant/www/local/hamak.jpg
+mv -f aleja_tmp.jpg /home/homeassistant/.homeassistant/www/local/aleja.jpg
 
 #mv -f ptaki_tmp.jpg /home/homeassistant/.homeassistant/www/local/ptaki.jpg
 

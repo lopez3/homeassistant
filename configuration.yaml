@@ -461,7 +461,18 @@ camera:
   - platform: local_file
     file_path: /home/homeassistant/.homeassistant/www/local/podjazd.jpg
     name: Kamera podjazd
-
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/sciezka.jpg
+    name: Kamera sciezka
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/wiata.jpg
+    name: Kamera wiata
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/hamak.jpg
+    name: Kamera hamak
+  - platform: local_file
+    file_path: /home/homeassistant/.homeassistant/www/local/aleja.jpg
+    name: Kamera aleja
 #  - platform: local_file
 #    file_path: /home/homeassistant/.homeassistant/www/local/ptaki.jpg
 #    name: Kamera ptaki
