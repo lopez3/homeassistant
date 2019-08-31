@@ -299,6 +299,7 @@
       - switch.lampa_taras
       - switch.lampa_ogrod_wjazd
       - switch.lampa_ogrod_wiata
+      - switch.lampa_wiata_kulki
 
   lampy_grupy:
     name: Lampy_grupy
