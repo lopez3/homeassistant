@@ -18,9 +18,11 @@ homeassistant:
     - type: homeassistant
     - type: trusted_networks
       trusted_networks:
-        - 127.0.0.1
+#        - 127.0.0.1
         - 192.168.88.0/24
         - 192.168.10.0/24
+
+cloud:
 
 config:
 
@@ -38,6 +40,9 @@ http:
   # base_url: example.duckdns.org:8123
   ip_ban_enabled: True
   login_attempts_threshold: 5
+#  use_x_forwarded_for: true
+#  trusted_proxies: 
+#    - 127.0.0.1
 
 
 media_player:

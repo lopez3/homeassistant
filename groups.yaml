@@ -44,7 +44,7 @@
 
   klimat_view:
     view: yes
-    icon: mdi:weather-partlycloudy
+    icon: mdi:weather-cloudy
     entities:
       - sensor.yr_symbol
       - group.klimat
@@ -265,8 +265,9 @@
     entities:
       - switch.lampa_salon_kanapa
       - light.salon_lampka
+      - light.salon_sufit
       - switch.lampa_salon_kinkiety
-      - switch.lampa_salon_sufit
+#      - switch.lampa_salon_sufit
       - switch.lampa_kuchnia_sufit
       - switch.lampa_jadalnia_sufit 
       - switch.lampa_korytarz_dol
@@ -285,7 +286,9 @@
       - switch.lampa_korytarz_pralnia
       - switch.lampa_sypialnia_ady
       - switch.lampa_sypialnia_ewy
-      - switch.lampa_sypialnia_rodzicow
+#      - switch.lampa_sypialnia_rodzicow
+      - light.sypialnia_sufit
+      - light.sypialnia_lampka
       - switch.lampa_garderoba 
       - switch.lampa_lazienka_gora
       - switch.lampa_lazienka_gora_lustro
