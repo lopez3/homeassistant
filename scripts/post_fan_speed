@@ -5,7 +5,9 @@
 
 # get ventilation slider state from GUI
 #NICTO=$(/usr/bin/curl -X get 192.168.88.11:8123/api/states/input_number.ventilation -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE4NzA4MDQyNTcsImlzcyI6IjAzYjQzOThjZjdhMjRiZTFiZjk4NDcxZDdiMDYwYmJiIiwiaWF0IjoxNTU1NDQ0MjU3fQ.ogyViLkYH5XQXIXnE63udiNBX14rDvSDAKqf-hsx1qk')
-NICTO=$(/usr/bin/curl 192.168.88.11:8123/api/states/input_number.ventilation)
+NICTO=$(/usr/bin/curl -X GET \
+  192.168.88.11:8123/api/states/input_number.ventilation \
+  -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5OWMzNDE5MzI2NzQ0YzIwOTZkMTRiNTEwODZlNDllNCIsImlhdCI6MTU3MjYyMzU5MiwiZXhwIjoxODg3OTgzNTkyfQ.FKmWt6udpgA5pa-TzOxhY_Xvdn4j8PGlqnc83oXkyXo')
 VALFILE=/home/homeassistant/.homeassistant/scripts/fan_speed
 
 # extract value from curl ouput, 1 character at position 259, and store to file which will be processed by cron. 

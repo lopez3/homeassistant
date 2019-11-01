@@ -6,107 +6,97 @@
   action:
   - service: logger.set_level
     data_template:
-      homeassistant.components: "{{ trigger.to_state.state }}"
-
-- alias: 'If fan speed changes, update slider'
+      homeassistant.components: '{{ trigger.to_state.state }}'
+- alias: If fan speed changes, update slider
   id: a_if_fan_speed_changes_update_slider
-  trigger: 
+  trigger:
   - platform: time_pattern
-    seconds: '/15'
+    seconds: /15
   condition:
     condition: template
-    value_template: '{{ states.sensor.moc_wentylatora.state != states.input_number.ventilation.state }}'
-  action: 
+    value_template: '{{ states.sensor.moc_wentylatora.state != states.input_number.ventilation.state
+      }}'
+  action:
     service: input_number.set_value
     entity_id: input_number.ventilation
     data_template:
-      value: '{{ states.sensor.moc_wentylatora.state }}'    
-
+      value: '{{ states.sensor.moc_wentylatora.state }}'
 - id: a_if_slider_moves_update_fan_speed
-  alias: "If slider moves, update fan speed"
+  alias: If slider moves, update fan speed
   trigger:
   - platform: event
     event_type: state_changed
-    event_data: { 'entity_id': input_number.ventilation }
+    event_data:
+      entity_id: input_number.ventilation
   condition:
   - condition: template
-    value_template: '{{ states.input_number.ventilation.state != states.sensor.moc_wentylatora.state }}'
+    value_template: '{{ states.input_number.ventilation.state != states.sensor.moc_wentylatora.state
+      }}'
   action:
   - service: shell_command.post_fan_speed
-
 - id: a_fired_when_homeassistant_starts
-  alias: "HomeAssistant starts"
-  trigger: 
+  alias: HomeAssistant starts
+  trigger:
   - platform: homeassistant
     event: start
   action:
   - service: shell_command.get_pics
-
-  
 - id: a_get_pics_every_minute
-  alias: "Get pics every minute"
+  alias: Get pics every minute
   trigger:
   - platform: time_pattern
     minutes: /1
-    seconds: 00
+    seconds: 0
   action:
   - service: shell_command.get_pics
-    
 - id: a_switch_on_evening_scene_20min_before_sunset
-  alias: "Switch on evening scene 20min before sunset"
+  alias: Switch on evening scene 20min before sunset
   trigger:
   - platform: sun
     event: sunset
-    offset: "-00:20:00"
+    offset: -00:20:00
   condition:
-#  - condition: state
-#    entity_id: group.all_devices
-#    state: home
   action:
   - service: scene.turn_on
     data:
       entity_id: scene.evening
-    
 - id: a_switch_on_morning_scene_20min_after_sunrise
-  alias: "Switch on morning scene 20min after sunrise"
+  alias: Switch on morning scene 5min after sunrise
   trigger:
-  - platform: sun
-    event: sunrise
-    offset: "00:20:00"
+  - event: sunrise
+    offset: 00:05:00
+    platform: sun
   condition:
-#  - condition: state
-#    entity_id: group.all_devices
-#    state: home
   action:
-  - service: scene.turn_on
+  - data:
+      entity_id: scene.morning
     entity_id: scene.morning
-
+    service: scene.turn_on
 - id: a_set_random_time_at_9pm
-  alias: "Set random time at 9pm"
+  alias: Set random time at 9pm
   trigger:
   - platform: time
     at: '21:00:00'
   action:
-    - service: input_number.set_value
-      data_template:
-        entity_id: input_number.random_hour
-        # The endpoint is omitted, see: http://jinja.pocoo.org/docs/dev/templates/#range
-        value: '{{ (range(22, 24)|random) }}'
-    - service: input_number.set_value
-      data_template:
-        entity_id: input_number.random_minute
-        value: '{{ (range(30, 46)|random) }}'
-
+  - service: input_number.set_value
+    data_template:
+      entity_id: input_number.random_hour
+      value: '{{ (range(22, 24)|random) }}'
+  - service: input_number.set_value
+    data_template:
+      entity_id: input_number.random_minute
+      value: '{{ (range(30, 46)|random) }}'
 - id: a_switch_on_night_scene_at_random
-  alias: "Switch on night scene at random"
+  alias: Switch on night scene at random
   trigger:
-    - platform: template
-      value_template: "{{ is_state('sensor.time', states('input_number.random_hour')|int ~ ':' ~ states('input_number.random_minute')|int) }}"
+  - platform: template
+    value_template: '{{ is_state(''sensor.time'', states(''input_number.random_hour'')|int
+      ~ '':'' ~ states(''input_number.random_minute'')|int) }}'
   condition:
-    - condition: state
-      entity_id: group.all_devices
-      state: not_home
+  - condition: state
+    entity_id: group.all_devices
+    state: not_home
   action:
-    - service: scene.turn_on
-      data: 
-        entity_id: scene.night
+  - service: scene.turn_on
+    data:
+      entity_id: scene.night

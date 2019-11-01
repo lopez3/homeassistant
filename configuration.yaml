@@ -24,6 +24,8 @@ homeassistant:
 
 cloud:
 
+system_health:
+
 config:
 
 #
