@@ -41,8 +41,8 @@ frontend:
 http:
   # Uncomment this if you are using SSL or running in Docker etc
   # base_url: example.duckdns.org:8123
-  ip_ban_enabled: True
-  login_attempts_threshold: 5
+  ip_ban_enabled: false
+#  login_attempts_threshold: 5
 #  use_x_forwarded_for: true
 #  trusted_proxies: 
 #    - 127.0.0.1
@@ -600,6 +600,38 @@ binary_sensor kamera_podjazd:
   ssl: False
   username: !secret kamera_podjazd_pir_username
   password: !secret kamera_podjazd_pir_password
+
+binary_sensor kamera_wiata:
+  platform: hikvision
+  host: 192.168.88.110
+  port: 80
+  ssl: False
+  username: !secret kamera_wiata_pir_username
+  password: !secret kamera_wiata_pir_password
+
+binary_sensor kamera_aleja:
+  platform: hikvision
+  host: 192.168.88.112
+  port: 80
+  ssl: False
+  username: !secret kamera_aleja_pir_username
+  password: !secret kamera_aleja_pir_password
+
+binary_sensor kamera_hamak:
+  platform: hikvision
+  host: 192.168.88.111
+  port: 80
+  ssl: False
+  username: !secret kamera_hamak_pir_username
+  password: !secret kamera_hamak_pir_password
+
+binary_sensor kamera_sciezka:
+  platform: hikvision
+  host: 192.168.88.109
+  port: 80
+  ssl: False
+  username: !secret kamera_sciezka_pir_username
+  password: !secret kamera_sciezka_pir_password
 
 netatmo: 
   api_key: !secret netatmo_client_id

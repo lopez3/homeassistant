@@ -113,8 +113,8 @@ sensor.temperatura_zewnetrzna_polnoc: { friendly_name: Zewnętrzna północ suro
 sensor.temperatura_zewnetrzna_polnoc_przeliczona: { friendly_name: Elewacja północ }
 sensor.temperatura_zewnetrzna_poludnie: { friendly_name: Zewnętrzna południe surowa, hidden: true }
 sensor.temperatura_zewnetrzna_poludnie_przeliczona: { friendly_name: Elewacja południe }
-sensor.wilgotnosc_salon_schody: { friendly_name:  Wilgotność, icon: 'mdi:water-percent'  }
-sensor.wilgotnosc_zewnetrzna: { friendly_name:  Wilgotność, icon: 'mdi:water-percent'  }
+sensor.wilgotnosc_salon_schody: { friendly_name:  Wilgotność w domu, icon: 'mdi:water-percent'  }
+sensor.wilgotnosc_zewnetrzna: { friendly_name:  Wilgotność na zewnątrz, icon: 'mdi:water-percent'  }
 sensor.temperatura_dol: { friendly_name: Parter }
 sensor.temperatura_sypialnie: { friendly_name: Sypialnie }
 
@@ -182,7 +182,21 @@ binary_sensor.camera_fence_2_motion: { friendly_name: Furtka ruch }
 binary_sensor.camera_fence_2_disk_error: { friendly_name: Furtka błąd dysku }
 binary_sensor.camera_fence_2_disk_full: { friendly_name: Furtka dysk pełny }
 binary_sensor.camera_fence_2_tamper_detection: { friendly_name: Furtka sabotaż }
-
+binary_sensor.garden_a_disk_error: { friendly_name: Sciezka błąd dysku }
+binary_sensor.garden_a_disk_full: { friendly_name: Sciezka dysk pełny }
+binary_sensor.garden_a_face_detection: { friendly_name: Sciezka wykrycie twarzy }
+binary_sensor.garden_a_motion: { friendly_name: Sciezka ruch }
+binary_sensor.garden_a_tamper_detection: { friendly_name: Sciezka sabotaż }
+binary_sensor.garden_b_motion: { friendly_name: Wiata ruch }
+binary_sensor.garden_c_motion: { friendly_name: Hamak ruch }
+binary_sensor.garden_d_disk_error: { friendly_name: Aleja błąd dysku }
+binary_sensor.garden_d_disk_full: { friendly_name: Aleja dysk pełny }
+binary_sensor.garden_d_face_detection: { friendly_name: Aleja wykrycie twarzy }
+binary_sensor.garden_d_field_detection: { friendly_name: Aleja ruch w obszarze }
+binary_sensor.garden_d_illegal_access: { friendly_name: Aleja niedozwolony dostęp }
+binary_sensor.garden_d_line_crossing: { friendly_name: Aleja przekroczenie linii }
+binary_sensor.garden_d_motion: { friendly_name: Aleja ruch }
+binary_sensor.garden_d_tamper_detection: { friendly_name: Aleja sabotaż }
 
 group.default_column1: { friendly_name: Komfort }
 group.default_column2: { friendly_name: Sceny }
@@ -191,7 +205,7 @@ group.styczniki: { friendly_name: Zasilanie, control: hidden }
 group.ogrzewanie_dol: { friendly_name: Parter }
 group.ogrzewanie_gora: { friendly_name: Poddasze }
 
-group.lampy_grupy: { friendly_name: Lampy,    icon: 'mdi:lightbulb' }
+group.lampy_grupy: { friendly_name: Wszystkie,    icon: 'mdi:lightbulb' }
 group.lampy_gora:  { friendly_name: Poddasze, icon: 'mdi:lightbulb' }
 group.lampy_dol:   { friendly_name: Parter,   icon: 'mdi:lightbulb' }
 group.lampy_zewn:  { friendly_name: Ogród,    icon: 'mdi:spotlight-beam' }
