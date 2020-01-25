@@ -315,6 +315,8 @@
     name: System
     view: no
     entities:
+      - binary_sensor.updater
+      - binary_sensor.remote_ui
       - sensor.processor_use
       - sensor.cpu
       - sensor.time_date
@@ -489,19 +491,43 @@
       - sensor.netatmo_indoor_pressure_2
       - sensor.netatmo_indoor_temperature_2
       - sensor.netatmo_indoor_wifi_2
-      - sensor.netatmo_outdoor_battery_2
-      - sensor.netatmo_outdoor_battery_percent
-      - sensor.netatmo_outdoor_humidity_2
-      - sensor.netatmo_outdoor_max_temp
-      - sensor.netatmo_outdoor_min_temp
-      - sensor.netatmo_outdoor_radio_2
-      - sensor.netatmo_outdoor_temperature_2
-      - sensor.netatmo_rain_zloty_potok_battery
-      - sensor.netatmo_rain_zloty_potok_battery_percent
-      - sensor.netatmo_rain_zloty_potok_radio
-      - sensor.netatmo_rain_zloty_potok_rain
-      - sensor.netatmo_rain_zloty_potok_sum_rain_1
-      - sensor.netatmo_rain_zloty_potok_sum_rain_24
+      - sensor.netatmo_indoor_reachability
+#      - sensor.netatmo_outdoor_battery_2
+#      - sensor.netatmo_outdoor_battery_percent
+#      - sensor.netatmo_outdoor_humidity_2
+#      - sensor.netatmo_outdoor_max_temp
+#      - sensor.netatmo_outdoor_min_temp
+#      - sensor.netatmo_outdoor_radio_2
+#      - sensor.netatmo_outdoor_temperature_2
+#      - sensor.netatmo_rain_zloty_potok_battery
+#      - sensor.netatmo_rain_zloty_potok_battery_percent
+#      - sensor.netatmo_rain_zloty_potok_radio
+#      - sensor.netatmo_rain_zloty_potok_rain
+#      - sensor.netatmo_rain_zloty_potok_sum_rain_1
+#      - sensor.netatmo_rain_zloty_potok_sum_rain_24
 #      - sensor.netatmo_rain_zloty_potok_battery
 #      - sensor.netatmo_rain_zloty_potok_radio
 #      - sensor.netatmo_rain_zloty_potok_rain
+
+  wifi_devices:
+    entities:
+      - device_tracker.pralnia
+      - device_tracker.kuchnia
+      - device_tracker.altana
+      - device_tracker.kamera_brama
+      - device_tracker.netatmo_2
+      - device_tracker.sonoszp
+      - device_tracker.patrycjas_mbp_2
+      - device_tracker.hp_dj_5520_potok
+      - device_tracker.krzysiek_dell
+      - device_tracker.pat_oneplus5t
+      - device_tracker.galaxy_s8
+      - device_tracker.oneplus7tpro
+      - device_tracker.galaxy_s10
+      - device_tracker.krzysiek_s10_2
+      - device_tracker.krzysiek_kos8_2
+  various:
+    entities:
+      - sensor.symfonisk_sound_controller
+      - sensor.salon_pilot
+      - sensor.sypialnia_pilot

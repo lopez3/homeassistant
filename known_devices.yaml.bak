@@ -1,0 +1,613 @@
+
+krzysiek_dell_stary:
+  hide_if_away: true
+  mac: E4:B3:18:0B:45:BE
+  name: Krzysiek Dell
+  track: true
+  vendor: Intel Corporate
+
+kamera_brama:
+  hide_if_away: false
+  mac: 28:F3:66:F2:82:9E
+  name: Kamera brama
+  track: false
+  vendor: Shenzhen Bilian electronic CO.,LTD
+
+kamera_drzwi:
+  hide_if_away: false
+  mac: 44:19:B6:5D:3F:B0
+  name: Kamera drzwi
+  track: false
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+weather_gateway:
+  hide_if_away: false
+  mac: 00:1D:8C:0E:B5:10
+  name: Weather gateway
+  track: false
+  vendor: La Crosse Technology LTD
+
+nas_potok:
+  hide_if_away: false
+  mac: 4C:E6:76:92:E7:B5
+  name: NAS Potok
+  track: false
+  vendor: BUFFALO.INC
+
+ada_s3:
+  hide_if_away: true
+  mac: B4:79:A7:17:56:0B
+  name: Ada S3
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+ada_s6:
+  hide_if_away: true
+  mac: C0:BD:D1:D8:34:6E
+  name: Ada S6
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+pat_mi5:
+  hide_if_away: true
+  mac: B0:E2:35:22:BD:C7
+  name: Pat Mi5
+  track: true
+  vendor: Xiaomi Communications Co Ltd
+
+ewa_3s:
+  hide_if_away: true
+  mac: 10:2A:B3:86:E6:85
+  name: Ewa 3S
+#  picture:
+  track: true
+  vendor: Xiaomi Communications Co Ltd
+
+kamera_salon:
+  hide_if_away: false
+  mac: C4:2F:90:4B:16:4F
+  name: Kamera  salon
+  track: false
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+TV_Potok:
+  hide_if_away: false
+  mac: 84:A4:66:60:7F:9D
+  name: TV Potok
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+klucze_volvo:
+  hide_if_away: true
+  mac:
+  name: klucze volvo
+  track: true
+  vendor:
+
+yamaha_potok:
+  hide_if_away: false
+  mac: 00:A0:DE:B5:C7:76
+  name: Yamaha Potok
+  track: false
+  vendor: YAMAHA CORPORATION
+
+pat_spectre:
+  hide_if_away: true
+  mac: 34:02:86:3E:48:15
+  name: Pat Spectre
+  track: true
+  vendor: Intel Corporate
+
+pat_dell_stary:
+  hide_if_away: true
+  mac: 6C:88:14:2A:B0:9C
+  name: Pat Dell stary
+  track: false
+  vendor: Intel Corporate
+
+lubiszewscy:
+  hide_if_away: true
+  mac: B4:79:A7:04:4F:AE
+  name: Lubiszewscy Samsung 
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+pat_dell:
+  hide_if_away: true
+  mac: A4:34:D9:9F:C8:4C
+  name: Pat Dell
+  track: false
+  vendor: Intel Corporate
+
+pat_mac:
+  hide_if_away: true
+  mac: 78:4F:43:99:10:45
+  name: Pat Mac
+  track: true
+  vendor: Apple, Inc.
+
+ikea_gateway:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:F5:BB:DB
+  name: ikea_gateway
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+ewa_irasiak_phone:
+  hide_if_away: true
+  icon:
+  mac: 2C:0E:3D:E6:6A:D6
+  name: Ewa Irasiak S7
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+00cdfe968550:
+  hide_if_away: true
+  icon:
+  mac: 00:CD:FE:96:85:50
+  name: Ola Adam Igor Bykowscy
+  track: true
+  vendor: Apple, Inc.
+
+00cdfe838551:
+  hide_if_away: true
+  icon:
+  mac: 00:CD:FE:83:85:51
+  name: Ola Adam Igor Bykowscy
+  track: true
+  vendor: Apple, Inc.
+
+1ce62b4647e4:
+  hide_if_away: true
+  icon:
+  mac: 1C:E6:2B:46:47:E4
+  name: Ola Adam Igor Bykowscy
+  track: true
+  vendor: Apple, Inc.
+
+e4f8ef283933:
+  hide_if_away: true
+  icon:
+  mac: E4:F8:EF:28:39:33
+  name: Alek Bykowski
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+ABB_Welcome_Gateway:
+  hide_if_away: false
+  icon:
+  mac: 80:7A:7F:01:D4:71
+  name: ABB Welcome gateway
+  track: false
+  vendor: ABB Genway Xiamen Electrical Equipment CO., LTD
+
+kamil_sobczyk_s3:
+  hide_if_away: true
+  icon:
+  mac: 6C:F3:73:6C:1A:65
+  name: Kamil Sobczyk S3
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+lukasz_telefon:
+  hide_if_away: true
+  icon:
+  mac: 40:40:A7:3D:45:7C
+  name: Łukasz Olesiejuk X3
+  picture:
+  track: true
+  vendor: Sony Mobile Communications AB
+
+
+igor_bykowski_telefon:
+  hide_if_away: true
+  icon:
+  mac: 38:0F:4A:94:2C:4E
+  name: Igor Bykowski iPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+maja_chrzanowska_telefon:
+  hide_if_away: true
+  icon:
+  mac: 98:F1:70:21:08:E7
+  name: Maja Chrzanowska telefon
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+kamera_dome_4mm:
+  hide_if_away: false
+  icon:
+  mac: A4:14:37:FD:7C:D5
+  name: Kamera Dome 4mm
+  picture:
+  track: false
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+kamera_wbox_ptaki:
+  hide_if_away: false
+#  icon:
+  mac: 28:57:BE:6C:EE:58
+  name: Kamera wbox ptaki
+#  picture:
+  track: false
+  vendor: Hangzhou Hikvision Digital Technology Co.,Ltd.
+
+kamil_sobczyk_S8:
+  hide_if_away: true
+#  icon:
+  mac: 04:D6:AA:F7:BE:DD
+  name: Kamil Sobczyk S8
+#  picture:
+  track: true
+  vendor: unknown
+
+kamil_sobczcyk_laptop:
+  hide_if_away: true
+#  icon:
+  mac: 34:02:86:74:15:76
+  name: Kamil Sobczyk laptop
+#  picture:
+  track: true
+  vendor: Intel Corporate
+
+rasp_voice_kit:
+  hide_if_away: false
+#  icon:
+  mac: B8:27:EB:95:C9:9B
+  name: Respberry Pi Voice Kit
+  picture:
+  track: false
+  vendor: unknown
+
+netatmo:
+  hide_if_away: false
+#  icon:
+  mac: 70:EE:50:2B:2B:90
+  name: netatmo
+#  picture:
+  track: false
+  vendor: unknown
+
+pat_oneplus:
+  hide_if_away: true
+#  icon:
+  mac: 94:65:2D:32:FB:6A
+  name: Pat One Plus 5T
+#  picture:
+  track: true
+  vendor: OnePlus Technology (Shenzhen) Co., Ltd
+
+milena_myphone:
+  hide_if_away: true
+  icon:
+  mac: 40:45:DA:BB:A2:0E
+  name: Milena MyPhone
+  picture:
+  track: true
+  vendor: Spreadtrum Communications (Shanghai) Co., Ltd.
+
+ada_S8:
+  hide_if_away: true
+  icon:
+  mac: 04:D6:AA:C5:3F:3A
+  name: Ada S8
+  picture:
+  track: true
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+lukasz_balaga_S7:
+  hide_if_away: true
+  icon:
+  mac: B0:72:BF:8A:79:23
+  name: Lukasz Balaga S7
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+Olaf_balaga_tablet:
+  hide_if_away: true
+  icon:
+  mac: AC:B5:7D:75:D6:77
+  name: Olaf Balaga tablet
+  picture:
+  track: true
+  vendor: Liteon Technology Corporation
+
+Pat_Mac_1:
+  hide_if_away: true
+  icon:
+  mac: 6C:96:CF:DF:75:03
+  name: Pat Mac
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+Sobczyki_2:
+  hide_if_away: true
+  icon:
+  mac: A4:14:37:34:3D:AF
+  name: a41437343daf
+  picture:
+  track: true
+  vendor: unknown
+
+krzysiek_dell_eth_old:
+  hide_if_away: true
+  icon:
+  mac: 84:7B:EB:30:FD:AA
+  name: Krzysiek Dell Eth Old
+  picture:
+  track: false
+  vendor: Dell Inc.
+
+kmtronic_ip_relay:
+  hide_if_away: false
+  icon:
+  mac: 70:B3:D5:3A:5C:DA
+  name: KMTronic Web Relay
+  picture:
+  track: false
+
+Nina:
+  hide_if_away: true
+  icon:
+  mac: 14:9D:09:5D:01:D8
+  name: Nina Huawei
+  picture:
+  track: true
+
+Lukasz Balaga S6:
+  hide_if_away: true
+  icon:
+  mac: 4C:66:41:FA:AD:C7
+  name: Łukasz Bałaga S6
+  picture:
+  track: true
+
+Kamera wjazd:
+  hide_if_away: false
+  icon:
+  mac: 94:E1:AC:2C:5D:CB
+  name: Kamera wjazd
+  picture:
+  track: false
+
+kamera_furtka:
+  hide_if_away: false
+  icon:
+  mac: 94:E1:AC:2C:5E:11
+  name: Kamera furtka
+  picture:
+  track: false
+
+UniFi AP:
+  hide_if_away: true
+  icon:
+  mac: 78:8A:20:29:2D:B5
+  name: UniFi AP
+  picture:
+  track: false
+
+Oculus_Go:
+  hide_if_away: false
+  icon:
+  mac: 2C:26:17:07:66:22
+  name: oculus_go
+  picture:
+  track: false
+
+Lukasz_Dell:
+  hide_if_away: true
+  icon:
+  mac: E4:B3:18:0F:65:FE
+  name: Lukasz_Dell
+  picture:
+  track: true
+
+FingBox_Potok:
+  hide_if_away: false
+  icon:
+  mac: F0:23:B9:EC:71:0F
+  name: FingBox_Potok
+  picture:
+  track: false
+
+krzysiek_kos8:
+  hide_if_away: true
+  icon:
+  mac:
+  name: Krzysiek OwnTracks
+  picture:
+  track: true
+
+krzysiek_dell:
+  hide_if_away: true
+  icon:
+  mac: A4:C3:F0:32:E7:45
+  name: Krzysiek_Dell
+  picture:
+  track: true
+
+Lukasz_Balaga_Mi:
+  hide_if_away: true
+  icon:
+  mac: 20:47:DA:EE:1E:9C
+  name: Lukasz Balaga Mi
+  picture:
+  track: true
+
+Kamil_Sobczyk_S9:
+  hide_if_away: true
+  icon:
+  mac: 6C:C7:EC:B0:10:05
+  name : Kamil Sobczyk S9
+  picture:
+  track: true
+
+
+OpenSprinkler:
+  hide_if_away: false
+  icon:
+  mac: 80:7D:3A:59:09:59
+  name: OpenSprinkler
+  picture:
+  track: false
+
+Unifi_AP-AC_Mesh_Garden:
+  hide_if_away: false
+  icon:
+  mac: 78:8A:20:B3:E5:56
+  name: Unifi AP-AC Mesh Garden
+  picture:
+  track: false
+
+Advantech_Wise4060_LAN:
+  hide_if_away: false
+  icon:
+  mac: 00:D0:C9:FD:61:A3
+  name: Advantech Wise4060 LAN
+  picture:
+  track: false
+
+Krzysiek_Dell_Eth:
+  hide_if_away: false
+  icon:
+  mac: C8:F7:50:5F:D4:66
+  name: Krzysiek Dell Eth
+  picture:
+  track: false
+
+Krzysiek_S10:
+  hide_if_away: false
+  icon:
+  mac: A8:DB:03:B8:05:14
+  name: Krzysiek_S10
+  picture:
+  track: true
+
+Unifi_LR_AC_parter:
+  hide_if_away: false
+  icon:
+  mac: 18:E8:29:FA:5A:07
+  name: 18 e8 29 fa 5a 07
+  picture:
+  track: false
+
+kamera_ogrod_sciezka:
+  hide_if_away: false
+  icon:
+  mac: F8:4D:FC:3E:F3:24
+  name: f8 4d fc 3e f3 24
+  picture:
+  track: false
+
+kamera_ogrod_wiata:
+  hide_if_away: false
+  icon:
+  mac: F8:4D:FC:3E:F3:3C
+  name: f8 4d fc 3e f3 3c
+  picture:
+  track: false
+
+kamera_ogrod_hamak:
+  hide_if_away: false
+  icon:
+  mac: F8:4D:FC:3E:F3:31
+  name: f8 4d fc 3e f3 31
+  picture:
+  track: false
+
+kamera_ogrod_ognisko:
+  hide_if_away: false
+  icon:
+  mac: 94:E1:AC:F6:DB:20
+  name: 94 e1 ac f6 db 20
+  picture:
+  track: false
+
+Dlink_pralnia:
+  hide_if_away: false
+  icon:
+  mac: E8:CC:18:79:32:25
+  name: e8 cc 18 79 32 25
+  picture:
+  track: false
+
+Dlink_techniczne:
+  hide_if_away: false
+  icon:
+  mac: F4:8C:EB:E5:76:42
+  name: f4 8c eb e5 76 42
+  picture:
+  track: false
+
+
+'00_00_00_00_00_00':
+  hide_if_away: true
+  icon:
+  mac: 00:00:00:00:00:00
+  name: 00 00 00 00 00 00
+  picture:
+  track: false
+
+Pat_MacBookPro:
+  hide_if_away: true
+  icon:
+  mac: A4:83:E7:9B:E0:BD
+  name: Pat MacBookPro
+  picture:
+  track: true
+
+Sonos_ZP_Sypialnia:
+  hide_if_away: true
+  icon:
+  mac: 34:7E:5C:30:A6:C0
+  name: Sonos Sypialnia
+  picture:
+  track: false
+
+Pat_OnePlus7TPro:
+  hide_if_away: true
+  icon:
+  mac: C6:49:5F:ED:CE:3F
+  name: Pat OnePlus7TPro
+  picture:
+  track: true
+
+Synology_DS218_NAS:
+  hide_if_away: false
+  icon:
+  mac: 00:11:32:B2:B1:35
+  name: Synology DS218 NAS
+  picture:
+  track: false
+
+e2_f6_89_8e_73_0c:
+  hide_if_away: false
+  icon:
+  mac: E2:F6:89:8E:73:0C
+  name: e2 f6 89 8e 73 0c
+  picture:
+  track: true
+
+9a_63_c1_a9_1a_5d:
+  hide_if_away: false
+  icon:
+  mac: 9A:63:C1:A9:1A:5D
+  name: 9a 63 c1 a9 1a 5d
+  picture:
+  track: true
+
+6e_e0_7e_ce_e1_bd:
+  hide_if_away: false
+  icon:
+  mac: 6E:E0:7E:CE:E1:BD
+  name: 6e e0 7e ce e1 bd
+  picture:
+  track: true
