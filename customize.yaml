@@ -149,6 +149,16 @@ sensor.dark_sky_temperature: { friendly_name: Temperatura DarkSky }
 sensor.dark_sky_wind_bearing: { friendly_name: Kierunek wiatru }
 sensor.dark_sky_wind_speed: { friendly_name: Prędkość wiatru }
 
+sensor.netatmo_indoor_co2_2: { friendly_name: CO2 }
+sensor.netatmo_indoor_humidity_2: { friendly_name: Wilgotność }
+sensor.netatmo_indoor_max_temp: { friendly_name: Temp. maksymalna }
+sensor.netatmo_indoor_min_temp: { friendly_name: Temp. minimalna }
+sensor.netatmo_indoor_noise_2: { friendly_name: Hałas }
+sensor.netatmo_indoor_pressure_2: { friendly_name: Ciśnienie }
+sensor.netatmo_indoor_reachability: { friendly_name: Online }
+sensor.netatmo_indoor_temperature_2: { friendly_name: Temperatura }
+sensor.netatmo_indoor_wifi_2: { friendly_name: Sygnał Wifi }
+
 sensor.moc_wentylatora: { hidden: true }
 input_number.ventilation: { friendly_name: Wentylacja }
 input_number.random_hour: { hidden: true }

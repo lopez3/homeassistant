@@ -44,9 +44,9 @@
 - id: a_get_pics_every_minute
   alias: Get pics every minute
   trigger:
-  - platform: time_pattern
-    minutes: /1
-    seconds: 0
+  - minutes: /1
+    platform: time_pattern
+    seconds: '0'
   action:
   - service: shell_command.get_pics
 - id: a_switch_on_evening_scene_20min_before_sunset
@@ -93,10 +93,9 @@
     value_template: '{{ is_state(''sensor.time'', states(''input_number.random_hour'')|int
       ~ '':'' ~ states(''input_number.random_minute'')|int) }}'
   condition:
-  - condition: state
-    entity_id: group.all_devices
-    state: not_home
+  - condition: template
+    value_template: '"{{ not is_state(''binary_sensor.someone_home'', ''on'') }}"'
   action:
-  - service: scene.turn_on
-    data:
+  - data:
       entity_id: scene.night
+    service: scene.turn_on
