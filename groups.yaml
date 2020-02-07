@@ -1,6 +1,5 @@
 #  default_view:
   potencjalny_default:
-    view: yes
     icon: mdi:home
     entities:
       - group.default_column1
@@ -8,7 +7,6 @@
       - group.default_column3
 
   default_column1:
-    view: no
     entities: 
       - sensor.wilgotnosc_salon_schody
       - sensor.temperatura_dol
@@ -21,7 +19,6 @@
       - camera.kamera_aleja
 
   default_column2:
-    view: no
     entities: 
       - scene.morning
       - scene.evening
@@ -33,7 +30,6 @@
       - camera.kamera_sciezka
 
   default_column3:
-    view: no
     entities: 
       - group.lampy_dol  
       - group.lampy_gora
@@ -43,7 +39,6 @@
       - camera.kamera_hamak
 
   klimat_view:
-    view: yes
     icon: mdi:weather-cloudy
     entities:
       - sensor.yr_symbol
@@ -52,7 +47,6 @@
       - group.netatmo
 
   lampy_view:
-    view: yes
     icon: mdi:lightbulb-on
     entities:
       - group.lampy_dol
@@ -60,7 +54,6 @@
       - group.lampy_gora
 
   ogrzewanie_view:
-    view: yes
     icon: mdi:thermometer
     entities:
       - group.ogrzewanie_kuchnia
@@ -81,7 +74,6 @@
   kamery_view:
     name: Kamery
     icon: mdi:camera-iris
-    view: yes
     entities: 
       - group.kamery_sensory
       - group.kamery_obraz
@@ -89,7 +81,6 @@
   media_view:
     name: Multimedia
     icon: mdi:music
-    view: yes
     entities:
       - media_player.spotify
       - group.media_1potok
@@ -98,20 +89,17 @@
   styczniki_view:
     name: Styczniki
     icon: mdi:flash
-    view: yes
     entities:
       - group.styczniki
 
   system_view:
     name: System
-    view: yes
     icon: mdi:information-outline
     entities:
       - group.system_hw
 
   kamery_obraz:
     name: Kamery obraz
-    view: no
     entities:
       - camera.kamera_drzwi
       - camera.kamera_brama
@@ -125,7 +113,6 @@
       - camera.kamera_aleja
   kamery_sensory:
     name: Kamery sensory
-    view: no
     entities:
       - binary_sensor.camera_door_motion
       - binary_sensor.camera_door_pir_alarm
@@ -313,7 +300,6 @@
 
   system_hw:
     name: System
-    view: no
     entities:
       - binary_sensor.updater
       - binary_sensor.remote_ui
@@ -331,7 +317,6 @@
 
   klimat:
     name: Klimat
-    view: no
     entities:
       - sensor.temperatura_zewnetrzna_polnoc_przeliczona
       - sensor.temperatura_zewnetrzna_poludnie_przeliczona
@@ -440,7 +425,6 @@
 
   wnetrze:
     name: wnetrze
-    view: no
     entities:
       - sensor.wilgotnosc_salon_schody
       - sensor.temperatura_dol
@@ -450,7 +434,6 @@
   styczniki:
     name: Styczniki
     icon: 'mdi:flash'
-    view: no
     entities:
       - switch.stycznik_gniazda_parter
       - switch.stycznik_kuchnia
@@ -460,7 +443,6 @@
 
   tracker:
      name: tracker
-     view: no
      entities:
        - device_tracker.klucze_volvo
 #       - device_tracker.klucze_pat

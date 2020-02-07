@@ -63,18 +63,19 @@ media_player:
   - platform: yamaha
     name: Yamaha Bedzin
     host: 192.168.10.222
-  - platform: spotify
-    client_id: !secret spotify_client_id
-    client_secret: !secret spotify_client_secret
-  - platform: samsungtv
-    name: Samsung TV Potok
-    host: 192.168.88.21
-    mac: 84:A4:66:60:7F:9D
+#  - platform: samsungtv
+#    name: Samsung TV Potok
+#    host: 192.168.88.21
+#    mac: 84:A4:66:60:7F:9D
 #  - platform: samsungtv
 #    name: Samsung TV Bedzin
 #    host: 192.168.88.251
 #    host: 192.168.0.20
 #    mac: 84:A4:66:60:7F:9D
+
+spotify:
+  client_id: !secret spotify_client_id
+  client_secret: !secret spotify_client_secret
 
 # Checks for available updates
 updater:
@@ -93,7 +94,8 @@ panel_iframe:
   forecast_potok:
     title: 'Złoty Potok'
 #    url: 'http://forecast.io/embed/#lat=50.7180&lon=19.4290&units=ca&name=Złoty Potok'
-    url: 'http://www.meteo.pl/php/meteorogram_id_coamps.php?ntype=2n&id=751'
+#    url: 'http://www.meteo.pl/php/meteorogram_id_coamps.php?ntype=2n&id=751'
+    url: 'http://www.meteo.pl/um/php/meteorogram_id_um.php?ntype=0u&id=751'
     icon: 'mdi:weather-partly-cloudy'
 #  forecast_bedzin:
 #    title: 'Będzin'
@@ -226,13 +228,6 @@ logger:
 
 # Track the sun
 sun:
-
-weblink:
-  entities:
-    - name: Router
-      url: http://192.168.88.1
-    - name: Drukarka
-      url: http://192.168.88.15
 
 notify:
   - name: Gmail
@@ -404,10 +399,10 @@ input_select:
       - notset
     initial: warn
 
-tradfri:
-  host: 192.168.88.36
+#tradfri:
+#  host: 192.168.88.36
 #  api_key: !secret ikea_tradfri_security_code
-  allow_tradfri_groups: false
+#  allow_tradfri_groups: false
 
 sensor: !include sensors.yaml
 
@@ -555,6 +550,7 @@ binary_sensor kamera_salon:
   ssl: False
   username: !secret kamera_salon_pir_username
   password: !secret kamera_salon_pir_password
+
 #  customize:
 #    sensor_name_1:
 #      delay: 30
@@ -647,10 +643,10 @@ binary_sensor:
       value_template: "{{ is_state('person.krzysiek','home') or  is_state('person.patrycja','home') or is_state('person.ewa','home') or is_state('person.ada','home')}}"
 
 netatmo: 
-  api_key: !secret netatmo_client_id
-  secret_key: !secret netatmo_client_secret
-  username: !secret netatmo_username
-  password: !secret netatmo_password
+  client_id: !secret netatmo_client_id
+  client_secret: !secret netatmo_client_secret
+#  username: !secret netatmo_username
+#  password: !secret netatmo_password
 
 light: !include light.yaml
 
