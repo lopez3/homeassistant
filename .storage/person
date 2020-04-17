@@ -1,0 +1,50 @@
+{
+    "data": {
+        "items": [
+            {
+                "device_trackers": [
+                    "device_tracker.galaxy_s10",
+                    "device_tracker.krzysiek_kos8_2",
+                    "device_tracker.krzysiek_s10_2",
+                    "device_tracker.sm_g973f"
+                ],
+                "id": "krzysiek",
+                "name": "Krzysiek",
+                "user_id": null
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.oneplus7tpro",
+                    "device_tracker.oneplus7tpro_2",
+                    "device_tracker.oneplus7tpro_3",
+                    "device_tracker.hd1910",
+                    "device_tracker.oneplus7tpro_4",
+                    "device_tracker.sm_g920f",
+                    "device_tracker.hd1910_2"
+                ],
+                "id": "patrycja",
+                "name": "Patrycja",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.pat_oneplus5t",
+                    "device_tracker.oneplus_a5010"
+                ],
+                "id": "ewa",
+                "name": "Ewa",
+                "user_id": "63dbdb6c44424d8592b372a18ab621d8"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.galaxy_s8"
+                ],
+                "id": "ada",
+                "name": "Ada",
+                "user_id": "6c5a1fdcb33b455da45c864e34f8f648"
+            }
+        ]
+    },
+    "key": "person",
+    "version": 2
+}

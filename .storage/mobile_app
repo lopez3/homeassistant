@@ -1,0 +1,290 @@
+{
+    "data": {
+        "binary_sensor": {},
+        "deleted_ids": [],
+        "sensor": {
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "AC",
+                    "is_charging": true
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-charging-60",
+                "name": "Battery Level",
+                "state": 61,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.7181535,
+                        19.4286046
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "36",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "1a:e8:29:fc:5a:07",
+                    "frequency": 5520,
+                    "ip_address": "192.168.88.52",
+                    "is_hidden": false,
+                    "link_speed": 240,
+                    "signal_level": -1
+                },
+                "icon": "mdi:wifi-strength-off",
+                "name": "Wifi Connection",
+                "state": "Aleja Klonow",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "AC",
+                    "is_charging": true
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-charging-70",
+                "name": "Battery Level",
+                "state": 74,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
+            },
+            "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.7181535,
+                        19.4286046
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "36",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
+            },
+            "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "7a:8a:20:2b:2d:b5",
+                    "frequency": 5280,
+                    "ip_address": "192.168.88.41",
+                    "is_hidden": false,
+                    "link_speed": 360,
+                    "signal_level": -56
+                },
+                "icon": "mdi:wifi-strength-3",
+                "name": "Wifi Connection",
+                "state": "Aleja Klonow",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
+            },
+            "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "N/A",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-80",
+                "name": "Battery Level",
+                "state": 82,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34"
+            },
+            "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.717790099999995,
+                        19.428986
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "40",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 40, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34"
+            },
+            "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "1a:e8:29:fc:5a:07",
+                    "frequency": 5520,
+                    "ip_address": "192.168.88.22",
+                    "is_hidden": false,
+                    "link_speed": 400,
+                    "signal_level": -48
+                },
+                "icon": "mdi:wifi-strength-3",
+                "name": "Wifi Connection",
+                "state": "Aleja Klonow",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "N/A",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-30",
+                "name": "Battery Level",
+                "state": 34,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.7181535,
+                        19.4286046
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "36",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "02:00:00:00:00:00",
+                    "frequency": 5680,
+                    "ip_address": "192.168.88.66",
+                    "is_hidden": true,
+                    "link_speed": 400,
+                    "signal_level": -1
+                },
+                "icon": "mdi:wifi-strength-off",
+                "name": "Wifi Connection",
+                "state": "<not connected>",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "N/A",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-80",
+                "name": "Battery Level",
+                "state": 85,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05"
+            },
+            "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.717593099999995,
+                        19.4311762
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "18",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 18, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05"
+            },
+            "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "02:00:00:00:00:00",
+                    "frequency": 5520,
+                    "ip_address": "192.168.88.57",
+                    "is_hidden": true,
+                    "link_speed": 400,
+                    "signal_level": -1
+                },
+                "icon": "mdi:wifi-strength-off",
+                "name": "Wifi Connection",
+                "state": "<not connected>",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05"
+            }
+        }
+    },
+    "key": "mobile_app",
+    "version": 1
+}

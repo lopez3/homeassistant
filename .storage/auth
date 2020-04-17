@@ -1,0 +1,628 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "krzysiek"
+                },
+                "id": "e4231370708d4685ba6014bbb54cdcf5",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "trusted_networks",
+                "data": {
+                    "user_id": "eb183882ec0643619db90b21db2b4102"
+                },
+                "id": "be85a67c7f11481ab52e2397bfc8d87c",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "legacy_api_password",
+                "data": {},
+                "id": "0ae2f55214fc461da25690b5fbd7e199",
+                "user_id": "2dd25e4ba959435bbbce87765624f315"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "pat"
+                },
+                "id": "c3706084c80b4f4b8da3961a7e78817f",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "ada"
+                },
+                "id": "e64e3305004d45689b5a393ef8d8d279",
+                "user_id": "6c5a1fdcb33b455da45c864e34f8f648"
+            },
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "ewa"
+                },
+                "id": "1648bb90dbcc4d6c8e846f3697415cf9",
+                "user_id": "63dbdb6c44424d8592b372a18ab621d8"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-04-16T19:59:21.690496+00:00",
+                "id": "1e74aa6067e94e45a84a8125bf2dadb3",
+                "jwt_key": "10ea85262f32aafb11c00295de0dcaf2542a2115735bc1be3af95ed971b2834386659a85723a2568195af833934ab62b4af6b316a44ed9a277871375bda11733",
+                "last_used_at": "2019-05-09T07:43:17.869406+00:00",
+                "last_used_ip": "192.168.10.253",
+                "token": "78b856d977928c589cb0709adc8b8b7ae4fee1bb231737fcec47c6aa41e8b65dc1c8f336310f295c173f04c7684e2176e0372968d5ca4b57e6b109a9c4db0bcd",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-05-09T19:28:09.646775+00:00",
+                "id": "a7802257667d4320a91f80028c8456bf",
+                "jwt_key": "470c7299f12d9d79aea49ca33eebbf7e90feef076a3e8ccf969a9e2faac4e785ace71b2b340de5c15a036e8247640116b9a240a7c803c18842deab64481c6ae1",
+                "last_used_at": "2020-02-17T14:55:30.588020+00:00",
+                "last_used_ip": "10.0.0.1",
+                "token": "aa5bbc05eafe57318e4e50f51d91c63ef3fac5be5489e7deb651b107ca47a43bbd3890a4806d51657e08a20da0cc2bff9bee6ae485f2b37914fe94c556b99f74",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2018-09-21T20:20:06.210874+00:00",
+                "id": "19811ad9de3843de872e817fc2c302be",
+                "jwt_key": "249a3d12cde3ef841cc6e110fcb3f0585cffb6c7ff81b6dfbe37be24ed182037aa7522b184f6aaed640bdd7aaee5a6b6f330cfe2931215cc240aa6ce146ff9d6",
+                "last_used_at": "2018-09-21T20:20:06.211200+00:00",
+                "last_used_ip": "192.168.88.26",
+                "token": "f0f45992346525140c1005e64b4e4a0edb4e0f13deedf4cd66d0af3ac60e5a66e448822f3e26b3e593516ab2926fe0c422b5d9f05c453963005d5d214b02adf0",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-07-22T13:02:05.669674+00:00",
+                "id": "e9c2f18c6fc54fc7b8dc63885580a02e",
+                "jwt_key": "874704502765012b25d1346ab39dcb92787e786f1ed373a8ac12e093016903f1c717a72cdc73676206c37c4518680652fc1dd827bf5543e4e5ce141b0e09fe53",
+                "last_used_at": "2019-10-21T03:34:11.503587+00:00",
+                "last_used_ip": "192.168.10.221",
+                "token": "5ce4ced4eb1982ddfb5e35514bea5911ea737625c4658420ce27932000e8d4cebc6ff8a823e78a3ec9a90d1ef2240b51ff23a8a7739eadc1ee14378ff59176b6",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-19T09:29:21.634151+00:00",
+                "id": "52a61f10f75c4e29b42935a8c2be077a",
+                "jwt_key": "faa9e82b61fd52397743bd3ca85ba18a2fb82a3d51b6de00bf9590d26cff6640db159c2a09e6dc77c1479eda79e719d3b4d758ab0d37d3d4e2e5d3cba23947d0",
+                "last_used_at": "2020-03-23T08:48:41.316510+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "2394e614d84234e07efcf22601ccda7ce7ddf9ebd911802c3d0e4534deb07f3ed09d927f61268e188fbb3d3d81e9518f4614e735360ef554ee67a0248f1680e5",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-09-23T06:12:56.072968+00:00",
+                "id": "22641dc0869c45e9a2d39de837e79d07",
+                "jwt_key": "22d1012eea83d698540cda0149421a180c6dc50a1c7366ff5c3051c931362b7a22c1e9cfb706b9e12ae7fff7937987ce3cb6a599b19b93996dc423c04892a70e",
+                "last_used_at": "2019-09-23T06:12:56.073290+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "239a837122bc178a10c9e34a13dee5f410809db6dc2f9e94b1437768348270e7cba32f100e85d30ee467c9c3737eae534860bd8e26454c15223ed43847513f26",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-16T05:40:53.816837+00:00",
+                "id": "c08dcafe56c14225a5f720a08bbf8666",
+                "jwt_key": "9d91dc768e82ddfb649c03fecbaf844c49d85f82ba4881249b3ba1ff80e940b0414bda53eaf0415874098915f988c87f0909370f2f703e64a0a923ca8eb87c68",
+                "last_used_at": "2019-10-16T05:40:53.817238+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "9c21babf6d8c69dec304a33143ad59804f2fffc961e5da218cc5054a87add089a620b7eee90c7207e3ebda336cb0b8aa0e23742889e6f8ed7ecd990ae6a2dd33",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-17T06:09:54.702945+00:00",
+                "id": "aac93c0ebd904d869439660977213240",
+                "jwt_key": "d505518c4acff31691e42006257b70e852d1a202f4d2dfc7b4b95effab4545730ef5a7389ae777be8800ef2a2908749d070600dfa719526e9d273aebef934f31",
+                "last_used_at": "2019-10-17T06:09:54.703473+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "cb8982913d2d4496b655a074a46eae2f41397cbadef877ea55b6473b660c28f35b35daa84819f95391ba3e783b8e278275548bb3f8602f6fa3e601e670335c69",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-21T09:18:50.185703+00:00",
+                "id": "e404a3a41dbd4a818cdf256325ca7497",
+                "jwt_key": "ed10580904782e88febb094c3e43e6a2311403035355efc25a8dade380038ceb3bad1bbc12a9f52c2d97e028ea4a5a31993003307c86a6362d1d99c3fab3d27d",
+                "last_used_at": "2019-10-21T09:18:50.186439+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "68c08d27c8c84f8ca4f16ae8e566ac2f6d76aa21db9b2e0fce3c5e11f23f5a0aa44218fa33b7f5ca1876c8d6c6a441c5a87ac8f4a9680a6ab6c5a3621b0eeea1",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-21T14:06:38.076337+00:00",
+                "id": "c8484d3a37884e43ad549b191c3e45f6",
+                "jwt_key": "4af9d40decb19be7096941d8c62675060022699af36f03876f150fd890648039fddcc92cb0267eebc82e0ee618729d4b8ef75d0b0fcd38cccb5f3e9c0a5c56ce",
+                "last_used_at": "2019-10-21T17:26:04.330726+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "c74daae73da556837a6c3a839632ae12249616bab9d04dbcbe996aae3f80f50d92413f3f62060d61c82ac98de1f8318b60d5312d4fe1fdf8cb6e5d6580bc31d2",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-22T16:04:36.358063+00:00",
+                "id": "5d35687f3ef04a0cad0bfb8d65e590cb",
+                "jwt_key": "854a5696f3b1a209e8c86f44495788cc16e5dd3ef774ebc00fc880839856c787546baf5eac2a1ce961a34b90700dfb26633adb59cef80008a9cb8e9b1330cb15",
+                "last_used_at": "2019-10-22T16:04:36.358517+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "bfae31ef00f58813fe1c0fc2a0d720ab6a3a009dc8cfb7db1add8e4bcd3892d057873e4d650c4033bf5a426a1ea5da501f865ee927f9bf8db58d2fc100b07e53",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-10-23T04:34:10.899490+00:00",
+                "id": "0de8e302eb8f4e539455bbe8c3f226c1",
+                "jwt_key": "9d9b83f2610ef550faa07efee92450f62dd19b8810e3b565989fc94c31061e6b5a3c077440b208fd5e982d0b3620e31ea26646661246c416d5fa5e895a09ac59",
+                "last_used_at": "2019-10-23T05:50:34.719291+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "5a22e9edd021bdc40f5e07d2ad73065f4eb6fca98b69abf3f7cb1ec7136ead5981ef6c47745cebb9f3f00e2c15a1d06bb94fc8efd1b4beab9447031a12fd993a",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-10-26T05:08:13.000129+00:00",
+                "id": "28873a3a54e642b38a0103849274d85f",
+                "jwt_key": "9bfd4ed54d24ddababe00ec35376f680484dbe3224b37e836f5152b3adfd8d700d0f444a7a21d068f52f36b0b8d811ce64ab55eafcb0ee0318bc679968e68ca1",
+                "last_used_at": "2019-12-20T20:34:00.259108+00:00",
+                "last_used_ip": "192.168.88.52",
+                "token": "0886e0ddf99c3daa09990b95be88d099484590a3eacfad86bf3c5be7f814067226a3b9e53957f90e12e0eb06ae871abddff339c7ddbb5e4c1c06ae8993eb4f79",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-11-01T14:22:27.808281+00:00",
+                "id": "d0becba038b748b087e571f1633b15a9",
+                "jwt_key": "5de5bfa0246249ed86fa4838d066abc5b47200bda0d2e403923c32a7610368ce9a3742815ca7c63b9001f8939c0c210f7f8ab5dcfd8cf2d17e776344d285401e",
+                "last_used_at": "2019-11-01T15:00:31.400507+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "de1b1356b42d6db23bfd0eea251aa24f44fe7495a2a6d15878d9d9f92b4ed07b8fa1da74a7a528c43d9d12d80a78b43d362a53c5a043af1aacef18106c00171c",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 315360000.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": "post_fan_speed",
+                "created_at": "2019-11-01T15:53:12.131579+00:00",
+                "id": "99c3419326744c2096d14b51086e49e4",
+                "jwt_key": "e1c857fe4e6eaf0ca8fb41c49c388612bf4ce5404c1c5a2157af6c5173e0d09e8b36b34e75c9acc3e384fa44253e88019fd2aa2e7d5512aeeb4ee500d82ad7bb",
+                "last_used_at": "2019-11-01T15:53:12.131976+00:00",
+                "last_used_ip": null,
+                "token": "41bd9f1cc025498d48dbd685069fa3ab99e3038c93bd0fc58ac9c9de78fb573701d43d3980dfe10ad09a2dc37dbdb349c416012c6329b536f04058706a9eaaff",
+                "token_type": "long_lived_access_token",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-11-11T17:07:08.594251+00:00",
+                "id": "0dbc8e901c184589b2ce3549ccbab3c3",
+                "jwt_key": "22f049a1f7684b4f2348f88e5e0e6e13fc639285cab637f19b726ed81c5e247237848b03669432e7f9eb980b6689c5de0d29d8b76805e1cdb7cad09f7f61e6e6",
+                "last_used_at": "2019-11-11T17:07:08.594711+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "5fd1cc61735fc7747086970cd1f595925bb14f8c5f66bd2cf4ce54e146373996b87ed290825fb7d3edf183c3f730f5ce1adfe068b7b3fd874df95a4cb480c75a",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-11-20T05:56:15.405902+00:00",
+                "id": "368f5956dfc4429ba8cbeb0966c0409d",
+                "jwt_key": "40abc63d72497bf2b168320be0663cee0af837d180eac3f9cade6d5b4815f5c4a106aa146308449003157dd545bb2d75811da8c68771c90979396644e38630a2",
+                "last_used_at": "2019-11-20T05:56:15.406189+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "08f8e35c784f12a88b4cd2360a8da59a0867b216d45cbf218d53928e5fabfae89d1220a44015d98212912eacb3ec13e5a7908e0fbe3481daec3ecc461c902204",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2019-11-26T06:34:13.191472+00:00",
+                "id": "317074f1de644d1d9c52f4b38ff095b5",
+                "jwt_key": "4ebb9e86339d7b924a8b74054f28be2fc897e3baaff1e4a597bb66aad2cfb79fa76fa7f8b99e5806b243cd7f14f4d95f41e29e9f5fa975536423b54631722e2b",
+                "last_used_at": "2020-04-16T22:22:48.245241+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "97dc2eb55defefbb6a304e5e206f4fc2590087a995cbee457342c691e58931a5e7f3fc8262470687ae8c33708bbebbc6472eb606b35d971209bdc19aaf283b18",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2019-12-01T20:13:23.816107+00:00",
+                "id": "eb3cfee1240840c5ab1a68c6028bac29",
+                "jwt_key": "37208aace6601b1163835eb4958e3283bc97c995a39853ea3303358f4f744a426fe66de2640038fd5937c05124062e7da536cab7b41b3301154559536749e146",
+                "last_used_at": "2019-12-01T20:13:23.816459+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "068a45fb3523e77b673bd23e37c862cd3f2c724d134ef5ba72e065a9ef7591a531efd3a6b1421bbc11c76110484757f0530a7d62ea7e502cc0c41b50cee7d6da",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-12-29T11:25:59.879694+00:00",
+                "id": "0f515e9f18fa45bab88082f78ffc1a2e",
+                "jwt_key": "61363100a332273817718ebfeaf4941fb8db9b632b0321ec767618442847b97a9fe780a37c17e7e09d32377fb1544fa8b8f44461fc327f63fd775ed152f62d1e",
+                "last_used_at": "2020-04-03T18:28:36.241113+00:00",
+                "last_used_ip": "192.168.88.52",
+                "token": "c7ccb02c47710e43629d082d3e2be8131e022a470f94215cb662cefeec97bf9a461cb64009fee0b1e70793a65df28f758f2a312c170b8d42297a747bff21344d",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2020-01-18T06:20:48.872412+00:00",
+                "id": "b0e5a661060d43cea38fd31acd7afee2",
+                "jwt_key": "85bae6af9448eb8c7e1363a703deaff513ee43b683e3c3ff04fb4b979f66614149e4d1fa417aeaafa3e02ea37379c08c9edc2b38c9298a8b9cc1e826ca6fd2a0",
+                "last_used_at": "2020-01-18T06:20:48.872760+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "e8027426cca27b9e6a7c5737fe6778646fe29b376ee6186fe7cf1f407e6be68fc16539ca383e1c98a15189574a3cf9283fb3a553d787a6f164907bba9e03d3be",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2020-01-21T06:52:56.416115+00:00",
+                "id": "f2c2faccc58f43ddb613a38e280d40ae",
+                "jwt_key": "6d863ddc4d454a05c1ef0b8aad6f95dc120d435140a1a39012760bb99b83a263e9729fad40eca2dd66cbdfe17e493aaaa96cdf4ae4d1bb5bd97993b4f63b1dec",
+                "last_used_at": "2020-01-21T06:52:56.416738+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "5e90a51e34bceff9684408a64aa5e46c54433a5fc934b393b76b03b53ef750f362fcebf1997941a604feb0614dae691ee4e015ffbb2eb2e0b3b94ee35cbbd71b",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2020-01-22T05:56:21.462258+00:00",
+                "id": "959e0fa8f7be4149b1180e3b348e6326",
+                "jwt_key": "e28b95e03c639d884a5dfcf0a46657adca4c56ce1538957b83c65dc0b2d9d3c891dd99a0ab75d97bf92003f8e54861bf7ba5315b3d17d7915786021c2ae89d62",
+                "last_used_at": "2020-01-22T05:56:21.462772+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "b4f2fa529b386e7116d1c3146b187b50e89a46b113f9e5a868f96c63a491130361024452419ba0416cc57dc187cc06505eacf52e2bd2e08bc832431940eb60df",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://ns1g9yr34b3l42rkwtfuz2dz7kt15st7.ui.nabu.casa/",
+                "client_name": null,
+                "created_at": "2020-01-23T06:20:40.540770+00:00",
+                "id": "645a4ecc325f44f69c65cb034f2a110f",
+                "jwt_key": "f5a0a032d07961864113ab71f4c1e366b1de27f8940d5726cbb6f95cec0b159c8bb5abe72f327ba44c316dda7056f8596577c603b15c5c696ba67242ea08742b",
+                "last_used_at": "2020-01-23T06:20:40.541117+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "a6b4810efada36b1ee27792a924f9d909197f799a3b98fb78c44a2ac05207af97aa3dbe925a2bc0cd66191516f5e5fb14560ce5e45d6496ed7f96b8262fe4fd6",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2020-02-19T21:40:10.150966+00:00",
+                "id": "ed3e4d49edb247ca869ab731a527c1c9",
+                "jwt_key": "61e33fca6d78b63c7429587df86230ba1587fb91d17aa69be34d7dea2526eb465f652893977aea1de43256531067166ff3161085f9ff47080b2c07066861bfeb",
+                "last_used_at": "2020-04-17T18:21:17.202804+00:00",
+                "last_used_ip": "192.168.88.128",
+                "token": "9e55c5a84f167635f8549703b410489f18c8eeeb5508943e2518ae00cfa6e70003c22c8a65956b70b10769a1a388af57f437cddd8fb8a042ac4e7a8b2252fe81",
+                "token_type": "normal",
+                "user_id": "eb183882ec0643619db90b21db2b4102"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-04-12T20:51:26.014449+00:00",
+                "id": "10760327230b45b4ad9ea36721cda4f2",
+                "jwt_key": "024e2818ac25d22285b7892c244bf2b57dd8764108376cb5ce61e3383e9f261e90c6995dd4fa83757b6a2cb1187b88a2db5e86c0555fc9096b1b2516e97337c9",
+                "last_used_at": "2019-07-22T13:40:02.458851+00:00",
+                "last_used_ip": "192.168.88.40",
+                "token": "811b8a81f3e37d298f51f79190bebd0ac933ca3f0c7b2ddda9a530a1fbd6bded7dd9823a279524fb86c778bd6be2dff0109280e614b7e5018785fe4af769c58f",
+                "token_type": "normal",
+                "user_id": "2dd25e4ba959435bbbce87765624f315"
+            },
+            {
+                "access_token_expiration": 315360000.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": "Ventilation token",
+                "created_at": "2019-04-16T19:50:57.543777+00:00",
+                "id": "03b4398cf7a24be1bf98471d7b060bbb",
+                "jwt_key": "447e97bf33b352032d6281245fbda26591a1cdbf7abc187b3a25359bf7fd7e5caa61aa39e51caf87d3f45dec64cc3464e4d987b53902b40c26d9f1d96e9bfacc",
+                "last_used_at": "2019-04-16T19:50:57.544198+00:00",
+                "last_used_ip": null,
+                "token": "a5df9b260e00402250b3454790f51deab16c0985ec3c0aac322fc1d8c6545471df684e695dd6af26fa456988d9bfe5119181440893483fe96ee4ae878d40aaed",
+                "token_type": "long_lived_access_token",
+                "user_id": "2dd25e4ba959435bbbce87765624f315"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-03-15T21:01:58.372041+00:00",
+                "id": "6bdf116538bc4c8c99dd8c90ee85ad37",
+                "jwt_key": "7be3f01c8ecaf7a4c70f3a429414f044adba546f484413ed7516b0e57a3f1b6c662a9eab87d57611e34c2e673cdf9d6c24d050012938907d13e6a304e4f6c967",
+                "last_used_at": "2019-04-07T06:18:21.205931+00:00",
+                "last_used_ip": "192.168.88.40",
+                "token": "514f251982d77a39c2bd9e227be59624f4af2dfcddb4bd29642792c866c7140a6246a9b9ef7cf0300fccb9a3f5d5e86bbf1e56cd9d351b7e7c69dee9bf1b5baf",
+                "token_type": "normal",
+                "user_id": "2dd25e4ba959435bbbce87765624f315"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-11-23T22:29:08.682837+00:00",
+                "id": "a652973946f84cfe963b970f93840b3c",
+                "jwt_key": "09df2147eba720e5fe0768cd3f739a0c06409dc61ca87246d0fe632ae0fe4ecf1d05311974239d265e0252cafacb39286169eda68a307b521cd1ff5eea6a98de",
+                "last_used_at": "2019-12-26T19:20:57.788643+00:00",
+                "last_used_ip": "192.168.88.65",
+                "token": "2aadb6fef9461f60859a39aa3708ad3daab9ef6dee377a7b218fd7082fcc4e0f93b4fe00fa13d847a61abf3492f408e92be6a615e9613251605d883d31a12a41",
+                "token_type": "normal",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.88.11:8123/",
+                "client_name": null,
+                "created_at": "2019-12-27T20:17:45.486602+00:00",
+                "id": "39fd5b6b64664672b16ed123e753461c",
+                "jwt_key": "5124dd1097e3fcecee43ba8ad6cb32870a7756597b4970ef357232542ffdac96c9e302c4dd3852aa25da728096cf1c662e2a58dbbfa5ad1f11535b5c9fb15357",
+                "last_used_at": "2020-04-06T03:47:23.566558+00:00",
+                "last_used_ip": "192.168.88.57",
+                "token": "140fc6308eb20bb3c17ad49ba45f1b1122161b75095b0aaeda37f05c65a341d6afffa4d8ba18f06deedb9cda74969a72f54e92ec762dc07a6249e850ad5bc98f",
+                "token_type": "normal",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-01-25T13:22:45.087382+00:00",
+                "id": "0c55948dc4ce4628ab639f360f82cf91",
+                "jwt_key": "3adeefc84eb182569b2faa7fb64b0601494f8452431edad21339dba285dd76bba2a3c880342604e8d2e408dc68db65f2b32bd201390c358fde841cfeb5fabc55",
+                "last_used_at": "2020-04-06T03:42:22.152433+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "59aaa96db04bab00bf9592e00e09e6d982384bec6d7a6c621fa0bfbb5ce377695e3a9ee384b3dce5760b275cddea97940bda55d7fe96bb475b95a451d334333a",
+                "token_type": "normal",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-04-06T03:20:25.471804+00:00",
+                "id": "4c84ba59d2a04f939a54d2706d34f08e",
+                "jwt_key": "35c4af3b59e6edd55ca3f9512d8b99ee55d49cc207b1f48eea3bb898626fff36edd10c4666b8813fdfbeb72833e6076ff8ae306e6111758890def9bb7a3fe110",
+                "last_used_at": "2020-04-09T18:22:47.804247+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "621b6c05bfdf993891ad16fd4c6baccc01f29483a24ceffa4f662b67af787b8bf959eb0ed46aa6136c2e0942b8004757378e751cafbea64289ff28a13e7d3538",
+                "token_type": "normal",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-04-10T20:20:23.755809+00:00",
+                "id": "f2cd4422ae924cc98abba243db9b8199",
+                "jwt_key": "1347f216166e14f45247406a71e6dae41f5265fc4731ca29cc88e20e99f1af0f410097e32d54989cc90b2712b892c24b02be41a694ecad5f9b5ecb4bda06da9f",
+                "last_used_at": "2020-04-16T20:25:29.985294+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "1cdf25cd27293dce5c4b97fc11d07b4616f19a7b5d5fd090d90b2261d3da046b65821c1de2b41c7fde3d301ee2426c72b415eca6f69534829c555a01b9e0025a",
+                "token_type": "normal",
+                "user_id": "c5fb063629c343ecbab4c741d99648f2"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-01-25T09:58:20.790178+00:00",
+                "id": "f60daeb5b3b2418486c7af9628c04743",
+                "jwt_key": "4cff2ce227fd29d2cf95a5918dc344efeb3cfe459d0781853a1195119bfe2e1ee67b6c3b42e2b9ff4f813d50aa1af5dbae4e8ec1ffe1bf8a596314b33f5c7398",
+                "last_used_at": "2020-01-26T15:31:25.112547+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "753bbf67ad787c6b593ea7ed4a59f30cbec4018162049aab1083a52a66bcce40aed26ec2b55bb4616d0cb5797d2e22e1f6c37a94124e63f7ee2290b936834062",
+                "token_type": "normal",
+                "user_id": "6c5a1fdcb33b455da45c864e34f8f648"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "created_at": "2020-01-25T14:02:07.365730+00:00",
+                "id": "a368c1032c254bc283fad241fef0d0c8",
+                "jwt_key": "f74dba2d34436853981519fb7bf96542186442b40755a1f63fd910b2e21227979ce16c7f217d6e6af621c799202da559361d7915ee931611991d40e358f8efd2",
+                "last_used_at": "2020-04-13T17:57:42.522203+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "936acf3bd8ed5a9c09a76c8f1c1b4ba8b9a980d5f2c65ef48f148b8b43d1d83d0ac4be9a8355cb7ce0c0c0600e45fa22fb7807dfef9c957a7f759d76948b20a0",
+                "token_type": "normal",
+                "user_id": "63dbdb6c44424d8592b372a18ab621d8"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "eb183882ec0643619db90b21db2b4102",
+                "is_active": true,
+                "is_owner": true,
+                "name": "krzysiek",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "2dd25e4ba959435bbbce87765624f315",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Legacy API password user",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "c5fb063629c343ecbab4c741d99648f2",
+                "is_active": true,
+                "is_owner": false,
+                "name": "pat",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "4da94520e537412b9ab5db0c359a29dd",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-users"
+                ],
+                "id": "6c5a1fdcb33b455da45c864e34f8f648",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Ada",
+                "system_generated": false
+            },
+            {
+                "group_ids": [
+                    "system-users"
+                ],
+                "id": "63dbdb6c44424d8592b372a18ab621d8",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Ewa",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

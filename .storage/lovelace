@@ -1,0 +1,1352 @@
+{
+    "data": {
+        "config": {
+            "title": "Z\u0142oty Potok",
+            "views": [
+                {
+                    "badges": [
+                        {
+                            "entity": "person.krzysiek"
+                        },
+                        {
+                            "entity": "person.patrycja"
+                        },
+                        {
+                            "entity": "person.ewa"
+                        },
+                        {
+                            "entity": "person.ada"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.temperatura_dol"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_sypialnie"
+                                },
+                                {
+                                    "entity": "sensor.wilgotnosc_salon_schody"
+                                },
+                                {
+                                    "entity": "input_number.ventilation"
+                                },
+                                {
+                                    "type": "divider"
+                                },
+                                {
+                                    "entity": "scene.morning"
+                                },
+                                {
+                                    "entity": "scene.evening"
+                                },
+                                {
+                                    "entity": "scene.night"
+                                },
+                                {
+                                    "entity": "scene.party"
+                                },
+                                {
+                                    "type": "divider"
+                                },
+                                {
+                                    "entity": "group.lampy_dol"
+                                },
+                                {
+                                    "entity": "group.lampy_gora"
+                                },
+                                {
+                                    "entity": "group.lampy_zewn"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_brama",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.camera_gate_pir_alarm_2"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_brama",
+                                            "state_filter": {
+                                                "off": "brightness(50%) saturate(0.8) contrast(70%)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Brama",
+                                            "type": "picture-glance"
+                                        },
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_drzwi",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.camera_door_pir_alarm"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_drzwi",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Drzwi",
+                                            "type": "picture-glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_furtka",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.camera_fence_2_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_furtka",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Furtka",
+                                            "type": "picture-glance"
+                                        },
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_podjazd",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.camera_fence_1_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_podjazd",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Podjazd",
+                                            "type": "picture-glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_narzedziowy",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.tool_house_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_narzedziowy",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Narz\u0119dziowy",
+                                            "type": "picture-glance"
+                                        },
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_salon",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.living_room_pir_alarm"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_salon",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Salon",
+                                            "type": "picture-glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_wiata",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.garden_b_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_wiata",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Wiata",
+                                            "type": "picture-glance"
+                                        },
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_aleja",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.garden_d_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_aleja",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Aleja",
+                                            "type": "picture-glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_hamak",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.garden_c_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_hamak",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Hamak",
+                                            "type": "picture-glance"
+                                        },
+                                        {
+                                            "aspect_ratio": "0%",
+                                            "camera_image": "camera.kamera_sciezka",
+                                            "entities": [
+                                                {
+                                                    "entity": "binary_sensor.garden_a_motion"
+                                                }
+                                            ],
+                                            "entity": "camera.kamera_sciezka",
+                                            "state_filter": {
+                                                "off": "brightness(50%) hue-rotate(45deg)",
+                                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                                            },
+                                            "title": "Sciezka",
+                                            "type": "picture-glance"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.poland_coronavirus_confirmed"
+                                },
+                                {
+                                    "entity": "sensor.poland_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.poland_coronavirus_deaths"
+                                },
+                                {
+                                    "entity": "sensor.poland_coronavirus_recovered"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "panel": false,
+                    "path": "default_view",
+                    "title": "Home"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.lampa_salon_kanapa",
+                                "light.salon_lampka",
+                                "light.salon_sufit",
+                                "switch.lampa_salon_kinkiety",
+                                "switch.lampa_kuchnia_sufit",
+                                "switch.lampa_jadalnia_sufit",
+                                "switch.lampa_korytarz_dol",
+                                "switch.lampa_schody",
+                                "switch.lampa_lazienka_dol",
+                                "switch.lampa_lazienka_dol_lustro",
+                                "switch.lampa_techniczne",
+                                "switch.lampa_wiatrolap"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Parter",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.lampa_drzwi",
+                                "switch.lampa_taras",
+                                "switch.lampa_ogrod_wjazd",
+                                "switch.lampa_ogrod_wiata",
+                                "switch.lampa_wiata_kulki"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Ogr\u00f3d",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "switch.lampa_schody_gora",
+                                "switch.lampa_korytarz_pralnia",
+                                "switch.lampa_sypialnia_ady",
+                                "switch.lampa_sypialnia_ewy",
+                                "light.sypialnia_sufit",
+                                "light.sypialnia_lampka",
+                                "switch.lampa_garderoba",
+                                "switch.lampa_lazienka_gora",
+                                "switch.lampa_lazienka_gora_lustro",
+                                "switch.lampa_pralnia_1",
+                                "switch.lampa_pralnia_1a"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "Poddasze",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:lightbulb-on",
+                    "path": "lampy_view",
+                    "title": "lampy_view"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "sensor.temperatura_zewnetrzna_polnoc_przeliczona",
+                                "sensor.temperatura_zewnetrzna_poludnie_przeliczona",
+                                "sensor.wilgotnosc_zewnetrzna",
+                                "sensor.moon",
+                                "sensor.dark_sky_temperature",
+                                "sensor.dark_sky_apparent_temperature",
+                                "sensor.dark_sky_cloud_coverage",
+                                "sensor.dark_sky_precip_probability",
+                                "sensor.dark_sky_pressure",
+                                "sensor.dark_sky_wind_bearing",
+                                "sensor.dark_sky_wind_speed"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Pogoda",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.wilgotnosc_salon_schody",
+                                "sensor.temperatura_dol",
+                                "sensor.temperatura_sypialnie",
+                                "input_number.ventilation"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Komfort",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.netatmo_indoor_temperature_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_humidity_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_co2_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_pressure_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_noise_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_max_temp"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_min_temp"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_wifi_2"
+                                },
+                                {
+                                    "entity": "sensor.netatmo_indoor_reachability"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Netatmo",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:weather-cloudy",
+                    "path": "klimat_view",
+                    "title": "klimat_view"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_kuchnia",
+                                "sensor.temperatura_kuchnia",
+                                "sensor.temperatura_kuchnia_podloga",
+                                "sensor.temperatura_kuchnia_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Kuchnia",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_lazienka_dol",
+                                "sensor.temperatura_lazienka_dol",
+                                "sensor.temperatura_lazienka_dol_podloga",
+                                "sensor.temperatura_lazienka_dol_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u0141azienka d\u00f3\u0142",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_salon_przejscie",
+                                "sensor.temperatura_salon_przejscie",
+                                "sensor.temperatura_salon_przejscie_podloga",
+                                "sensor.temperatura_salon_przejscie_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Przedpok\u00f3j",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_salon",
+                                "sensor.temperatura_salon_schody",
+                                "sensor.temperatura_salon_schody_podloga",
+                                "sensor.temperatura_salon_schody_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Salon",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_lazienka_gora",
+                                "sensor.temperatura_lazienka_gora",
+                                "sensor.temperatura_lazienka_gora_podloga",
+                                "sensor.temperatura_lazienka_gora_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "\u0141azienka g\u00f3ra",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_sypialnia_ady",
+                                "sensor.temperatura_sypialnia_ady",
+                                "sensor.temperatura_sypialnia_ady_podloga",
+                                "sensor.temperatura_sypialnia_ady_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Pok\u00f3j Ady",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_sypialnia_ewy",
+                                "sensor.temperatura_sypialnia_ewy",
+                                "sensor.temperatura_sypialnia_ewy_podloga",
+                                "sensor.temperatura_sypialnia_ewy_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Pok\u00f3j Ewy",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_sypialnia_rodzicow",
+                                "sensor.temperatura_sypialnia_rodzicow",
+                                "sensor.temperatura_sypialnia_rodzicow_podloga",
+                                "sensor.temperatura_sypialnia_rodzicow_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Sypialnia",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_pralnia",
+                                "sensor.temperatura_pralnia",
+                                "sensor.temperatura_pralnia_podloga",
+                                "sensor.temperatura_pralnia_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Pralnia",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_garderoba",
+                                "sensor.temperatura_garderoba",
+                                "sensor.temperatura_garderoba_podloga",
+                                "sensor.temperatura_garderoba_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Garderoba",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_korytarz_gora",
+                                "sensor.temperatura_korytarz_gora",
+                                "sensor.temperatura_korytarz_gora_podloga",
+                                "sensor.temperatura_korytarz_gora_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Korytarz g\u00f3ra",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_techniczne",
+                                "sensor.temperatura_techniczne",
+                                "sensor.temperatura_techniczne_podloga",
+                                "sensor.temperatura_techniczne_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Techniczne",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.grzanie_wiatrolap",
+                                "sensor.temperatura_wiatrolap",
+                                "sensor.temperatura_wiatrolap_podloga",
+                                "sensor.temperatura_wiatrolap_zadana"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Wiatro\u0142ap",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.temperatura_zewnetrzna_polnoc_przeliczona",
+                                "sensor.temperatura_zewnetrzna_poludnie_przeliczona",
+                                "sensor.wilgotnosc_salon_schody",
+                                "sensor.wilgotnosc_zewnetrzna"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Inne",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:thermometer",
+                    "path": "ogrzewanie_view",
+                    "title": "ogrzewanie_view"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "binary_sensor.camera_door_motion",
+                                "binary_sensor.camera_door_pir_alarm",
+                                "binary_sensor.living_room_motion",
+                                "binary_sensor.living_room_pir_alarm",
+                                "binary_sensor.camera_gate_motion_2",
+                                "binary_sensor.camera_gate_pir_alarm_2",
+                                "binary_sensor.camera_gate_tamper_detection_2",
+                                "binary_sensor.camera_gate_disk_error_2",
+                                "binary_sensor.camera_fence_2_motion",
+                                "binary_sensor.camera_fence_2_disk_error",
+                                "binary_sensor.camera_fence_2_disk_full",
+                                "binary_sensor.camera_fence_2_tamper_detection",
+                                "binary_sensor.camera_fence_1_motion",
+                                "binary_sensor.camera_fence_1_disk_error",
+                                "binary_sensor.camera_fence_1_disk_full",
+                                "binary_sensor.camera_fence_1_tamper_detection",
+                                "binary_sensor.tool_house_motion",
+                                "binary_sensor.tool_house_disk_error",
+                                "binary_sensor.tool_house_disk_full",
+                                "binary_sensor.tool_house_tamper_detection"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Czujki ruchu",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "camera.kamera_drzwi",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_brama",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_furtka",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_podjazd",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_salon",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_narzedziowy",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_sciezka",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_wiata",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_hamak",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entity": "camera.kamera_aleja",
+                            "type": "picture-entity"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.garden_d_disk_error",
+                                "binary_sensor.garden_d_disk_full",
+                                "binary_sensor.garden_d_illegal_access",
+                                "binary_sensor.garden_d_line_crossing",
+                                "binary_sensor.garden_d_field_detection",
+                                "binary_sensor.garden_d_tamper_detection",
+                                "binary_sensor.garden_d_face_detection",
+                                "binary_sensor.garden_a_disk_error",
+                                "binary_sensor.garden_a_disk_full",
+                                "binary_sensor.garden_a_tamper_detection",
+                                "binary_sensor.garden_a_face_detection"
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:camera-iris",
+                    "path": "kamery_view",
+                    "title": "Kamery"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entity": "media_player.yamaha_potok",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.yamaha_bedzin",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.sypialnia",
+                            "type": "media-control"
+                        }
+                    ],
+                    "icon": "mdi:music",
+                    "path": "media_view",
+                    "title": "Multimedia"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.stycznik_gniazda_parter",
+                                "switch.stycznik_kuchnia",
+                                "switch.stycznik_podgrzewacze_lazienki",
+                                "switch.stycznik_gniazda_gora",
+                                "switch.stycznik_strych"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Zasilanie",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:flash",
+                    "path": "styczniki_view",
+                    "title": "Styczniki"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "binary_sensor.updater",
+                                "binary_sensor.remote_ui",
+                                "sensor.processor_use",
+                                "sensor.cpu",
+                                "sensor.time_date",
+                                "sensor.disk_use_percent_home",
+                                "sensor.last_boot",
+                                "sensor.memory_free",
+                                "sensor.memory_use",
+                                "sensor.log_db_file_size",
+                                "input_select.log_level"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "System",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:information-outline",
+                    "path": "system_view",
+                    "title": "System"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                "switch.lampa_sypialnia_rodzicow",
+                                "switch.lampa_salon_sufit",
+                                "switch.l1_state",
+                                "switch.l1_updatereq",
+                                "switch.l2_state",
+                                "switch.l2_updatereq",
+                                "switch.l3_state",
+                                "switch.l3_updatereq",
+                                "switch.l4_state",
+                                "switch.l4_updatereq",
+                                "switch.l5_state",
+                                "switch.l5_updatereq",
+                                "switch.wiata_wlacznik",
+                                "switch.wiata_wlacznik_clear"
+                            ],
+                            "title": "Switch",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "automation.switch_on_night_scene_at_random",
+                                "automation.if_fan_speed_changes_update_slider",
+                                "automation.if_slider_moves_update_fan_speed",
+                                "automation.set_random_time_at_9pm",
+                                "automation.homeassistant_starts",
+                                "automation.get_pics_every_minute",
+                                "automation.switch_on_evening_scene_20min_before_sunset",
+                                "automation.switch_on_morning_scene_5min_after_sunrise",
+                                "automation.change_log_level"
+                            ],
+                            "title": "Automation",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.netatmo_indoor_co2_2",
+                                "sensor.netatmo_indoor_humidity_2",
+                                "sensor.netatmo_indoor_max_temp",
+                                "sensor.netatmo_indoor_min_temp",
+                                "sensor.netatmo_indoor_noise_2",
+                                "sensor.netatmo_indoor_pressure_2",
+                                "sensor.netatmo_indoor_temperature_2",
+                                "sensor.netatmo_indoor_wifi_2",
+                                "sensor.netatmo_indoor_reachability"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "netatmo",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.pralnia"
+                                },
+                                {
+                                    "entity": "device_tracker.kuchnia"
+                                },
+                                {
+                                    "entity": "device_tracker.altana"
+                                },
+                                {
+                                    "entity": "device_tracker.kamera_brama"
+                                },
+                                {
+                                    "entity": "device_tracker.netatmo_2"
+                                },
+                                {
+                                    "entity": "device_tracker.sonoszp"
+                                },
+                                {
+                                    "entity": "device_tracker.patrycjas_mbp_2"
+                                },
+                                {
+                                    "entity": "device_tracker.hp_dj_5520_potok"
+                                },
+                                {
+                                    "entity": "device_tracker.krzysiek_dell"
+                                },
+                                {
+                                    "entity": "device_tracker.pat_oneplus5t"
+                                },
+                                {
+                                    "entity": "device_tracker.galaxy_s8"
+                                },
+                                {
+                                    "entity": "device_tracker.oneplus7tpro"
+                                },
+                                {
+                                    "entity": "device_tracker.galaxy_s10"
+                                }
+                            ],
+                            "show_header_toggle": true,
+                            "title": "wifi_devices",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "sensor.symfonisk_sound_controller",
+                                "sensor.salon_pilot",
+                                "sensor.sypialnia_pilot"
+                            ],
+                            "show_header_toggle": true,
+                            "title": "various",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "group.wifi_devices",
+                                "binary_sensor.camera_gate_disk_full_2",
+                                "group.kamery_sensory",
+                                {
+                                    "name": "Drukarka",
+                                    "type": "weblink",
+                                    "url": "http://192.168.88.15"
+                                },
+                                "group.ogrzewanie_garderoba",
+                                "switch.grzanie_garderoba",
+                                "switch.grzanie_korytarz_gora",
+                                "switch.grzanie_kuchnia",
+                                "switch.grzanie_lazienka_dol",
+                                "switch.grzanie_lazienka_gora",
+                                "switch.grzanie_pralnia",
+                                "switch.grzanie_salon",
+                                "switch.grzanie_salon_przejscie",
+                                "switch.grzanie_sypialnia_ady",
+                                "switch.grzanie_sypialnia_ewy",
+                                "switch.grzanie_sypialnia_rodzicow",
+                                "switch.grzanie_techniczne",
+                                "switch.grzanie_wiatrolap",
+                                "device_tracker.hd1910",
+                                "group.ogrzewanie_inne",
+                                "group.kamery_obraz",
+                                "group.kamery_view",
+                                "group.klimat_view",
+                                "group.default_column1",
+                                "group.wnetrze",
+                                "group.ogrzewanie_korytarz_gora",
+                                "group.ogrzewanie_kuchnia",
+                                "switch.lampa_kuchnia_okap",
+                                "switch.lampa_kuchnia_zlew",
+                                "group.lampy_grupy",
+                                "group.lampy_view",
+                                "group.media_1potok",
+                                "group.media_2bedzin",
+                                "sensor.moc_wentylatora",
+                                "group.media_view",
+                                "group.netatmo",
+                                "group.ogrzewanie_view",
+                                "device_tracker.oneplus7tpro_2",
+                                "device_tracker.oneplus7tpro_3",
+                                "switch.lampa_osw2",
+                                "group.default_column3",
+                                "group.klimat",
+                                "group.ogrzewanie_sypialnia_ady",
+                                "group.ogrzewanie_sypialnia_ewy",
+                                "group.potencjalny_default",
+                                "group.ogrzewanie_pralnia",
+                                "group.ogrzewanie_salon_przejscie",
+                                "input_number.random_hour",
+                                "input_number.random_minute",
+                                {
+                                    "name": "Router",
+                                    "type": "weblink",
+                                    "url": "http://192.168.88.1"
+                                },
+                                "group.ogrzewanie_salon_schody",
+                                "group.default_column2",
+                                "device_tracker.spectre",
+                                "group.styczniki_view",
+                                "sun.sun",
+                                "group.ogrzewanie_sypialnia_rodzicow",
+                                "group.system_hw",
+                                "group.system_view",
+                                "group.ogrzewanie_techniczne",
+                                "group.tracker",
+                                "sensor.time",
+                                "switch.update_pics",
+                                "group.various",
+                                "group.ogrzewanie_wiatrolap",
+                                "group.styczniki",
+                                "sensor.temperatura_zewnetrzna_poludnie",
+                                "sensor.temperatura_zewnetrzna_polnoc",
+                                "group.ogrzewanie_lazienka_dol",
+                                "group.ogrzewanie_lazienka_gora"
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "camera.kamera_brama",
+                                            "name": "Brama",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        },
+                                        {
+                                            "entity": "camera.kamera_drzwi",
+                                            "name": "Drzwi",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "camera.kamera_furtka",
+                                            "name": "Furtka",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        },
+                                        {
+                                            "entity": "camera.kamera_podjazd",
+                                            "name": "Podjazd",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "camera.kamera_narzedziowy",
+                                            "name": "Narzedziowy",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        },
+                                        {
+                                            "entity": "camera.kamera_salon",
+                                            "name": "Salon",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "camera.kamera_wiata",
+                                            "name": "Wiata",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        },
+                                        {
+                                            "entity": "camera.kamera_aleja",
+                                            "name": "Aleja",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "entity": "camera.kamera_hamak",
+                                            "name": "Hamak",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        },
+                                        {
+                                            "entity": "camera.kamera_sciezka",
+                                            "name": "Sciezka",
+                                            "show_state": false,
+                                            "type": "picture-entity"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.someone_home"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "icon": "mdi:router",
+                                    "name": "Router",
+                                    "type": "weblink",
+                                    "url": "http://192.168.88.1"
+                                },
+                                {
+                                    "icon": "mdi:printer",
+                                    "name": "Drukarka",
+                                    "type": "weblink",
+                                    "url": "http://192.168.88.15"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Weblinks",
+                            "type": "entities"
+                        }
+                    ],
+                    "path": "all",
+                    "title": "All"
+                },
+                {
+                    "badges": [
+                        {
+                            "entity": "person.patrycja"
+                        },
+                        {
+                            "entity": "person.krzysiek"
+                        },
+                        {
+                            "entity": "person.ewa"
+                        },
+                        {
+                            "entity": "person.ada"
+                        }
+                    ],
+                    "cards": [
+                        {
+                            "aspect_ratio": "0%",
+                            "camera_image": "camera.kamera_salon",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.living_room_pir_alarm"
+                                }
+                            ],
+                            "entity": "camera.kamera_salon",
+                            "state_filter": {
+                                "off": "brightness(50%) hue-rotate(45deg)",
+                                "on": "brightness(120%) saturate(1.2) contrast(200%)",
+                                "undefined": "brightness(50%) hue-rotate(45deg)"
+                            },
+                            "type": "picture-glance"
+                        },
+                        {
+                            "elements": [
+                                {
+                                    "image": "https://via.placeholder.com/100?text=.",
+                                    "style": {
+                                        "border": "2px solid black",
+                                        "border-radius": "10%",
+                                        "left": "16%",
+                                        "top": "16%",
+                                        "width": "30%"
+                                    },
+                                    "type": "image"
+                                },
+                                {
+                                    "entity": "binary_sensor.grzanie_kuchnia",
+                                    "prefix": "Kuchnia: ",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "16%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "5%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "conditions": [
+                                        {
+                                            "entity": "binary_sensor.grzanie_kuchnia",
+                                            "state": "on"
+                                        }
+                                    ],
+                                    "elements": [
+                                        {
+                                            "image": "/local/heater.svg",
+                                            "style": {
+                                                "left": "16%",
+                                                "top": "16%",
+                                                "width": "30%"
+                                            },
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "type": "conditional"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_kuchnia",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "16%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "16%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_kuchnia_zadana",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "20%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "10%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_kuchnia_podloga",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "16%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "25%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "image": "https://via.placeholder.com/100?text=.",
+                                    "style": {
+                                        "border": "2px solid black",
+                                        "border-radius": "10%",
+                                        "left": "47%",
+                                        "top": "16%",
+                                        "width": "30%"
+                                    },
+                                    "type": "image"
+                                },
+                                {
+                                    "entity": "binary_sensor.grzanie_kuchnia",
+                                    "prefix": "Salon: ",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "47%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "5%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "conditions": [
+                                        {
+                                            "entity": "binary_sensor.grzanie_salon_schody",
+                                            "state": "on"
+                                        }
+                                    ],
+                                    "elements": [
+                                        {
+                                            "image": "/local/heater.svg",
+                                            "style": {
+                                                "left": "47%",
+                                                "top": "16%",
+                                                "width": "30%"
+                                            },
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "type": "conditional"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_schody",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "47%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "16%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_schody_zadana",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "51%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "10%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_schody_podloga",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "47%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "25%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "image": "https://via.placeholder.com/100?text=.",
+                                    "style": {
+                                        "border": "2px solid black",
+                                        "border-radius": "10%",
+                                        "left": "78%",
+                                        "top": "16%",
+                                        "width": "30%"
+                                    },
+                                    "type": "image"
+                                },
+                                {
+                                    "entity": "binary_sensor.grzanie_salon_przejscie",
+                                    "prefix": "Przedpok\u00f3j: ",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "78%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "5%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "conditions": [
+                                        {
+                                            "entity": "binary_sensor.grzanie_salon_przejscie",
+                                            "state": "on"
+                                        }
+                                    ],
+                                    "elements": [
+                                        {
+                                            "image": "/local/heater.svg",
+                                            "style": {
+                                                "left": "78%",
+                                                "top": "16%",
+                                                "width": "30%"
+                                            },
+                                            "type": "image"
+                                        }
+                                    ],
+                                    "type": "conditional"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_przejscie",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "100%",
+                                        "left": "78%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "16%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_przejscie_zadana",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "82%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "10%"
+                                    },
+                                    "type": "state-label"
+                                },
+                                {
+                                    "entity": "sensor.temperatura_salon_przejscie_podloga",
+                                    "style": {
+                                        "color": "black",
+                                        "font-family": "Helvetica",
+                                        "font-size": "75%",
+                                        "left": "78%",
+                                        "opacity": "100%",
+                                        "text-align": "center",
+                                        "top": "25%"
+                                    },
+                                    "type": "state-label"
+                                }
+                            ],
+                            "image": "https://via.placeholder.com/300/666666/066666",
+                            "title": "grzanki",
+                            "type": "picture-elements"
+                        }
+                    ],
+                    "panel": false,
+                    "path": "test",
+                    "title": "test"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

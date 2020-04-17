@@ -1,0 +1,298 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "gateway_id": "7e1461520440001a",
+                    "host": "192.168.88.36",
+                    "identity": "e0ab25a0246b4a65b9a8b0fd957376fd",
+                    "import_groups": false,
+                    "key": "6aMp6uHhCZ9PAibT"
+                },
+                "domain": "tradfri",
+                "entry_id": "37fb714c96d3417f8156d56fc4d25d0d",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "192.168.88.36",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "sonos",
+                "entry_id": "5dbb75b4217345018d03fa017aa7d8d8",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Sonos",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "controller": {
+                        "host": "192.168.88.11",
+                        "password": "NCWjqfisQPcxW4K8pTtH",
+                        "port": 8443,
+                        "site": "default",
+                        "username": "homeassistant",
+                        "verify_ssl": false
+                    }
+                },
+                "domain": "unifi",
+                "entry_id": "2cf31999f7d442098f049e9b49f1bbb9",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Zloty Potok",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "unknown",
+                "data": {
+                    "cloudhook": false,
+                    "secret": "3663d995b70eb253dc7534660087ab1c",
+                    "webhook_id": "bab59b537e5b4e5969d90561085265ee7b3be6db5ceae53b638b83550de6c957"
+                },
+                "domain": "owntracks",
+                "entry_id": "e4efc2354cf449f7a8e7a4741aef2782",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "OwnTracks",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "enb68qRWzjE:APA91bFPAaoZH6HoKT6YiVRFxvwTgrszleMMrNuGMi4Pag62ihgaDAfi2SAnJ2Umhgc9czmBfedfL4av_Z-2KGqJ5glVNn7u36suxOTPoYpfyD1rbhh9qWcQ69n5o7iZRkHFFoha2dVV",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeLEEos9GfWpQnzaVolgcoiL0u2yLlHwqX3jqSpTj_D2v_SfR11W4CiZQ4_oASndAps1Wh7Hn--ZRoGNPztjYdz7Y4aJZJbvNLZ8P6neQyyg-s2eBCvoReeZGBzyNUDH_GuDE0ad_LxKaC4NX0BT5xstdyzRoshY-p74OpgEWV7JFzMmk=",
+                    "device_id": "a93c5715013d1c3d",
+                    "device_name": "HD1910",
+                    "manufacturer": "OnePlus",
+                    "model": "HD1910",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "c5fb063629c343ecbab4c741d99648f2",
+                    "webhook_id": "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05"
+                },
+                "domain": "mobile_app",
+                "entry_id": "9a122484fbfd45589c436d768983d035",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "HD1910",
+                "unique_id": "io.homeassistant.companion.android-a93c5715013d1c3d",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "cC8gkQJiNFE:APA91bF_nIfs3INaqb5khlOZAaLlDBYEquMw1gyPqd5-b5nKbw-D6E0ifEOs8DAmB0pYktpgPY5CZ23-WG6-X3BoG8kGS2KPSy7CVrg0SviPATmOZPleqdvD4AEyOp9I9VTvll_iJYQM",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeLEphGpNjLZhaoYa4iIV35Ttx8PcRvnW8iP7a4EY_sl2EeSXigX-M4FQDX0abWXvyIt0E1CBfyrLvGoFf3IuPT9siDoU0HBqUlFAihKQHoZx-LEGNTAJMvvYUXyzteAasfMHdwS9-6oxYT4WQKUmKq7OOgJYFKSEkHOvj5jSQjfV2BhM=",
+                    "device_id": "9ec3766ecd69f8c7",
+                    "device_name": "ONEPLUS A5010",
+                    "manufacturer": "OnePlus",
+                    "model": "ONEPLUS A5010",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "user_id": "63dbdb6c44424d8592b372a18ab621d8",
+                    "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
+                },
+                "domain": "mobile_app",
+                "entry_id": "f3ed6e24ab2942699ade6cae113a1ccc",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "ONEPLUS A5010",
+                "unique_id": "io.homeassistant.companion.android-9ec3766ecd69f8c7",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "auth_implementation": "netatmo",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABedfNoeCPtTGdVLoZ7fHhajARqsS49BEYJHyx-qE_rMI2LyrtGMPg2sJLFrOMlcBuu_UCqXfcdh0IfQYp3v0CAEHFlYFbEfiAGq3-u5GOj02v_4XEOYECaYV3EVexKXa-38Vjk4hizrk1a9PrceJ3UbP_UMrKUfEUDOqRtkYhg8hfNScY=",
+                    "token": {
+                        "access_token": "5a57a37c13475d4b9e8b6663|95c992fe43c442a6aaf22762a1715564",
+                        "expire_in": 10800,
+                        "expires_at": 1587157009.4388523,
+                        "expires_in": 10800,
+                        "refresh_token": "5a57a37c13475d4b9e8b6663|5e6718ec25d29bbd538bf56363381e44",
+                        "restricted_access_token": "5a57a37c13475d4b9e8b6663|bd21c54642f2c3effd402c5ed0f9956c",
+                        "restricted_refresh_token": "5a57a37c13475d4b9e8b6663|4b7ebcbd7c1f535a2d16a1bc898df093",
+                        "scope": [
+                            "access_camera",
+                            "access_presence",
+                            "read_camera",
+                            "read_homecoach",
+                            "read_presence",
+                            "read_smokedetector",
+                            "read_station",
+                            "read_thermostat",
+                            "write_camera",
+                            "write_thermostat"
+                        ]
+                    },
+                    "webhook_id": "6cb8e90191e54e51a3a4dbf174f6f93b60ba9db3ade802d16b94e637a7f34137"
+                },
+                "domain": "netatmo",
+                "entry_id": "d9baa7a171aa4923b021f37da3fe31dc",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dnBF0FggGtE:APA91bFIGFmzbKVRfZu7ATJXo1gMjLwwhx2v7uFrOjK6_DH7jiH-1RjK5V1z8lGQ39rf7X3bV3l-xlp1oXHQ2q_bdXloqBCQiCpghiFuvbc4tmrA_F3v10ef_pJvod0O2zNSWOsP-Dc7",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeRihEUy7m4EtPVSUg8sJZK_PUgj3FYv2cXeMAd0m343MIdPithLR4i7kmXEHxwsTMU5NvM0iBOga3mkMbKO1o6gaWCacPxqBUxnHXFRnNkjbu58rY2dDceDsDZfHTp6HvQ3IFQpgARj0sHvvTd7cINoSTe7V_8JxNE9lfetispVe62_Y=",
+                    "device_id": "8133e7ad6ec97f78",
+                    "device_name": "SM-G973F",
+                    "manufacturer": "samsung",
+                    "model": "SM-G973F",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "eb183882ec0643619db90b21db2b4102",
+                    "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+                },
+                "domain": "mobile_app",
+                "entry_id": "d8e9cf4cc66f4e9d9d47668307ce7416",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-G973F",
+                "unique_id": "io.homeassistant.companion.android-8133e7ad6ec97f78",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "country": "Poland"
+                },
+                "domain": "coronavirus",
+                "entry_id": "169f1eb31c9446758c9e8fd2d0c1dc2e",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Poland",
+                "unique_id": "Poland",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "e_16Y3M9kuc:APA91bGYE7QdyMDXqHZf8pOL4CVmfJ2SZNh8e2FxOpHtUdne5rP4LaLbgXTsGeA41zaU3D5wf8F-k5UZVhfgC_Le8hzmQFF6DKV_gyXjLRyWEsAUsowGh-nFr9jP5YPnzjlctBtPh7jd",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeip_7AekCkCGiQMb4q452nOe6EZeSt-2k-5Cs6Dw0RN4lV3Y2dnpsywX5dXyXEZMjBnja3P_ON6ge1x2k8SpmNZRl3aCBUU_8iyWV4UhaY1BhxOJAK5W8-lWFIvOVsI0IrlG0qfMZRcHjdDKl-yiXXpTusISQAHKx88kGGrIPtnAUGRc=",
+                    "device_id": "8f4d63dce221b7ca",
+                    "device_name": "SM-G920F",
+                    "manufacturer": "samsung",
+                    "model": "SM-G920F",
+                    "os_name": "Android",
+                    "os_version": "24",
+                    "supports_encryption": false,
+                    "user_id": "c5fb063629c343ecbab4c741d99648f2",
+                    "webhook_id": "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34"
+                },
+                "domain": "mobile_app",
+                "entry_id": "fe3d85f1fe0a445bbaf237dbedaa7694",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-G920F",
+                "unique_id": "io.homeassistant.companion.android-8f4d63dce221b7ca",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dqAO4CEhLAQ:APA91bF4R5JepiWsKLoyBoA_TDldYN6ZuTZZCN7v7Kr5pzCylOh1-EFhwlPOOPP_rI_ghkSsJ4U1Z75LslHnL-firDZCgEe3CM_Vk1dc7ZIQkvI-wgIiVmeoMivkEj0ySKzgbHoAXwM5",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABekNULuZIS5LGSK18dNw8vior_-58LB2VSUSwCjWk5-uplx9lk8DAVQMMuDcw-C4_6vuUJzN7dHHlMnoNQ-JjVsmA3RLneCm1T98C6DYuZtdkIgWFQyKBRNjjdvcx3lnzuF42Ars-f2NdrbZa9D00kl8kBcMRPNjkamqzub75RxQ8Z13g=",
+                    "device_id": "2f48e4153bed8a00",
+                    "device_name": "HD1910",
+                    "manufacturer": "OnePlus",
+                    "model": "HD1910",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "c5fb063629c343ecbab4c741d99648f2",
+                    "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+                },
+                "domain": "mobile_app",
+                "entry_id": "f6ef5f23ef224bbbb94baf5e5efb8121",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "HD1910",
+                "unique_id": "io.homeassistant.companion.android-2f48e4153bed8a00",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

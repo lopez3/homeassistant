@@ -1,0 +1,24 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "f99e7c6f36d34ed6ac929a001bb3de54",
+                "name": "Salon"
+            },
+            {
+                "id": "1ce0d51958b24b698d0197f09ac5ae99",
+                "name": "Sypialnia"
+            },
+            {
+                "id": "3a4d8e324dd84609b7d90c37b1621752",
+                "name": "Ogr\u00f3d"
+            },
+            {
+                "id": "a9161c04e2d248f5a639f868f626d67e",
+                "name": "Infrastruktura"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}
