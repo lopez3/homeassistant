@@ -128,7 +128,7 @@ history:
 #      - sensor.last_boot
 
 recorder:
-  purge_interval: 1
+#  purge_interval: 1 # depreciated in 0.109
   purge_keep_days: 14
 # Use the include list to define the domains/entities to record, and exclude some of them with in the exclude list. 
 # This makes sense if you for instance include the sensor domain, but want to exclude some specific sensors.

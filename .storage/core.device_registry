@@ -820,6 +820,106 @@
                 "name_by_user": null,
                 "sw_version": "29",
                 "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "80:7d:3a:59:09:59"
+                    ]
+                ],
+                "id": "b7de9abf341a49969dd005e886c2f60f",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "8fb20e950374472ca949fd0a636dc9b4"
+                ],
+                "connections": [],
+                "id": "e2257517ce4d41d19b9b18fa97b6ada8",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "2c93d7cf880232e7"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-G950F",
+                "name": "SM-G950F",
+                "name_by_user": null,
+                "sw_version": "28",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "f0:d5:bf:d8:fa:09"
+                    ]
+                ],
+                "id": "02afa934d16444e589bcc4dbf8b45dea",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e0:ee:1b:52:bc:23"
+                    ]
+                ],
+                "id": "e496f2e6ac19458f9466f85cc7b7ba84",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "94:99:01:07:61:83"
+                    ]
+                ],
+                "id": "8ad01d9068f34c55872c3a0aa1556168",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
             }
         ]
     },

@@ -1,0 +1,6 @@
+user=admin
+password=KameryPotok2015
+dns-timeout=3
+connect-timeout=3
+connect-timeout=6
+tries=1

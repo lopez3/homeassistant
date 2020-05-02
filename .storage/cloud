@@ -34,6 +34,12 @@
                 "managed": true,
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
             },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd": {
+                "cloudhook_id": "324e3d99eacd4d63bdae995e7986d491",
+                "cloudhook_url": "https://hooks.nabu.casa/gAAAAABem0rgeIh0eoufv5ZSRliAdCY1lv82efI3g33sSEu0aQwncOn4ujjA8o4F3AXl7y9dCNXx6Xa6oBnEpV7K0njMP2rGP9PaDa5zM5xxSNhVBjWGP2OReupwUtCQj4Tcv5EPrUujrsj8Ybyim-LeolBr15JV12XjqTCa9bYMci5SFL6QqFE=",
+                "managed": true,
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
             "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05": {
                 "cloudhook_id": "731ade386bde408cab2c5bf3ad890585",
                 "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeLEEos9GfWpQnzaVolgcoiL0u2yLlHwqX3jqSpTj_D2v_SfR11W4CiZQ4_oASndAps1Wh7Hn--ZRoGNPztjYdz7Y4aJZJbvNLZ8P6neQyyg-s2eBCvoReeZGBzyNUDH_GuDE0ad_LxKaC4NX0BT5xstdyzRoshY-p74OpgEWV7JFzMmk=",

@@ -44,49 +44,34 @@
     - { name: Temperatura zewnetrzna poludnie,         unit_of_measurement: °C, scale: 0.01, precision: 2, slave: 1,  register: 1401 }
     - { name: Wilgotnosc salon schody,                 unit_of_measurement: '%', scale: 0.01, precision: 2, slave: 1,  register: 1404 }
     - { name: Wilgotnosc zewnetrzna,                   unit_of_measurement: '%', scale: 0.01, precision: 2, slave: 1,  register: 1406 }
+    - { name: PLC_RTC_MINUTE,                          slave: 1,  register: 4129 }
+    - { name: PLC_RTC_HOUR,                            slave: 1,  register: 4130 }
+    - { name: PLC_RTC_DAY,                             slave: 1,  register: 4131 }
+    - { name: PLC_RTC_MONTH,                           slave: 1,  register: 4132 }
+    - { name: PLC_RTC_YEAR,                            slave: 1,  register: 4133 }
 
 - platform: template
   sensors:
     temperatura_zewnetrzna_polnoc_przeliczona:
       unit_of_measurement: °C
-#      entity_id: sensor.temperatura_zewnetrzna_polnoc
       value_template: >
         {{ states('sensor.temperatura_zewnetrzna_polnoc') }}
-# clean up - old code
-#      value_template: >
-#        {% if states('sensor.temperatura_zewnetrzna_polnoc') | float > 100 %}
-#          {{ "%.2f" | format ( ( states('sensor.temperatura_zewnetrzna_polnoc') | float ) - 655.36 )  }}
-#        {% elif states('sensor.temperatura_zewnetrzna_polnoc') | float > 0 %}
-#          {{ states('sensor.temperatura_zewnetrzna_polnoc') }}
-#        {% else %}
-#          -
-#        {% endif %}
-
     temperatura_zewnetrzna_poludnie_przeliczona:
       unit_of_measurement: °C
-#      entity_id: sensor.temperatura_zewnetrzna_poludnie
       value_template: >
         {{ states('sensor.temperatura_zewnetrzna_poludnie') }}
-#      value_template: >
-#        {% if states('sensor.temperatura_zewnetrzna_poludnie') | float > 100 %}
-#          {{ "%.2f" | format ( ( states('sensor.temperatura_zewnetrzna_poludnie') | float ) - 655.36 )  }}
-#        {% elif states('sensor.temperatura_zewnetrzna_poludnie') | float > 0 %}
-#          {{ states('sensor.temperatura_zewnetrzna_poludnie') }}
-#        {% else %}
-#          -
-#        {% endif %}
     temperatura_dol:
       unit_of_measurement: °C
-#      entity_id: sensor.temperatura_salon_schody, sensor.temperatura_salon_przejscie
       value_template: >
         {{ "%.2f" | format (( states('sensor.temperatura_salon_schody') | float +  states('sensor.temperatura_salon_przejscie') | float ) / 2 ) }}
     temperatura_sypialnie:
       unit_of_measurement: °C
-#      entity_id: sensor.temperatura_sypialnia_ady, sensor.temperatura_sypialnia_ewy, sensor.temperatura_sypialnia_rodzicow
       value_template: >
         {{ "%.2f" | format ( (  states('sensor.temperatura_sypialnia_ady') | float +  states('sensor.temperatura_sypialnia_rodzicow') | float +  states('sensor.temperatura_sypialnia_ewy') | float ) / 3 )  }}
-#    time:
-#      value_template: '{{now().strftime("%-H:%-M")}}'
+    plc_time_sync:
+      value_template: >
+        {{ -180 <=  as_timestamp(now()) - as_timestamp(strptime(states('sensor.plc_rtc_year') + "-" + states('sensor.plc_rtc_month') + "-" + states('sensor.plc_rtc_day') + " " + states('sensor.plc_rtc_hour') + ":" + states('sensor.plc_rtc_minute') + ":"+ "00", "%y-%m-%d %H:%M:%S")) <= 180 }}
+
 
 - platform: command_line
   name: Moc wentylatora
@@ -101,10 +86,12 @@
 - platform: time_date
   display_options: 
     - 'time'
-#    - 'date'
-#    - 'date_time'
+    - 'date'
+    - 'date_time'
+    - 'date_time_utc'
+    - 'date_time_iso'
     - 'time_date'
-#    - 'time_utc'
+    - 'time_utc'
 #    - 'beat'
 
 - platform: systemmonitor

@@ -6,13 +6,13 @@
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_level": {
                 "added": true,
                 "attributes": {
-                    "charger_type": "AC",
-                    "is_charging": true
+                    "charger_type": "N/A",
+                    "is_charging": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-60",
+                "icon": "mdi:battery-70",
                 "name": "Battery Level",
-                "state": 61,
+                "state": 77,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -49,7 +49,7 @@
                     "frequency": 5520,
                     "ip_address": "192.168.88.52",
                     "is_hidden": false,
-                    "link_speed": 240,
+                    "link_speed": 270,
                     "signal_level": -1
                 },
                 "icon": "mdi:wifi-strength-off",
@@ -66,9 +66,9 @@
                     "is_charging": true
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-70",
+                "icon": "mdi:battery-charging-30",
                 "name": "Battery Level",
-                "state": 74,
+                "state": 39,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -106,7 +106,7 @@
                     "ip_address": "192.168.88.41",
                     "is_hidden": false,
                     "link_speed": 360,
-                    "signal_level": -56
+                    "signal_level": -55
                 },
                 "icon": "mdi:wifi-strength-3",
                 "name": "Wifi Connection",
@@ -180,7 +180,7 @@
                 "device_class": "battery",
                 "icon": "mdi:battery-30",
                 "name": "Battery Level",
-                "state": 34,
+                "state": 35,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -214,7 +214,7 @@
                 "added": true,
                 "attributes": {
                     "bssid": "02:00:00:00:00:00",
-                    "frequency": 5680,
+                    "frequency": 5520,
                     "ip_address": "192.168.88.66",
                     "is_hidden": true,
                     "link_speed": 400,
@@ -226,6 +226,62 @@
                 "type": "sensor",
                 "unique_id": "wifi_connection",
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_battery_level": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "N/A",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-10",
+                "name": "Battery Level",
+                "state": 17,
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_geocoded_location": {
+                "added": true,
+                "attributes": {
+                    "Administrative Area": "\u015bl\u0105skie",
+                    "Country": "Polska",
+                    "ISO Country Code": "PL",
+                    "Locality": "Z\u0142oty Potok",
+                    "Location": [
+                        50.7181535,
+                        19.4286046
+                    ],
+                    "Postal Code": "42-253",
+                    "Sub Administrative Area": "cz\u0119stochowski",
+                    "Sub Locality": null,
+                    "Sub Thoroughfare": "36",
+                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                },
+                "icon": "mdi:map",
+                "name": "Geocoded Location",
+                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
+                "type": "sensor",
+                "unique_id": "geocoded_location",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_wifi_connection": {
+                "added": true,
+                "attributes": {
+                    "bssid": "1a:e8:29:fc:5a:07",
+                    "frequency": 5520,
+                    "ip_address": "192.168.88.40",
+                    "is_hidden": false,
+                    "link_speed": 120,
+                    "signal_level": -57
+                },
+                "icon": "mdi:wifi-strength-2",
+                "name": "Wifi Connection",
+                "state": "Aleja Klonow",
+                "type": "sensor",
+                "unique_id": "wifi_connection",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
             },
             "fccde887f7b379ddf1418126b2f04a7c40e3895aed2b8adc7ad399b7c2673a05_battery_level": {
                 "added": true,

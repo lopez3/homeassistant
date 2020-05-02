@@ -146,9 +146,9 @@
                     "auth_implementation": "netatmo",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABedfNoeCPtTGdVLoZ7fHhajARqsS49BEYJHyx-qE_rMI2LyrtGMPg2sJLFrOMlcBuu_UCqXfcdh0IfQYp3v0CAEHFlYFbEfiAGq3-u5GOj02v_4XEOYECaYV3EVexKXa-38Vjk4hizrk1a9PrceJ3UbP_UMrKUfEUDOqRtkYhg8hfNScY=",
                     "token": {
-                        "access_token": "5a57a37c13475d4b9e8b6663|95c992fe43c442a6aaf22762a1715564",
+                        "access_token": "5a57a37c13475d4b9e8b6663|1b70d48db44144373864e92229b5f80d",
                         "expire_in": 10800,
-                        "expires_at": 1587157009.4388523,
+                        "expires_at": 1588412941.861346,
                         "expires_in": 10800,
                         "refresh_token": "5a57a37c13475d4b9e8b6663|5e6718ec25d29bbd538bf56363381e44",
                         "restricted_access_token": "5a57a37c13475d4b9e8b6663|bd21c54642f2c3effd402c5ed0f9956c",
@@ -289,6 +289,38 @@
                 },
                 "title": "HD1910",
                 "unique_id": "io.homeassistant.companion.android-2f48e4153bed8a00",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "fRkTL940kLw:APA91bF_BFepfnXSU0cqXUMRQYQJWcbvP57OKoPSQSKoVdNrl6gVWflFXSedfrcKtOZ4Oe8tJHoHZf6q7V_FLj7KkbebzpK7g6Mi3ptElsYbv17Ga5OEj5KVUruxz1CfNsU1nIPpXFA1",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.8.0-144 (144)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABem0rgeIh0eoufv5ZSRliAdCY1lv82efI3g33sSEu0aQwncOn4ujjA8o4F3AXl7y9dCNXx6Xa6oBnEpV7K0njMP2rGP9PaDa5zM5xxSNhVBjWGP2OReupwUtCQj4Tcv5EPrUujrsj8Ybyim-LeolBr15JV12XjqTCa9bYMci5SFL6QqFE=",
+                    "device_id": "2c93d7cf880232e7",
+                    "device_name": "SM-G950F",
+                    "manufacturer": "samsung",
+                    "model": "SM-G950F",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "user_id": "6c5a1fdcb33b455da45c864e34f8f648",
+                    "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+                },
+                "domain": "mobile_app",
+                "entry_id": "8fb20e950374472ca949fd0a636dc9b4",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-G950F",
+                "unique_id": "io.homeassistant.companion.android-2c93d7cf880232e7",
                 "version": 1
             }
         ]
