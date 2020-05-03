@@ -99,3 +99,23 @@
   - data:
       entity_id: scene.night
     service: scene.turn_on
+- id: '1588422957984'
+  alias: Salon sufit work around Ikea
+  description: Salon sufit off, switch it on and switch off in Ikea
+  trigger:
+  - event_data:
+      entity_id: switch.lampa_salon_sufit
+    event_type: EVENT_STATE_CHANGED
+    platform: event
+  condition:
+  - condition: state
+    entity_id: switch.lampa_salon_sufit
+    state: 'off'
+  action:
+  - data: {}
+    entity_id: switch.lampa_salon_sufit
+    service: switch.turn_on
+  - delay: '2'
+  - data: {}
+    entity_id: light.salon_sufit
+    service: light.turn_off

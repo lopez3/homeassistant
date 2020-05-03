@@ -306,18 +306,45 @@
                     "cards": [
                         {
                             "entities": [
-                                "switch.lampa_salon_kanapa",
-                                "light.salon_lampka",
-                                "light.salon_sufit",
-                                "switch.lampa_salon_kinkiety",
-                                "switch.lampa_kuchnia_sufit",
-                                "switch.lampa_jadalnia_sufit",
-                                "switch.lampa_korytarz_dol",
-                                "switch.lampa_schody",
-                                "switch.lampa_lazienka_dol",
-                                "switch.lampa_lazienka_dol_lustro",
-                                "switch.lampa_techniczne",
-                                "switch.lampa_wiatrolap"
+                                {
+                                    "entity": "switch.lampa_salon_kanapa"
+                                },
+                                {
+                                    "entity": "light.salon_sufit"
+                                },
+                                {
+                                    "entity": "switch.lampa_salon_sufit"
+                                },
+                                {
+                                    "entity": "light.salon_lampka"
+                                },
+                                {
+                                    "entity": "switch.lampa_salon_kinkiety"
+                                },
+                                {
+                                    "entity": "switch.lampa_kuchnia_sufit"
+                                },
+                                {
+                                    "entity": "switch.lampa_jadalnia_sufit"
+                                },
+                                {
+                                    "entity": "switch.lampa_korytarz_dol"
+                                },
+                                {
+                                    "entity": "switch.lampa_schody"
+                                },
+                                {
+                                    "entity": "switch.lampa_lazienka_dol"
+                                },
+                                {
+                                    "entity": "switch.lampa_lazienka_dol_lustro"
+                                },
+                                {
+                                    "entity": "switch.lampa_techniczne"
+                                },
+                                {
+                                    "entity": "switch.lampa_wiatrolap"
+                                }
                             ],
                             "show_header_toggle": true,
                             "title": "Parter",
@@ -337,17 +364,42 @@
                         },
                         {
                             "entities": [
-                                "switch.lampa_schody_gora",
-                                "switch.lampa_korytarz_pralnia",
-                                "switch.lampa_sypialnia_ady",
-                                "switch.lampa_sypialnia_ewy",
-                                "light.sypialnia_sufit",
-                                "light.sypialnia_lampka",
-                                "switch.lampa_garderoba",
-                                "switch.lampa_lazienka_gora",
-                                "switch.lampa_lazienka_gora_lustro",
-                                "switch.lampa_pralnia_1",
-                                "switch.lampa_pralnia_1a"
+                                {
+                                    "entity": "light.sypialnia_sufit"
+                                },
+                                {
+                                    "entity": "switch.lampa_sypialnia_rodzicow"
+                                },
+                                {
+                                    "entity": "light.sypialnia_lampka"
+                                },
+                                {
+                                    "entity": "switch.lampa_garderoba"
+                                },
+                                {
+                                    "entity": "switch.lampa_sypialnia_ewy"
+                                },
+                                {
+                                    "entity": "switch.lampa_sypialnia_ady"
+                                },
+                                {
+                                    "entity": "switch.lampa_lazienka_gora"
+                                },
+                                {
+                                    "entity": "switch.lampa_lazienka_gora_lustro"
+                                },
+                                {
+                                    "entity": "switch.lampa_schody_gora"
+                                },
+                                {
+                                    "entity": "switch.lampa_korytarz_pralnia"
+                                },
+                                {
+                                    "entity": "switch.lampa_pralnia_1"
+                                },
+                                {
+                                    "entity": "switch.lampa_pralnia_1a"
+                                }
                             ],
                             "show_header_toggle": true,
                             "title": "Poddasze",

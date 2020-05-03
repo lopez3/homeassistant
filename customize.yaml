@@ -59,8 +59,8 @@ switch.lampa_ogrod_wjazd: { friendly_name: Ogród wjazd, icon: 'mdi:lightbulb' }
 switch.lampa_ogrod_wiata: { friendly_name: Ogród wiata, icon: 'mdi:lightbulb' }
 switch.lampa_wiata_kulki: { friendly_name: Ogród wiata kulki, icon: 'mdi:lightbulb' }
 
-light.salon_lampka: { friendly_name: Salon lampka, icon: 'mdi:lamp' }
-light.salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
+# light.salon_lampka: { friendly_name: Salon lampka, icon: 'mdi:lamp' }
+# light.salon_sufit: { friendly_name: Salon sufit, icon: 'mdi:ceiling-light' }
 
 
 switch.stycznik_gniazda_gora: { friendly_name: Gniazda góra, icon: 'mdi:flash'  }
