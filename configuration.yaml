@@ -47,11 +47,11 @@ http:
 #  trusted_proxies: 
 #    - 127.0.0.1
 
-#bmw_connected_drive:
-#  bmw320d:
-#    username: !secret bmw_username
-#    password: !secret bmw_password
-#    region: "rest_of_world"
+bmw_connected_drive:
+  bmw320d:
+    username: !secret bmw_username
+    password: !secret bmw_password
+    region: "rest_of_world"
 
 media_player:
   - platform: yamaha

@@ -6,13 +6,13 @@
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_level": {
                 "added": true,
                 "attributes": {
-                    "charger_type": "AC",
-                    "is_charging": true
+                    "charger_type": "N/A",
+                    "is_charging": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-80",
+                "icon": "mdi:battery-80",
                 "name": "Battery Level",
-                "state": 89,
+                "state": 80,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -49,7 +49,7 @@
                     "frequency": 5520,
                     "ip_address": "192.168.88.52",
                     "is_hidden": false,
-                    "link_speed": 240,
+                    "link_speed": 180,
                     "signal_level": -1
                 },
                 "icon": "mdi:wifi-strength-off",
@@ -178,9 +178,9 @@
                     "is_charging": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-60",
+                "icon": "mdi:battery-10",
                 "name": "Battery Level",
-                "state": 65,
+                "state": 12,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -217,7 +217,7 @@
                     "frequency": 5520,
                     "ip_address": "192.168.88.66",
                     "is_hidden": true,
-                    "link_speed": 360,
+                    "link_speed": 400,
                     "signal_level": -1
                 },
                 "icon": "mdi:wifi-strength-off",
@@ -234,9 +234,9 @@
                     "is_charging": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-40",
+                "icon": "mdi:battery-10",
                 "name": "Battery Level",
-                "state": 45,
+                "state": 10,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -269,16 +269,16 @@
             "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_wifi_connection": {
                 "added": true,
                 "attributes": {
-                    "bssid": "7a:8a:20:2b:2d:b5",
-                    "frequency": 5280,
-                    "ip_address": "192.168.88.40",
+                    "bssid": null,
+                    "frequency": -1,
+                    "ip_address": "0.0.0.0",
                     "is_hidden": false,
-                    "link_speed": 108,
-                    "signal_level": -66
+                    "link_speed": -1,
+                    "signal_level": -1
                 },
-                "icon": "mdi:wifi-strength-2",
+                "icon": "mdi:wifi-strength-off",
                 "name": "Wifi Connection",
-                "state": "Aleja Klonow",
+                "state": "<not connected>",
                 "type": "sensor",
                 "unique_id": "wifi_connection",
                 "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
