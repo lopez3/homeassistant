@@ -33,7 +33,7 @@ config:
 # Show links to resources in log and frontend
 # introduction:
 
-zone: !include zones.yaml
+#zone: !include zones.yaml
 
 # Enables the frontend
 frontend:

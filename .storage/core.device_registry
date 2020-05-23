@@ -2,31 +2,12 @@
     "data": {
         "devices": [
             {
-                "area_id": "a9161c04e2d248f5a639f868f626d67e",
-                "config_entries": [
-                    "37fb714c96d3417f8156d56fc4d25d0d"
-                ],
-                "connections": [],
-                "id": "310ba9cdaff643acb0c08accacf8a8e3",
-                "identifiers": [
-                    [
-                        "tradfri",
-                        "7e1461520440001a"
-                    ]
-                ],
-                "manufacturer": "IKEA of Sweden",
-                "model": "E1526",
-                "name": "Gateway",
-                "name_by_user": null,
-                "sw_version": "1.10.30",
-                "via_device_id": null
-            },
-            {
                 "area_id": "1ce0d51958b24b698d0197f09ac5ae99",
                 "config_entries": [
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "231e99e2df54416aa0fb6ad9431c7db2",
                 "identifiers": [
                     [
@@ -47,6 +28,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "f5acfa925b784e3e9ed81d6e98b3e6dc",
                 "identifiers": [
                     [
@@ -58,7 +40,7 @@
                 "model": "TRADFRI bulb E27 WS opal 980lm",
                 "name": "Salon sufit",
                 "name_by_user": null,
-                "sw_version": "2.3.007",
+                "sw_version": "2.3.050",
                 "via_device_id": "310ba9cdaff643acb0c08accacf8a8e3"
             },
             {
@@ -67,6 +49,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "ef81f72532334d52a66deb8e5ca470d2",
                 "identifiers": [
                     [
@@ -78,7 +61,7 @@
                 "model": "TRADFRI bulb E27 WS opal 980lm",
                 "name": "Salon Lampka",
                 "name_by_user": null,
-                "sw_version": "2.3.007",
+                "sw_version": "2.3.050",
                 "via_device_id": "310ba9cdaff643acb0c08accacf8a8e3"
             },
             {
@@ -87,6 +70,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "795c56b17b5e40da8bb461f325936153",
                 "identifiers": [
                     [
@@ -107,6 +91,7 @@
                     "5dbb75b4217345018d03fa017aa7d8d8"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "001d072fe65241438a013c388ea81e16",
                 "identifiers": [
                     [
@@ -127,6 +112,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "45d9c67edade493f9c9d798a1ade728e",
                 "identifiers": [
                     [
@@ -147,6 +133,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "3e59fa381ae4450f95c38bbab9eedee0",
                 "identifiers": [
                     [
@@ -167,6 +154,7 @@
                     "37fb714c96d3417f8156d56fc4d25d0d"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "704a787517714c339e268fcddce8100d",
                 "identifiers": [
                     [
@@ -192,6 +180,7 @@
                         "a4:83:e7:9b:e0:bd"
                     ]
                 ],
+                "entry_type": null,
                 "id": "393d79ff0ef8498ab1d1ead8a6da3c80",
                 "identifiers": [],
                 "manufacturer": null,
@@ -212,6 +201,7 @@
                         "70:ee:50:2b:2b:90"
                     ]
                 ],
+                "entry_type": null,
                 "id": "30a7ccfd52854d1b9cdfec3bb0ab8060",
                 "identifiers": [],
                 "manufacturer": null,
@@ -232,6 +222,7 @@
                         "28:f3:66:f2:82:9e"
                     ]
                 ],
+                "entry_type": null,
                 "id": "87deb387fceb42948373394f714d6ba4",
                 "identifiers": [],
                 "manufacturer": null,
@@ -252,6 +243,7 @@
                         "a0:1d:48:9f:7d:f6"
                     ]
                 ],
+                "entry_type": null,
                 "id": "a6186787a37949afa46829caa694ce1c",
                 "identifiers": [],
                 "manufacturer": null,
@@ -272,6 +264,7 @@
                         "04:d6:aa:c5:3f:3a"
                     ]
                 ],
+                "entry_type": null,
                 "id": "602a699ed5b34fe290a5305993c27a49",
                 "identifiers": [],
                 "manufacturer": null,
@@ -292,6 +285,7 @@
                         "a4:c3:f0:32:e7:45"
                     ]
                 ],
+                "entry_type": null,
                 "id": "88d85c7b27bd42cdb6e1c226dd4ff62c",
                 "identifiers": [],
                 "manufacturer": null,
@@ -312,6 +306,7 @@
                         "34:7e:5c:30:a6:c0"
                     ]
                 ],
+                "entry_type": null,
                 "id": "1768bcddad43485db6242788d1add845",
                 "identifiers": [],
                 "manufacturer": null,
@@ -332,13 +327,14 @@
                         "78:8a:20:b3:e5:56"
                     ]
                 ],
+                "entry_type": null,
                 "id": "1edee68d41c24b779e7d179dff1e9751",
                 "identifiers": [],
                 "manufacturer": "Ubiquiti Networks",
                 "model": "U7MSH",
                 "name": "Altana",
                 "name_by_user": null,
-                "sw_version": "4.0.80.10875",
+                "sw_version": "4.3.13.11253",
                 "via_device_id": null
             },
             {
@@ -352,6 +348,7 @@
                         "a8:db:03:b8:05:14"
                     ]
                 ],
+                "entry_type": null,
                 "id": "7f769307b4714e3db27eb52f07fdc216",
                 "identifiers": [],
                 "manufacturer": null,
@@ -372,13 +369,14 @@
                         "18:e8:29:fa:5a:07"
                     ]
                 ],
+                "entry_type": null,
                 "id": "fb4246107e5840019ce7887041b63768",
                 "identifiers": [],
                 "manufacturer": "Ubiquiti Networks",
                 "model": "U7LR",
                 "name": "Kuchnia",
                 "name_by_user": null,
-                "sw_version": "4.0.80.10875",
+                "sw_version": "4.3.13.11253",
                 "via_device_id": null
             },
             {
@@ -392,13 +390,14 @@
                         "78:8a:20:29:2d:b5"
                     ]
                 ],
+                "entry_type": null,
                 "id": "d80e89ae88cc4103aaf91d0220ca9b91",
                 "identifiers": [],
                 "manufacturer": "Ubiquiti Networks",
                 "model": "U7LR",
                 "name": "Pralnia",
                 "name_by_user": null,
-                "sw_version": "4.0.80.10875",
+                "sw_version": "4.3.13.11253",
                 "via_device_id": null
             },
             {
@@ -412,6 +411,7 @@
                         "9a:63:c1:a9:1a:5d"
                     ]
                 ],
+                "entry_type": null,
                 "id": "c9b320fa723c417ea3ea8a35a51c90f3",
                 "identifiers": [],
                 "manufacturer": null,
@@ -432,6 +432,7 @@
                         "94:65:2d:32:fb:6a"
                     ]
                 ],
+                "entry_type": null,
                 "id": "316e3c4f01c24cf585d69de662141aca",
                 "identifiers": [],
                 "manufacturer": null,
@@ -452,6 +453,7 @@
                         "ae:b1:b7:b4:e3:e2"
                     ]
                 ],
+                "entry_type": null,
                 "id": "4a2f80c02b144e8391d759e0869be23b",
                 "identifiers": [],
                 "manufacturer": null,
@@ -472,6 +474,7 @@
                         "48:01:c5:a5:b0:21"
                     ]
                 ],
+                "entry_type": null,
                 "id": "5f5de35cdfd34192a982e4dcc3dff517",
                 "identifiers": [],
                 "manufacturer": null,
@@ -492,6 +495,7 @@
                         "34:02:86:3e:48:15"
                     ]
                 ],
+                "entry_type": null,
                 "id": "f7e30f9a6fba4634b9f3306b1d7e9f9a",
                 "identifiers": [],
                 "manufacturer": null,
@@ -507,6 +511,7 @@
                     "9a122484fbfd45589c436d768983d035"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "2dce178a80c5442ea8d367db708169f7",
                 "identifiers": [
                     [
@@ -527,6 +532,7 @@
                     "f3ed6e24ab2942699ade6cae113a1ccc"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "a1e8e3879f4642ab8d458921cdd8a913",
                 "identifiers": [
                     [
@@ -552,6 +558,7 @@
                         "74:c2:46:4b:94:ac"
                     ]
                 ],
+                "entry_type": null,
                 "id": "a78aab2c00bf48f6b2e1649fd1db682b",
                 "identifiers": [],
                 "manufacturer": null,
@@ -567,6 +574,7 @@
                     "d9baa7a171aa4923b021f37da3fe31dc"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "f22ec9ff796f4c44a4ebadee6c49543b",
                 "identifiers": [
                     [
@@ -587,6 +595,7 @@
                     "d8e9cf4cc66f4e9d9d47668307ce7416"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "9900fd9b24e44e14b78d6b1078971375",
                 "identifiers": [
                     [
@@ -612,6 +621,7 @@
                         "c0:ee:fb:61:21:7f"
                     ]
                 ],
+                "entry_type": null,
                 "id": "bdd7d6bd53cd476ca4f39cce5bb54113",
                 "identifiers": [],
                 "manufacturer": null,
@@ -632,6 +642,7 @@
                         "2c:26:17:07:66:22"
                     ]
                 ],
+                "entry_type": null,
                 "id": "f1bf2ea45f904e6db3f508c2125d3333",
                 "identifiers": [],
                 "manufacturer": null,
@@ -652,6 +663,7 @@
                         "84:b8:b8:95:78:ba"
                     ]
                 ],
+                "entry_type": null,
                 "id": "a3fbe38d455040518c363f195fb2c0e9",
                 "identifiers": [],
                 "manufacturer": null,
@@ -672,6 +684,7 @@
                         "ac:b5:7d:75:d6:77"
                     ]
                 ],
+                "entry_type": null,
                 "id": "29f2f9a1d5db482b80c2580efab8336e",
                 "identifiers": [],
                 "manufacturer": null,
@@ -692,6 +705,7 @@
                         "a0:02:dc:f1:a6:93"
                     ]
                 ],
+                "entry_type": null,
                 "id": "4d304ca04e1f407bac00b583431e909b",
                 "identifiers": [],
                 "manufacturer": null,
@@ -712,6 +726,7 @@
                         "7c:ed:8d:ac:d1:d2"
                     ]
                 ],
+                "entry_type": null,
                 "id": "5b86707817f04a079a214c869eebca87",
                 "identifiers": [],
                 "manufacturer": null,
@@ -732,6 +747,7 @@
                         "c0:bd:d1:d8:34:6e"
                     ]
                 ],
+                "entry_type": null,
                 "id": "f88a16ff2b914813b2ae87c48ddfcbb4",
                 "identifiers": [],
                 "manufacturer": null,
@@ -747,6 +763,7 @@
                     "fe3d85f1fe0a445bbaf237dbedaa7694"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "21fef03ca685418581682dd51878f022",
                 "identifiers": [
                     [
@@ -772,6 +789,7 @@
                         "f0:a2:25:3e:23:c0"
                     ]
                 ],
+                "entry_type": null,
                 "id": "dd814727385349a59e614db3212f0d14",
                 "identifiers": [],
                 "manufacturer": null,
@@ -792,6 +810,7 @@
                         "4e:08:c5:42:47:a3"
                     ]
                 ],
+                "entry_type": null,
                 "id": "26a457e8ecf749afab13b62ae4db721d",
                 "identifiers": [],
                 "manufacturer": null,
@@ -807,6 +826,7 @@
                     "f6ef5f23ef224bbbb94baf5e5efb8121"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "d7dbe4c295a74de9a2d4631fcbf5bdcd",
                 "identifiers": [
                     [
@@ -832,6 +852,7 @@
                         "80:7d:3a:59:09:59"
                     ]
                 ],
+                "entry_type": null,
                 "id": "b7de9abf341a49969dd005e886c2f60f",
                 "identifiers": [],
                 "manufacturer": null,
@@ -847,6 +868,7 @@
                     "8fb20e950374472ca949fd0a636dc9b4"
                 ],
                 "connections": [],
+                "entry_type": null,
                 "id": "e2257517ce4d41d19b9b18fa97b6ada8",
                 "identifiers": [
                     [
@@ -872,6 +894,7 @@
                         "f0:d5:bf:d8:fa:09"
                     ]
                 ],
+                "entry_type": null,
                 "id": "02afa934d16444e589bcc4dbf8b45dea",
                 "identifiers": [],
                 "manufacturer": null,
@@ -892,6 +915,7 @@
                         "e0:ee:1b:52:bc:23"
                     ]
                 ],
+                "entry_type": null,
                 "id": "e496f2e6ac19458f9466f85cc7b7ba84",
                 "identifiers": [],
                 "manufacturer": null,
@@ -912,6 +936,7 @@
                         "94:99:01:07:61:83"
                     ]
                 ],
+                "entry_type": null,
                 "id": "8ad01d9068f34c55872c3a0aa1556168",
                 "identifiers": [],
                 "manufacturer": null,

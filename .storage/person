@@ -43,6 +43,14 @@
                 "id": "ada",
                 "name": "Ada",
                 "user_id": "6c5a1fdcb33b455da45c864e34f8f648"
+            },
+            {
+                "device_trackers": [
+                    "device_tracker.320d_xdrive"
+                ],
+                "id": "bmw_320d",
+                "name": "BMW 320d",
+                "user_id": null
             }
         ]
     },

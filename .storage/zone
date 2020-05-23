@@ -1,0 +1,17 @@
+{
+    "data": {
+        "items": [
+            {
+                "icon": "mdi:home-modern",
+                "id": "warpie",
+                "latitude": 50.31849508211437,
+                "longitude": 19.154759739000056,
+                "name": "Warpie",
+                "passive": false,
+                "radius": 43.95482277623461
+            }
+        ]
+    },
+    "key": "zone",
+    "version": 1
+}

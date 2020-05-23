@@ -337,6 +337,16 @@
                             "show_header_toggle": false,
                             "title": "320d",
                             "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "person.bmw_320d"
+                                }
+                            ],
+                            "hours_to_show": 2,
+                            "title": "BMW 320d",
+                            "type": "map"
                         }
                     ],
                     "icon": "mdi:home",
