@@ -7,9 +7,9 @@
                 "added": true,
                 "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery-30",
+                "icon": "mdi:battery-50",
                 "name": "Battery Level",
-                "state": 34,
+                "state": 58,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -18,13 +18,13 @@
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_state": {
                 "added": true,
                 "attributes": {
-                    "charger_type": "ac",
-                    "is_charging": true
+                    "charger_type": "unknown",
+                    "is_charging": false
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-30",
+                "icon": "mdi:battery-50",
                 "name": "Battery State",
-                "state": "charging",
+                "state": "discharging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
@@ -37,18 +37,18 @@
                     "ISO Country Code": "PL",
                     "Locality": "Z\u0142oty Potok",
                     "Location": [
-                        50.717790099999995,
-                        19.428986
+                        50.7181535,
+                        19.4286046
                     ],
                     "Postal Code": "42-253",
                     "Sub Administrative Area": "cz\u0119stochowski",
                     "Sub Locality": null,
-                    "Sub Thoroughfare": "40",
+                    "Sub Thoroughfare": "36",
                     "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "Osiedle Aleja Klon\u00f3w 40, 42-253 Z\u0142oty Potok, Polska",
+                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
                 "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
@@ -60,10 +60,10 @@
                     "frequency": 5520,
                     "ip_address": "192.168.88.52",
                     "is_hidden": false,
-                    "link_speed": 180,
-                    "signal_level": -56
+                    "link_speed": 360,
+                    "signal_level": -1
                 },
-                "icon": "mdi:wifi-strength-2",
+                "icon": "mdi:wifi-strength-off",
                 "name": "Wifi Connection",
                 "state": "Aleja Klonow",
                 "type": "sensor",
@@ -186,9 +186,9 @@
                 "added": true,
                 "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery-10",
+                "icon": "mdi:battery-20",
                 "name": "Battery Level",
-                "state": 10,
+                "state": 28,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -197,13 +197,13 @@
             "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_battery_state": {
                 "added": true,
                 "attributes": {
-                    "charger_type": "unknown",
-                    "is_charging": false
+                    "charger_type": "ac",
+                    "is_charging": true
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-10",
+                "icon": "mdi:battery-charging-20",
                 "name": "Battery State",
-                "state": "discharging",
+                "state": "charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"

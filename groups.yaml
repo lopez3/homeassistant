@@ -1,139 +1,139 @@
 #  default_view:
-  potencjalny_default:
-    icon: mdi:home
-    entities:
-      - group.default_column1
-      - group.default_column2
-      - group.default_column3
+#  potencjalny_default:
+#    icon: mdi:home
+#    entities:
+#      - group.default_column1
+#      - group.default_column2
+#      - group.default_column3
 
-  default_column1:
-    entities: 
-      - sensor.wilgotnosc_salon_schody
-      - sensor.temperatura_dol
-      - sensor.temperatura_sypialnie
-#      - sensor.dark_sky_apparent_temperature
-      - input_number.ventilation
-      - camera.kamera_brama
-      - camera.kamera_narzedziowy
-      - camera.kamera_wiata
-      - camera.kamera_aleja
+#  default_column1:
+#    entities: 
+#      - sensor.wilgotnosc_salon_schody
+#      - sensor.temperatura_dol
+#      - sensor.temperatura_sypialnie
+##      - sensor.dark_sky_apparent_temperature
+#      - input_number.ventilation
+#      - camera.kamera_brama
+#      - camera.kamera_narzedziowy
+#      - camera.kamera_wiata
+#      - camera.kamera_aleja
 
-  default_column2:
-    entities: 
-      - scene.morning
-      - scene.evening
-#      - scene.movies
-      - scene.night
-      - scene.party
-      - camera.kamera_furtka
-      - camera.kamera_drzwi
-      - camera.kamera_sciezka
+#  default_column2:
+#    entities: 
+#      - scene.morning
+#      - scene.evening
+##      - scene.movies
+#      - scene.night
+#      - scene.party
+#      - camera.kamera_furtka
+#      - camera.kamera_drzwi
+#      - camera.kamera_sciezka
 
-  default_column3:
-    entities: 
-      - group.lampy_dol  
-      - group.lampy_gora
-      - group.lampy_zewn 
-      - camera.kamera_salon
-      - camera.kamera_podjazd
-      - camera.kamera_hamak
+#  default_column3:
+#    entities: 
+#      - group.lampy_dol  
+#      - group.lampy_gora
+#      - group.lampy_zewn 
+#      - camera.kamera_salon
+#      - camera.kamera_podjazd
+#      - camera.kamera_hamak
 
-  klimat_view:
-    icon: mdi:weather-cloudy
-    entities:
-      - sensor.yr_symbol
-      - group.klimat
-      - group.wnetrze
-      - group.netatmo
+#  klimat_view:
+#    icon: mdi:weather-cloudy
+#    entities:
+#      - sensor.yr_symbol
+#      - group.klimat
+#      - group.wnetrze
+#      - group.netatmo
 
-  lampy_view:
-    icon: mdi:lightbulb-on
-    entities:
-      - group.lampy_dol
-      - group.lampy_zewn
-      - group.lampy_gora
+#  lampy_view:
+#    icon: mdi:lightbulb-on
+#    entities:
+#      - group.lampy_dol
+#      - group.lampy_zewn
+#      - group.lampy_gora
 
-  ogrzewanie_view:
-    icon: mdi:thermometer
-    entities:
-      - group.ogrzewanie_kuchnia
-      - group.ogrzewanie_lazienka_dol
-      - group.ogrzewanie_salon_przejscie
-      - group.ogrzewanie_salon_schody
-      - group.ogrzewanie_lazienka_gora
-      - group.ogrzewanie_sypialnia_ady
-      - group.ogrzewanie_sypialnia_ewy
-      - group.ogrzewanie_sypialnia_rodzicow
-      - group.ogrzewanie_pralnia
-      - group.ogrzewanie_garderoba
-      - group.ogrzewanie_korytarz_gora
-      - group.ogrzewanie_techniczne
-      - group.ogrzewanie_wiatrolap
-      - group.ogrzewanie_inne
+#  ogrzewanie_view:
+#    icon: mdi:thermometer
+#    entities:
+#      - group.ogrzewanie_kuchnia
+#      - group.ogrzewanie_lazienka_dol
+#      - group.ogrzewanie_salon_przejscie
+#      - group.ogrzewanie_salon_schody
+#      - group.ogrzewanie_lazienka_gora
+#      - group.ogrzewanie_sypialnia_ady
+#      - group.ogrzewanie_sypialnia_ewy
+#      - group.ogrzewanie_sypialnia_rodzicow
+#      - group.ogrzewanie_pralnia
+#      - group.ogrzewanie_garderoba
+#      - group.ogrzewanie_korytarz_gora
+#      - group.ogrzewanie_techniczne
+#      - group.ogrzewanie_wiatrolap
+#      - group.ogrzewanie_inne
 
-  kamery_view:
-    name: Kamery
-    icon: mdi:camera-iris
-    entities: 
-      - group.kamery_sensory
-      - group.kamery_obraz
+#  kamery_view:
+#    name: Kamery
+#    icon: mdi:camera-iris
+#    entities: 
+#      - group.kamery_sensory
+#      - group.kamery_obraz
 
-  media_view:
-    name: Multimedia
-    icon: mdi:music
-    entities:
-      - media_player.spotify
-      - group.media_1potok
-      - group.media_2bedzin
+#  media_view:
+#    name: Multimedia
+#    icon: mdi:music
+#    entities:
+#      - media_player.spotify
+#      - group.media_1potok
+#      - group.media_2bedzin
 
-  styczniki_view:
-    name: Styczniki
-    icon: mdi:flash
-    entities:
-      - group.styczniki
+#  styczniki_view:
+#    name: Styczniki
+#    icon: mdi:flash
+#    entities:
+#      - group.styczniki
 
-  system_view:
-    name: System
-    icon: mdi:information-outline
-    entities:
-      - group.system_hw
+#  system_view:
+#    name: System
+#    icon: mdi:information-outline
+#    entities:
+#      - group.system_hw
 
-  kamery_obraz:
-    name: Kamery obraz
-    entities:
-      - camera.kamera_drzwi
-      - camera.kamera_brama
-      - camera.kamera_furtka
-      - camera.kamera_podjazd
-      - camera.kamera_salon
-      - camera.kamera_narzedziowy
-      - camera.kamera_sciezka
-      - camera.kamera_wiata
-      - camera.kamera_hamak
-      - camera.kamera_aleja
-  kamery_sensory:
-    name: Kamery sensory
-    entities:
-      - binary_sensor.camera_door_motion
-      - binary_sensor.camera_door_pir_alarm
-      - binary_sensor.living_room_motion
-      - binary_sensor.living_room_pir_alarm
-      - binary_sensor.camera_gate_motion_2
-      - binary_sensor.camera_gate_pir_alarm_2
-      - binary_sensor.camera_gate_tamper_detection_2
-      - binary_sensor.camera_gate_disk_error_2
-      - binary_sensor.camera_fence_2_motion
-      - binary_sensor.camera_fence_2_disk_error
-      - binary_sensor.camera_fence_2_disk_full
-      - binary_sensor.camera_fence_2_tamper_detection
-      - binary_sensor.camera_fence_1_motion
-      - binary_sensor.camera_fence_1_disk_error
-      - binary_sensor.camera_fence_1_disk_full
-      - binary_sensor.camera_fence_1_tamper_detection
-      - binary_sensor.tool_house_motion
-      - binary_sensor.tool_house_disk_error
-      - binary_sensor.tool_house_disk_full
-      - binary_sensor.tool_house_tamper_detection
+#  kamery_obraz:
+#    name: Kamery obraz
+#    entities:
+#      - camera.kamera_drzwi
+#      - camera.kamera_brama
+#      - camera.kamera_furtka
+#      - camera.kamera_podjazd
+#      - camera.kamera_salon
+#      - camera.kamera_narzedziowy
+#      - camera.kamera_sciezka
+#      - camera.kamera_wiata
+#      - camera.kamera_hamak
+#      - camera.kamera_aleja
+#  kamery_sensory:
+#    name: Kamery sensory
+#    entities:
+#      - binary_sensor.camera_door_motion
+#      - binary_sensor.camera_door_pir_alarm
+#      - binary_sensor.living_room_motion
+#      - binary_sensor.living_room_pir_alarm
+#      - binary_sensor.camera_gate_motion_2
+#      - binary_sensor.camera_gate_pir_alarm_2
+#      - binary_sensor.camera_gate_tamper_detection_2
+#      - binary_sensor.camera_gate_disk_error_2
+#      - binary_sensor.camera_fence_2_motion
+#      - binary_sensor.camera_fence_2_disk_error
+#      - binary_sensor.camera_fence_2_disk_full
+#      - binary_sensor.camera_fence_2_tamper_detection
+#      - binary_sensor.camera_fence_1_motion
+#      - binary_sensor.camera_fence_1_disk_error
+#      - binary_sensor.camera_fence_1_disk_full
+#      - binary_sensor.camera_fence_1_tamper_detection
+#      - binary_sensor.tool_house_motion
+#      - binary_sensor.tool_house_disk_error
+#      - binary_sensor.tool_house_disk_full
+#      - binary_sensor.tool_house_tamper_detection
 
   ogrzewanie_kuchnia:
     name: Ogrzewanie kuchnia

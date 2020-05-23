@@ -1,27 +1,27 @@
 {
     "data": [
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Krzysiek",
                     "id": "krzysiek",
-                    "source": "device_tracker.galaxy_s10"
+                    "source": "person.krzysiek"
                 },
                 "context": {
-                    "id": "ee61404c97e1475c84938abf9f034c39",
+                    "id": "795b6f324d464cd18704439f12f9b033",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.krzysiek",
-                "last_changed": "2020-05-23T16:45:37.736641+00:00",
-                "last_updated": "2020-05-23T16:45:37.736641+00:00",
+                "last_changed": "2020-05-23T18:30:37.664747+00:00",
+                "last_updated": "2020-05-23T18:30:37.664747+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -30,22 +30,22 @@
                     "id": "patrycja",
                     "latitude": 50.7179001,
                     "longitude": 19.4285438,
-                    "source": "device_tracker.sm_g920f",
+                    "source": "person.patrycja",
                     "user_id": "c5fb063629c343ecbab4c741d99648f2"
                 },
                 "context": {
-                    "id": "92f5c93a641e4cd8bcb45da203dec6c4",
+                    "id": "27df3d4680ba46909f43538739ace546",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.patrycja",
-                "last_changed": "2020-05-22T19:23:04.398717+00:00",
-                "last_updated": "2020-05-22T19:24:22.809440+00:00",
+                "last_changed": "2020-05-23T18:30:37.665824+00:00",
+                "last_updated": "2020-05-23T18:30:37.665824+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -54,46 +54,46 @@
                     "id": "ewa",
                     "latitude": 50.71787416934967,
                     "longitude": 19.430265426635742,
-                    "source": "device_tracker.oneplus_a5010",
+                    "source": "person.ewa",
                     "user_id": "63dbdb6c44424d8592b372a18ab621d8"
                 },
                 "context": {
-                    "id": "0c16556b0cde4505b2fb4dc363978a6b",
+                    "id": "71bc473ccb944fffbeb7175b85d5a294",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.ewa",
-                "last_changed": "2020-05-22T19:23:04.399790+00:00",
-                "last_updated": "2020-05-23T12:05:13.019170+00:00",
+                "last_changed": "2020-05-23T18:30:37.666699+00:00",
+                "last_updated": "2020-05-23T18:30:37.666699+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
                     "friendly_name": "Ada",
-                    "gps_accuracy": 12,
+                    "gps_accuracy": 13,
                     "id": "ada",
-                    "latitude": 50.7179534,
-                    "longitude": 19.4285603,
-                    "source": "device_tracker.sm_g950f",
+                    "latitude": 50.7179518,
+                    "longitude": 19.4285651,
+                    "source": "person.ada",
                     "user_id": "6c5a1fdcb33b455da45c864e34f8f648"
                 },
                 "context": {
-                    "id": "3765cad0bf6c4089b664d5a2ce5e15aa",
+                    "id": "a284f209ba68496ea6eacf6ef03f9100",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.ada",
-                "last_changed": "2020-05-23T06:39:11.221847+00:00",
-                "last_updated": "2020-05-23T17:21:05.890436+00:00",
+                "last_changed": "2020-05-23T18:30:37.667527+00:00",
+                "last_updated": "2020-05-23T18:30:37.667527+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -102,219 +102,219 @@
                     "id": "bmw_320d",
                     "latitude": 50.71813,
                     "longitude": 19.428492,
-                    "source": "device_tracker.320d_xdrive"
+                    "source": "person.bmw_320d"
                 },
                 "context": {
-                    "id": "5ea9a2e9bb0c47ad9588f59f7b0e2f68",
+                    "id": "cbc32df29d14477d939391daa85d2dea",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.bmw_320d",
-                "last_changed": "2020-05-23T16:48:06.106155+00:00",
-                "last_updated": "2020-05-23T16:48:06.106155+00:00",
+                "last_changed": "2020-05-23T18:30:37.668325+00:00",
+                "last_updated": "2020-05-23T18:30:37.668325+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Salon sufit",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "bc05cb31253245ff88148c223803988c",
+                    "id": "26a0f5537eee4063813399c0750768c5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_salon_sufit",
-                "last_changed": "2020-05-22T19:23:04.404500+00:00",
-                "last_updated": "2020-05-22T19:23:04.404500+00:00",
+                "last_changed": "2020-05-23T18:30:37.672052+00:00",
+                "last_updated": "2020-05-23T18:30:37.672052+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Salon kinkiety",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "dc40929db06341bab90cb1ecbeb5245a",
+                    "id": "2314fc1364744b059bbde846132d870d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_salon_kinkiety",
-                "last_changed": "2020-05-22T19:23:04.405652+00:00",
-                "last_updated": "2020-05-22T19:23:04.405652+00:00",
+                "last_changed": "2020-05-23T18:30:37.672857+00:00",
+                "last_updated": "2020-05-23T18:30:37.672857+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Jadalnia sufit",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "1ac4f95fe5504e3fb55b1fb910217319",
+                    "id": "94de59e0d5c54df1a465ad6c45c1385e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_jadalnia_sufit",
-                "last_changed": "2020-05-22T19:23:04.406632+00:00",
-                "last_updated": "2020-05-22T19:23:04.406632+00:00",
+                "last_changed": "2020-05-23T18:30:37.673747+00:00",
+                "last_updated": "2020-05-23T18:30:37.673747+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Salon kanapa",
                     "icon": "mdi:outdoor-lamp"
                 },
                 "context": {
-                    "id": "69110890a5424fc886b2eafb2618d440",
+                    "id": "d0e1a8e894894030a752531e2d556205",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_salon_kanapa",
-                "last_changed": "2020-05-22T19:24:24.172799+00:00",
-                "last_updated": "2020-05-22T19:24:24.172799+00:00",
+                "last_changed": "2020-05-23T18:30:37.674566+00:00",
+                "last_updated": "2020-05-23T18:30:37.674566+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Taras",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "5b0ebd05464941208437d36f3bc7a365",
+                    "id": "3763c6216965409e9dce89fe4c57d80f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_taras",
-                "last_changed": "2020-05-22T19:25:21.179847+00:00",
-                "last_updated": "2020-05-22T19:25:21.179847+00:00",
-                "state": "off"
+                "last_changed": "2020-05-23T18:30:37.681549+00:00",
+                "last_updated": "2020-05-23T18:30:37.681549+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Kuchnia sufit",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "5864484174a345b39386142168bce2ad",
+                    "id": "84e8e326fecb4d23b1f7bf57a5b8c8a1",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_kuchnia_sufit",
-                "last_changed": "2020-05-23T16:47:42.206210+00:00",
-                "last_updated": "2020-05-23T16:47:42.206210+00:00",
-                "state": "on"
+                "last_changed": "2020-05-23T18:30:37.682333+00:00",
+                "last_updated": "2020-05-23T18:30:37.682333+00:00",
+                "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "\u0141azienka d\u00f3\u0142",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "83466307c2484f579b71ddae8d5d8bf3",
+                    "id": "6d3cd2c9a11a46c69a083416fca5946f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_lazienka_dol",
-                "last_changed": "2020-05-22T23:40:01.615249+00:00",
-                "last_updated": "2020-05-22T23:40:01.615249+00:00",
+                "last_changed": "2020-05-23T18:30:37.683107+00:00",
+                "last_updated": "2020-05-23T18:30:37.683107+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "\u0141azienka d\u00f3\u0142 lustro",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "f8fa34645ee1466b9f15617249c9b42f",
+                    "id": "6b945675e45247b3a83e4c7b818023f1",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_lazienka_dol_lustro",
-                "last_changed": "2020-05-23T16:43:03.268377+00:00",
-                "last_updated": "2020-05-23T16:43:03.268377+00:00",
+                "last_changed": "2020-05-23T18:30:37.684006+00:00",
+                "last_updated": "2020-05-23T18:30:37.684006+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Korytarz d\u00f3\u0142",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "7752e8c3c168495fae0dfb39597433c2",
+                    "id": "076d49a4843c4bff9258799b4dd90bc4",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_korytarz_dol",
-                "last_changed": "2020-05-22T19:23:04.412386+00:00",
-                "last_updated": "2020-05-22T19:23:04.412386+00:00",
+                "last_changed": "2020-05-23T18:30:37.684822+00:00",
+                "last_updated": "2020-05-23T18:30:37.684822+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Techniczne",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "f99e2e37ff434479a5ddfc85b20f489c",
+                    "id": "d2b5a0305b8b4cdebb4ba2eec739a75a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_techniczne",
-                "last_changed": "2020-05-22T19:23:04.413653+00:00",
-                "last_updated": "2020-05-22T19:23:04.413653+00:00",
+                "last_changed": "2020-05-23T18:30:37.685552+00:00",
+                "last_updated": "2020-05-23T18:30:37.685552+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Wiatro\u0142ap",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "0b2ecf9529ae4e8a888c3336438566ff",
+                    "id": "86f1436cba2649eebe89b6f6d1fb9578",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_wiatrolap",
-                "last_changed": "2020-05-23T16:49:46.187553+00:00",
-                "last_updated": "2020-05-23T16:49:46.187553+00:00",
+                "last_changed": "2020-05-23T18:30:37.686268+00:00",
+                "last_updated": "2020-05-23T18:30:37.686268+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Osw2",
@@ -322,234 +322,234 @@
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "54d765d955c544bcac2f01e8c25ae089",
+                    "id": "1d479f272a8249afbfcf423d5637098a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_osw2",
-                "last_changed": "2020-05-22T19:23:04.416404+00:00",
-                "last_updated": "2020-05-22T19:23:04.416404+00:00",
+                "last_changed": "2020-05-23T18:30:37.687146+00:00",
+                "last_updated": "2020-05-23T18:30:37.687146+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Schody",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "a223356e47c04164b0f5639196170816",
+                    "id": "e11c760d955548eba4ff2b943afbae1e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_schody",
-                "last_changed": "2020-05-22T19:23:04.417700+00:00",
-                "last_updated": "2020-05-22T19:23:04.417700+00:00",
+                "last_changed": "2020-05-23T18:30:37.687892+00:00",
+                "last_updated": "2020-05-23T18:30:37.687892+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Wej\u015bcie",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "5b0ebd05464941208437d36f3bc7a365",
+                    "id": "5db58ce6a9f14b4c8c4fc499de5f09de",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_drzwi",
-                "last_changed": "2020-05-22T19:25:21.228606+00:00",
-                "last_updated": "2020-05-22T19:25:21.228606+00:00",
-                "state": "off"
+                "last_changed": "2020-05-23T18:30:37.688646+00:00",
+                "last_updated": "2020-05-23T18:30:37.688646+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Pralnia 1",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "b408993c848f4150b54f37121e2c20c2",
+                    "id": "0c17f8f9d0cd49ddaae43c9c607ef087",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_pralnia_1",
-                "last_changed": "2020-05-23T11:20:14.622215+00:00",
-                "last_updated": "2020-05-23T11:20:14.622215+00:00",
+                "last_changed": "2020-05-23T18:30:37.689442+00:00",
+                "last_updated": "2020-05-23T18:30:37.689442+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Pralnia 1A",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "3e9ecd87d64e41b9afad356178268bc4",
+                    "id": "e0c0441ec95847a8a2ee8ef3979e5095",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_pralnia_1a",
-                "last_changed": "2020-05-23T11:20:14.657536+00:00",
-                "last_updated": "2020-05-23T11:20:14.657536+00:00",
+                "last_changed": "2020-05-23T18:30:37.690256+00:00",
+                "last_updated": "2020-05-23T18:30:37.690256+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "\u0141azienka g\u00f3ra",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "0d438475d1f94922a9c6198a6687983f",
+                    "id": "f7c078f372de407b9c334ca44a322462",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_lazienka_gora",
-                "last_changed": "2020-05-22T19:29:02.342409+00:00",
-                "last_updated": "2020-05-22T19:29:02.342409+00:00",
+                "last_changed": "2020-05-23T18:30:37.690999+00:00",
+                "last_updated": "2020-05-23T18:30:37.690999+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Lazienka g\u00f3ra lustro",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "aa8c07053d044a96b3863e45a2855518",
+                    "id": "3f67abddcc0f404381b3e7b3250bc514",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_lazienka_gora_lustro",
-                "last_changed": "2020-05-22T19:23:04.424204+00:00",
-                "last_updated": "2020-05-22T19:23:04.424204+00:00",
+                "last_changed": "2020-05-23T18:30:37.691711+00:00",
+                "last_updated": "2020-05-23T18:30:37.691711+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Garderoba",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "0c50d49f8b24456c85b93183edc6c3ed",
+                    "id": "be49e9ff60f440e4b1611f241cadeb73",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_garderoba",
-                "last_changed": "2020-05-23T16:46:09.356539+00:00",
-                "last_updated": "2020-05-23T16:46:09.356539+00:00",
+                "last_changed": "2020-05-23T18:30:37.692434+00:00",
+                "last_updated": "2020-05-23T18:30:37.692434+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Sypialnia",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "01343f5119db4b7e8802c4fee1288dea",
+                    "id": "76197f198398435599d6eb730974ed47",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_sypialnia_rodzicow",
-                "last_changed": "2020-05-22T19:23:04.426878+00:00",
-                "last_updated": "2020-05-22T19:23:04.426878+00:00",
-                "state": "off"
+                "last_changed": "2020-05-23T18:30:37.693415+00:00",
+                "last_updated": "2020-05-23T18:30:37.693415+00:00",
+                "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Pok\u00f3j Ady",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "6f6678f8316243149164e150f75e4d34",
+                    "id": "c998f9323ad0443cb3a2b05b7b755a98",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_sypialnia_ady",
-                "last_changed": "2020-05-22T21:52:34.810860+00:00",
-                "last_updated": "2020-05-22T21:52:34.810860+00:00",
+                "last_changed": "2020-05-23T18:30:37.694247+00:00",
+                "last_updated": "2020-05-23T18:30:37.694247+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Pok\u00f3j Ewy",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "514f65025d09408a80a840a1734239cf",
+                    "id": "ee67790cf4ac42efa64f63123718ee3c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_sypialnia_ewy",
-                "last_changed": "2020-05-22T19:29:02.411849+00:00",
-                "last_updated": "2020-05-22T19:29:02.411849+00:00",
+                "last_changed": "2020-05-23T18:30:37.694988+00:00",
+                "last_updated": "2020-05-23T18:30:37.694988+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Korytarz pralnia",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "ad2be9fe10234b8287b6b6abe615d063",
+                    "id": "3f66cf9bb8304729977c19e1f6f132c1",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_korytarz_pralnia",
-                "last_changed": "2020-05-22T19:23:04.430219+00:00",
-                "last_updated": "2020-05-22T19:23:04.430219+00:00",
+                "last_changed": "2020-05-23T18:30:37.695735+00:00",
+                "last_updated": "2020-05-23T18:30:37.695735+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Schody g\u00f3ra",
                     "icon": "mdi:ceiling-light"
                 },
                 "context": {
-                    "id": "a39bf849aa044bbe85ab9dd40c9412ba",
+                    "id": "54eda5db3f07428698d8a271b87d424c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_schody_gora",
-                "last_changed": "2020-05-22T19:23:04.431200+00:00",
-                "last_updated": "2020-05-22T19:23:04.431200+00:00",
+                "last_changed": "2020-05-23T18:30:37.697551+00:00",
+                "last_updated": "2020-05-23T18:30:37.697551+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Kuchnia zlew",
@@ -557,18 +557,18 @@
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "c7565ee9d19044d8adc5f0e9986c2773",
+                    "id": "89ce69a2eb494bf5ab38dcdf717ef799",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_kuchnia_zlew",
-                "last_changed": "2020-05-22T19:23:04.432132+00:00",
-                "last_updated": "2020-05-22T19:23:04.432132+00:00",
+                "last_changed": "2020-05-23T18:30:37.698480+00:00",
+                "last_updated": "2020-05-23T18:30:37.698480+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Kuchnia okap",
@@ -576,564 +576,564 @@
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "dbddd5212d95482f9e66277653772f92",
+                    "id": "69ce9268036a4e25aebc009dd82d3263",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_kuchnia_okap",
-                "last_changed": "2020-05-22T19:23:04.433154+00:00",
-                "last_updated": "2020-05-22T19:23:04.433154+00:00",
+                "last_changed": "2020-05-23T18:30:37.699348+00:00",
+                "last_updated": "2020-05-23T18:30:37.699348+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Strych",
                     "icon": "mdi:flash"
                 },
                 "context": {
-                    "id": "2077c988a77d41579ff53a6ab2f7a821",
+                    "id": "69b9f356d82543dd84368d73ce8580fd",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.stycznik_strych",
-                "last_changed": "2020-05-22T19:23:04.434216+00:00",
-                "last_updated": "2020-05-22T19:23:04.434216+00:00",
+                "last_changed": "2020-05-23T18:30:37.700159+00:00",
+                "last_updated": "2020-05-23T18:30:37.700159+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Gniazda parter",
                     "icon": "mdi:flash"
                 },
                 "context": {
-                    "id": "bacb708a53c443af8682259312792983",
+                    "id": "9bcacc1f469542dca0818902693980d5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.stycznik_gniazda_parter",
-                "last_changed": "2020-05-22T19:23:04.435303+00:00",
-                "last_updated": "2020-05-22T19:23:04.435303+00:00",
+                "last_changed": "2020-05-23T18:30:37.700912+00:00",
+                "last_updated": "2020-05-23T18:30:37.700912+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Gniazda g\u00f3ra",
                     "icon": "mdi:flash"
                 },
                 "context": {
-                    "id": "ba270c8420e64533a3084e3516c40738",
+                    "id": "ff0ef30f3540478d87c7713f8a6979f0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.stycznik_gniazda_gora",
-                "last_changed": "2020-05-22T19:23:04.436414+00:00",
-                "last_updated": "2020-05-22T19:23:04.436414+00:00",
+                "last_changed": "2020-05-23T18:30:37.701673+00:00",
+                "last_updated": "2020-05-23T18:30:37.701673+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Podgrzewacze \u0142azienki",
                     "icon": "mdi:flash"
                 },
                 "context": {
-                    "id": "defecc66cac84c408af63460c2eb904a",
+                    "id": "8fedf87be81540a3aeb47139a27218df",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.stycznik_podgrzewacze_lazienki",
-                "last_changed": "2020-05-22T19:23:04.437421+00:00",
-                "last_updated": "2020-05-22T19:23:04.437421+00:00",
+                "last_changed": "2020-05-23T18:30:37.702424+00:00",
+                "last_updated": "2020-05-23T18:30:37.702424+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Kuchnia",
                     "icon": "mdi:flash"
                 },
                 "context": {
-                    "id": "3eeafcb2feae4a5893611f17e2bdfdbc",
+                    "id": "4b3e71a6b09d4c7482146a0902c2496d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.stycznik_kuchnia",
-                "last_changed": "2020-05-22T19:23:04.438338+00:00",
-                "last_updated": "2020-05-22T19:23:04.438338+00:00",
+                "last_changed": "2020-05-23T18:30:37.703190+00:00",
+                "last_updated": "2020-05-23T18:30:37.703190+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Ogr\u00f3d wiata kulki",
                     "icon": "mdi:lightbulb"
                 },
                 "context": {
-                    "id": "0309460448b04657b84d33bb69e854fe",
+                    "id": "56d944d5d6964724b013b58354082fd9",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.lampa_wiata_kulki",
-                "last_changed": "2020-05-22T19:23:04.439332+00:00",
-                "last_updated": "2020-05-22T19:23:04.439332+00:00",
+                "last_changed": "2020-05-23T18:30:37.704073+00:00",
+                "last_updated": "2020-05-23T18:30:37.704073+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L1_state"
                 },
                 "context": {
-                    "id": "9ad41f374f9f41fe848a5e1f80cd79a9",
+                    "id": "7078740134224cd394517829c92e01ae",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l1_state",
-                "last_changed": "2020-05-22T19:23:04.440371+00:00",
-                "last_updated": "2020-05-22T19:23:04.440371+00:00",
+                "last_changed": "2020-05-23T18:30:37.704883+00:00",
+                "last_updated": "2020-05-23T18:30:37.704883+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L1_updatereq"
                 },
                 "context": {
-                    "id": "ff748aa148e84f3a83c3b155a498de36",
+                    "id": "b3fe2d91de6340c29af3e65aad9960b4",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l1_updatereq",
-                "last_changed": "2020-05-22T19:23:04.441383+00:00",
-                "last_updated": "2020-05-22T19:23:04.441383+00:00",
+                "last_changed": "2020-05-23T18:30:37.705605+00:00",
+                "last_updated": "2020-05-23T18:30:37.705605+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L2_state"
                 },
                 "context": {
-                    "id": "40e0dfd37c854fc49135710e32f7def0",
+                    "id": "fa82ff12df444470b02d8b229b85ad57",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l2_state",
-                "last_changed": "2020-05-22T19:23:04.442283+00:00",
-                "last_updated": "2020-05-22T19:23:04.442283+00:00",
+                "last_changed": "2020-05-23T18:30:37.706304+00:00",
+                "last_updated": "2020-05-23T18:30:37.706304+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L2_updatereq"
                 },
                 "context": {
-                    "id": "9959bb221be84d22bd0b70757dd4cd07",
+                    "id": "7608c2c6b0064e3f8a2602bfd9e5f19a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l2_updatereq",
-                "last_changed": "2020-05-22T19:23:04.443162+00:00",
-                "last_updated": "2020-05-22T19:23:04.443162+00:00",
+                "last_changed": "2020-05-23T18:30:37.707007+00:00",
+                "last_updated": "2020-05-23T18:30:37.707007+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L3_state"
                 },
                 "context": {
-                    "id": "fca604f90c864d1f86d77393c8b7c724",
+                    "id": "4468fcef06284267bfbc898d729634ae",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l3_state",
-                "last_changed": "2020-05-22T19:23:04.444367+00:00",
-                "last_updated": "2020-05-22T19:23:04.444367+00:00",
+                "last_changed": "2020-05-23T18:30:37.707711+00:00",
+                "last_updated": "2020-05-23T18:30:37.707711+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L3_updatereq"
                 },
                 "context": {
-                    "id": "e819111e243a4415a7b18e7b3ad4f311",
+                    "id": "e47c69b2848f4aaea4611a330e56a9c5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l3_updatereq",
-                "last_changed": "2020-05-22T19:23:04.445656+00:00",
-                "last_updated": "2020-05-22T19:23:04.445656+00:00",
+                "last_changed": "2020-05-23T18:30:37.708407+00:00",
+                "last_updated": "2020-05-23T18:30:37.708407+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L4_state"
                 },
                 "context": {
-                    "id": "cfe243ed471d409ebec68576108207ed",
+                    "id": "451c6db1345c453fa630b0c7baedc50c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l4_state",
-                "last_changed": "2020-05-22T19:23:04.446921+00:00",
-                "last_updated": "2020-05-22T19:23:04.446921+00:00",
+                "last_changed": "2020-05-23T18:30:37.709123+00:00",
+                "last_updated": "2020-05-23T18:30:37.709123+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L4_updatereq"
                 },
                 "context": {
-                    "id": "fa581c77ffc74798a7b94177dea5259c",
+                    "id": "04ae1dd482da49c5be9cc861e905a9b4",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l4_updatereq",
-                "last_changed": "2020-05-22T19:23:04.448113+00:00",
-                "last_updated": "2020-05-22T19:23:04.448113+00:00",
+                "last_changed": "2020-05-23T18:30:37.709875+00:00",
+                "last_updated": "2020-05-23T18:30:37.709875+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L5_state"
                 },
                 "context": {
-                    "id": "43f32f08b638403d8ec74fe24a8cb0f9",
+                    "id": "627e5837eec842d5b1581b6a3c0d738d",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l5_state",
-                "last_changed": "2020-05-22T19:23:04.449794+00:00",
-                "last_updated": "2020-05-22T19:23:04.449794+00:00",
+                "last_changed": "2020-05-23T18:30:37.710608+00:00",
+                "last_updated": "2020-05-23T18:30:37.710608+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "L5_updatereq"
                 },
                 "context": {
-                    "id": "d457e592ff184110ae0662a7bd024d98",
+                    "id": "f7fb8fbb1cf34c6792442d5f03bffb01",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.l5_updatereq",
-                "last_changed": "2020-05-22T19:23:04.451021+00:00",
-                "last_updated": "2020-05-22T19:23:04.451021+00:00",
+                "last_changed": "2020-05-23T18:30:37.711351+00:00",
+                "last_updated": "2020-05-23T18:30:37.711351+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Wiata wlacznik"
                 },
                 "context": {
-                    "id": "cc387542716a46d8909760f3bc21a71a",
+                    "id": "bf768de4858146d9bef6922bc76dbaac",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.wiata_wlacznik",
-                "last_changed": "2020-05-23T06:44:31.754189+00:00",
-                "last_updated": "2020-05-23T06:44:31.754189+00:00",
+                "last_changed": "2020-05-23T18:30:37.712065+00:00",
+                "last_updated": "2020-05-23T18:30:37.712065+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Wiata wlacznik clear"
                 },
                 "context": {
-                    "id": "55bc5e33b3b642de9df54c2f39df94a2",
+                    "id": "ebf59c5826da40be9b725e905adacecc",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.wiata_wlacznik_clear",
-                "last_changed": "2020-05-22T19:23:04.453555+00:00",
-                "last_updated": "2020-05-22T19:23:04.453555+00:00",
+                "last_changed": "2020-05-23T18:30:37.712806+00:00",
+                "last_updated": "2020-05-23T18:30:37.712806+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie salon przejscie",
                     "hidden": true
                 },
                 "context": {
-                    "id": "c906dd513dc2493a92dc8d3a4349e191",
+                    "id": "de13f4ef324b4cbfba0cb976e07fd1a7",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_salon_przejscie",
-                "last_changed": "2020-05-22T19:23:04.454941+00:00",
-                "last_updated": "2020-05-22T19:23:04.454941+00:00",
+                "last_changed": "2020-05-23T18:30:37.713613+00:00",
+                "last_updated": "2020-05-23T18:30:37.713613+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie techniczne",
                     "hidden": true
                 },
                 "context": {
-                    "id": "a54cce7fa841402bbfd36d161c6b3d3e",
+                    "id": "12813d0656714a8b98c1b45ce890cfed",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_techniczne",
-                "last_changed": "2020-05-22T19:23:04.456219+00:00",
-                "last_updated": "2020-05-22T19:23:04.456219+00:00",
+                "last_changed": "2020-05-23T18:30:37.714360+00:00",
+                "last_updated": "2020-05-23T18:30:37.714360+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie wiatrolap",
                     "hidden": true
                 },
                 "context": {
-                    "id": "cdc6655687e544098d1f89582d5131a7",
+                    "id": "80a18a384c894ac9bb4ddbbe41fa48b8",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_wiatrolap",
-                "last_changed": "2020-05-22T19:23:04.457587+00:00",
-                "last_updated": "2020-05-22T19:23:04.457587+00:00",
+                "last_changed": "2020-05-23T18:30:37.715074+00:00",
+                "last_updated": "2020-05-23T18:30:37.715074+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie kuchnia",
                     "hidden": true
                 },
                 "context": {
-                    "id": "026d810d0b3048cb890f13c436e6335f",
+                    "id": "a0aef04db19b44ffbe3733240d17eb1f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_kuchnia",
-                "last_changed": "2020-05-23T06:19:43.956981+00:00",
-                "last_updated": "2020-05-23T06:19:43.956981+00:00",
+                "last_changed": "2020-05-23T18:30:37.715787+00:00",
+                "last_updated": "2020-05-23T18:30:37.715787+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie salon",
                     "hidden": true
                 },
                 "context": {
-                    "id": "1825efb7ccdf46ea8c8e66361d700916",
+                    "id": "d913f61f6d4744eab17a4eee3a38bd0c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_salon",
-                "last_changed": "2020-05-22T19:23:04.460143+00:00",
-                "last_updated": "2020-05-22T19:23:04.460143+00:00",
+                "last_changed": "2020-05-23T18:30:37.716501+00:00",
+                "last_updated": "2020-05-23T18:30:37.716501+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie lazienka dol",
                     "hidden": true
                 },
                 "context": {
-                    "id": "c2df541da1384144827f7f9d589e5388",
+                    "id": "adb033e38a2e44e3adcb78633cff0900",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_lazienka_dol",
-                "last_changed": "2020-05-22T19:23:04.461148+00:00",
-                "last_updated": "2020-05-22T19:23:04.461148+00:00",
+                "last_changed": "2020-05-23T18:30:37.717207+00:00",
+                "last_updated": "2020-05-23T18:30:37.717207+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie pralnia",
                     "hidden": true
                 },
                 "context": {
-                    "id": "91b737ff5a2b4c4db7feecace08b71c2",
+                    "id": "878106fe8d97425688a9b7c0f6157dae",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_pralnia",
-                "last_changed": "2020-05-23T17:20:14.861567+00:00",
-                "last_updated": "2020-05-23T17:20:14.861567+00:00",
+                "last_changed": "2020-05-23T18:30:37.717951+00:00",
+                "last_updated": "2020-05-23T18:30:37.717951+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie korytarz gora",
                     "hidden": true
                 },
                 "context": {
-                    "id": "9589b2261d034d379ae2f091c01ee5d2",
+                    "id": "0ad13c1731914d6c895da4cf6b930d1c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_korytarz_gora",
-                "last_changed": "2020-05-22T19:23:04.463030+00:00",
-                "last_updated": "2020-05-22T19:23:04.463030+00:00",
+                "last_changed": "2020-05-23T18:30:37.718685+00:00",
+                "last_updated": "2020-05-23T18:30:37.718685+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie garderoba",
                     "hidden": true
                 },
                 "context": {
-                    "id": "b2694feb6b814357a708a48cfb45a1d9",
+                    "id": "c1052a6ad06a4344baaee7569c6687ea",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_garderoba",
-                "last_changed": "2020-05-23T08:32:57.036486+00:00",
-                "last_updated": "2020-05-23T08:32:57.036486+00:00",
+                "last_changed": "2020-05-23T18:30:37.719409+00:00",
+                "last_updated": "2020-05-23T18:30:37.719409+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie sypialnia rodzicow",
                     "hidden": true
                 },
                 "context": {
-                    "id": "f553a7e1ed934ba0a134c94a4bb8a8c8",
+                    "id": "80e5a48a762a46ba812e145b2ddde5cb",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_sypialnia_rodzicow",
-                "last_changed": "2020-05-23T07:09:50.947737+00:00",
-                "last_updated": "2020-05-23T07:09:50.947737+00:00",
+                "last_changed": "2020-05-23T18:30:37.720176+00:00",
+                "last_updated": "2020-05-23T18:30:37.720176+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie sypialnia Ady",
                     "hidden": true
                 },
                 "context": {
-                    "id": "e2213ba83c044d12bf80095b2bca197e",
+                    "id": "60c24d69c65946c984212e0cfd65a41b",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_sypialnia_ady",
-                "last_changed": "2020-05-23T03:19:27.035232+00:00",
-                "last_updated": "2020-05-23T03:19:27.035232+00:00",
+                "last_changed": "2020-05-23T18:30:37.721307+00:00",
+                "last_updated": "2020-05-23T18:30:37.721307+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie sypialnia Ewy",
                     "hidden": true
                 },
                 "context": {
-                    "id": "eebec6ded7844cd7969a4371bf79f41a",
+                    "id": "29cb7c0c29e24fd49f506d9da0c3211f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_sypialnia_ewy",
-                "last_changed": "2020-05-22T19:23:04.467197+00:00",
-                "last_updated": "2020-05-22T19:23:04.467197+00:00",
+                "last_changed": "2020-05-23T18:30:37.722076+00:00",
+                "last_updated": "2020-05-23T18:30:37.722076+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Grzanie lazienka gora",
                     "hidden": true
                 },
                 "context": {
-                    "id": "71411bc802124ac084467c35b2a72a60",
+                    "id": "b1d9c2b502a54ea59b7fb1783d416ace",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.grzanie_lazienka_gora",
-                "last_changed": "2020-05-23T10:30:41.827072+00:00",
-                "last_updated": "2020-05-23T10:30:41.827072+00:00",
+                "last_changed": "2020-05-23T18:30:37.722800+00:00",
+                "last_updated": "2020-05-23T18:30:37.722800+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -1150,18 +1150,18 @@
                     ]
                 },
                 "context": {
-                    "id": "5cd95b09c54f43559f647ffa2cf63edc",
+                    "id": "d8e018cdf7324e0a9ba3682669c46fd2",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_select.log_level",
-                "last_changed": "2020-05-22T19:23:04.469082+00:00",
-                "last_updated": "2020-05-22T19:23:04.469082+00:00",
+                "last_changed": "2020-05-23T18:30:37.727431+00:00",
+                "last_updated": "2020-05-23T18:30:37.727431+00:00",
                 "state": "warn"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -1174,18 +1174,18 @@
                     "step": 1.0
                 },
                 "context": {
-                    "id": "99a24cd6af744597a354606a6eb8b6b1",
+                    "id": "7f215578737b4797a09b2c74553bd7f2",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_number.ventilation",
-                "last_changed": "2020-05-22T19:24:31.241876+00:00",
-                "last_updated": "2020-05-22T19:24:31.241876+00:00",
-                "state": "1.0"
+                "last_changed": "2020-05-23T18:30:37.728417+00:00",
+                "last_updated": "2020-05-23T18:30:37.728417+00:00",
+                "state": "3.0"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -1197,18 +1197,18 @@
                     "step": 1.0
                 },
                 "context": {
-                    "id": "3de8509c2b234753b1038e002ae4a277",
+                    "id": "8234cc2b51a64bf19c3614d3b3335d8a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_number.random_hour",
-                "last_changed": "2020-05-22T19:23:04.471018+00:00",
-                "last_updated": "2020-05-22T19:23:04.471018+00:00",
+                "last_changed": "2020-05-23T18:30:37.729326+00:00",
+                "last_updated": "2020-05-23T18:30:37.729326+00:00",
                 "state": "23.0"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "editable": false,
@@ -1220,36 +1220,899 @@
                     "step": 1.0
                 },
                 "context": {
-                    "id": "abb7a87ae3524151a71045219cc1381a",
+                    "id": "48c7ec40d48a4d3eb57de8d33945c16a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_number.random_minute",
-                "last_changed": "2020-05-22T19:23:04.472046+00:00",
-                "last_updated": "2020-05-22T19:23:04.472046+00:00",
+                "last_changed": "2020-05-23T18:30:37.730194+00:00",
+                "last_updated": "2020-05-23T18:30:37.730194+00:00",
                 "state": "34.0"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Wiatro\u0142ap",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "a6ad5b52d3184c728e11696e87c7f6b5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_wiatrolap",
+                "last_changed": "2020-05-23T18:30:38.141800+00:00",
+                "last_updated": "2020-05-23T18:30:38.141800+00:00",
+                "state": "19.69"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Wiatro\u0142ap pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "55458a255ea243a289eeaeb79e4d14f3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_wiatrolap_podloga",
+                "last_changed": "2020-05-23T18:30:38.143177+00:00",
+                "last_updated": "2020-05-23T18:30:38.143177+00:00",
+                "state": "17.25"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Wiatro\u0142ap zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "5d59d44d6e794ce0a12b43551ce3eb2d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_wiatrolap_zadana",
+                "last_changed": "2020-05-23T18:30:38.144910+00:00",
+                "last_updated": "2020-05-23T18:30:38.144910+00:00",
+                "state": "16.00"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Techniczne",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "1788cf6ae25945d29afb54b5e39129fd",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_techniczne",
+                "last_changed": "2020-05-23T18:30:38.146445+00:00",
+                "last_updated": "2020-05-23T18:30:38.146445+00:00",
+                "state": "19.63"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Techniczne pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "7fa722ec08194c1db7b182454e160cc3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_techniczne_podloga",
+                "last_changed": "2020-05-23T18:30:38.147877+00:00",
+                "last_updated": "2020-05-23T18:30:38.147877+00:00",
+                "state": "17.88"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Techniczne zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "40089adaac6946609134bd6f81f55070",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_techniczne_zadana",
+                "last_changed": "2020-05-23T18:30:38.149171+00:00",
+                "last_updated": "2020-05-23T18:30:38.149171+00:00",
+                "state": "16.00"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka d\u00f3\u0142",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "65897156cf1844dcb847feb74c8b4c35",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_dol",
+                "last_changed": "2020-05-23T18:30:38.150434+00:00",
+                "last_updated": "2020-05-23T18:30:38.150434+00:00",
+                "state": "21.63"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka d\u00f3\u0142 pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "66cc5d05e036456789ea3208a94be49d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_dol_podloga",
+                "last_changed": "2020-05-23T18:30:38.151687+00:00",
+                "last_updated": "2020-05-23T18:30:38.151687+00:00",
+                "state": "24.63"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka d\u00f3\u0142 zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "636d7ee3f696408aaf986e85a7b7434f",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_dol_zadana",
+                "last_changed": "2020-05-23T18:30:38.153024+00:00",
+                "last_updated": "2020-05-23T18:30:38.153024+00:00",
+                "state": "21.70"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Salon",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "fe8a10a3c6814dc79065d54f36ec84e2",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_schody",
+                "last_changed": "2020-05-23T18:30:38.155057+00:00",
+                "last_updated": "2020-05-23T18:30:38.155057+00:00",
+                "state": "22.38"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Salon pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "431bc8802f774d019ccd6c46fee4c9b3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_schody_podloga",
+                "last_changed": "2020-05-23T18:30:38.156791+00:00",
+                "last_updated": "2020-05-23T18:30:38.156791+00:00",
+                "state": "20.13"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Salon zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "e3d7852d05434192b47d44c9558cf0d8",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_schody_zadana",
+                "last_changed": "2020-05-23T18:30:38.158491+00:00",
+                "last_updated": "2020-05-23T18:30:38.158491+00:00",
+                "state": "21.50"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Przedpok\u00f3j",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "2fe6de01219b4caea333059af575f14e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_przejscie",
+                "last_changed": "2020-05-23T18:30:38.160073+00:00",
+                "last_updated": "2020-05-23T18:30:38.160073+00:00",
+                "state": "21.63"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Przedpok\u00f3j pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "a1a32764683049ccbc8fd223ceec8c81",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_przejscie_podloga",
+                "last_changed": "2020-05-23T18:30:38.161717+00:00",
+                "last_updated": "2020-05-23T18:30:38.161717+00:00",
+                "state": "20.25"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Przedpok\u00f3j zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "e4d77a142596430faea684d243d532a6",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_salon_przejscie_zadana",
+                "last_changed": "2020-05-23T18:30:38.163601+00:00",
+                "last_updated": "2020-05-23T18:30:38.163601+00:00",
+                "state": "21.00"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kuchnia",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "66d511c884d44896be52782f1bda3938",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_kuchnia",
+                "last_changed": "2020-05-23T18:30:38.165626+00:00",
+                "last_updated": "2020-05-23T18:30:38.165626+00:00",
+                "state": "23.13"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kuchnia pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "e532065980fd4266852376c086e8acff",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_kuchnia_podloga",
+                "last_changed": "2020-05-23T18:30:38.167483+00:00",
+                "last_updated": "2020-05-23T18:30:38.167483+00:00",
+                "state": "21.56"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Kuchnia zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "fabd94427f044e699a1808723e476b83",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_kuchnia_zadana",
+                "last_changed": "2020-05-23T18:30:38.169380+00:00",
+                "last_updated": "2020-05-23T18:30:38.169380+00:00",
+                "state": "22.00"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garderoba",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "83aec5791e394a35a7854bcade0cf300",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_garderoba",
+                "last_changed": "2020-05-23T18:30:38.171058+00:00",
+                "last_updated": "2020-05-23T18:30:38.171058+00:00",
+                "state": "22.06"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garderoba pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "1837e50854e3431181fe223685281771",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_garderoba_podloga",
+                "last_changed": "2020-05-23T18:30:38.172401+00:00",
+                "last_updated": "2020-05-23T18:30:38.172401+00:00",
+                "state": "23.25"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Garderoba zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "c9b10681d5744aa7b428f2b3540ccbe4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_garderoba_zadana",
+                "last_changed": "2020-05-23T18:30:38.173791+00:00",
+                "last_updated": "2020-05-23T18:30:38.173791+00:00",
+                "state": "21.70"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pralnia",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "c8fe6688d9f24ce19a3512bdcb661439",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_pralnia",
+                "last_changed": "2020-05-23T18:30:38.175180+00:00",
+                "last_updated": "2020-05-23T18:30:38.175180+00:00",
+                "state": "22.25"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pralnia pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "48d0ccacbc8a4a1e81973c7565986441",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_pralnia_podloga",
+                "last_changed": "2020-05-23T18:30:38.176446+00:00",
+                "last_updated": "2020-05-23T18:30:38.176446+00:00",
+                "state": "21.63"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pralnia zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "5b80413c4b074cca8bbafb87b66d0ae9",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_pralnia_zadana",
+                "last_changed": "2020-05-23T18:30:38.177583+00:00",
+                "last_updated": "2020-05-23T18:30:38.177583+00:00",
+                "state": "20.00"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka g\u00f3ra",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "1fd0b2989167419f9449298322662ae4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_gora",
+                "last_changed": "2020-05-23T18:30:38.178656+00:00",
+                "last_updated": "2020-05-23T18:30:38.178656+00:00",
+                "state": "21.94"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka g\u00f3ra pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "64afa69341274d5bb8321eda0ba85992",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_gora_podloga",
+                "last_changed": "2020-05-23T18:30:38.179782+00:00",
+                "last_updated": "2020-05-23T18:30:38.179782+00:00",
+                "state": "21.94"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "\u0141azienka g\u00f3ra zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "969e18af2cd7443a836e96403df68b0b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_lazienka_gora_zadana",
+                "last_changed": "2020-05-23T18:30:38.180931+00:00",
+                "last_updated": "2020-05-23T18:30:38.180931+00:00",
+                "state": "21.80"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Korytarz g\u00f3ra",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "96b53234eb9d4295a8bee184abc6f71b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_korytarz_gora",
+                "last_changed": "2020-05-23T18:30:38.182062+00:00",
+                "last_updated": "2020-05-23T18:30:38.182062+00:00",
+                "state": "22.19"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Korytarz g\u00f3ra pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "161b0881f07448548748ab640a449fa1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_korytarz_gora_podloga",
+                "last_changed": "2020-05-23T18:30:38.183213+00:00",
+                "last_updated": "2020-05-23T18:30:38.183213+00:00",
+                "state": "21.88"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Korytarz g\u00f3ra zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "bd9e4e51ab5c4f42bd76395078da90eb",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_korytarz_gora_zadana",
+                "last_changed": "2020-05-23T18:30:38.184640+00:00",
+                "last_updated": "2020-05-23T18:30:38.184640+00:00",
+                "state": "21.80"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ewy",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "e0db8187a8ee40199c1e35ca983db8d7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ewy",
+                "last_changed": "2020-05-23T18:30:38.185902+00:00",
+                "last_updated": "2020-05-23T18:30:38.185902+00:00",
+                "state": "22.19"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ewy pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "707466c555b04352927960acd5d22e14",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ewy_podloga",
+                "last_changed": "2020-05-23T18:30:38.187108+00:00",
+                "last_updated": "2020-05-23T18:30:38.187108+00:00",
+                "state": "22.38"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ewy zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "4913abaec9d14f0db9773ecc21b90f40",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ewy_zadana",
+                "last_changed": "2020-05-23T18:30:38.188309+00:00",
+                "last_updated": "2020-05-23T18:30:38.188309+00:00",
+                "state": "21.80"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ady",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "13f991d7ccc14863a8df13454e1b3ea7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ady",
+                "last_changed": "2020-05-23T18:30:38.189489+00:00",
+                "last_updated": "2020-05-23T18:30:38.189489+00:00",
+                "state": "22.69"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ady pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "e1e33a74ba2841928772ffbb9e399928",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ady_podloga",
+                "last_changed": "2020-05-23T18:30:38.190774+00:00",
+                "last_updated": "2020-05-23T18:30:38.190774+00:00",
+                "state": "22.50"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Pok\u00f3j Ady zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "92f5e67556604f33939126a2bf77d783",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_ady_zadana",
+                "last_changed": "2020-05-23T18:30:38.192096+00:00",
+                "last_updated": "2020-05-23T18:30:38.192096+00:00",
+                "state": "21.80"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sypialnia",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "d17e404621b542c6b7ce064a4ad5885e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_rodzicow",
+                "last_changed": "2020-05-23T18:30:38.193444+00:00",
+                "last_updated": "2020-05-23T18:30:38.193444+00:00",
+                "state": "22.19"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sypialnia pod\u0142oga",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "472add0c46134c6dab0ef984405c7ad4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_rodzicow_podloga",
+                "last_changed": "2020-05-23T18:30:38.194807+00:00",
+                "last_updated": "2020-05-23T18:30:38.194807+00:00",
+                "state": "23.19"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Sypialnia zadana",
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "d55f6f1477ac4be8968f6b7d160bf72e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_sypialnia_rodzicow_zadana",
+                "last_changed": "2020-05-23T18:30:38.196107+00:00",
+                "last_updated": "2020-05-23T18:30:38.196107+00:00",
+                "state": "21.80"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Zewn\u0119trzna p\u00f3\u0142noc surowa",
+                    "hidden": true,
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "7e87f6ed38ea4e478c649288b88073bc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_zewnetrzna_polnoc",
+                "last_changed": "2020-05-23T18:30:38.197373+00:00",
+                "last_updated": "2020-05-23T18:30:38.197373+00:00",
+                "state": "14.56"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Zewn\u0119trzna po\u0142udnie surowa",
+                    "hidden": true,
+                    "unit_of_measurement": "\u00b0C"
+                },
+                "context": {
+                    "id": "20985d9dbbda4dd9912c8b48bf85bd94",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.temperatura_zewnetrzna_poludnie",
+                "last_changed": "2020-05-23T18:30:38.198806+00:00",
+                "last_updated": "2020-05-23T18:30:38.198806+00:00",
+                "state": "14.38"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Wilgotno\u015b\u0107 w domu",
+                    "icon": "mdi:water-percent",
+                    "unit_of_measurement": "%"
+                },
+                "context": {
+                    "id": "952d489f9e5447a5851e80d687ab1aaf",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.wilgotnosc_salon_schody",
+                "last_changed": "2020-05-23T18:30:38.200359+00:00",
+                "last_updated": "2020-05-23T18:30:38.200359+00:00",
+                "state": "42.03"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Wilgotno\u015b\u0107 na zewn\u0105trz",
+                    "icon": "mdi:water-percent",
+                    "unit_of_measurement": "%"
+                },
+                "context": {
+                    "id": "6d8f4379fbe24927a3206665c0a5a1a7",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.wilgotnosc_zewnetrzna",
+                "last_changed": "2020-05-23T18:30:38.201752+00:00",
+                "last_updated": "2020-05-23T18:30:38.201752+00:00",
+                "state": "78.54"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "PLC_RTC_MINUTE"
+                },
+                "context": {
+                    "id": "3dfb368c03bf4e5caea2b2de7f1584e1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.plc_rtc_minute",
+                "last_changed": "2020-05-23T18:30:38.203135+00:00",
+                "last_updated": "2020-05-23T18:30:38.203135+00:00",
+                "state": "19"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "PLC_RTC_HOUR"
+                },
+                "context": {
+                    "id": "644501aefd8a4726a9c1dca8daf728b5",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.plc_rtc_hour",
+                "last_changed": "2020-05-23T18:30:38.204597+00:00",
+                "last_updated": "2020-05-23T18:30:38.204597+00:00",
+                "state": "20"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "PLC_RTC_DAY"
+                },
+                "context": {
+                    "id": "371e67c2a7e7406c908904343200fe14",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.plc_rtc_day",
+                "last_changed": "2020-05-23T18:30:38.205877+00:00",
+                "last_updated": "2020-05-23T18:30:38.205877+00:00",
+                "state": "23"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "PLC_RTC_MONTH"
+                },
+                "context": {
+                    "id": "e59a08498c1448348000d81009f7c892",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.plc_rtc_month",
+                "last_changed": "2020-05-23T18:30:38.207090+00:00",
+                "last_updated": "2020-05-23T18:30:38.207090+00:00",
+                "state": "5"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "PLC_RTC_YEAR"
+                },
+                "context": {
+                    "id": "28f87df2d6d547d2a1205d90f4722dbc",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.plc_rtc_year",
+                "last_changed": "2020-05-23T18:30:38.208371+00:00",
+                "last_updated": "2020-05-23T18:30:38.208371+00:00",
+                "state": "20"
+            }
+        },
+        {
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "HD1910",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "f3d847dab785492bae1c168fd8dfcd2d",
+                    "id": "fcc2751c8f964811993887fbc1bac938",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.hd1910",
-                "last_changed": "2020-05-22T19:24:05.979687+00:00",
-                "last_updated": "2020-05-22T19:24:05.979687+00:00",
+                "last_changed": "2020-05-23T18:30:40.063139+00:00",
+                "last_updated": "2020-05-23T18:30:40.063139+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "altitude": 305.0,
@@ -1264,43 +2127,43 @@
                     "vertical_accuracy": 0
                 },
                 "context": {
-                    "id": "8f3c010b5c6f4bddb46c5159eb04386b",
+                    "id": "d722dea1457c4c91844e2e8cd401e438",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.oneplus_a5010",
-                "last_changed": "2020-05-22T19:24:05.984158+00:00",
-                "last_updated": "2020-05-22T19:24:05.984158+00:00",
+                "last_changed": "2020-05-23T18:30:40.067461+00:00",
+                "last_updated": "2020-05-23T18:30:40.067461+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "altitude": 321.0,
-                    "course": 47,
+                    "course": 93,
                     "friendly_name": "SM-G973F",
-                    "gps_accuracy": 2,
-                    "latitude": 50.7178936,
-                    "longitude": 19.4287096,
+                    "gps_accuracy": 13,
+                    "latitude": 50.7178327,
+                    "longitude": 19.4285277,
                     "source_type": "gps",
                     "speed": 0,
                     "vertical_accuracy": 2
                 },
                 "context": {
-                    "id": "87bbc3f5777e4b499d49592f765f99c4",
+                    "id": "8397f58398e24e14a212c7449077628c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.sm_g973f",
-                "last_changed": "2020-05-23T17:25:20.740783+00:00",
-                "last_updated": "2020-05-23T17:25:20.740783+00:00",
+                "last_changed": "2020-05-23T18:30:40.071611+00:00",
+                "last_updated": "2020-05-23T18:30:40.071611+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "altitude": 0.0,
@@ -1315,924 +2178,61 @@
                     "vertical_accuracy": 0
                 },
                 "context": {
-                    "id": "1678b703b82640a9a60bcea25c340d03",
+                    "id": "8b23c0c345aa4b67a1abb8254e168876",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.sm_g920f",
-                "last_changed": "2020-05-22T19:24:05.992536+00:00",
-                "last_updated": "2020-05-22T19:24:05.992536+00:00",
+                "last_changed": "2020-05-23T18:30:40.075448+00:00",
+                "last_updated": "2020-05-23T18:30:40.075448+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "HD1910",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "65d314bbf5d54f1faf3375b3f12b836b",
+                    "id": "9baabf85da0d46cbb6f46dabe679d1e0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.hd1910_2",
-                "last_changed": "2020-05-22T19:24:05.995477+00:00",
-                "last_updated": "2020-05-22T19:24:05.995477+00:00",
+                "last_changed": "2020-05-23T18:30:40.077406+00:00",
+                "last_updated": "2020-05-23T18:30:40.077406+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "altitude": 321.0,
                     "course": 0,
                     "friendly_name": "SM-G950F",
-                    "gps_accuracy": 12,
-                    "latitude": 50.7179534,
-                    "longitude": 19.4285603,
+                    "gps_accuracy": 13,
+                    "latitude": 50.7179518,
+                    "longitude": 19.4285651,
                     "source_type": "gps",
                     "speed": 0,
                     "vertical_accuracy": 2
                 },
                 "context": {
-                    "id": "84d13c7c03484b96858be2f89fd41652",
+                    "id": "57a0aa9949194159bdef865ccf666e6c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.sm_g950f",
-                "last_changed": "2020-05-23T17:21:05.880660+00:00",
-                "last_updated": "2020-05-23T17:21:05.880660+00:00",
+                "last_changed": "2020-05-23T18:30:40.080609+00:00",
+                "last_updated": "2020-05-23T18:30:40.080609+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Wiatro\u0142ap",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "93d033f0090544fdbe71e51f3113043e",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_wiatrolap",
-                "last_changed": "2020-05-23T17:24:52.110058+00:00",
-                "last_updated": "2020-05-23T17:24:52.110058+00:00",
-                "state": "19.63"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Wiatro\u0142ap pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "2de8322214714cd6ac81d5722afb4a06",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_wiatrolap_podloga",
-                "last_changed": "2020-05-23T16:50:47.137759+00:00",
-                "last_updated": "2020-05-23T16:50:47.137759+00:00",
-                "state": "17.25"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Wiatro\u0142ap zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "5089e08f2b934d1cae7a82ded513c310",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_wiatrolap_zadana",
-                "last_changed": "2020-05-22T19:24:19.619790+00:00",
-                "last_updated": "2020-05-22T19:24:19.619790+00:00",
-                "state": "16.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Techniczne",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "d06df6590495439ba93c964321051d30",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_techniczne",
-                "last_changed": "2020-05-23T17:14:32.194876+00:00",
-                "last_updated": "2020-05-23T17:14:32.194876+00:00",
-                "state": "19.75"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Techniczne pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "54a13318fc4b44c69013c3da76d559a4",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_techniczne_podloga",
-                "last_changed": "2020-05-23T15:55:31.268147+00:00",
-                "last_updated": "2020-05-23T15:55:31.268147+00:00",
-                "state": "17.88"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Techniczne zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "5541d05d581b435785b190fe136ad5e7",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_techniczne_zadana",
-                "last_changed": "2020-05-22T19:24:19.632568+00:00",
-                "last_updated": "2020-05-22T19:24:19.632568+00:00",
-                "state": "16.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka d\u00f3\u0142",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "465c41ad117f4637b6cc06b70cc910f1",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_dol",
-                "last_changed": "2020-05-23T17:21:46.397449+00:00",
-                "last_updated": "2020-05-23T17:21:46.397449+00:00",
-                "state": "21.63"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka d\u00f3\u0142 pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "65e62fc2a2d548c9804e90ff78d9189d",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_dol_podloga",
-                "last_changed": "2020-05-23T17:25:23.416394+00:00",
-                "last_updated": "2020-05-23T17:25:23.416394+00:00",
-                "state": "24.63"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka d\u00f3\u0142 zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "fc95194bc32042e9877a710575e386ff",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_dol_zadana",
-                "last_changed": "2020-05-22T19:24:19.642536+00:00",
-                "last_updated": "2020-05-22T19:24:19.642536+00:00",
-                "state": "21.70"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Salon",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "4005a7a4d9674b4785d9c753928f1947",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_schody",
-                "last_changed": "2020-05-23T17:25:23.496240+00:00",
-                "last_updated": "2020-05-23T17:25:23.496240+00:00",
-                "state": "22.19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Salon pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "85bf006a556e4435a969e58ddbb3ac12",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_schody_podloga",
-                "last_changed": "2020-05-23T17:25:23.574380+00:00",
-                "last_updated": "2020-05-23T17:25:23.574380+00:00",
-                "state": "20.13"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Salon zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "5a94ae9afe0b40e192017c9a3c11f8ad",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_schody_zadana",
-                "last_changed": "2020-05-22T19:24:19.651541+00:00",
-                "last_updated": "2020-05-22T19:24:19.651541+00:00",
-                "state": "21.50"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Przedpok\u00f3j",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "3c33e51ce4a348e0be7cbffa7e516955",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_przejscie",
-                "last_changed": "2020-05-23T17:24:52.594857+00:00",
-                "last_updated": "2020-05-23T17:24:52.594857+00:00",
-                "state": "21.50"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Przedpok\u00f3j pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "34adee8de0ed4eb2a63bd99f452690fb",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_przejscie_podloga",
-                "last_changed": "2020-05-23T17:00:05.590360+00:00",
-                "last_updated": "2020-05-23T17:00:05.590360+00:00",
-                "state": "20.19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Przedpok\u00f3j zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "51aadf77ab534124bf57433fc719b8bd",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_salon_przejscie_zadana",
-                "last_changed": "2020-05-22T19:24:19.661846+00:00",
-                "last_updated": "2020-05-22T19:24:19.661846+00:00",
-                "state": "21.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Kuchnia",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "997fcc6100b44351a04174665e2dc9fb",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_kuchnia",
-                "last_changed": "2020-05-23T17:22:17.720446+00:00",
-                "last_updated": "2020-05-23T17:22:17.720446+00:00",
-                "state": "23.06"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Kuchnia pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "cb0086a9838d4d00be35227a1a2f520e",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_kuchnia_podloga",
-                "last_changed": "2020-05-23T16:00:10.816919+00:00",
-                "last_updated": "2020-05-23T16:00:10.816919+00:00",
-                "state": "21.50"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Kuchnia zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "2d643bcb374447c8aabd2dabb9d6c603",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_kuchnia_zadana",
-                "last_changed": "2020-05-22T19:24:19.670287+00:00",
-                "last_updated": "2020-05-22T19:24:19.670287+00:00",
-                "state": "22.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Garderoba",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "0beb66938e654c8ea51c678fc655ac2d",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_garderoba",
-                "last_changed": "2020-05-23T17:23:19.785535+00:00",
-                "last_updated": "2020-05-23T17:23:19.785535+00:00",
-                "state": "22.19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Garderoba pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "6ae6588e56264c65bdc9988349d8f763",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_garderoba_podloga",
-                "last_changed": "2020-05-23T17:16:05.505589+00:00",
-                "last_updated": "2020-05-23T17:16:05.505589+00:00",
-                "state": "23.38"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Garderoba zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "46d7b3eefa634cc698ec6da19b9bf07e",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_garderoba_zadana",
-                "last_changed": "2020-05-22T19:24:19.679278+00:00",
-                "last_updated": "2020-05-22T19:24:19.679278+00:00",
-                "state": "21.70"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pralnia",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "d2857b34c1a145fea72286e6958065b9",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_pralnia",
-                "last_changed": "2020-05-23T17:23:50.797218+00:00",
-                "last_updated": "2020-05-23T17:23:50.797218+00:00",
-                "state": "22.19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pralnia pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "627b9db712d4489fbc220e4db880e0e5",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_pralnia_podloga",
-                "last_changed": "2020-05-23T17:24:21.893098+00:00",
-                "last_updated": "2020-05-23T17:24:21.893098+00:00",
-                "state": "21.56"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pralnia zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "0ae74b2672dd42759144cc75244f942d",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_pralnia_zadana",
-                "last_changed": "2020-05-22T19:24:19.687648+00:00",
-                "last_updated": "2020-05-22T19:24:19.687648+00:00",
-                "state": "20.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka g\u00f3ra",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "4d365ec4b0fa431eb963111ac2f3dfd6",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_gora",
-                "last_changed": "2020-05-23T16:38:54.520518+00:00",
-                "last_updated": "2020-05-23T16:38:54.520518+00:00",
-                "state": "21.94"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka g\u00f3ra pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "6add360acbe34810b66faf8886056a54",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_gora_podloga",
-                "last_changed": "2020-05-23T17:23:50.914282+00:00",
-                "last_updated": "2020-05-23T17:23:50.914282+00:00",
-                "state": "21.94"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "\u0141azienka g\u00f3ra zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "07c30d30088f4a4e9de2dc17da884e09",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_lazienka_gora_zadana",
-                "last_changed": "2020-05-22T19:24:19.696483+00:00",
-                "last_updated": "2020-05-22T19:24:19.696483+00:00",
-                "state": "21.80"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Korytarz g\u00f3ra",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "179b43e410fa4fe1b0caf6ecdea6911e",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_korytarz_gora",
-                "last_changed": "2020-05-23T16:14:37.529269+00:00",
-                "last_updated": "2020-05-23T16:14:37.529269+00:00",
-                "state": "22.13"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Korytarz g\u00f3ra pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "6691cf234ef24ef2b7e28db86ea20516",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_korytarz_gora_podloga",
-                "last_changed": "2020-05-23T17:25:24.119479+00:00",
-                "last_updated": "2020-05-23T17:25:24.119479+00:00",
-                "state": "21.81"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Korytarz g\u00f3ra zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "d1d34c94107a432da43a2ad7537b2e57",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_korytarz_gora_zadana",
-                "last_changed": "2020-05-22T19:24:19.704808+00:00",
-                "last_updated": "2020-05-22T19:24:19.704808+00:00",
-                "state": "21.80"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ewy",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "977737b8f726481d8afe5bd809219f14",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ewy",
-                "last_changed": "2020-05-23T17:23:51.178393+00:00",
-                "last_updated": "2020-05-23T17:23:51.178393+00:00",
-                "state": "22.25"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ewy pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "358d61cc14ff4e68b02d35cf00320708",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ewy_podloga",
-                "last_changed": "2020-05-23T17:25:24.253654+00:00",
-                "last_updated": "2020-05-23T17:25:24.253654+00:00",
-                "state": "22.31"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ewy zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "ec71efb6dc104c26987890b6e9a4b22d",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ewy_zadana",
-                "last_changed": "2020-05-22T19:24:19.714089+00:00",
-                "last_updated": "2020-05-22T19:24:19.714089+00:00",
-                "state": "21.80"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ady",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "8fefbec7b6014a2394ae69d4da3cf44c",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ady",
-                "last_changed": "2020-05-23T17:18:41.356369+00:00",
-                "last_updated": "2020-05-23T17:18:41.356369+00:00",
-                "state": "22.81"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ady pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "87e7320a84f046779fb384d2a975179b",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ady_podloga",
-                "last_changed": "2020-05-23T17:25:24.393079+00:00",
-                "last_updated": "2020-05-23T17:25:24.393079+00:00",
-                "state": "22.50"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Pok\u00f3j Ady zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "81575a3e7a894349b09d1d73a06ef8a6",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_ady_zadana",
-                "last_changed": "2020-05-22T19:24:19.722418+00:00",
-                "last_updated": "2020-05-22T19:24:19.722418+00:00",
-                "state": "21.80"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Sypialnia",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "f868a793fa604abfb30bf083f893b186",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_rodzicow",
-                "last_changed": "2020-05-23T17:09:53.644824+00:00",
-                "last_updated": "2020-05-23T17:09:53.644824+00:00",
-                "state": "22.19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Sypialnia pod\u0142oga",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "81fdd81a6624406b896aa42fbcc391e6",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_rodzicow_podloga",
-                "last_changed": "2020-05-23T17:25:24.472544+00:00",
-                "last_updated": "2020-05-23T17:25:24.472544+00:00",
-                "state": "23.25"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Sypialnia zadana",
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "296056eb7770400c9a0cd2463be8a55e",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_sypialnia_rodzicow_zadana",
-                "last_changed": "2020-05-22T19:24:19.731007+00:00",
-                "last_updated": "2020-05-22T19:24:19.731007+00:00",
-                "state": "21.80"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Zewn\u0119trzna p\u00f3\u0142noc surowa",
-                    "hidden": true,
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "592111dcf6f1430ab207016731d3aa5a",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_zewnetrzna_polnoc",
-                "last_changed": "2020-05-23T17:24:53.539615+00:00",
-                "last_updated": "2020-05-23T17:24:53.539615+00:00",
-                "state": "15.00"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Zewn\u0119trzna po\u0142udnie surowa",
-                    "hidden": true,
-                    "unit_of_measurement": "\u00b0C"
-                },
-                "context": {
-                    "id": "eea262032b75428e9bc05d83e5c76bf6",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.temperatura_zewnetrzna_poludnie",
-                "last_changed": "2020-05-23T17:24:22.592097+00:00",
-                "last_updated": "2020-05-23T17:24:22.592097+00:00",
-                "state": "14.94"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Wilgotno\u015b\u0107 w domu",
-                    "icon": "mdi:water-percent",
-                    "unit_of_measurement": "%"
-                },
-                "context": {
-                    "id": "9cd3c55bbf13432ab93ec72fe74ca0c9",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.wilgotnosc_salon_schody",
-                "last_changed": "2020-05-23T17:23:20.774289+00:00",
-                "last_updated": "2020-05-23T17:23:20.774289+00:00",
-                "state": "41.71"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Wilgotno\u015b\u0107 na zewn\u0105trz",
-                    "icon": "mdi:water-percent",
-                    "unit_of_measurement": "%"
-                },
-                "context": {
-                    "id": "09e16d98943f4e8f9ae5f5f45c0d27a3",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.wilgotnosc_zewnetrzna",
-                "last_changed": "2020-05-23T17:24:53.628536+00:00",
-                "last_updated": "2020-05-23T17:24:53.628536+00:00",
-                "state": "76.95"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "PLC_RTC_MINUTE"
-                },
-                "context": {
-                    "id": "29ddc0bb2d35493a9ba62022e248d846",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.plc_rtc_minute",
-                "last_changed": "2020-05-23T17:25:24.644391+00:00",
-                "last_updated": "2020-05-23T17:25:24.644391+00:00",
-                "state": "25"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "PLC_RTC_HOUR"
-                },
-                "context": {
-                    "id": "4117a3f9758f4063bfd21d2f2fbd6c45",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.plc_rtc_hour",
-                "last_changed": "2020-05-23T17:00:37.710566+00:00",
-                "last_updated": "2020-05-23T17:00:37.710566+00:00",
-                "state": "19"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "PLC_RTC_DAY"
-                },
-                "context": {
-                    "id": "74c33d08015c4466941d430989b71d1a",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.plc_rtc_day",
-                "last_changed": "2020-05-22T22:00:20.893490+00:00",
-                "last_updated": "2020-05-22T22:00:20.893490+00:00",
-                "state": "23"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "PLC_RTC_MONTH"
-                },
-                "context": {
-                    "id": "78c06d64d47d4c8286e37ae8c652b6e5",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.plc_rtc_month",
-                "last_changed": "2020-05-22T19:24:19.757972+00:00",
-                "last_updated": "2020-05-22T19:24:19.757972+00:00",
-                "state": "5"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "PLC_RTC_YEAR"
-                },
-                "context": {
-                    "id": "f0670ba4f2454dd184cef8d70154a539",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "sensor.plc_rtc_year",
-                "last_changed": "2020-05-22T19:24:19.760723+00:00",
-                "last_updated": "2020-05-22T19:24:19.760723+00:00",
-                "state": "20"
-            }
-        },
-        {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Change log level",
@@ -2240,113 +2240,113 @@
                     "last_triggered": null
                 },
                 "context": {
-                    "id": "49017e98595147d08d40014a099f0a27",
+                    "id": "db31bc179f574580a997d31702e78219",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.change_log_level",
-                "last_changed": "2020-05-22T19:24:21.250089+00:00",
-                "last_updated": "2020-05-22T19:24:21.250089+00:00",
+                "last_changed": "2020-05-23T18:30:40.950780+00:00",
+                "last_updated": "2020-05-23T18:30:40.950780+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "If fan speed changes, update slider",
                     "id": "a_if_fan_speed_changes_update_slider",
-                    "last_triggered": "2020-05-23T17:25:45.034577+00:00"
+                    "last_triggered": "2020-05-23T18:19:15.059348+00:00"
                 },
                 "context": {
-                    "id": "59d915c9cc71443c990cbc47cdbe808d",
+                    "id": "4c0cb24cc3e3490d8f6ad47a1ef5768b",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.if_fan_speed_changes_update_slider",
-                "last_changed": "2020-05-22T19:24:21.252665+00:00",
-                "last_updated": "2020-05-23T17:25:45.034994+00:00",
+                "last_changed": "2020-05-23T18:30:40.954098+00:00",
+                "last_updated": "2020-05-23T18:30:40.954098+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "If slider moves, update fan speed",
                     "id": "a_if_slider_moves_update_fan_speed",
-                    "last_triggered": "2020-05-22T19:24:31.416101+00:00"
+                    "last_triggered": "2020-05-23T17:49:30.168458+00:00"
                 },
                 "context": {
-                    "id": "160231c37808459dbf3d6f4fae323c58",
-                    "parent_id": "99a24cd6af744597a354606a6eb8b6b1",
+                    "id": "f0ce8d8729ef4d9b940fd3ab8e2889b6",
+                    "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.if_slider_moves_update_fan_speed",
-                "last_changed": "2020-05-22T19:24:21.255435+00:00",
-                "last_updated": "2020-05-22T19:24:31.416426+00:00",
+                "last_changed": "2020-05-23T18:30:40.957142+00:00",
+                "last_updated": "2020-05-23T18:30:40.957142+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "HomeAssistant starts",
                     "id": "a_fired_when_homeassistant_starts",
-                    "last_triggered": "2020-05-22T19:24:32.987571+00:00"
+                    "last_triggered": "2020-05-23T17:49:32.689055+00:00"
                 },
                 "context": {
-                    "id": "9f422bc3b6654ce5a768ff29d4eb0ca3",
+                    "id": "a29d8831d1624c14985ab62b1fcf15cd",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.homeassistant_starts",
-                "last_changed": "2020-05-22T19:24:21.257972+00:00",
-                "last_updated": "2020-05-22T19:24:32.988026+00:00",
+                "last_changed": "2020-05-23T18:30:40.959989+00:00",
+                "last_updated": "2020-05-23T18:30:40.959989+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Get pics every minute",
                     "id": "a_get_pics_every_minute",
-                    "last_triggered": "2020-05-23T17:25:04.304478+00:00"
+                    "last_triggered": "2020-05-23T18:19:04.068559+00:00"
                 },
                 "context": {
-                    "id": "4d7c594c2e3e4f3a801d38ff6a6e0a0c",
+                    "id": "a82462ae519a4f21a5c3c54e41338f8f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.get_pics_every_minute",
-                "last_changed": "2020-05-22T19:24:21.260473+00:00",
-                "last_updated": "2020-05-23T17:25:04.304989+00:00",
+                "last_changed": "2020-05-23T18:30:40.962872+00:00",
+                "last_updated": "2020-05-23T18:30:40.962872+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Switch on evening scene 20min before sunset",
                     "id": "a_switch_on_evening_scene_20min_before_sunset",
-                    "last_triggered": "2020-05-22T18:15:45.638742+00:00"
+                    "last_triggered": "2020-05-23T18:17:05.535154+00:00"
                 },
                 "context": {
-                    "id": "1923bdcbe16a49f28ba4757cf3004a7c",
+                    "id": "4b37beda4cec4341841460d92e46fd06",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.switch_on_evening_scene_20min_before_sunset",
-                "last_changed": "2020-05-22T19:24:21.265131+00:00",
-                "last_updated": "2020-05-22T19:24:21.265131+00:00",
+                "last_changed": "2020-05-23T18:30:40.965830+00:00",
+                "last_updated": "2020-05-23T18:30:40.965830+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Switch on morning scene 5min after sunrise",
@@ -2354,18 +2354,18 @@
                     "last_triggered": "2020-05-23T02:46:00.163985+00:00"
                 },
                 "context": {
-                    "id": "6801abebd10e49bfb8776f2161e99ffc",
+                    "id": "ece479c0e0574750aebef9e838294ebc",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.switch_on_morning_scene_5min_after_sunrise",
-                "last_changed": "2020-05-22T19:24:21.267728+00:00",
-                "last_updated": "2020-05-23T02:46:00.164321+00:00",
+                "last_changed": "2020-05-23T18:30:40.968702+00:00",
+                "last_updated": "2020-05-23T18:30:40.968702+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Set random time at 9pm",
@@ -2373,18 +2373,18 @@
                     "last_triggered": "2020-05-22T19:00:00.200572+00:00"
                 },
                 "context": {
-                    "id": "faa25cfa05f040bc8ca0d97d23c69867",
+                    "id": "7c8af624ffb7428583143b7018a5f67e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.set_random_time_at_9pm",
-                "last_changed": "2020-05-22T19:24:21.270440+00:00",
-                "last_updated": "2020-05-22T19:24:21.270440+00:00",
+                "last_changed": "2020-05-23T18:30:40.971626+00:00",
+                "last_updated": "2020-05-23T18:30:40.971626+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Switch on night scene at random",
@@ -2392,18 +2392,18 @@
                     "last_triggered": "2020-01-31T20:14:32.438696+00:00"
                 },
                 "context": {
-                    "id": "b02bccea89d844b0a7ac91fcb5d9a217",
+                    "id": "dafa4088ad4248128960212927ea169c",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.switch_on_night_scene_at_random",
-                "last_changed": "2020-05-22T19:24:21.273225+00:00",
-                "last_updated": "2020-05-22T19:24:21.273225+00:00",
+                "last_changed": "2020-05-23T18:30:40.974636+00:00",
+                "last_updated": "2020-05-23T18:30:40.974636+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2020-05-23T17:25:46.012678+00:00",
+            "last_seen": "2020-05-23T18:30:43.347921+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Salon sufit work around Ikea",
@@ -2411,13 +2411,13 @@
                     "last_triggered": "2020-05-02T12:48:25.379322+00:00"
                 },
                 "context": {
-                    "id": "d1711d6c0e6042cca571d784750323a0",
+                    "id": "9c566453324d433789637cd635003fcb",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.salon_sufit_work_around_ikea",
-                "last_changed": "2020-05-22T19:24:21.279539+00:00",
-                "last_updated": "2020-05-22T19:24:21.279539+00:00",
+                "last_changed": "2020-05-23T18:30:40.977480+00:00",
+                "last_updated": "2020-05-23T18:30:40.977480+00:00",
                 "state": "off"
             }
         }
