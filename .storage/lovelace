@@ -700,33 +700,6 @@
                     "badges": [],
                     "cards": [
                         {
-                            "entities": [
-                                "binary_sensor.camera_door_motion",
-                                "binary_sensor.camera_door_pir_alarm",
-                                "binary_sensor.living_room_motion",
-                                "binary_sensor.living_room_pir_alarm",
-                                "binary_sensor.camera_gate_motion_2",
-                                "binary_sensor.camera_gate_pir_alarm_2",
-                                "binary_sensor.camera_gate_tamper_detection_2",
-                                "binary_sensor.camera_gate_disk_error_2",
-                                "binary_sensor.camera_fence_2_motion",
-                                "binary_sensor.camera_fence_2_disk_error",
-                                "binary_sensor.camera_fence_2_disk_full",
-                                "binary_sensor.camera_fence_2_tamper_detection",
-                                "binary_sensor.camera_fence_1_motion",
-                                "binary_sensor.camera_fence_1_disk_error",
-                                "binary_sensor.camera_fence_1_disk_full",
-                                "binary_sensor.camera_fence_1_tamper_detection",
-                                "binary_sensor.tool_house_motion",
-                                "binary_sensor.tool_house_disk_error",
-                                "binary_sensor.tool_house_disk_full",
-                                "binary_sensor.tool_house_tamper_detection"
-                            ],
-                            "show_header_toggle": false,
-                            "title": "Czujki ruchu",
-                            "type": "entities"
-                        },
-                        {
                             "entity": "camera.kamera_drzwi",
                             "type": "picture-entity"
                         },
@@ -761,6 +734,33 @@
                         {
                             "entity": "camera.kamera_hamak",
                             "type": "picture-entity"
+                        },
+                        {
+                            "entities": [
+                                "binary_sensor.camera_door_motion",
+                                "binary_sensor.camera_door_pir_alarm",
+                                "binary_sensor.living_room_motion",
+                                "binary_sensor.living_room_pir_alarm",
+                                "binary_sensor.camera_gate_motion_2",
+                                "binary_sensor.camera_gate_pir_alarm_2",
+                                "binary_sensor.camera_gate_tamper_detection_2",
+                                "binary_sensor.camera_gate_disk_error_2",
+                                "binary_sensor.camera_fence_2_motion",
+                                "binary_sensor.camera_fence_2_disk_error",
+                                "binary_sensor.camera_fence_2_disk_full",
+                                "binary_sensor.camera_fence_2_tamper_detection",
+                                "binary_sensor.camera_fence_1_motion",
+                                "binary_sensor.camera_fence_1_disk_error",
+                                "binary_sensor.camera_fence_1_disk_full",
+                                "binary_sensor.camera_fence_1_tamper_detection",
+                                "binary_sensor.tool_house_motion",
+                                "binary_sensor.tool_house_disk_error",
+                                "binary_sensor.tool_house_disk_full",
+                                "binary_sensor.tool_house_tamper_detection"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Czujki ruchu",
+                            "type": "entities"
                         },
                         {
                             "entity": "camera.kamera_aleja",
@@ -858,20 +858,51 @@
                     "cards": [
                         {
                             "entities": [
-                                "switch.lampa_sypialnia_rodzicow",
-                                "switch.lampa_salon_sufit",
-                                "switch.l1_state",
-                                "switch.l1_updatereq",
-                                "switch.l2_state",
-                                "switch.l2_updatereq",
-                                "switch.l3_state",
-                                "switch.l3_updatereq",
-                                "switch.l4_state",
-                                "switch.l4_updatereq",
-                                "switch.l5_state",
-                                "switch.l5_updatereq",
-                                "switch.wiata_wlacznik",
-                                "switch.wiata_wlacznik_clear"
+                                {
+                                    "entity": "switch.lampa_kuchnia_zlew"
+                                },
+                                {
+                                    "entity": "switch.lampa_sypialnia_rodzicow"
+                                },
+                                {
+                                    "entity": "switch.lampa_salon_sufit"
+                                },
+                                {
+                                    "entity": "switch.l1_state"
+                                },
+                                {
+                                    "entity": "switch.l1_updatereq"
+                                },
+                                {
+                                    "entity": "switch.l2_state"
+                                },
+                                {
+                                    "entity": "switch.l2_updatereq"
+                                },
+                                {
+                                    "entity": "switch.l3_state"
+                                },
+                                {
+                                    "entity": "switch.l3_updatereq"
+                                },
+                                {
+                                    "entity": "switch.l4_state"
+                                },
+                                {
+                                    "entity": "switch.l4_updatereq"
+                                },
+                                {
+                                    "entity": "switch.l5_state"
+                                },
+                                {
+                                    "entity": "switch.l5_updatereq"
+                                },
+                                {
+                                    "entity": "switch.wiata_wlacznik"
+                                },
+                                {
+                                    "entity": "switch.wiata_wlacznik_clear"
+                                }
                             ],
                             "title": "Switch",
                             "type": "entities"

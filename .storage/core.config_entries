@@ -117,7 +117,7 @@
                     },
                     "app_id": "io.homeassistant.companion.android",
                     "app_name": "Home Assistant",
-                    "app_version": "1.8.0-144 (144)",
+                    "app_version": "1.11.2-221 (221)",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeLEphGpNjLZhaoYa4iIV35Ttx8PcRvnW8iP7a4EY_sl2EeSXigX-M4FQDX0abWXvyIt0E1CBfyrLvGoFf3IuPT9siDoU0HBqUlFAihKQHoZx-LEGNTAJMvvYUXyzteAasfMHdwS9-6oxYT4WQKUmKq7OOgJYFKSEkHOvj5jSQjfV2BhM=",
                     "device_id": "9ec3766ecd69f8c7",
                     "device_name": "ONEPLUS A5010",
@@ -146,9 +146,9 @@
                     "auth_implementation": "netatmo",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABedfNoeCPtTGdVLoZ7fHhajARqsS49BEYJHyx-qE_rMI2LyrtGMPg2sJLFrOMlcBuu_UCqXfcdh0IfQYp3v0CAEHFlYFbEfiAGq3-u5GOj02v_4XEOYECaYV3EVexKXa-38Vjk4hizrk1a9PrceJ3UbP_UMrKUfEUDOqRtkYhg8hfNScY=",
                     "token": {
-                        "access_token": "5a57a37c13475d4b9e8b6663|57e64ec7062edde3659db51644f414e3",
+                        "access_token": "5a57a37c13475d4b9e8b6663|1e6c7b7a9c0d97b4215bab1476002943",
                         "expire_in": 10800,
-                        "expires_at": 1590267587.3915958,
+                        "expires_at": 1599411074.1175792,
                         "expires_in": 10800,
                         "refresh_token": "5a57a37c13475d4b9e8b6663|5e6718ec25d29bbd538bf56363381e44",
                         "restricted_access_token": "5a57a37c13475d4b9e8b6663|bd21c54642f2c3effd402c5ed0f9956c",
@@ -176,7 +176,7 @@
                     "disable_new_entities": false
                 },
                 "title": "Configuration.yaml",
-                "unique_id": null,
+                "unique_id": "netatmo",
                 "version": 1
             },
             {
@@ -188,7 +188,7 @@
                     },
                     "app_id": "io.homeassistant.companion.android",
                     "app_name": "Home Assistant",
-                    "app_version": "1.8.0-144 (144)",
+                    "app_version": "1.11.2-221 (221)",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABeRihEUy7m4EtPVSUg8sJZK_PUgj3FYv2cXeMAd0m343MIdPithLR4i7kmXEHxwsTMU5NvM0iBOga3mkMbKO1o6gaWCacPxqBUxnHXFRnNkjbu58rY2dDceDsDZfHTp6HvQ3IFQpgARj0sHvvTd7cINoSTe7V_8JxNE9lfetispVe62_Y=",
                     "device_id": "8133e7ad6ec97f78",
                     "device_name": "SM-G973F",
@@ -268,7 +268,7 @@
                     },
                     "app_id": "io.homeassistant.companion.android",
                     "app_name": "Home Assistant",
-                    "app_version": "1.9.0-167 (167)",
+                    "app_version": "2.3.3-full (343)",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABekNULuZIS5LGSK18dNw8vior_-58LB2VSUSwCjWk5-uplx9lk8DAVQMMuDcw-C4_6vuUJzN7dHHlMnoNQ-JjVsmA3RLneCm1T98C6DYuZtdkIgWFQyKBRNjjdvcx3lnzuF42Ars-f2NdrbZa9D00kl8kBcMRPNjkamqzub75RxQ8Z13g=",
                     "device_id": "2f48e4153bed8a00",
                     "device_name": "HD1910",
@@ -300,7 +300,7 @@
                     },
                     "app_id": "io.homeassistant.companion.android",
                     "app_name": "Home Assistant",
-                    "app_version": "1.8.0-144 (144)",
+                    "app_version": "1.9.0-167 (167)",
                     "cloudhook_url": "https://hooks.nabu.casa/gAAAAABem0rgeIh0eoufv5ZSRliAdCY1lv82efI3g33sSEu0aQwncOn4ujjA8o4F3AXl7y9dCNXx6Xa6oBnEpV7K0njMP2rGP9PaDa5zM5xxSNhVBjWGP2OReupwUtCQj4Tcv5EPrUujrsj8Ybyim-LeolBr15JV12XjqTCa9bYMci5SFL6QqFE=",
                     "device_id": "2c93d7cf880232e7",
                     "device_name": "SM-G950F",
@@ -321,6 +321,38 @@
                 },
                 "title": "SM-G950F",
                 "unique_id": "io.homeassistant.companion.android-2c93d7cf880232e7",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "c1l6qDhWRViyHoNZI0fLNi:APA91bG8yz0a5U4NRFb_bc0CCFiXqyUYOBFs_F0T3BBa3FXZTOVXLtepTDAq40ugAIUnU6AFuSkWc9oUoSxkHmHVH1Mcfw58S96bmqw4Alt9ZbaaV5aTkyA-oT6z1b-qEBbTzSl8amhP",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2.3.3-full (343)",
+                    "cloudhook_url": "https://hooks.nabu.casa/gAAAAABfVO1b_6bzbK6PZGN1YWnlCNpJxpShljn6MX48-Oj3RwNcCGwFPcMYDUeJZeeA6wdos8oRFqZ38qTkTocPGpHi6ypbFuYORBs-UVXwIR4r5PmdevYmf4_j7OT-uBcLVcslWsTeRvaT0DiINm0Nqywoi1bnVlTNZYdUQKHckhmh7ih5Qek=",
+                    "device_id": "c2debb3a7b866712",
+                    "device_name": "SM-N986B",
+                    "manufacturer": "samsung",
+                    "model": "SM-N986B",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "user_id": "c5fb063629c343ecbab4c741d99648f2",
+                    "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+                },
+                "domain": "mobile_app",
+                "entry_id": "05a574f27ded4b809177ce092889b0fa",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-N986B",
+                "unique_id": "io.homeassistant.companion.android-c2debb3a7b866712",
                 "version": 1
             }
         ]

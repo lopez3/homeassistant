@@ -1,5 +1,6 @@
 {
     "data": {
+        "deleted_devices": [],
         "devices": [
             {
                 "area_id": "1ce0d51958b24b698d0197f09ac5ae99",
@@ -19,8 +20,8 @@
                 "model": "TRADFRI bulb E14 WS opal 600lm",
                 "name": "Sypialnia Sufit",
                 "name_by_user": null,
-                "sw_version": "2.0.023",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "sw_version": "2.0.029",
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "f99e7c6f36d34ed6ac929a001bb3de54",
@@ -41,7 +42,7 @@
                 "name": "Salon sufit",
                 "name_by_user": null,
                 "sw_version": "2.3.050",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "f99e7c6f36d34ed6ac929a001bb3de54",
@@ -62,7 +63,7 @@
                 "name": "Salon Lampka",
                 "name_by_user": null,
                 "sw_version": "2.3.050",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "1ce0d51958b24b698d0197f09ac5ae99",
@@ -82,15 +83,21 @@
                 "model": "TRADFRI bulb E14 CWS opal 600lm",
                 "name": "Sypialnia Lampka",
                 "name_by_user": null,
-                "sw_version": "1.3.009",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "sw_version": "1.3.013",
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "1ce0d51958b24b698d0197f09ac5ae99",
                 "config_entries": [
-                    "5dbb75b4217345018d03fa017aa7d8d8"
+                    "5dbb75b4217345018d03fa017aa7d8d8",
+                    "2cf31999f7d442098f049e9b49f1bbb9"
                 ],
-                "connections": [],
+                "connections": [
+                    [
+                        "mac",
+                        "34:7e:5c:30:a6:c0"
+                    ]
+                ],
                 "entry_type": null,
                 "id": "001d072fe65241438a013c388ea81e16",
                 "identifiers": [
@@ -103,7 +110,7 @@
                 "model": "SYMFONISK",
                 "name": "Sypialnia",
                 "name_by_user": null,
-                "sw_version": null,
+                "sw_version": "57.3-79200",
                 "via_device_id": null
             },
             {
@@ -125,7 +132,7 @@
                 "name": "Sypialnia Pilot",
                 "name_by_user": null,
                 "sw_version": "2.3.014",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "1ce0d51958b24b698d0197f09ac5ae99",
@@ -146,7 +153,7 @@
                 "name": "SYMFONISK Sound Controller",
                 "name_by_user": null,
                 "sw_version": "2.1.024",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": "f99e7c6f36d34ed6ac929a001bb3de54",
@@ -167,7 +174,7 @@
                 "name": "Salon Pilot",
                 "name_by_user": null,
                 "sw_version": "2.3.014",
-                "via_device_id": "96976fff5aa14adc909ec893cecce4f2"
+                "via_device_id": "3e351198753b4017811ed2a6baa6ff8e"
             },
             {
                 "area_id": null,
@@ -334,7 +341,7 @@
                 "model": "U7MSH",
                 "name": "Altana",
                 "name_by_user": null,
-                "sw_version": "4.3.13.11253",
+                "sw_version": "4.3.20.11298",
                 "via_device_id": null
             },
             {
@@ -376,7 +383,7 @@
                 "model": "U7LR",
                 "name": "Kuchnia",
                 "name_by_user": null,
-                "sw_version": "4.3.13.11253",
+                "sw_version": "4.3.20.11298",
                 "via_device_id": null
             },
             {
@@ -397,7 +404,7 @@
                 "model": "U7LR",
                 "name": "Pralnia",
                 "name_by_user": null,
-                "sw_version": "4.3.13.11253",
+                "sw_version": "4.3.20.11298",
                 "via_device_id": null
             },
             {
@@ -584,7 +591,7 @@
                 ],
                 "manufacturer": "Netatmo",
                 "model": "Smart Home Weather station \u2013 indoor module",
-                "name": "Netatmo Potok Indoor",
+                "name": "Netatmo Potok",
                 "name_by_user": null,
                 "sw_version": null,
                 "via_device_id": null
@@ -944,6 +951,195 @@
                 "name": null,
                 "name_by_user": null,
                 "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "37fb714c96d3417f8156d56fc4d25d0d"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "3e351198753b4017811ed2a6baa6ff8e",
+                "identifiers": [
+                    [
+                        "tradfri",
+                        "7e1461520440001a"
+                    ]
+                ],
+                "manufacturer": "IKEA of Sweden",
+                "model": "E1526",
+                "name": "Gateway",
+                "name_by_user": null,
+                "sw_version": "1.10.43",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "6c:c7:ec:b0:10:05"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "4188eac636794bda88aac1090c18af1f",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "f6:55:db:87:8f:22"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "d2d27f45b41845e09f0e86f6bedbe5d1",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "20:47:da:ee:1e:9c"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "43dad9a5b08348168a4fa9bce6dceef8",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "28:16:7f:26:1d:7d"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "625561cd738f4319b577d1b240701a30",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:d2:92:ab:53:9c"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "21131141c1694d599cf5db765d96571b",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a8:db:03:b7:98:43"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "2fd6df74dc4840529f64bf8505198dd6",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "2cf31999f7d442098f049e9b49f1bbb9"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "5e:e0:21:32:0d:e6"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "38be21b4985b46aa8adfb5fe3a15aaa6",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "05a574f27ded4b809177ce092889b0fa"
+                ],
+                "connections": [],
+                "entry_type": null,
+                "id": "75beaddba9e54117af5fdd97e0004c4d",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "c2debb3a7b866712"
+                    ]
+                ],
+                "manufacturer": "samsung",
+                "model": "SM-N986B",
+                "name": "SM-N986B",
+                "name_by_user": null,
+                "sw_version": "29",
                 "via_device_id": null
             }
         ]

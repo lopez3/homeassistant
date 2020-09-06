@@ -3,13 +3,195 @@
         "binary_sensor": {},
         "deleted_ids": [],
         "sensor": {
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_audio_sensor": {
+                "added": true,
+                "attributes": {
+                    "audio_mode": "normal",
+                    "is_headphones": "false",
+                    "is_mic_muted": "false",
+                    "is_music_active": "false",
+                    "is_speakerphone_on": "true",
+                    "volume_level_alarm": "12",
+                    "volume_level_call": "4",
+                    "volume_level_music": "0",
+                    "volume_level_ring": "2"
+                },
+                "icon": "mdi:volume-high",
+                "name": "Audio Sensor",
+                "state": "normal",
+                "type": "sensor",
+                "unique_id": "audio_sensor",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_battery_level": {
+                "added": true,
+                "attributes": {},
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery Level",
+                "state": "79",
+                "type": "sensor",
+                "unique_id": "battery_level",
+                "unit_of_measurement": "%",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_battery_state": {
+                "added": true,
+                "attributes": {
+                    "battery_health": "good",
+                    "charger_type": "unknown",
+                    "is_charging": "false"
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery State",
+                "state": "discharging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_bluetooth_connection": {
+                "added": true,
+                "attributes": {
+                    "connected_not_paired_devices": "[44:68:0C:22:E5:51]",
+                    "connected_paired_devices": "[]",
+                    "is_bt_on": "true",
+                    "paired_devices": "[70:BF:92:C6:A9:D2]"
+                },
+                "icon": "mdi:bluetooth",
+                "name": "Bluetooth Connection",
+                "state": "1",
+                "type": "sensor",
+                "unique_id": "bluetooth_connection",
+                "unit_of_measurement": "connection(s)",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_dnd_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:do-not-disturb",
+                "name": "Do Not Disturb Sensor",
+                "state": "off",
+                "type": "sensor",
+                "unique_id": "dnd_sensor",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_last_reboot": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "Sun Sep 06 08:35:10 GMT+02:00 2020",
+                    "Time in Milliseconds": "1599374110416"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:restart",
+                "name": "Last Reboot",
+                "state": "2020-09-06T06:35:10Z",
+                "type": "sensor",
+                "unique_id": "last_reboot",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_light_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "illuminance",
+                "icon": "mdi:brightness-5",
+                "name": "Light Sensor",
+                "state": "927",
+                "type": "sensor",
+                "unique_id": "light_sensor",
+                "unit_of_measurement": "lx",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_next_alarm": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "",
+                    "Package": "",
+                    "Time in Milliseconds": "0"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:alarm",
+                "name": "Next Alarm",
+                "state": "unavailable",
+                "type": "sensor",
+                "unique_id": "next_alarm",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_phone_state": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:phone",
+                "name": "Phone State",
+                "state": "idle",
+                "type": "sensor",
+                "unique_id": "phone_state",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_pressure_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "pressure",
+                "icon": "mdi:gauge",
+                "name": "Pressure Sensor",
+                "state": "985.8",
+                "type": "sensor",
+                "unique_id": "pressure_sensor",
+                "unit_of_measurement": "hPa",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_proximity_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:leak",
+                "name": "Proximity Sensor",
+                "state": "far",
+                "type": "sensor",
+                "unique_id": "proximity_sensor",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6_storage_sensor": {
+                "added": true,
+                "attributes": {
+                    "Free external storage": "No SD Card",
+                    "Free internal storage": "203GB",
+                    "Total external storage": "No SD Card",
+                    "Total internal storage": "226GB"
+                },
+                "icon": "mdi:harddisk",
+                "name": "Storage Sensor",
+                "state": "90",
+                "type": "sensor",
+                "unique_id": "storage_sensor",
+                "unit_of_measurement": "%",
+                "webhook_id": "010fe55d381c043ee10b25af0fb757b651062aef0685ec6acbebf26af0cdfec6"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_audio_sensor": {
+                "added": true,
+                "attributes": {
+                    "audio_mode": "normal",
+                    "is_headphones": "false",
+                    "is_mic_muted": "false",
+                    "is_music_active": "false",
+                    "is_speakerphone_on": "false",
+                    "volume_level_alarm": "11",
+                    "volume_level_call": "7",
+                    "volume_level_music": "0",
+                    "volume_level_ring": "5"
+                },
+                "icon": "mdi:volume-high",
+                "name": "Audio Sensor",
+                "state": "normal",
+                "type": "sensor",
+                "unique_id": "audio_sensor",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_level": {
                 "added": true,
                 "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-60",
                 "name": "Battery Level",
-                "state": 58,
+                "state": "62",
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -18,31 +200,53 @@
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_battery_state": {
                 "added": true,
                 "attributes": {
-                    "charger_type": "unknown",
-                    "is_charging": false
+                    "is_charging": "false"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-50",
+                "icon": "mdi:battery-60",
                 "name": "Battery State",
                 "state": "discharging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
             },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_bluetooth_connection": {
+                "added": true,
+                "attributes": {
+                    "connected_not_paired_devices": "[]",
+                    "connected_paired_devices": "[]",
+                    "is_bt_on": "true",
+                    "paired_devices": "[94:99:01:07:61:84, 68:47:49:E4:95:99, C8:FD:19:1A:CA:1E, 70:EE:50:2B:2B:91, A4:C3:F0:32:E7:49]"
+                },
+                "icon": "mdi:bluetooth",
+                "name": "Bluetooth Connection",
+                "state": "0",
+                "type": "sensor",
+                "unique_id": "bluetooth_connection",
+                "unit_of_measurement": "connection(s)",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_dnd_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:do-not-disturb",
+                "name": "Do Not Disturb Sensor",
+                "state": "off",
+                "type": "sensor",
+                "unique_id": "dnd_sensor",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_geocoded_location": {
                 "added": true,
                 "attributes": {
-                    "Administrative Area": "\u015bl\u0105skie",
+                    "Administrative Area": "\u015al\u0105skie",
                     "Country": "Polska",
                     "ISO Country Code": "PL",
                     "Locality": "Z\u0142oty Potok",
-                    "Location": [
-                        50.7181535,
-                        19.4286046
-                    ],
+                    "Location": "[50.7181535, 19.4286046]",
                     "Postal Code": "42-253",
                     "Sub Administrative Area": "cz\u0119stochowski",
-                    "Sub Locality": null,
+                    "Sub Locality": "null",
                     "Sub Thoroughfare": "36",
                     "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
                 },
@@ -53,15 +257,92 @@
                 "unique_id": "geocoded_location",
                 "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
             },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_last_reboot": {
+                "added": true,
+                "attributes": {},
+                "device_class": "timestamp",
+                "icon": "mdi:restart",
+                "name": "Last Reboot",
+                "state": "2020-09-06T11:55:50Z",
+                "type": "sensor",
+                "unique_id": "last_reboot",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_light_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "illuminance",
+                "icon": "mdi:brightness-5",
+                "name": "Light Sensor",
+                "state": "0",
+                "type": "sensor",
+                "unique_id": "light_sensor",
+                "unit_of_measurement": "lx",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_next_alarm": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "Mon Sep 07 08:05:00 GMT+02:00 2020",
+                    "Package": "com.android.providers.calendar",
+                    "Time in Milliseconds": "1599458700000"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:alarm",
+                "name": "Next Alarm",
+                "state": "2020-09-07T06:05:00.000Z",
+                "type": "sensor",
+                "unique_id": "next_alarm",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_pressure_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "pressure",
+                "icon": "mdi:gauge",
+                "name": "Pressure Sensor",
+                "state": "987.2",
+                "type": "sensor",
+                "unique_id": "pressure_sensor",
+                "unit_of_measurement": "hPa",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_proximity_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:leak",
+                "name": "Proximity Sensor",
+                "state": "near",
+                "type": "sensor",
+                "unique_id": "proximity_sensor",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
+            "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_storage_sensor": {
+                "added": true,
+                "attributes": {
+                    "Free external storage": "83GB",
+                    "Free internal storage": "46GB",
+                    "Total external storage": "119GB",
+                    "Total internal storage": "109GB"
+                },
+                "icon": "mdi:harddisk",
+                "name": "Storage Sensor",
+                "state": "42",
+                "type": "sensor",
+                "unique_id": "storage_sensor",
+                "unit_of_measurement": "%",
+                "webhook_id": "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449"
+            },
             "794c9951938feb7d243d256ffacb08e0d53db7c26fd2f6c0fd13f0f95c0a9449_wifi_connection": {
                 "added": true,
                 "attributes": {
-                    "bssid": "1a:e8:29:fc:5a:07",
-                    "frequency": 5520,
-                    "ip_address": "192.168.88.52",
-                    "is_hidden": false,
-                    "link_speed": 360,
-                    "signal_level": -1
+                    "bssid": "18:e8:29:fc:5a:07",
+                    "frequency": "5520",
+                    "ip_address": "192.168.88.55",
+                    "is_hidden": "false",
+                    "is_wifi_on": "true",
+                    "link_speed": "81",
+                    "signal_level": "-1"
                 },
                 "icon": "mdi:wifi-strength-off",
                 "name": "Wifi Connection",
@@ -72,23 +353,34 @@
             },
             "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_battery_level": {
                 "added": true,
-                "attributes": {
-                    "charger_type": "AC",
-                    "is_charging": true
-                },
+                "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-30",
+                "icon": "mdi:battery-70",
                 "name": "Battery Level",
-                "state": 39,
+                "state": 70,
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
                 "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
             },
+            "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_battery_state": {
+                "added": true,
+                "attributes": {
+                    "charger_type": "unknown",
+                    "is_charging": false
+                },
+                "device_class": "battery",
+                "icon": "mdi:battery-70",
+                "name": "Battery State",
+                "state": "discharging",
+                "type": "sensor",
+                "unique_id": "battery_state",
+                "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
+            },
             "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_geocoded_location": {
                 "added": true,
                 "attributes": {
-                    "Administrative Area": "\u015bl\u0105skie",
+                    "Administrative Area": "\u015al\u0105skie",
                     "Country": "Polska",
                     "ISO Country Code": "PL",
                     "Locality": "Z\u0142oty Potok",
@@ -112,16 +404,16 @@
             "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4_wifi_connection": {
                 "added": true,
                 "attributes": {
-                    "bssid": "7a:8a:20:2b:2d:b5",
-                    "frequency": 5280,
-                    "ip_address": "192.168.88.41",
+                    "bssid": null,
+                    "frequency": -1,
+                    "ip_address": "0.0.0.0",
                     "is_hidden": false,
-                    "link_speed": 360,
-                    "signal_level": -55
+                    "link_speed": -1,
+                    "signal_level": -1
                 },
-                "icon": "mdi:wifi-strength-3",
+                "icon": "mdi:wifi-strength-off",
                 "name": "Wifi Connection",
-                "state": "Aleja Klonow",
+                "state": "<not connected>",
                 "type": "sensor",
                 "unique_id": "wifi_connection",
                 "webhook_id": "ba4921912ee64bf1f2148a8de0ceeab430bed7c2a76240a799cf634282cc9ba4"
@@ -182,13 +474,33 @@
                 "unique_id": "wifi_connection",
                 "webhook_id": "c038e03f59ab113d16d9b72f198315263ca315fb36c9335ec85f5e012220fc34"
             },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_audio_sensor": {
+                "added": true,
+                "attributes": {
+                    "audio_mode": "normal",
+                    "is_headphones": "false",
+                    "is_mic_muted": "false",
+                    "is_music_active": "false",
+                    "is_speakerphone_on": "true",
+                    "volume_level_alarm": "2",
+                    "volume_level_call": "2",
+                    "volume_level_music": "7",
+                    "volume_level_ring": "2"
+                },
+                "icon": "mdi:volume-high",
+                "name": "Audio Sensor",
+                "state": "normal",
+                "type": "sensor",
+                "unique_id": "audio_sensor",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
             "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_battery_level": {
                 "added": true,
                 "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery-20",
+                "icon": "mdi:battery-charging-10",
                 "name": "Battery Level",
-                "state": 28,
+                "state": "19",
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -197,21 +509,48 @@
             "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_battery_state": {
                 "added": true,
                 "attributes": {
+                    "battery_health": "good",
                     "charger_type": "ac",
-                    "is_charging": true
+                    "is_charging": "true"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging-20",
+                "icon": "mdi:battery-charging-10",
                 "name": "Battery State",
                 "state": "charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
             },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_bluetooth_connection": {
+                "added": true,
+                "attributes": {
+                    "connected_not_paired_devices": "[]",
+                    "connected_paired_devices": "[]",
+                    "is_bt_on": "false",
+                    "paired_devices": ""
+                },
+                "icon": "mdi:bluetooth",
+                "name": "Bluetooth Connection",
+                "state": "0",
+                "type": "sensor",
+                "unique_id": "bluetooth_connection",
+                "unit_of_measurement": "connection(s)",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_dnd_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:do-not-disturb",
+                "name": "Do Not Disturb Sensor",
+                "state": "off",
+                "type": "sensor",
+                "unique_id": "dnd_sensor",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
             "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_geocoded_location": {
                 "added": true,
                 "attributes": {
-                    "Administrative Area": "\u015bl\u0105skie",
+                    "Administrative Area": "\u015al\u0105skie",
                     "Country": "Polska",
                     "ISO Country Code": "PL",
                     "Locality": "Z\u0142oty Potok",
@@ -232,30 +571,117 @@
                 "unique_id": "geocoded_location",
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
             },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_last_reboot": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "Wed Sep 02 14:13:57 GMT+02:00 2020",
+                    "Time in Milliseconds": "1599048837525"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:restart",
+                "name": "Last Reboot",
+                "state": "2020-09-02T12:13:57Z",
+                "type": "sensor",
+                "unique_id": "last_reboot",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_light_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "illuminance",
+                "icon": "mdi:brightness-5",
+                "name": "Light Sensor",
+                "state": "334",
+                "type": "sensor",
+                "unique_id": "light_sensor",
+                "unit_of_measurement": "lx",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_next_alarm": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "Mon Sep 07 05:30:00 GMT+02:00 2020",
+                    "Package": "com.oneplus.deskclock",
+                    "Time in Milliseconds": "1599449400000"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:alarm",
+                "name": "Next Alarm",
+                "state": "2020-09-07T03:30:00.000Z",
+                "type": "sensor",
+                "unique_id": "next_alarm",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_proximity_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:leak",
+                "name": "Proximity Sensor",
+                "state": "far",
+                "type": "sensor",
+                "unique_id": "proximity_sensor",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_storage_sensor": {
+                "added": true,
+                "attributes": {
+                    "Free external storage": "No SD Card",
+                    "Free internal storage": "178GB",
+                    "Total external storage": "No SD Card",
+                    "Total internal storage": "212GB"
+                },
+                "icon": "mdi:harddisk",
+                "name": "Storage Sensor",
+                "state": "84",
+                "type": "sensor",
+                "unique_id": "storage_sensor",
+                "unit_of_measurement": "%",
+                "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
             "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116_wifi_connection": {
                 "added": true,
                 "attributes": {
-                    "bssid": "02:00:00:00:00:00",
+                    "bssid": "18:e8:29:fc:5a:07",
                     "frequency": 5520,
                     "ip_address": "192.168.88.66",
-                    "is_hidden": true,
-                    "link_speed": 400,
-                    "signal_level": -1
+                    "is_hidden": false,
+                    "link_speed": 360,
+                    "signal_level": -58
                 },
-                "icon": "mdi:wifi-strength-off",
+                "icon": "mdi:wifi-strength-3",
                 "name": "Wifi Connection",
-                "state": "<not connected>",
+                "state": "Aleja Klonow",
                 "type": "sensor",
                 "unique_id": "wifi_connection",
                 "webhook_id": "ccc91591143b3c098715ce8081ccb914f22f6384c52d06c06c1ccccc1ca63116"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_audio_sensor": {
+                "added": true,
+                "attributes": {
+                    "audio_mode": "normal",
+                    "is_headphones": "false",
+                    "is_mic_muted": "false",
+                    "is_music_active": "false",
+                    "is_speakerphone_on": "false",
+                    "volume_level_alarm": "0",
+                    "volume_level_call": "0",
+                    "volume_level_music": "0",
+                    "volume_level_ring": "5"
+                },
+                "icon": "mdi:volume-high",
+                "name": "Audio Sensor",
+                "state": "normal",
+                "type": "sensor",
+                "unique_id": "audio_sensor",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
             },
             "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_battery_level": {
                 "added": true,
                 "attributes": {},
                 "device_class": "battery",
-                "icon": "mdi:battery",
+                "icon": "mdi:battery-charging-60",
                 "name": "Battery Level",
-                "state": 100,
+                "state": "66",
                 "type": "sensor",
                 "unique_id": "battery_level",
                 "unit_of_measurement": "%",
@@ -264,50 +690,146 @@
             "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_battery_state": {
                 "added": true,
                 "attributes": {
+                    "battery_health": "good",
                     "charger_type": "ac",
-                    "is_charging": true
+                    "is_charging": "true"
                 },
                 "device_class": "battery",
-                "icon": "mdi:battery-charging",
+                "icon": "mdi:battery-charging-60",
                 "name": "Battery State",
-                "state": "full",
+                "state": "charging",
                 "type": "sensor",
                 "unique_id": "battery_state",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_bluetooth_connection": {
+                "added": true,
+                "attributes": {
+                    "connected_not_paired_devices": "[]",
+                    "connected_paired_devices": "[]",
+                    "is_bt_on": "false",
+                    "paired_devices": ""
+                },
+                "icon": "mdi:bluetooth",
+                "name": "Bluetooth Connection",
+                "state": "0",
+                "type": "sensor",
+                "unique_id": "bluetooth_connection",
+                "unit_of_measurement": "connection(s)",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_detected_activity": {
+                "added": true,
+                "attributes": {
+                    "in_vehicle": "1",
+                    "still": "98",
+                    "unknown": "1"
+                },
+                "icon": "mdi:sleep",
+                "name": "Detected Activity",
+                "state": "still",
+                "type": "sensor",
+                "unique_id": "detected_activity",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_dnd_sensor": {
+                "added": true,
+                "attributes": {},
+                "icon": "mdi:do-not-disturb",
+                "name": "Do Not Disturb Sensor",
+                "state": "priority_only",
+                "type": "sensor",
+                "unique_id": "dnd_sensor",
                 "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
             },
             "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_geocoded_location": {
                 "added": true,
                 "attributes": {
-                    "Administrative Area": "\u015bl\u0105skie",
+                    "Administrative Area": "\u015al\u0105skie",
                     "Country": "Polska",
                     "ISO Country Code": "PL",
-                    "Locality": "Z\u0142oty Potok",
-                    "Location": [
-                        50.7181535,
-                        19.4286046
-                    ],
-                    "Postal Code": "42-253",
-                    "Sub Administrative Area": "cz\u0119stochowski",
-                    "Sub Locality": null,
-                    "Sub Thoroughfare": "36",
-                    "Thoroughfare": "Osiedle Aleja Klon\u00f3w"
+                    "Locality": "B\u0119dzin",
+                    "Location": "[50.318847899999994, 19.1542499]",
+                    "Postal Code": "42-500",
+                    "Sub Administrative Area": "Powiat b\u0119dzi\u0144ski",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "7",
+                    "Thoroughfare": "Kielecka"
                 },
                 "icon": "mdi:map",
                 "name": "Geocoded Location",
-                "state": "Osiedle Aleja Klon\u00f3w 36, 42-253 Z\u0142oty Potok, Polska",
+                "state": "Kielecka 7, 42-500 B\u0119dzin, Polska",
                 "type": "sensor",
                 "unique_id": "geocoded_location",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_last_reboot": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "Thu Sep 03 14:05:18 GMT+02:00 2020",
+                    "Time in Milliseconds": "1599134718764"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:restart",
+                "name": "Last Reboot",
+                "state": "2020-09-03T12:05:18Z",
+                "type": "sensor",
+                "unique_id": "last_reboot",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_light_sensor": {
+                "added": true,
+                "attributes": {},
+                "device_class": "illuminance",
+                "icon": "mdi:brightness-5",
+                "name": "Light Sensor",
+                "state": "unavailable",
+                "type": "sensor",
+                "unique_id": "light_sensor",
+                "unit_of_measurement": "lx",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_next_alarm": {
+                "added": true,
+                "attributes": {
+                    "Local Time": "",
+                    "Package": "",
+                    "Time in Milliseconds": "0"
+                },
+                "device_class": "timestamp",
+                "icon": "mdi:alarm",
+                "name": "Next Alarm",
+                "state": "unavailable",
+                "type": "sensor",
+                "unique_id": "next_alarm",
+                "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
+            },
+            "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_storage_sensor": {
+                "added": true,
+                "attributes": {
+                    "Free external storage": "No SD Card",
+                    "Free internal storage": "33GB",
+                    "Total external storage": "No SD Card",
+                    "Total internal storage": "53GB"
+                },
+                "icon": "mdi:harddisk",
+                "name": "Storage Sensor",
+                "state": "63",
+                "type": "sensor",
+                "unique_id": "storage_sensor",
+                "unit_of_measurement": "%",
                 "webhook_id": "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd"
             },
             "dd38a37ea5e2066dbbbc90869208d11af35f8d3fa391cdbf4eb4c5ef0ff10cdd_wifi_connection": {
                 "added": true,
                 "attributes": {
-                    "bssid": null,
-                    "frequency": -1,
+                    "bssid": "null",
+                    "frequency": "-1",
                     "ip_address": "0.0.0.0",
-                    "is_hidden": false,
-                    "link_speed": -1,
-                    "signal_level": -1
+                    "is_hidden": "false",
+                    "is_wifi_on": "false",
+                    "link_speed": "-1",
+                    "signal_level": "-1"
                 },
                 "icon": "mdi:wifi-strength-off",
                 "name": "Wifi Connection",

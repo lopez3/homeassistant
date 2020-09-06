@@ -14,13 +14,8 @@
             },
             {
                 "device_trackers": [
-                    "device_tracker.oneplus7tpro",
-                    "device_tracker.oneplus7tpro_2",
-                    "device_tracker.oneplus7tpro_3",
-                    "device_tracker.hd1910",
-                    "device_tracker.oneplus7tpro_4",
-                    "device_tracker.sm_g920f",
-                    "device_tracker.hd1910_2"
+                    "device_tracker.galaxy_note20_ultra_5g",
+                    "device_tracker.sm_n986b"
                 ],
                 "id": "patrycja",
                 "name": "Patrycja",
@@ -28,8 +23,7 @@
             },
             {
                 "device_trackers": [
-                    "device_tracker.pat_oneplus5t",
-                    "device_tracker.oneplus_a5010"
+                    "device_tracker.pat_oneplus5t"
                 ],
                 "id": "ewa",
                 "name": "Ewa",
